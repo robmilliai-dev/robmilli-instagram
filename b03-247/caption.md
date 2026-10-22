@@ -18,7 +18,7 @@ Scan → Signal → Plan → Risk → Decide → Log
 
 The rules outrank the AI, every time. It never places an order. It does the research; I make the call.
 
-Comment 24/7 and I'll DM you my free 24/7 AI Trader Blueprint: the full trader.py script, the Claude decision prompt and the step-by-step setup to run it around the clock. Sign up at the link I send and the full blueprint will be emailed to you.
+Comment 24/7 and I'll DM you my free 24/7 AI Trader Blueprint: how it works, how to build it, plus a free prompt that runs it in Claude today. The finished, tested bot is in the AI Desk. Sign up at the link I send and the full blueprint will be emailed to you.
 
 Chart numbers are examples. AI can be wrong and nothing here predicts the market. You make every decision.
 #claudeai #aitrading #tradingbot #pythontrading #stockmarket

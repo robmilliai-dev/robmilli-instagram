@@ -19,7 +19,7 @@ But remember: a strategy that looks great on paper can still lose money. Costs, 
 
 The goal isn't to copy a legend. It's to understand the idea, write your own rules and test them honestly.
 
-Comment LEGENDS and I'll DM you the free playbook with all 5 rule sets, the full Python script and the Claude prompt. Sign up at the link I send and the full guide will be emailed to you.
+Comment LEGENDS and I'll DM you the free playbook with all 5 rule sets, how to build them, and a free Claude prompt you can use today. Want it done for you? The finished, tested version is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.
 
 Simplified teaching models inspired by each investor's public philosophy. Not their actual strategies, no endorsement, not financial advice. You make every decision.
 #algotrading #investing #claudeai #python #tradingforbeginners

@@ -16,7 +16,7 @@ Claude picks which tools to use. Every number comes from live data, never a gues
 
 And it can't trade. On purpose. JARVIS does the research; I make the call.
 
-Comment JARVIS and I'll DM you my free JARVIS Setup Guide: the full Python file, the 5 data tools, the phone setup and the morning brief. Sign up at the link I send and the full guide will be emailed to you.
+Comment JARVIS and I'll DM you my free JARVIS blueprint: how it works, how to build it, plus a free morning-brief prompt you can use today. The finished, tested JARVIS is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.
 
 Numbers shown are examples. AI can be wrong and nothing here predicts the market. You make every decision.
 #claudeai #aitrading #stockmarket #tradingtools #pythontrading

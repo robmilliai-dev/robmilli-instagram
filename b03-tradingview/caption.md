@@ -18,7 +18,7 @@ Scan → Analyze → Confirm → Size → Alert
 
 The goal isn't to let AI trade your money. It's to have a second set of eyes that checks every chart with the same rules, and tells you when to skip.
 
-Comment TRADINGVIEW and I'll DM you my free Claude × TradingView Setup: the analyst prompt, the Pine Script, the webhook app and the phone alerts. Sign up at the link I send and the full guide will be emailed to you.
+Comment TRADINGVIEW and I'll DM you my free Claude × TradingView blueprint: how it works, how to build it, plus the analyst prompt you can use today. The finished, tested setup is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.
 
 Chart numbers are examples. AI can be wrong and nothing here predicts the market. It never places trades; you make every decision.
 #tradingview #claudeai #aitrading #tradingforbeginners #stockmarket
