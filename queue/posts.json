@@ -28,5 +28,15 @@
       "reels/r05-247.mp4"
     ],
     "caption": "I built a 24/7 AI trader with Claude. It works while I sleep. 🤖\n\n🔎 SCANNER checks my watchlist every hour the market is open\n📈 SIGNAL flags only two setups: breakouts and pullbacks\n🛡️ RISK can veto any idea. The rules outrank the AI.\n🧠 CLAUDE writes one clear decision memo\n📲 It texts my phone, and I make the call. It never places an order.\n\nComment 24/7 and I'll DM you the free 24/7 AI Trader Blueprint: how it works, how to build it, plus a prompt that runs it in Claude today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #tradingbot #pythontrading #stockmarket"
+  },
+  {
+    "key": "R06-JARVIS-REEL",
+    "kind": "reel",
+    "keyword": "JARVIS",
+    "scheduledAt": "2026-10-30T22:00:00Z",
+    "media": [
+      "reels/r06-jarvis.mp4"
+    ],
+    "caption": "I built JARVIS for the stock market. I text it. It does the research. 🤖\n\n💬 \"Brief me\" → market mood and what to watch, before the open\n📈 \"How's NVDA looking?\" → trend, momentum, volume\n📰 It pulls the latest headlines and earnings dates on its own\n🛡️ Every answer ends with the risk\n\nAnd it can't trade. On purpose. JARVIS does the research; I make the call.\n\nComment JARVIS and I'll DM you the free JARVIS blueprint: how it works, how to build it, plus a morning-brief prompt you can use today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #stockmarket #tradingtools #pythontrading"
   }
 ]
