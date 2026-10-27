@@ -18,5 +18,15 @@
       "reels/r04-board.mp4"
     ],
     "caption": "I made 5 AIs vote on every trade. Each gets one job, and one of them can veto. 🧠\n\n🔎 Perplexity finds the sources (no link + no date = ignored)\n💬 Grok reads what traders on X are saying (hype is a warning)\n📊 Gemini reads the chart: entry, stop, target\n📝 ChatGPT builds the case, then attacks it\n🛡️ Claude checks the risk and can veto anything\n\n4 of 5 must say TAKE, Claude must not veto, and the hard rules must pass. Then it comes to me. It never places a trade on its own.\n\nComment BOARD and I'll DM you the free AI Board Blueprint plus all 5 prompts (one per AI). No keys for all 5? Claude can play every seat. 📌 Save this.\n\nEducational, not financial advice. AI can be wrong; you make every decision. Voiceover is AI-generated.\n#aitrading #claudeai #chatgpt #aiagents #tradingbot"
+  },
+  {
+    "key": "R05-247-REEL",
+    "kind": "reel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-10-30T16:00:00Z",
+    "media": [
+      "reels/r05-247.mp4"
+    ],
+    "caption": "I built a 24/7 AI trader with Claude. It works while I sleep. 🤖\n\n🔎 SCANNER checks my watchlist every hour the market is open\n📈 SIGNAL flags only two setups: breakouts and pullbacks\n🛡️ RISK can veto any idea. The rules outrank the AI.\n🧠 CLAUDE writes one clear decision memo\n📲 It texts my phone, and I make the call. It never places an order.\n\nComment 24/7 and I'll DM you the free 24/7 AI Trader Blueprint: how it works, how to build it, plus a prompt that runs it in Claude today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #tradingbot #pythontrading #stockmarket"
   }
 ]
