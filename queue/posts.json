@@ -195,5 +195,105 @@
       "reels/o-hq.mp4"
     ],
     "caption": "I built an AI trading HQ. Every floor has one job, and any floor can stop the idea. 🏢\n\nOne stock idea rides the elevator up:\n\n01 SCAN: finds a move worth a look\n02 RESEARCH: checks the story (macro, filings, dated news)\n03 CHARTS: maps entry, stop and target\n04 TEST: checks the rules on years they've never seen, and a devil's advocate attacks it\n05 RISK: sizes it, and can veto anything\n06 DECISION: one call, PASS, WATCH or CANDIDATE\n\nMost ideas never reach the top floor. That's the point.\n\nComment HQ and I'll DM you the free AI Trading HQ guide: how every floor works, how to build it, plus a prompt that runs all six floors in Claude tonight. 📌 Save this.\n\nIt never places a trade; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aiagents #aitrading #stockmarket #tradingtools"
+  },
+  {
+    "key": "D01-247-REEL",
+    "kind": "reel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-10-29T16:00:00Z",
+    "media": [
+      "reels/o-247.mp4"
+    ],
+    "caption": "I built a 24/7 AI trader with Claude. It works while I sleep. 🤖\n\n🔎 SCANNER checks my watchlist every hour the market is open\n📈 SIGNAL flags only two setups: breakouts and pullbacks\n🛡️ RISK can veto any idea. The rules outrank the AI.\n🧠 CLAUDE writes one clear decision memo\n📲 It texts my phone, and I make the call. It never places an order.\n\nComment 24/7 and I'll DM you the free 24/7 AI Trader Blueprint: how it works, how to build it, plus a prompt that runs it in Claude today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #tradingbot #pythontrading #stockmarket"
+  },
+  {
+    "key": "D02-TRADINGVIEW-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-10-29T22:00:00Z",
+    "media": [
+      "reels/o-tv.mp4"
+    ],
+    "caption": "I connected Claude to TradingView 📈 Now it reads my charts for me.\n\n🔔 TradingView fires an alert on a breakout or pullback\n🧠 Claude reads the trend, key levels and volume\n📍 It lays out entry, stop and target\n🛡️ Risk sizes it from my rules, or says SKIP\n📲 The whole analysis lands on my phone\n\nIt never places a trade. It's a second set of eyes that checks every chart with the same rules, and I make the call.\n\nComment TRADINGVIEW and I'll DM you the free Claude × TradingView setup: how it works, how to build it, plus the chart-analyst prompt you can use today. 📌 Save this.\n\nChart labels are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#tradingview #claudeai #aitrading #daytrading #stockmarket"
+  },
+  {
+    "key": "D03-CHART-REEL",
+    "kind": "reel",
+    "keyword": "CHART",
+    "scheduledAt": "2026-10-30T16:00:00Z",
+    "media": [
+      "reels/o-chart.mp4"
+    ],
+    "caption": "Screenshot any chart. Claude reads it in 60 seconds. 📈\n\nNo indicators to learn. No 20 minutes of staring.\n\n📸 Screenshot the chart (ticker, timeframe, price axis in view)\n👀 It tells you what it SEES, every claim pointing to a candle you can check\n🚫 It tells you what it CAN'T see, so it never guesses\n🔀 Two readings, each with the case against it\n📍 One rule to watch on the next closed candle\n\nComment CHART and I'll DM you the free 15-minute guide plus the full chart-reading prompt. 📌 Save this.\n\nA screenshot is not live data. AI can be wrong; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #tradingview #chartanalysis #daytrading #stockmarket"
+  },
+  {
+    "key": "D04-JARVIS-REEL",
+    "kind": "reel",
+    "keyword": "JARVIS",
+    "scheduledAt": "2026-10-30T22:00:00Z",
+    "media": [
+      "reels/o-jarvis.mp4"
+    ],
+    "caption": "I built JARVIS for the stock market. I text it. It does the research. 🤖\n\n💬 \"Brief me\" → market mood and what to watch, before the open\n📈 \"How's NVDA looking?\" → trend, momentum, volume\n📰 It pulls the latest headlines and earnings dates on its own\n🛡️ Every answer ends with the risk\n\nAnd it can't trade. On purpose. JARVIS does the research; I make the call.\n\nComment JARVIS and I'll DM you the free JARVIS blueprint: how it works, how to build it, plus a morning-brief prompt you can use today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #stockmarket #tradingtools #pythontrading"
+  },
+  {
+    "key": "D05-LEGENDS-REEL",
+    "kind": "reel",
+    "keyword": "LEGENDS",
+    "scheduledAt": "2026-10-31T16:00:00Z",
+    "media": [
+      "reels/o-legends.mp4"
+    ],
+    "caption": "I turned 5 market legends into bots you can test. Claude writes the code. 🤖\n\n🏛️ BUFFETT bot → quality businesses, low debt, fair price\n🚀 LYNCH bot → fast growth the price hasn't caught up to\n⚖️ DALIO bot → balance the risk, not the dollars\n🌊 SOROS bot → ride the trend until it breaks\n🧮 SIMONS bot → small edges, repeated with zero emotion\n\nThen every rule set gets tested on years of data it has never seen. No guessing which legend fits you: the numbers decide.\n\nComment LEGENDS and I'll DM you the free playbook: how each bot works and how to build it. 📌 Save this.\n\nThese are simplified teaching models inspired by each investor's public philosophy, not their actual strategies. Not affiliated with or endorsed by any of them. Past results never guarantee future returns. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #warrenbuffett #stockmarket #investing"
+  },
+  {
+    "key": "D06-ARENA-REEL",
+    "kind": "reel",
+    "keyword": "ARENA",
+    "scheduledAt": "2026-10-31T22:00:00Z",
+    "media": [
+      "reels/o-arena.mp4"
+    ],
+    "caption": "This AI beat ChatGPT, Claude, Gemini and Grok at trading real money. +22% in 17 days. 🤖\n\nSame $10K. Same data. No humans. So I rebuilt the winner's playbook as 4 AI agents:\n📈 SIGNAL finds the setup (MACD + RSI)\n🧠 JUDGE scores it out of 100\n🛡️ RISK enforces the rules: no stop = no trade, under 70 = no trade, max 3 a day\n📓 JOURNAL logs every idea. Then I make the call.\n\nComment ARENA and I'll DM you the free ARENA Playbook: how it works, how to build it, plus a prompt that runs the whole team in Claude today. 📌 Save this.\n\nThe +22% is Qwen 3 Max's result in Nof1's Alpha Arena Season 1 (Oct–Nov 2025), as reported by Nof1. It's not my result, and one 17-day contest proves nothing about the future. Educational, not financial advice. Crypto can lose you money fast. Voiceover is AI-generated.\n#aitrading #cryptotrading #claudeai #tradingbot #alphaarena"
+  },
+  {
+    "key": "D07-BOARD-REEL",
+    "kind": "reel",
+    "keyword": "BOARD",
+    "scheduledAt": "2026-11-01T16:00:00Z",
+    "media": [
+      "reels/o-board.mp4"
+    ],
+    "caption": "I made 5 AIs vote on every trade. Each gets one job, and one of them can veto. 🧠\n\n🔎 Perplexity finds the sources (no link + no date = ignored)\n💬 Grok reads what traders on X are saying (hype is a warning)\n📊 Gemini reads the chart: entry, stop, target\n📝 ChatGPT builds the case, then attacks it\n🛡️ Claude checks the risk and can veto anything\n\n4 of 5 must say TAKE, Claude must not veto, and the hard rules must pass. Then it comes to me. It never places a trade on its own.\n\nComment BOARD and I'll DM you the free AI Board Blueprint plus all 5 prompts (one per AI). No keys for all 5? Claude can play every seat. 📌 Save this.\n\nEducational, not financial advice. AI can be wrong; you make every decision. Voiceover is AI-generated.\n#aitrading #claudeai #chatgpt #aiagents #tradingbot"
+  },
+  {
+    "key": "D08-DESK-REEL",
+    "kind": "reel",
+    "keyword": "DESK",
+    "scheduledAt": "2026-11-01T22:00:00Z",
+    "media": [
+      "reels/o-desk.mp4"
+    ],
+    "caption": "I built my own AI trading desk. It does the homework before I even open a chart. 🧠\n\nTrying to learn trading while juggling everything else? Here’s the order it works in:\n\n📡 Watch: what moved and what’s on the calendar\n📈 Read: the chart in plain English\n🗣️ Debate: six AI roles argue the idea\n🗄️ Verify: real numbers, not guesses\n🛡️ Risk: how much you could lose, before anything else\n✅ Decide: pass, watch, or look closer\n\nThe AI does the research. You make the call.\n\nComment DESK and I’ll DM you my free 15-Minute Market Watch guide. 📌 Save this.\n\nThe numbers on the slides are examples, not real results. AI can be wrong, and trading can lose money. You make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #stockmarket #aitrading #claudeai"
+  },
+  {
+    "key": "D09-HEDGE-REEL",
+    "kind": "reel",
+    "keyword": "HEDGE",
+    "scheduledAt": "2026-11-02T16:00:00Z",
+    "media": [
+      "reels/o-hedge.mp4"
+    ],
+    "caption": "I gave my charts a 6-person AI research team. Now every stock idea gets argued before I act on it. 🧠\n\nWhen you’re new, one confident answer can sound like a sure thing. This makes the AI argue the other side too:\n\n🌍 Macro: what’s the bigger picture?\n📄 Fundamental: what does the company’s own report say?\n📈 Technical: what is the chart showing?\n🛡️ Risk Manager: how much could this cost me?\n😈 Devil’s Advocate: what’s the best reason not to?\n⚖️ PM: pass, watch, or look closer\n\nRead the “no” side first.\n\nComment HEDGE and I’ll DM you my free One-Ticker Committee guide. 📌 Save this.\n\nOne AI writes all six viewpoints. It’s not six human experts and not a prediction. You make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #stockmarket #claudeai #investing"
+  },
+  {
+    "key": "D10-TERMINAL-REEL",
+    "kind": "reel",
+    "keyword": "TERMINAL",
+    "scheduledAt": "2026-11-02T22:00:00Z",
+    "media": [
+      "reels/o-terminal.mp4"
+    ],
+    "caption": "I built my own Bloomberg-style terminal with AI, using free market data. 📊\n\nYou don’t need a pricey trading setup to try this:\n\n📥 Get a free market-data file with OpenBB\n🧠 Ask Claude to explain it in plain English\n🔢 Make it show which row every number came from\n🗂️ Save the notes so you can check them later\n\nThat last step is the trick: if it’s not in your file, the AI has to say so.\n\nComment TERMINAL and I’ll DM you my free OpenBB in 10 Minutes guide. 📌 Save this.\n\nNot affiliated with Bloomberg. This isn’t Bloomberg data, live trading, or a promise of profit. The numbers on the slides are examples. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #investing #claudeai #openbb"
   }
 ]
