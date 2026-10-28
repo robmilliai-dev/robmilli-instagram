@@ -118,5 +118,25 @@
       "reels/o-legends.mp4"
     ],
     "caption": "I turned 5 market legends into bots you can test. Claude writes the code. 🤖\n\n🏛️ BUFFETT bot → quality businesses, low debt, fair price\n🚀 LYNCH bot → fast growth the price hasn't caught up to\n⚖️ DALIO bot → balance the risk, not the dollars\n🌊 SOROS bot → ride the trend until it breaks\n🧮 SIMONS bot → small edges, repeated with zero emotion\n\nThen every rule set gets tested on years of data it has never seen. No guessing which legend fits you: the numbers decide.\n\nComment LEGENDS and I'll DM you the free playbook: how each bot works and how to build it. 📌 Save this.\n\nThese are simplified teaching models inspired by each investor's public philosophy, not their actual strategies. Not affiliated with or endorsed by any of them. Past results never guarantee future returns. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #warrenbuffett #stockmarket #investing"
+  },
+  {
+    "key": "C06-ARENA-REEL",
+    "kind": "reel",
+    "keyword": "ARENA",
+    "scheduledAt": "2026-10-31T22:00:00Z",
+    "media": [
+      "reels/o-arena.mp4"
+    ],
+    "caption": "This AI beat ChatGPT, Claude, Gemini and Grok at trading real money. +22% in 17 days. 🤖\n\nSame $10K. Same data. No humans. So I rebuilt the winner's playbook as 4 AI agents:\n📈 SIGNAL finds the setup (MACD + RSI)\n🧠 JUDGE scores it out of 100\n🛡️ RISK enforces the rules: no stop = no trade, under 70 = no trade, max 3 a day\n📓 JOURNAL logs every idea. Then I make the call.\n\nComment ARENA and I'll DM you the free ARENA Playbook: how it works, how to build it, plus a prompt that runs the whole team in Claude today. 📌 Save this.\n\nThe +22% is Qwen 3 Max's result in Nof1's Alpha Arena Season 1 (Oct–Nov 2025), as reported by Nof1. It's not my result, and one 17-day contest proves nothing about the future. Educational, not financial advice. Crypto can lose you money fast. Voiceover is AI-generated.\n#aitrading #cryptotrading #claudeai #tradingbot #alphaarena"
+  },
+  {
+    "key": "C07-BOARD-REEL",
+    "kind": "reel",
+    "keyword": "BOARD",
+    "scheduledAt": "2026-11-01T16:00:00Z",
+    "media": [
+      "reels/o-board.mp4"
+    ],
+    "caption": "I made 5 AIs vote on every trade. Each gets one job, and one of them can veto. 🧠\n\n🔎 Perplexity finds the sources (no link + no date = ignored)\n💬 Grok reads what traders on X are saying (hype is a warning)\n📊 Gemini reads the chart: entry, stop, target\n📝 ChatGPT builds the case, then attacks it\n🛡️ Claude checks the risk and can veto anything\n\n4 of 5 must say TAKE, Claude must not veto, and the hard rules must pass. Then it comes to me. It never places a trade on its own.\n\nComment BOARD and I'll DM you the free AI Board Blueprint plus all 5 prompts (one per AI). No keys for all 5? Claude can play every seat. 📌 Save this.\n\nEducational, not financial advice. AI can be wrong; you make every decision. Voiceover is AI-generated.\n#aitrading #claudeai #chatgpt #aiagents #tradingbot"
   }
 ]
