@@ -98,5 +98,25 @@
       "reels/o-chart.mp4"
     ],
     "caption": "Screenshot any chart. Claude reads it in 60 seconds. 📈\n\nNo indicators to learn. No 20 minutes of staring.\n\n📸 Screenshot the chart (ticker, timeframe, price axis in view)\n👀 It tells you what it SEES, every claim pointing to a candle you can check\n🚫 It tells you what it CAN'T see, so it never guesses\n🔀 Two readings, each with the case against it\n📍 One rule to watch on the next closed candle\n\nComment CHART and I'll DM you the free 15-minute guide plus the full chart-reading prompt. 📌 Save this.\n\nA screenshot is not live data. AI can be wrong; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #tradingview #chartanalysis #daytrading #stockmarket"
+  },
+  {
+    "key": "C04-JARVIS-REEL",
+    "kind": "reel",
+    "keyword": "JARVIS",
+    "scheduledAt": "2026-10-30T22:00:00Z",
+    "media": [
+      "reels/o-jarvis.mp4"
+    ],
+    "caption": "I built JARVIS for the stock market. I text it. It does the research. 🤖\n\n💬 \"Brief me\" → market mood and what to watch, before the open\n📈 \"How's NVDA looking?\" → trend, momentum, volume\n📰 It pulls the latest headlines and earnings dates on its own\n🛡️ Every answer ends with the risk\n\nAnd it can't trade. On purpose. JARVIS does the research; I make the call.\n\nComment JARVIS and I'll DM you the free JARVIS blueprint: how it works, how to build it, plus a morning-brief prompt you can use today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #stockmarket #tradingtools #pythontrading"
+  },
+  {
+    "key": "C05-LEGENDS-REEL",
+    "kind": "reel",
+    "keyword": "LEGENDS",
+    "scheduledAt": "2026-10-31T16:00:00Z",
+    "media": [
+      "reels/o-legends.mp4"
+    ],
+    "caption": "I turned 5 market legends into bots you can test. Claude writes the code. 🤖\n\n🏛️ BUFFETT bot → quality businesses, low debt, fair price\n🚀 LYNCH bot → fast growth the price hasn't caught up to\n⚖️ DALIO bot → balance the risk, not the dollars\n🌊 SOROS bot → ride the trend until it breaks\n🧮 SIMONS bot → small edges, repeated with zero emotion\n\nThen every rule set gets tested on years of data it has never seen. No guessing which legend fits you: the numbers decide.\n\nComment LEGENDS and I'll DM you the free playbook: how each bot works and how to build it. 📌 Save this.\n\nThese are simplified teaching models inspired by each investor's public philosophy, not their actual strategies. Not affiliated with or endorsed by any of them. Past results never guarantee future returns. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #warrenbuffett #stockmarket #investing"
   }
 ]
