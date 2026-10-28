@@ -168,5 +168,32 @@
       "reels/o-terminal.mp4"
     ],
     "caption": "I built my own Bloomberg-style terminal with AI, using free market data. 📊\n\nYou don’t need a pricey trading setup to try this:\n\n📥 Get a free market-data file with OpenBB\n🧠 Ask Claude to explain it in plain English\n🔢 Make it show which row every number came from\n🗂️ Save the notes so you can check them later\n\nThat last step is the trick: if it’s not in your file, the AI has to say so.\n\nComment TERMINAL and I’ll DM you my free OpenBB in 10 Minutes guide. 📌 Save this.\n\nNot affiliated with Bloomberg. This isn’t Bloomberg data, live trading, or a promise of profit. The numbers on the slides are examples. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #investing #claudeai #openbb"
+  },
+  {
+    "key": "B06-HQ",
+    "kind": "carousel",
+    "keyword": "HQ",
+    "scheduledAt": "2026-10-29T19:00:00Z",
+    "media": [
+      "b06-hq/slide-1.jpg",
+      "b06-hq/slide-2.jpg",
+      "b06-hq/slide-3.jpg",
+      "b06-hq/slide-4.jpg",
+      "b06-hq/slide-5.jpg",
+      "b06-hq/slide-6.jpg",
+      "b06-hq/slide-7.jpg",
+      "b06-hq/slide-8.jpg"
+    ],
+    "caption": "I built an AI trading HQ. Every floor has one job, and any floor can stop the idea. 🏢\n\nOne stock idea rides the elevator up:\n\n01 SCAN: finds a move worth a look\n02 RESEARCH: checks the story (macro, filings, dated news)\n03 CHARTS: maps entry, stop and target\n04 TEST: checks the rules on years they've never seen, and a devil's advocate attacks it\n05 RISK: sizes it, and can veto anything\n06 DECISION: one call, PASS, WATCH or CANDIDATE\n\nMost ideas never reach the top floor. That's the point.\n\nComment HQ and I'll DM you the free AI Trading HQ guide: how every floor works, how to build it, plus a prompt that runs all six floors in Claude tonight. 📌 Save this.\n\nIt never places a trade; you make every decision. Educational, not financial advice.\n#claudeai #aiagents #aitrading #stockmarket #tradingtools"
+  },
+  {
+    "key": "C11-HQ-REEL",
+    "kind": "reel",
+    "keyword": "HQ",
+    "scheduledAt": "2026-11-03T16:00:00Z",
+    "media": [
+      "reels/o-hq.mp4"
+    ],
+    "caption": "I built an AI trading HQ. Every floor has one job, and any floor can stop the idea. 🏢\n\nOne stock idea rides the elevator up:\n\n01 SCAN: finds a move worth a look\n02 RESEARCH: checks the story (macro, filings, dated news)\n03 CHARTS: maps entry, stop and target\n04 TEST: checks the rules on years they've never seen, and a devil's advocate attacks it\n05 RISK: sizes it, and can veto anything\n06 DECISION: one call, PASS, WATCH or CANDIDATE\n\nMost ideas never reach the top floor. That's the point.\n\nComment HQ and I'll DM you the free AI Trading HQ guide: how every floor works, how to build it, plus a prompt that runs all six floors in Claude tonight. 📌 Save this.\n\nIt never places a trade; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aiagents #aitrading #stockmarket #tradingtools"
   }
 ]
