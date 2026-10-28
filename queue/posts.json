@@ -138,5 +138,35 @@
       "reels/o-board.mp4"
     ],
     "caption": "I made 5 AIs vote on every trade. Each gets one job, and one of them can veto. 🧠\n\n🔎 Perplexity finds the sources (no link + no date = ignored)\n💬 Grok reads what traders on X are saying (hype is a warning)\n📊 Gemini reads the chart: entry, stop, target\n📝 ChatGPT builds the case, then attacks it\n🛡️ Claude checks the risk and can veto anything\n\n4 of 5 must say TAKE, Claude must not veto, and the hard rules must pass. Then it comes to me. It never places a trade on its own.\n\nComment BOARD and I'll DM you the free AI Board Blueprint plus all 5 prompts (one per AI). No keys for all 5? Claude can play every seat. 📌 Save this.\n\nEducational, not financial advice. AI can be wrong; you make every decision. Voiceover is AI-generated.\n#aitrading #claudeai #chatgpt #aiagents #tradingbot"
+  },
+  {
+    "key": "C08-DESK-REEL",
+    "kind": "reel",
+    "keyword": "DESK",
+    "scheduledAt": "2026-11-01T22:00:00Z",
+    "media": [
+      "reels/o-desk.mp4"
+    ],
+    "caption": "I built my own AI trading desk. It does the homework before I even open a chart. 🧠\n\nTrying to learn trading while juggling everything else? Here’s the order it works in:\n\n📡 Watch: what moved and what’s on the calendar\n📈 Read: the chart in plain English\n🗣️ Debate: six AI roles argue the idea\n🗄️ Verify: real numbers, not guesses\n🛡️ Risk: how much you could lose, before anything else\n✅ Decide: pass, watch, or look closer\n\nThe AI does the research. You make the call.\n\nComment DESK and I’ll DM you my free 15-Minute Market Watch guide. 📌 Save this.\n\nThe numbers on the slides are examples, not real results. AI can be wrong, and trading can lose money. You make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #stockmarket #aitrading #claudeai"
+  },
+  {
+    "key": "C09-HEDGE-REEL",
+    "kind": "reel",
+    "keyword": "HEDGE",
+    "scheduledAt": "2026-11-02T16:00:00Z",
+    "media": [
+      "reels/o-hedge.mp4"
+    ],
+    "caption": "I gave my charts a 6-person AI research team. Now every stock idea gets argued before I act on it. 🧠\n\nWhen you’re new, one confident answer can sound like a sure thing. This makes the AI argue the other side too:\n\n🌍 Macro: what’s the bigger picture?\n📄 Fundamental: what does the company’s own report say?\n📈 Technical: what is the chart showing?\n🛡️ Risk Manager: how much could this cost me?\n😈 Devil’s Advocate: what’s the best reason not to?\n⚖️ PM: pass, watch, or look closer\n\nRead the “no” side first.\n\nComment HEDGE and I’ll DM you my free One-Ticker Committee guide. 📌 Save this.\n\nOne AI writes all six viewpoints. It’s not six human experts and not a prediction. You make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #stockmarket #claudeai #investing"
+  },
+  {
+    "key": "C10-TERMINAL-REEL",
+    "kind": "reel",
+    "keyword": "TERMINAL",
+    "scheduledAt": "2026-11-02T22:00:00Z",
+    "media": [
+      "reels/o-terminal.mp4"
+    ],
+    "caption": "I built my own Bloomberg-style terminal with AI, using free market data. 📊\n\nYou don’t need a pricey trading setup to try this:\n\n📥 Get a free market-data file with OpenBB\n🧠 Ask Claude to explain it in plain English\n🔢 Make it show which row every number came from\n🗂️ Save the notes so you can check them later\n\nThat last step is the trick: if it’s not in your file, the AI has to say so.\n\nComment TERMINAL and I’ll DM you my free OpenBB in 10 Minutes guide. 📌 Save this.\n\nNot affiliated with Bloomberg. This isn’t Bloomberg data, live trading, or a promise of profit. The numbers on the slides are examples. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #investing #claudeai #openbb"
   }
 ]
