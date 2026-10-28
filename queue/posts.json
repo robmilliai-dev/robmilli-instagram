@@ -68,5 +68,35 @@
       "reels/r09-chart.mp4"
     ],
     "caption": "Screenshot any chart. Claude reads it in 60 seconds. 📈\n\nNo indicators to learn. No 20 minutes of staring.\n\n📸 Screenshot the chart (ticker, timeframe, price axis in view)\n👀 It tells you what it SEES, every claim pointing to a candle you can check\n🚫 It tells you what it CAN'T see, so it never guesses\n🔀 Two readings, each with the case against it\n📍 One rule to watch on the next closed candle\n\nComment CHART and I'll DM you the free 15-minute guide plus the full chart-reading prompt. 📌 Save this.\n\nA screenshot is not live data. AI can be wrong; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #tradingview #chartanalysis #daytrading #stockmarket"
+  },
+  {
+    "key": "C01-247-REEL",
+    "kind": "reel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-10-29T16:00:00Z",
+    "media": [
+      "reels/o-247.mp4"
+    ],
+    "caption": "I built a 24/7 AI trader with Claude. It works while I sleep. 🤖\n\n🔎 SCANNER checks my watchlist every hour the market is open\n📈 SIGNAL flags only two setups: breakouts and pullbacks\n🛡️ RISK can veto any idea. The rules outrank the AI.\n🧠 CLAUDE writes one clear decision memo\n📲 It texts my phone, and I make the call. It never places an order.\n\nComment 24/7 and I'll DM you the free 24/7 AI Trader Blueprint: how it works, how to build it, plus a prompt that runs it in Claude today. 📌 Save this.\n\nNumbers shown are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #aitrading #tradingbot #pythontrading #stockmarket"
+  },
+  {
+    "key": "C02-TRADINGVIEW-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-10-29T22:00:00Z",
+    "media": [
+      "reels/o-tv.mp4"
+    ],
+    "caption": "I connected Claude to TradingView 📈 Now it reads my charts for me.\n\n🔔 TradingView fires an alert on a breakout or pullback\n🧠 Claude reads the trend, key levels and volume\n📍 It lays out entry, stop and target\n🛡️ Risk sizes it from my rules, or says SKIP\n📲 The whole analysis lands on my phone\n\nIt never places a trade. It's a second set of eyes that checks every chart with the same rules, and I make the call.\n\nComment TRADINGVIEW and I'll DM you the free Claude × TradingView setup: how it works, how to build it, plus the chart-analyst prompt you can use today. 📌 Save this.\n\nChart labels are examples. AI can be wrong and nothing here predicts the market. Educational, not financial advice. Voiceover is AI-generated.\n#tradingview #claudeai #aitrading #daytrading #stockmarket"
+  },
+  {
+    "key": "C03-CHART-REEL",
+    "kind": "reel",
+    "keyword": "CHART",
+    "scheduledAt": "2026-10-30T16:00:00Z",
+    "media": [
+      "reels/o-chart.mp4"
+    ],
+    "caption": "Screenshot any chart. Claude reads it in 60 seconds. 📈\n\nNo indicators to learn. No 20 minutes of staring.\n\n📸 Screenshot the chart (ticker, timeframe, price axis in view)\n👀 It tells you what it SEES, every claim pointing to a candle you can check\n🚫 It tells you what it CAN'T see, so it never guesses\n🔀 Two readings, each with the case against it\n📍 One rule to watch on the next closed candle\n\nComment CHART and I'll DM you the free 15-minute guide plus the full chart-reading prompt. 📌 Save this.\n\nA screenshot is not live data. AI can be wrong; you make every decision. Educational, not financial advice. Voiceover is AI-generated.\n#claudeai #tradingview #chartanalysis #daytrading #stockmarket"
   }
 ]
