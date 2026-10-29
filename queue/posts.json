@@ -295,5 +295,22 @@
       "reels/o-terminal.mp4"
     ],
     "caption": "I built my own Bloomberg-style terminal with AI, using free market data. 📊\n\nYou don’t need a pricey trading setup to try this:\n\n📥 Get a free market-data file with OpenBB\n🧠 Ask Claude to explain it in plain English\n🔢 Make it show which row every number came from\n🗂️ Save the notes so you can check them later\n\nThat last step is the trick: if it’s not in your file, the AI has to say so.\n\nComment TERMINAL and I’ll DM you my free OpenBB in 10 Minutes guide. 📌 Save this.\n\nNot affiliated with Bloomberg. This isn’t Bloomberg data, live trading, or a promise of profit. The numbers on the slides are examples. Educational, not financial advice. Voiceover is AI-generated.\n#tradingforbeginners #sidehustle #investing #claudeai #openbb"
+  },
+  {
+    "key": "B07-BOTS",
+    "kind": "carousel",
+    "keyword": "BOTS",
+    "scheduledAt": "2026-10-30T19:00:00Z",
+    "media": [
+      "b07-bots/slide-1.jpg",
+      "b07-bots/slide-2.jpg",
+      "b07-bots/slide-3.jpg",
+      "b07-bots/slide-4.jpg",
+      "b07-bots/slide-5.jpg",
+      "b07-bots/slide-6.jpg",
+      "b07-bots/slide-7.jpg",
+      "b07-bots/slide-8.jpg"
+    ],
+    "caption": "7 AI bots. One trading desk. The 7 seats a fund would pay about $630K a year to fill.*\n\nHere's every seat:\n🛰️ Scout finds the move (volume, new highs, gaps)\n📰 News reads only dated, linked sources and drops the rumors\n🌡️ Sentiment measures the mood\n📊 Charts maps entry, stop and target, and passes if reward is under 1.5x risk\n🧪 Tester checks the setup on years it has never seen, fees included\n🛡️ Risk can veto anything: 1% max risk, no stop = no trade\n🧠 The Chief needs 5 of 7 to agree, then texts you one ticket\n\nIt never places an order. You make every call.\n\nComment \"BOTS\" and I'll DM you the free guide: all 7 bots, the prompts, and how the automated version is built.\n\n*7 × $90K, the median US hedge fund analyst base pay (PayScale, Sept 2026). Illustration of roles, not a claim about returns.\nEducational only, not financial advice. AI can be wrong, and trading can lose money.\n\n#aitrading #tradingbots #aiagents #claudeai #grok #stockmarket"
   }
 ]
