@@ -322,5 +322,37 @@
       "reels/o-bots.mp4"
     ],
     "caption": "7 AI bots. One trading desk. The 7 seats a fund would pay about $630K a year to fill.*\n\nHere's every seat:\n🛰️ Scout finds the move (volume, new highs, gaps)\n📰 News reads only dated, linked sources and drops the rumors\n🌡️ Sentiment measures the mood\n📊 Charts maps entry, stop and target, and passes if reward is under 1.5x risk\n🧪 Tester checks the setup on years it has never seen, fees included\n🛡️ Risk can veto anything: 1% max risk, no stop = no trade\n🧠 The Chief needs 5 of 7 to agree, then texts you one ticket\n\nIt never places an order. You make every call.\n\nComment \"BOTS\" and I'll DM you the free guide: all 7 bots, the prompts, and how the automated version is built.\n\n*7 × $90K, the median US hedge fund analyst base pay (PayScale, Sept 2026). Illustration of roles, not a claim about returns.\nEducational only, not financial advice. AI can be wrong, and trading can lose money. Voiceover is AI-generated.\n\n#aitrading #tradingbots #aiagents #claudeai #grok #stockmarket"
+  },
+  {
+    "key": "B08-JARVIS-OS",
+    "kind": "carousel",
+    "keyword": "JARVIS",
+    "scheduledAt": "2026-10-31T19:00:00Z",
+    "media": [
+      "b08-jarvis/slide-1.jpg",
+      "b08-jarvis/slide-2.jpg",
+      "b08-jarvis/slide-3.jpg",
+      "b08-jarvis/slide-4.jpg",
+      "b08-jarvis/slide-5.jpg",
+      "b08-jarvis/slide-6.jpg",
+      "b08-jarvis/slide-7.jpg"
+    ],
+    "caption": "Build your own JARVIS for the stock market. 5 steps, one evening, $0. 🤖\n\n1️⃣ Give it a brain: one Claude Project with JARVIS's job written down\n2️⃣ Give it eyes: prices, news and earnings from sources you can check\n3️⃣ Give it a memory: your holdings and your rules\n4️⃣ Give it a voice: a morning brief on your phone before the open\n5️⃣ Give it guardrails: every claim sourced and dated, no trading tools\n\nIt researches. You decide.\n\nComment JARVIS and I'll DM you the free setup guide: all 5 steps plus the exact prompts. 📌 Save this.\n\nEducational, not financial advice. AI can be wrong.\n#claudeai #jarvis #aiagents #stockmarket #aitrading"
+  },
+  {
+    "key": "B08-TV-INDICATOR",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-01T19:00:00Z",
+    "media": [
+      "b08-tv/slide-1.jpg",
+      "b08-tv/slide-2.jpg",
+      "b08-tv/slide-3.jpg",
+      "b08-tv/slide-4.jpg",
+      "b08-tv/slide-5.jpg",
+      "b08-tv/slide-6.jpg",
+      "b08-tv/slide-7.jpg"
+    ],
+    "caption": "Claude wrote my TradingView indicator. One prompt, zero coding. 📈\n\n1️⃣ Say the rule in plain English\n2️⃣ Claude writes the Pine Script\n3️⃣ Paste it into the Pine Editor → Add to chart\n4️⃣ Turn the signal into an alert\n5️⃣ Make Claude check every alert: VALID or SKIP, with the reason and the stop\n\nThe indicator finds the setup. Claude asks if it's actually good. You decide.\n\nComment TRADINGVIEW and I'll DM you the free setup guide. 📌 Save this.\n\nChart is an illustration. Webhook alerts need a paid TradingView plan. Educational, not financial advice.\n#tradingview #claudeai #pinescript #aitrading #stockmarket"
   }
 ]
