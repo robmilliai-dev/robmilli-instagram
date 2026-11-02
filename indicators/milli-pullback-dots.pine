@@ -1,0 +1,40 @@
+//@version=6
+// Milli Pullback Dots by Milli.ai (DAILY charts: the 4-hour version did not hold up in testing)
+// Buy dot: 50 EMA above 200 EMA, price above the 200 EMA, and RSI(2) under 5 (a sharp dip inside an uptrend).
+// Exit: first close above the 5 EMA (next bar's open), or a 2 x ATR(14) stop set at entry.
+// Settings were picked on 2010-2019 data only, then tested on 2020-2026 data they never saw.
+// Educational tool. Hypothetical backtests. Not financial advice. Past results do not guarantee future results.
+strategy("Milli Pullback Dots", overlay = true, initial_capital = 10000, commission_type = strategy.commission.percent,
+     commission_value = 0.05, process_orders_on_close = false)
+
+rsiLen  = input.int(2, "RSI length", minval = 1)
+lo      = input.float(5, "Buy when RSI below", minval = 1)
+k       = input.float(2.0, "Stop (x ATR 14)", minval = 0.5, step = 0.5)
+exitLen = input.int(5, "Exit when close crosses this EMA", minval = 1)
+riskPct = input.float(1.0, "Risk per trade (% of equity)", minval = 0.1, step = 0.1)
+maxLev  = input.float(5.0, "Max position (x equity)", minval = 0.1)
+
+r   = ta.rsi(close, rsiLen)
+e50 = ta.ema(close, 50)
+e200 = ta.ema(close, 200)
+ex  = ta.ema(close, exitLen)
+atr = ta.atr(14)
+warm = bar_index > 200
+buySig = warm and e50 > e200 and close > e200 and r < lo
+flat = strategy.position_size == 0
+
+var float stopPx = na
+if flat and buySig
+    stopPx := close - k * atr
+    qty = math.min(strategy.equity * riskPct / 100 / (k * atr), strategy.equity * maxLev / close)
+    strategy.entry("Long", strategy.long, qty = qty)
+if strategy.position_size > 0
+    strategy.exit("Stop", "Long", stop = stopPx)
+    if close > ex
+        strategy.close("Long", comment = "Exit dot")
+
+plot(e200, "200 EMA", color.new(color.gray, 40))
+plotshape(flat and buySig, "Buy dot", shape.circle, location.belowbar, color.new(#3987e5, 0), size = size.small)
+plotshape(strategy.position_size > 0 and close > ex, "Exit dot", shape.xcross, location.abovebar, color.new(color.orange, 0), size = size.tiny)
+if flat and buySig
+    alert("Milli Pullback Dots: BUY dot on " + syminfo.ticker + " at " + str.tostring(close), alert.freq_once_per_bar_close)
