@@ -472,5 +472,31 @@
       "reels/o-team.mp4"
     ],
     "caption": "I hired an AI employee for $0. It drafts every customer reply in about 30 seconds. 🤖\n\nHere's the whole setup:\n1️⃣ Grab one real customer message (remove names and order numbers first)\n2️⃣ Paste one prompt that gives it the job: write drafts, never send, never make up refunds or dates\n3️⃣ It answers in 4 parts: STATUS, REPLY, CHECK BEFORE SENDING, NOT SURE ABOUT\n4️⃣ Legal threat, fraud or safety issue? It marks it ESCALATE and promises nothing\n\nThe AI drafts. You check and hit send. That's how real companies use AI support safely.\n\nComment TEAM and I'll DM you the free guide: the prompt, a practice message and the 5-point check. Works with free Claude or ChatGPT. 📌 Save this.\n\nExample reply on the slides is for illustration.\nVoiceover is AI-generated.\n#claudeai #aiagents #chatgpt #smallbusiness #automation"
+  },
+  {
+    "key": "B10-DOTS",
+    "kind": "carousel",
+    "keyword": "DOTS",
+    "scheduledAt": "2026-11-06T19:00:00Z",
+    "media": [
+      "b10-dots/slide-1.jpg",
+      "b10-dots/slide-2.jpg",
+      "b10-dots/slide-3.jpg",
+      "b10-dots/slide-4.jpg",
+      "b10-dots/slide-5.jpg",
+      "b10-dots/slide-6.jpg",
+      "b10-dots/slide-7.jpg"
+    ],
+    "caption": "82% of S&P trades won with these dots. 📈\n\nWe built our own TradingView indicator, then tried to break it:\n🔒 Settings locked on 2010–2019 data\n🧪 Graded on 2020–2026, years it never saw\n✅ Profitable on 34 of 43 markets (losers shown on slide 4)\n📉 Worst drop on the S&P: -2.4% at 1% risk per trade\n\nHow it works: buy the sharp dip, only in an uptrend. Exit on the bounce.\n\nBonus: Trend Dots, profitable on 41 of 43 markets in the same unseen-data test.\n\nComment DOTS and I'll DM you both indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: S&P 500 futures, daily, Jan 2020–Nov 2026, 33 trades, 1% risk per trade, costs included. 43 markets tested; losers included. Past results don't guarantee future results. Educational tools, not financial advice. You make every decision.\n#tradingview #pinescript #tradingindicator #daytrading #stockmarket"
+  },
+  {
+    "key": "C20-DOTS-REEL",
+    "kind": "reel",
+    "keyword": "DOTS",
+    "scheduledAt": "2026-11-07T22:00:00Z",
+    "media": [
+      "reels/o-dots.mp4"
+    ],
+    "caption": "82% of S&P trades won with these dots. 📈\n\nWe built our own TradingView indicator, then tried to break it:\n🔒 Settings locked on 2010–2019 data\n🧪 Graded on 2020–2026, years it never saw\n✅ Profitable on 34 of 43 markets (losers shown on slide 4)\n📉 Worst drop on the S&P: -2.4% at 1% risk per trade\n\nHow it works: buy the sharp dip, only in an uptrend. Exit on the bounce.\n\nBonus: Trend Dots, profitable on 41 of 43 markets in the same unseen-data test.\n\nComment DOTS and I'll DM you both indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: S&P 500 futures, daily, Jan 2020–Nov 2026, 33 trades, 1% risk per trade, costs included. 43 markets tested; losers included. Past results don't guarantee future results. Educational tools, not financial advice. You make every decision.\nVoiceover is AI-generated.\n#tradingview #pinescript #tradingindicator #daytrading #stockmarket"
   }
 ]
