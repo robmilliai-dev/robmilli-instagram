@@ -17,8 +17,6 @@ You don't have to code anything. We already built it, tested it and wrote every 
 
 Want to start with just this one? Get the finished Bot Trading Team for $7: {{starterUrl}}
 
-Upgrade to the full AI Desk within 7 days and we take the $7 off.
-
 Rob
 
 P.S. If it doesn't do what we say, email support@milli-ai.com within 14 days and you get your $7 back.
