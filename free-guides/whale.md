@@ -68,6 +68,49 @@ bankroll. Final answer: WATCH or SKIP, with one-line reasons from each agent.
 
 Make a simple sheet: date, market, side, price, WATCH/SKIP, and the result when it resolves. Track every idea with pretend money for 30 days before you use real money.
 
+## 12 more copy-paste prompts
+
+**Finding wallets**
+
+1. "Here's the weekly leaderboard: [paste]. Run my Luck Filter. Who passes this week who didn't last week?"
+2. "Here's one wallet's open positions: [paste]. Is it spread out, or one big bet?"
+3. "Compare these 3 PASS wallets. Do they trade the same topics, or different ones?"
+
+**Checking a lead**
+
+4. "Smart wallets bought at [x]¢, it's now [y]¢. Is there still value, or did the move already happen?"
+5. "Read the resolution rules for this market: [link]. Anything that could surprise me?"
+6. "What dated news could explain why these wallets bought? Links only."
+7. "Give me the best case AGAINST following these wallets on this one."
+
+**Tracking**
+
+8. "Turn this into one log line: date, market, side, price, wallets, WATCH/SKIP."
+9. "It's 2 weeks later. Here's my log and the prices now. Did following the whales help?"
+10. "Which wallet in my log made the best calls? Which should I drop?"
+11. "One of my PASS wallets just made a big new bet: [paste]. Run the Odds Analyst and Risk Manager."
+12. "Give me a 5-line summary of the smart money this week I can read on my phone."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| Monday (10 min) | Luck Filter on the leaderboard (prompt 1). Update your PASS list. |
+| Midweek (5 min) | Check what PASS wallets hold. Look for shared bets. |
+| Any lead (5 min) | Odds Analyst + Risk Manager. Log it with pretend money. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You ran the Luck Filter on the top 25 wallets

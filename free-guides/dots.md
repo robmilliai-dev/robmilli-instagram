@@ -157,6 +157,43 @@ if flat and sellSig
 3. Turn on **Notify in app**. Click **Create**.
 4. Install the TradingView app on your phone and log in. New dots now ping your phone.
 
+## 12 copy-paste prompts (use with Claude)
+
+Take a screenshot of the chart with the dots showing and paste it in with any of these:
+
+1. "Here's my chart with a new blue dot. Is the market still in an uptrend? What on the chart shows it?"
+2. "Account $___, risk 1%, entry $___, stop $___. How many shares or contracts? Show the math."
+3. "Is there earnings, a Fed meeting or CPI in the next 2 days? Dates only."
+4. "What's the strongest reason to skip this dot?"
+5. "Here are 5 charts with dots. Which ones are the cleanest? One line each."
+6. "Write the TradingView alert message so each alert tells me the ticker, price, time and timeframe."
+7. "This trade hit the exit. Write one journal line: date, market, entry, exit, result in R."
+8. "Here's my journal for the month. What's my win rate, average win, average loss?"
+9. "Did I follow every dot, or did I skip some? Did skipping help or hurt?"
+10. "My last 3 trades lost. Is that normal for this indicator, or did I do something wrong?"
+11. "Explain in plain English what this indicator is waiting for before it shows a dot."
+12. "Explain this Pine Script line by line so I understand what it does: [paste code]."
+
+## Your 5-minute daily routine
+
+| When | Do this |
+|---|---|
+| After the close (2 min) | Check your alerts. Any new dots? |
+| New dot (3 min) | Prompts 1, 2 and 3. Write the plan before you act. |
+| Exit (1 min) | Journal it (prompt 7). |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] Both indicators are on your chart

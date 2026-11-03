@@ -79,6 +79,62 @@ Plain English.
 
 > Educational only. Not financial advice. Past results never promise future ones.
 
+## Make it yours: your testing rules (3 minutes)
+
+Paste this into Claude before you test any idea, so it can't fool you (or itself):
+
+```text
+MY TESTING RULES
+Pick settings on older years only. Test on newer years the rules never saw.
+Include trading costs. No using tomorrow's price to decide today.
+Report: number of trades, win rate, average win vs average loss, worst drop,
+and how it compares to simply buying and holding.
+If the result only works on one market or one short period, say so.
+```
+
+## 12 copy-paste prompts
+
+**Turning ideas into rules**
+
+1. "Turn this idea into one simple rule with exact numbers: [idea]."
+2. "Here's my rule. List every way it could be cheating (looking ahead, ignoring costs, tiny sample)."
+3. "Make this rule simpler. Fewer settings = less chance it's just luck."
+
+**Testing**
+
+4. "Write a simple Python test for this rule using free daily data, with costs and an older/newer year split."
+5. "Here are my test results: [paste]. Is this real, or luck? Be blunt."
+6. "Run the same rule on 5 other markets. Does it still work?"
+7. "What's the worst losing streak in these results? Could I stick with it?"
+
+**Comparing legends**
+
+8. "Compare the 5 legends' rules side by side: how often they trade, how long they hold, what they need to work."
+9. "Which legend rule fits someone with $___ and 15 minutes a day?"
+10. "Combine two rules into one. Does the mix do better on the newer years, or worse?"
+11. "Write the rule as TradingView Pine Script v6 so I can see it on a chart."
+12. "Give me a 1-page summary of this test I can save: rule, result, honest weaknesses."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| One evening (20 min) | Pick one idea. Turn it into a rule (prompt 1). Check it for cheating (prompt 2). |
+| Test (20 min) | Run the test (prompt 4). Judge it (prompt 5). |
+| Save | Keep a list of every rule tested, including the ones that failed. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You picked one legend rule (or your own idea)

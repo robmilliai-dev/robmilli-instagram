@@ -75,6 +75,66 @@ Copy Claude's **WHAT TO WATCH** line into your notes. Check it tomorrow after th
 
 > Educational only. Not financial advice. A screenshot is a snapshot, not live prices.
 
+## Make it yours: your rules file (3 minutes)
+
+A chart read is only useful if it's judged against **your** plan. Add this to the Project instructions under the prompt from Step 2:
+
+```text
+MY RULES
+Account size: $____   Max risk per trade: 1%
+Stop goes where the idea is proven wrong. Never moved further away.
+Only take ideas that can pay at least 2x the risk.
+My setups (2-3 max):
+1. Breakout: daily close above the 20-day high, above the 200 EMA, volume above average.
+2. Pullback: 50 EMA above 200 EMA, price dips to the 20 EMA and closes back above it.
+3. (Yours): ____
+Judge every chart against these setups. If it matches none, say "no setup."
+```
+
+## 12 copy-paste prompts
+
+**Reading charts**
+
+1. "Run the full read on this chart, then score it 1-10 against my setups."
+2. "Here are 3 charts. Rank them best to worst against my setups, one line each."
+3. "Compare the daily and the 1-hour chart. Do they agree or fight each other?"
+4. "Mark the 3 most important support and 3 resistance prices. How many times was each tested?"
+5. "Is this a real breakout or a likely fakeout? What would confirm it, and what would kill it?"
+
+**Planning**
+
+6. "My account is $___, risk 1%, entry $___, stop $___. How many shares? Show the math."
+7. "Build a plan from this chart: entry trigger, stop where the idea is wrong, target at 2x risk. Flag it if the reward is under 2x."
+8. "Give me the strongest case AGAINST this idea, and the first warning sign it's failing."
+9. "What has to happen tomorrow for this setup to still be valid?"
+
+**Checking yourself**
+
+10. "Here's the same chart 5 days later. Was your read right? What did you miss?"
+11. "Here's my closed trade with entry and exit marked. Did I follow my plan? One lesson."
+12. "List every price you named and tell me how sure you are about each one."
+
+## Your 10-minute daily routine
+
+| When | Do this |
+|---|---|
+| After the close | Screenshot 1-3 charts on your watchlist. Run prompt 2. |
+| Best one | Run the full read (prompt 1) and a plan (prompt 7). |
+| Before bed | Write one line in your notes: setup, watch line, verdict. |
+| Next day | Check yesterday's watch line. Was Claude right? |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You uploaded one clean daily chart

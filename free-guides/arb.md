@@ -70,6 +70,61 @@ Every ticket goes to your phone and into a log. After a month, the log shows if 
 
 > Educational only. Not financial advice. Fast pro bots close most gaps quickly. Check that sports prediction markets are legal where you live.
 
+## Make it yours: your rules (3 minutes)
+
+```text
+MY GAP RULES
+Bankroll: $____   Max per idea: 2%
+Only count a gap after removing the bookie's cut from both sides.
+The game, the line and the settlement rules must match exactly on both sites.
+Skip gaps under 2%. Skip anything that settles differently (overtime, cancelled games).
+Check sports prediction markets are legal where I live.
+Final call: WORTH A LOOK or SKIP. You never place a bet. I decide.
+```
+
+## 12 copy-paste prompts
+
+**Finding gaps**
+
+1. "Here are the sportsbook odds and the Polymarket price for this game: [paste]. Remove the cut. Is there a gap?"
+2. "Convert these odds to percentages: [paste]. Show the math."
+3. "Which games tonight are on both sites? List them."
+
+**Checking the fine print**
+
+4. "Read both sites' rules for this market. Do they settle the same way? Overtime? Cancellation?"
+5. "Is this the same line on both sites, or slightly different? (e.g. -3.5 vs -3)"
+6. "What could make this gap disappear before I act? Price moves, limits, fees?"
+7. "After fees on both sides, is the gap still over 2%?"
+
+**Logging**
+
+8. "Turn this into one log line: date, game, both prices, gap, WORTH A LOOK/SKIP."
+9. "Here's my log for the week. How many gaps were real after the fine print?"
+10. "Which sport gives the most real gaps in my log?"
+11. "Give me the strongest reason to SKIP this one."
+12. "Run the whole check on this game in one answer: prices, cut, gap, rules, risk."
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Before games (5 min) | Prompt 3, then prompt 1 on the top 3 games. |
+| Any gap (5 min) | Check the fine print (prompts 4-7). |
+| After (2 min) | Log it (prompt 8). Track with pretend money first. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You checked one real game with the free prompt

@@ -89,6 +89,54 @@ The finished version runs the same desk on its own, every hour the market is ope
 
 > Educational only. Not financial advice. One AI playing seven bots is still one AI, so check its facts.
 
+## Make it yours: your desk rules (3 minutes)
+
+Add this to your desk Project. All 7 bots follow it:
+
+```text
+DESK RULES (these beat any vote)
+Account size: $____   Max risk per idea: 1%
+Max open ideas: 3. Max in one stock: 10%.
+5 of 7 bots must agree. The Risk bot can veto anything.
+Every ticket needs: entry, a stop where the idea is wrong, and a target at least 2x the risk.
+The desk never trades. I decide.
+```
+
+## 12 more copy-paste prompts
+
+1. "Here's my watchlist. Which idea should go to the desk today, and why?"
+2. "Trend bot only: is the trend up, down or sideways? What shows it?"
+3. "News bot only: anything in the last 7 days that changes the story? Dates and links."
+4. "Value bot only: is it cheap or expensive vs its own history and its rivals?"
+5. "Risk bot: veto or allow? If allowed, size at 1% of $___."
+6. "The vote was 4-3. What's the one fact that would flip a vote?"
+7. "Write the ticket: entry, stop, target, size, and the date to check back."
+8. "Give me the strongest case AGAINST this ticket."
+9. "30 days later, here's the price: [paste]. Was the desk right? Which bot was most right?"
+10. "Look at my last 10 tickets. Which bot is most often right? Which one should I trust less?"
+11. "Send these 3 ideas to the desk. Which gets 5 of 7?"
+12. "Run all 7 bots in one answer and give me a 5-line phone summary."
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Morning (3 min) | Pick one idea (prompt 1). |
+| Vote (10 min) | Run all 7 bots (prompt 12). |
+| Evening (2 min) | Save the ticket or the reason it failed. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You sent one stock idea to the desk

@@ -89,6 +89,54 @@ The finished version does this on its own, every hour the market is open: it sca
 
 > Educational only. Not financial advice.
 
+## Make it yours: your HQ rules (3 minutes)
+
+Add this to the top of your HQ Project. Every floor follows it:
+
+```text
+HQ RULES (every floor follows these)
+Account size: $____   Max risk per idea: 1%
+Max in one stock: 10%. Max open ideas: 3.
+An idea needs a dated reason, a price where it's wrong, and reward at least 2x the risk.
+Any floor can stop an idea. The Risk floor can stop anything.
+Final call: PASS, WATCH or CANDIDATE. HQ never trades. I decide.
+```
+
+## 12 more copy-paste prompts
+
+1. "Scan floor: here's my watchlist. Which 2 ideas deserve to go up the building today?"
+2. "Research floor: what changed for [ticker] in the last 30 days? Dates and links."
+3. "Charts floor: here's the chart. Trend, key prices, and where it's wrong."
+4. "Test floor: has this kind of setup worked on this stock before? What would I need to check?"
+5. "Risk floor: block or allow? If allowed, size at 1% of $___."
+6. "Decision floor: PASS, WATCH or CANDIDATE, with the one reason that decided it."
+7. "Which floor stopped this idea, and is that a good reason or too strict?"
+8. "Send these 3 ideas up the building. Which one reaches the top?"
+9. "Write one memo for the idea: floor by floor, one line each."
+10. "30 days later, here's the price: [paste]. Was HQ right? Which floor was most right?"
+11. "Look at my last 10 ideas. Which floor stops the most? Should I change its rule?"
+12. "Run all 6 floors in one answer and give me a 5-line phone summary."
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Morning (3 min) | Scan floor (prompt 1). |
+| Best idea (10 min) | Send it up all 6 floors (prompt 12). |
+| Evening (2 min) | Log the floor that stopped it, or the CANDIDATE. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You built your HQ in Claude

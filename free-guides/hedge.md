@@ -81,6 +81,62 @@ Run the committee.
 
 > Educational only. Not financial advice. Six AI roles are still one AI, so check every fact yourself.
 
+## Make it yours: your investing rules (3 minutes)
+
+Add this to your committee Project so every member judges stocks against **your** plan:
+
+```text
+MY INVESTING RULES
+I hold for: ____ (weeks / months / years)
+Max in one stock: 10% of my money
+I never buy: ____ (e.g. no profit yet, too much debt, sectors I don't understand)
+I need: a dated reason to own it, a price where I'm wrong, and a reason it's not already priced in.
+Final call options: PASS, WATCH or CANDIDATE. The Risk Manager can veto anything.
+```
+
+## 12 copy-paste prompts
+
+**Finding ideas**
+
+1. "Give me 5 stocks in [sector] the committee should look at, with one dated reason each. Use linked sources only."
+2. "Here's my watchlist. Which ONE deserves a full committee meeting this week, and why?"
+
+**The meeting**
+
+3. "Run the full committee on [ticker] using this dated fact: [paste]. Every member speaks once, Risk last."
+4. "Devil's Advocate only: give me the 3 strongest reasons this stock goes down from here."
+5. "Macro only: what in rates, the dollar or the economy helps or hurts this stock right now?"
+6. "Fundamental only: is the business getting better or worse? Use the last 4 quarters if I paste them."
+7. "Technical only: here's the chart. Is now a good time, or is it better to wait for a pullback?"
+8. "Risk Manager: veto or allow? If allowed, max size and the price where we admit we're wrong."
+
+**Keeping score**
+
+9. "Write a one-page memo: the idea, the case against, the call, and the date to check back."
+10. "It's 30 days later, here's the price and news: [paste]. Was the committee right? Who was most right?"
+11. "Look at my last 10 committee calls. Which member is most often right? Should I trust them more?"
+12. "Compare [ticker A] vs [ticker B]. The committee can only pick one. Which, and why?"
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| Monday (5 min) | Pick ONE stock with prompt 2. |
+| Midweek (15 min) | Run the full meeting (prompt 3) and save the memo (prompt 9). |
+| 30 days later | Score it with prompt 10. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You set up the committee in a Claude Project

@@ -65,6 +65,67 @@ The real JARVIS has 4 parts:
 
 > Educational only. Not financial advice.
 
+## Make it yours: your JARVIS rules (3 minutes)
+
+Paste this into your JARVIS Project so it knows you:
+
+```text
+ABOUT ME
+My holdings: ____ (ticker, shares, buy price)
+My watchlist: ____
+I care about: ____ (e.g. income, growth, not losing big)
+RULES FOR JARVIS
+Every number needs a source and a date. If you can't find it, say so.
+Never tell me to buy or sell. Give me facts and the questions I should ask.
+Keep answers short enough to read on my phone.
+```
+
+## 12 copy-paste prompts
+
+**Every morning**
+
+1. "Morning brief: what moved in my holdings overnight and why? Sources and dates."
+2. "Anything on my watchlist with earnings, dividends or big news this week?"
+3. "Which of my holdings is down the most from its high? What's the reason?"
+
+**Research**
+
+4. "Explain [ticker]'s last earnings in 5 bullets, plain English."
+5. "What are analysts and the news worried about with [ticker] right now?"
+6. "Compare [ticker] to its 2 closest rivals: growth, profit, debt. Simple table."
+7. "What would have to go wrong for [ticker] to drop 30%?"
+
+**Risk**
+
+8. "How much of my money is in each sector? Am I too heavy anywhere?"
+9. "If the market dropped 10% tomorrow, which of my holdings would likely fall most? Why?"
+10. "List every date this month that could move my holdings: earnings, Fed, CPI."
+
+**Review**
+
+11. "Here are my notes from this week. What did I learn and what should I check next week?"
+12. "Give me 3 questions I should answer before adding to any position."
+
+## Your 5-minute daily routine
+
+| When | Do this |
+|---|---|
+| Morning (2 min) | Prompt 1 on your phone. |
+| Lunch (1 min) | Prompt 2 if anything big is coming. |
+| Evening (2 min) | Note one thing you learned. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You set up JARVIS with your holdings and rules

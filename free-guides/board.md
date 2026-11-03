@@ -94,6 +94,54 @@ End with "Nothing has been placed. You decide."
 
 > Educational only. Not financial advice. AI can be wrong.
 
+## Make it yours: the board's rules (3 minutes)
+
+Paste this into each AI before its seat prompt, so the whole board follows **your** limits:
+
+```text
+BOARD RULES (these beat any vote)
+Account size: $____   Max risk per idea: 1%
+No idea passes without a price where we admit we're wrong.
+No new ideas 2 days before earnings.
+Claude (the risk seat) can block anything that breaks these rules.
+Final call: PASS, WATCH or CANDIDATE. The board never trades. I decide.
+```
+
+## 12 more copy-paste prompts
+
+1. "Perplexity: what changed for [ticker] in the last 7 days? Dates and links only."
+2. "Grok: what is the crowd saying about [ticker]? Is it getting more excited or more worried?"
+3. "Gemini: here's the chart. Trend, key prices, and where the idea is wrong."
+4. "ChatGPT: here are the other seats' answers: [paste]. Build the best case FOR the idea."
+5. "Claude: here's everything: [paste]. Find the biggest risk. Block or allow?"
+6. "Count the votes: [paste the 5 answers]. PASS, WATCH or CANDIDATE?"
+7. "The board split 3-2. What's the one fact that would settle it?"
+8. "Account $___, 1% risk, entry $___, stop $___. Size? Show the math."
+9. "Write one memo from the whole board: the idea, the votes, the risk, the date to check back."
+10. "30 days later, here's the price: [paste]. Was the board right? Which seat was most right?"
+11. "Which seat is right most often in my log? Should its vote count more?"
+12. "Run all 5 seats in one answer, as if you were each AI in turn."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| Monday (5 min) | Pick one idea for the board. |
+| Midweek (15 min) | Run all 5 seats and count the vote. Save the memo. |
+| 30 days later | Score it (prompt 10). |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You ran all 5 prompts on one stock

@@ -96,6 +96,62 @@ Open **spy_daily.csv**. Find one number Claude used. Does it match? Good. Now yo
 
 > Educational only. Not financial advice. OpenBB is free and open-source. It's not a Bloomberg product.
 
+## Make it yours: your morning brief rules (3 minutes)
+
+Paste this to Claude once, then reuse it every morning:
+
+```text
+MY BRIEF RULES
+My watchlist: ____
+Use ONLY the data I paste. If something is missing, say "not in data."
+Every number must show the date it came from.
+Format: 1) one-line market mood, 2) biggest movers on my list, 3) anything near a 52-week high or low,
+4) 3 things to watch today. Under 200 words.
+```
+
+## 12 copy-paste prompts
+
+**Pulling data (OpenBB)**
+
+1. "Write me the OpenBB command to get 1 year of daily prices for [tickers] and save them as a CSV."
+2. "Write the OpenBB command for [ticker]'s last 4 quarters of income statements."
+3. "My OpenBB command gave this error: [paste]. What's wrong and how do I fix it?"
+
+**Reading it**
+
+4. "Here's my CSV. Write my morning brief using my brief rules."
+5. "Which stocks in this data are above their 50-day and 200-day averages? Show the numbers."
+6. "Which stock moved the most this week, and is that unusual for it? Compare to its normal weekly move."
+7. "Here are 4 quarters of results. Is revenue growing faster or slower? Are profits keeping up?"
+8. "Compare these 3 stocks: growth, profit margin, debt. Simple table, no opinion."
+
+**Keeping it honest**
+
+9. "List every number in your brief and the line of data it came from."
+10. "What's missing from my data that would change your brief?"
+11. "Turn this brief into 3 questions I should answer before making any decision."
+12. "Compare today's brief to yesterday's. What actually changed?"
+
+## Your 10-minute daily routine
+
+| When | Do this |
+|---|---|
+| Morning (5 min) | Run your saved OpenBB commands. Paste the CSV with prompt 4. |
+| Check (2 min) | Pick one number and check it yourself (prompt 9 helps). |
+| Note (3 min) | Save the brief. Write one thing to watch today. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] OpenBB is installed and runs

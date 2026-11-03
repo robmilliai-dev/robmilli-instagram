@@ -72,6 +72,63 @@ Every run is saved to a log. After a month, you can see if the team beat the mar
 
 > Educational only. Not financial advice. You can lose what you bet. Check that Polymarket is allowed where you live.
 
+## Make it yours: your rules (3 minutes)
+
+Paste this under the agent prompt so every agent follows **your** limits:
+
+```text
+MY PREDICTION MARKET RULES
+Bankroll: $____   Max per idea: 2% of bankroll
+Only markets with clear resolution rules and enough trading volume.
+Skip anything that resolves more than 60 days out.
+I need a reason the price is wrong, with a dated, linked source.
+Track every idea with pretend money for 30 days before using real money.
+Final call: WATCH or SKIP. You never place a bet. I decide.
+```
+
+## 12 copy-paste prompts
+
+**Finding markets**
+
+1. "Scout: list 5 active Polymarket markets in [topic] that resolve within 60 days. Link each one."
+2. "Read the resolution rules for this market: [link]. Anything tricky that could surprise me?"
+3. "Which of these markets has the most trading volume? Thin markets are risky."
+
+**Checking the price**
+
+4. "Odds: the market says [x]%. What do dated, linked sources say the real chance is? Show your reasoning."
+5. "News: what happened in the last 7 days that could move this market? Dates and links only."
+6. "Thesis: give me the best case for YES and the best case for NO, side by side."
+7. "Has the price already moved on this news? Compare the price a week ago to now."
+
+**Risk and review**
+
+8. "Risk: veto or allow? If allowed, max size at 2% of $___."
+9. "Turn this into one log line: date, market, side, price, WATCH/SKIP, reason."
+10. "Here are my last 10 logged ideas and how they resolved. Was I better than the market price?"
+11. "Which agent was most often right in my log? Which one should I listen to less?"
+12. "Run all 6 agents on this market and give me a 5-line summary I can read on my phone."
+
+## Your 10-minute daily routine
+
+| When | Do this |
+|---|---|
+| Morning (3 min) | Prompt 1 on one topic you know well. |
+| Best market (5 min) | Run all 6 agents (prompt 12). |
+| Evening (2 min) | Log it (prompt 9). Check any that resolved. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You ran the team on one real market

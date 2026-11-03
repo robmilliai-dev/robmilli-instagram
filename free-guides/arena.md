@@ -77,6 +77,60 @@ After a month, the log shows if the high-scoring trades really did better. That'
 
 > Educational only. Not financial advice. Crypto moves fast and you can lose money.
 
+## Make it yours: your rules (3 minutes)
+
+```text
+MY CRYPTO RULES
+Account size: $____   Max risk per trade: 1%
+No leverage while I'm learning.
+Every plan needs: entry, stop where the idea is wrong, target at least 2x the risk.
+Max 2 open trades. Skip anything during big news (Fed, CPI) days.
+Track every plan with pretend money for 30 days first. You never place trades. I decide.
+```
+
+## 12 copy-paste prompts
+
+**Signal**
+
+1. "Scout: here are charts of BTC, ETH and SOL. Which one has the cleanest setup today, and why?"
+2. "Analyst: is this an uptrend, downtrend or chop? What on the chart shows it?"
+3. "What's on the economic calendar this week that could move crypto? Dates only."
+
+**Judge and risk**
+
+4. "Judge: build a full plan for this chart: entry, stop, target. Flag it if reward is under 2x risk."
+5. "Risk: account $___, 1% risk, entry $___, stop $___. Position size? Show the math."
+6. "Give me the strongest case against this trade."
+7. "If price hits my stop, what was I wrong about? Write it down before I start."
+
+**Journal**
+
+8. "Turn this plan into one journal line: date, coin, setup, entry, stop, target, reason."
+9. "Here's my journal for the week. Which setups worked and which didn't?"
+10. "Did I break any of my rules this week? Be blunt."
+11. "Run the whole SIGNAL → JUDGE → RISK → JOURNAL loop on this chart in one answer."
+12. "What's one rule I should add to stop my worst habit?"
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Morning (5 min) | Prompt 1 on 3 coins. |
+| Best setup (5 min) | Run the whole loop (prompt 11). |
+| Evening (2 min) | Journal it (prompt 8). |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You ran all 4 agents on one coin or stock

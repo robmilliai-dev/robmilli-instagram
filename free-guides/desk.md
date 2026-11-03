@@ -80,6 +80,63 @@ After 10 alerts, read your notes. You'll spot your own patterns fast. Most peopl
 
 > Educational only. Not financial advice. An alert is a heads-up, not a reason to buy.
 
+## Make it yours: your watch rules (3 minutes)
+
+Paste this at the top of your AI chat, filled in, so every alert is judged the same way:
+
+```text
+MY WATCH RULES
+Watchlist (5 max): ____
+Account size: $____   Max risk per idea: 1%
+An alert only matters if: price CLOSES past my level (not just pokes through),
+volume is above its 20-day average, and nothing big (earnings, Fed day) is due in 2 days.
+For every alert, answer: STILL VALID, WAIT, or IGNORE, with one reason.
+Never tell me to buy or sell. I decide.
+```
+
+## 12 copy-paste prompts
+
+**Setting alerts**
+
+1. "Here's my watchlist and a chart of each. Give me ONE alert price per stock and why that price matters."
+2. "Which of these levels is most likely to be a fake move? Should I alert on the close instead?"
+3. "Write the TradingView alert message I should use so it tells you the ticker, price, time and timeframe."
+
+**When an alert fires**
+
+4. "Alert fired: [paste]. Check it against my watch rules. STILL VALID, WAIT or IGNORE?"
+5. "Here's the chart right now. Did price close past the level, or just poke through?"
+6. "Is there earnings, a Fed meeting or big news in the next 2 days for this stock? Use dated sources only."
+7. "If this is real, where is the idea proven wrong? That's my stop. How many shares at 1% risk on $___?"
+
+**After**
+
+8. "Here are the last 10 alerts and what happened after each. Which alert prices worked best?"
+9. "Which stock on my list keeps giving false alerts? Should I drop it?"
+10. "Rewrite my watch rules so I get fewer, better alerts."
+11. "It's a quiet day. Give me a practice alert to rehearse the routine."
+12. "Turn this week's alert log into 3 lessons."
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Morning (2 min) | Check your 5 alert prices still make sense. Move any that are stale. |
+| When it pings (3 min) | Paste the alert into Claude with prompt 4. Note the answer. |
+| After the close (2 min) | Write down what each alert did after it fired. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
 ## Your first run checklist
 
 - [ ] You set one price alert in TradingView
