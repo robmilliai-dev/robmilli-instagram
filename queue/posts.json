@@ -356,22 +356,6 @@
     "caption": "7 AI bots. One trading desk. The 7 seats a fund would pay about $630K a year to fill.*\n\nHere's every seat:\n🛰️ Scout finds the move (volume, new highs, gaps)\n📰 News reads only dated, linked sources and drops the rumors\n🌡️ Sentiment measures the mood\n📊 Charts maps entry, stop and target, and passes if reward is under 1.5x risk\n🧪 Tester checks the setup on years it has never seen, fees included\n🛡️ Risk can veto anything: 1% max risk, no stop = no trade\n🧠 The Chief needs 5 of 7 to agree, then texts you one ticket\n\nIt never places an order. You make every call.\n\nComment \"BOTS\" and I'll DM you the free guide: all 7 bots, the prompts, and how the automated version is built.\n\n*7 × $90K, the median US hedge fund analyst base pay (PayScale, Sept 2026). Illustration of roles, not a claim about returns.\nEducational only, not financial advice. AI can be wrong, and trading can lose money. Voiceover is AI-generated.\n\n#aitrading #tradingbots #aiagents #claudeai #grok #stockmarket"
   },
   {
-    "key": "B11-HEDGE-6",
-    "kind": "carousel",
-    "keyword": "HEDGE",
-    "scheduledAt": "2026-11-04T19:00:00Z",
-    "media": [
-      "b11-hedge/slide-1.jpg",
-      "b11-hedge/slide-2.jpg",
-      "b11-hedge/slide-3.jpg",
-      "b11-hedge/slide-4.jpg",
-      "b11-hedge/slide-5.jpg",
-      "b11-hedge/slide-6.jpg",
-      "b11-hedge/slide-7.jpg"
-    ],
-    "caption": "Hedge funds pay 6 analysts to argue over every stock. I got all 6 for $0. 🧠\n\n6 AI experts argue about your stock before you spend a dollar:\n🌍 Macro: what the economy is doing\n📑 Fundamental: the company's real numbers\n📈 Technical: what the chart says\n🛡️ Risk Manager: can veto anything\n😈 Devil's Advocate: paid to kill the idea\n🎯 Portfolio Manager: makes one call, PASS, WATCH or CANDIDATE\n\nMost ideas never get a yes. That's the point. The ones that die here are the ones that would have cost you.\n\nComment HEDGE and I'll DM you the free setup: all 6 experts, ready to paste into Claude. Run it on any stock tonight, free. 📌 Save this.\n\nIt never buys or sells. You make every decision. Example on the slides is an illustration, not a result. Educational, not financial advice.\n#claudeai #aiagents #stockmarket #investing #hedgefund"
-  },
-  {
     "key": "B16-BETA-GIVEAWAY",
     "kind": "carousel",
     "keyword": "BETA",
@@ -488,6 +472,22 @@
       "reels/o-team.mp4"
     ],
     "caption": "I hired an AI employee for $0. It drafts every customer reply in about 30 seconds. 🤖\n\nHere's the whole setup:\n1️⃣ Grab one real customer message (remove names and order numbers first)\n2️⃣ Paste one prompt that gives it the job: write drafts, never send, never make up refunds or dates\n3️⃣ It answers in 4 parts: STATUS, REPLY, CHECK BEFORE SENDING, NOT SURE ABOUT\n4️⃣ Legal threat, fraud or safety issue? It marks it ESCALATE and promises nothing\n\nThe AI drafts. You check and hit send. That's how real companies use AI support safely.\n\nComment TEAM and I'll DM you the free guide: the prompt, a practice message and the 5-point check. Works with free Claude or ChatGPT. 📌 Save this.\n\nExample reply on the slides is for illustration.\nVoiceover is AI-generated.\n#claudeai #aiagents #chatgpt #smallbusiness #automation"
+  },
+  {
+    "key": "B11-HEDGE-6",
+    "kind": "carousel",
+    "keyword": "HEDGE",
+    "scheduledAt": "2026-11-07T19:00:00Z",
+    "media": [
+      "b11-hedge/slide-1.jpg",
+      "b11-hedge/slide-2.jpg",
+      "b11-hedge/slide-3.jpg",
+      "b11-hedge/slide-4.jpg",
+      "b11-hedge/slide-5.jpg",
+      "b11-hedge/slide-6.jpg",
+      "b11-hedge/slide-7.jpg"
+    ],
+    "caption": "Hedge funds pay 6 analysts to argue over every stock. I got all 6 for $0. 🧠\n\n6 AI experts argue about your stock before you spend a dollar:\n🌍 Macro: what the economy is doing\n📑 Fundamental: the company's real numbers\n📈 Technical: what the chart says\n🛡️ Risk Manager: can veto anything\n😈 Devil's Advocate: paid to kill the idea\n🎯 Portfolio Manager: makes one call, PASS, WATCH or CANDIDATE\n\nMost ideas never get a yes. That's the point. The ones that die here are the ones that would have cost you.\n\nComment HEDGE and I'll DM you the free setup: all 6 experts, ready to paste into Claude. Run it on any stock tonight, free. 📌 Save this.\n\nIt never buys or sells. You make every decision. Example on the slides is an illustration, not a result. Educational, not financial advice.\n#claudeai #aiagents #stockmarket #investing #hedgefund"
   },
   {
     "key": "C20-DOTS-REEL",
