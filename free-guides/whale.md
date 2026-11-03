@@ -88,7 +88,7 @@ Make a simple sheet: date, market, side, price, WATCH/SKIP, and the result when 
 
 ## Want it done for you?
 
-You just did it once, by hand. **The finished POLYBOT does it for you every hour: it scans the busiest markets, runs all six agents, and texts the best tickets straight to your phone. It even grades itself, so you know if it's working before you bet a dollar.**
+You just did it once, by hand. **The finished POLYBOT inside the AI Desk runs the research for you every hour: it scans the busiest markets, runs six agents, and texts the best tickets straight to your phone. Pair it with your Luck Filter shortlist and you'll know what the smart money holds and whether it's still worth a look. It even grades itself, so you know if it's working before you bet a dollar.**
 
 We already did the hard part. We built it. We tested it. We wrote every setting and every step. **Your part: follow the 60-minute setup. Copy, paste, done.** No coding skills needed.
 
