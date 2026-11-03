@@ -17,6 +17,10 @@ Now you can run that same team on any stock. Tonight. Free.
 - ✅ The strongest reason **not** to buy, before you spend a dollar
 - ✅ One clear call: **PASS**, **WATCH**, or **CANDIDATE**
 
+**How it works:** One stock + one dated fact → 6 experts argue → the Devil's Advocate attacks → Risk can veto → PASS, WATCH or CANDIDATE
+
+> **READ FIRST:** It never buys or sells. Most ideas get PASS or WATCH, and that's the point.
+
 **Why this works:** One brain falls in love with an idea. A team with a skeptic doesn't. When an AI has to argue against itself, the weak ideas die early. That's the whole trick, and you'll see it happen in step 3.
 
 All you need: [Claude](https://claude.ai/) and one stock you're curious about.
@@ -76,6 +80,20 @@ Run the committee.
 **You did it if:** you have one committee call saved, with the best argument against it.
 
 > Educational only. Not financial advice. Six AI roles are still one AI, so check every fact yourself.
+
+## Your first run checklist
+
+- [ ] You set up the committee in a Claude Project
+- [ ] You ran one stock through it
+- [ ] You read the "no" case before the "yes" case
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It gives one long essay | Reply: "Answer as the 6 roles, then one call." |
+| It says CANDIDATE every time | Tell the Devil's Advocate: "Find the strongest reason not to buy." |
+| It makes up numbers | Give it your dated fact and say "use only facts I give you". |
 
 ## Want it done for you?
 

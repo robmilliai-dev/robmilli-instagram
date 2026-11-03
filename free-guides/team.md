@@ -17,6 +17,10 @@ In 15 minutes, you'll hire that employee. It costs nothing.
 - ✅ A list of anything it wasn't sure about, so it never makes stuff up
 - ✅ A quick 5-point check that tells you: send it, or fix it
 
+**How it works:** Customer message → your AI employee drafts the reply → it flags what it's unsure about → you check and send
+
+> **READ FIRST:** It never sends anything. Remove names, emails and order numbers before you paste a message.
+
 **Why this works:** AI is great at writing and bad at guessing. So we give it one job, clear rules, and one big rule: you hit send, not the AI. That's how real companies use AI support safely. You'll see a finished reply in step 3.
 
 All you need: free [Claude](https://claude.ai/) or [ChatGPT](https://chatgpt.com/).
@@ -77,6 +81,20 @@ Give the draft a quick check. Each one is a yes or no:
 **You did it if:** you have one checked, ready-to-send reply, written in a fraction of the time.
 
 > Keep the send button. Don't connect AI to your live inbox for this test.
+
+## Your first run checklist
+
+- [ ] You gave your AI employee its job
+- [ ] It drafted one real reply
+- [ ] You checked it with the 5-point check and sent it yourself
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It makes up refunds or dates | Reply: "Only use the facts and policy I gave you." |
+| Replies sound robotic | Paste 2 replies you wrote before and say "match this tone". |
+| It answers a legal threat | It should say ESCALATE. If not, paste the safety rule again. |
 
 ## Want a whole team of AI employees?
 

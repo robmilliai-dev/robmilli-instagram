@@ -14,6 +14,10 @@ Two free TradingView indicators. Paste them in, and blue dots show up on your ch
 - **Trend Dots** on your daily or 4-hour charts (buy the breakout, ride it with a trailing stop)
 - A phone alert every time a new dot shows up
 
+**How it works:** Paste the code → blue dot on the setup → phone alert → exit dot or red stop line
+
+> **READ FIRST:** Pullback Dots: daily charts only. A dot is a setup, not a promise. Risk small: we tested 1% per trade.
+
 ## Why this works
 
 We locked the settings using 2010 to 2019 data only. Then we tested on 2020 to now: years the indicators had never seen.
@@ -152,6 +156,20 @@ if flat and sellSig
 2. Condition: pick **Milli Pullback Dots** (or Trend Dots), then **alert() function calls only**.
 3. Turn on **Notify in app**. Click **Create**.
 4. Install the TradingView app on your phone and log in. New dots now ping your phone.
+
+## Your first run checklist
+
+- [ ] Both indicators are on your chart
+- [ ] You can see at least one blue dot when you scroll back
+- [ ] Your phone got a test alert
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| No dots on the chart | Switch to the 1D chart and scroll back. Dots only show in an uptrend. |
+| "Script could not be translated" error | Delete everything in the Pine Editor first, then paste. Line 1 must be //@version=6. |
+| Alert doesn't fire | Pick "alert() function calls only" in the alert condition. |
 
 ## Keep it safe
 

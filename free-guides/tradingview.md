@@ -17,6 +17,10 @@ You've seen the posts. I rebuilt that setup from scratch and tested it. Here's h
 - ✅ The plan for TradingView alerts that watch charts for you (Level 2)
 - ✅ The plan for Claude reading every alert and texting you (Level 3)
 
+**How it works:** Level 1: Claude reads your chart → Level 2: TradingView watches for you → Level 3: Claude checks every alert and texts you
+
+> **READ FIRST:** Start with Level 1. It's free and takes 5 minutes. Level 3's phone texts need a paid TradingView plan for webhooks.
+
 **Why this works:** TradingView is great at watching prices. Claude is great at explaining what it sees. Put them together and you get a tireless chart reader that never gets tired, scared or greedy.
 
 ## Level 1: Claude reads your chart (5 minutes, free)
@@ -62,6 +66,20 @@ TradingView can send each alert to a small web app (this is called a "webhook").
 **To build it yourself,** you'd write the TradingView script (in its Pine Script language), build and host the web app, connect Claude and Telegram, and test it all end to end. A few evenings if you've done this before.
 
 > Educational only. Not financial advice. Claude reads charts. It never trades.
+
+## Your first run checklist
+
+- [ ] Claude read one of your charts (Level 1)
+- [ ] You set one TradingView alert (Level 2)
+- [ ] You know what Level 3 adds
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| Claude misreads the chart | Use a clean daily chart with the price axis showing. |
+| The alert never fires | Set it to "Once per bar close" and turn on app notifications. |
+| Webhooks are greyed out | Webhooks need a paid TradingView plan. Levels 1 and 2 are free. |
 
 ## Want it done for you?
 

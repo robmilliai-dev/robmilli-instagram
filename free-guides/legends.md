@@ -19,6 +19,10 @@ This guide turns each legend's big idea into one simple rule a computer can foll
 - ✅ The 3 rules of an honest test, so you never fool yourself
 - ✅ A free prompt that turns **your own** idea into a testable rule
 
+**How it works:** Pick a legend's idea → turn it into one simple rule → test it on years it never saw → keep it only if it holds up
+
+> **READ FIRST:** Old results don't promise future ones. A rule that only works on the years you tuned it on is a fake rule.
+
 **Why this works:** A rule doesn't get scared or greedy. It does the same thing every time. And once your idea is a rule, you can test it on years of real prices and see the truth before you risk a dollar.
 
 *These rules are inspired by each investor's public ideas. They're simple teaching models, not their real strategies. None of them endorse this guide.*
@@ -74,6 +78,20 @@ Plain English.
 **To build it yourself,** you'd write a Python program that downloads years of prices, turns each legend's rule into code, runs an honest test with the 3 rules above, and prints a scorecard next to "just buy and hold." If you know Python, that's a weekend.
 
 > Educational only. Not financial advice. Past results never promise future ones.
+
+## Your first run checklist
+
+- [ ] You picked one legend rule (or your own idea)
+- [ ] You wrote it as one clear rule a computer could follow
+- [ ] You know the 3 rules of an honest test
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| My rule has "feel" words | Swap them for numbers: not "cheap", but "price under 15x earnings". |
+| It looks amazing in the test | Check it on years you didn't tune on. Most "amazing" rules fail there. |
+| Too few trades to judge | Test more markets or more years. |
 
 ## Want it done for you?
 

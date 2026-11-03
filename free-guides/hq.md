@@ -17,6 +17,10 @@ In 15 minutes, you'll build that 6-floor HQ with AI, free, and send your first i
 - ✅ The exact floor where your idea got stopped, and why
 - ✅ One clear call: **PASS**, **WATCH** or **CANDIDATE**
 
+**How it works:** Your idea rides up 6 floors → each floor can stop it → only the best reach the top → PASS, WATCH or CANDIDATE
+
+> **READ FIRST:** It never places a trade. Most ideas stop on a lower floor. That's the point.
+
 **Why this works:** Bad trades usually have one obvious flaw you didn't want to see. Six floors, each hunting for a different flaw, find it fast. If an idea makes it all the way to the top, it's earned your attention.
 
 | Floor | Checks | Stops the idea when |
@@ -84,6 +88,20 @@ The finished version does this on its own, every hour the market is open: it sca
 **To build it yourself,** you'd write each floor in Python, connect real data, set up phone texts and schedule it. A few evenings if you code.
 
 > Educational only. Not financial advice.
+
+## Your first run checklist
+
+- [ ] You built your HQ in Claude
+- [ ] You sent one idea up all 6 floors
+- [ ] You know which floor stopped it, or why it reached the top
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It skips floors | Reply: "Go floor by floor, one line each." |
+| Every idea reaches the top | Make floor 5 (Risk) stricter: "No stop = stop the idea." |
+| It makes up facts | Paste the news yourself with a date. |
 
 ## Want it done for you?
 

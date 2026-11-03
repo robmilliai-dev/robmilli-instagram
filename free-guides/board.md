@@ -19,6 +19,10 @@ That's the AI Board. This guide shows you how it works, and gives you 5 free pro
 - ✅ A vote: a trade only passes if 4 of 5 say yes and Claude doesn't veto
 - ✅ The full plan for the automatic board
 
+**How it works:** Perplexity finds the news → Grok reads the crowd → Gemini reads the chart → ChatGPT builds the case → Claude hunts for risk → vote
+
+> **READ FIRST:** A trade only passes if 4 of 5 say yes and Claude doesn't veto. It never trades for you.
+
 **Why this works:** Every AI has blind spots. So the board gives each AI the job it's best at, and none of them can push a trade through alone. One AI can be fooled. Five checking each other, much less so.
 
 | Seat | AI | Its job | Votes NO when |
@@ -89,6 +93,20 @@ End with "Nothing has been placed. You decide."
 **To build it yourself,** you'd connect 5 different AI services (each one works a bit differently), write the voting and risk rules in Python, set up phone texts, and run it daily. If you code, a weekend or two.
 
 > Educational only. Not financial advice. AI can be wrong.
+
+## Your first run checklist
+
+- [ ] You ran all 5 prompts on one stock
+- [ ] You tallied the vote
+- [ ] You read Claude's risk check before anything else
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| I don't have all 5 AIs | Free versions work. Missing one? Count it as a "no". |
+| The AIs disagree a lot | Good. That's the point. Read the "no" reasons first. |
+| One AI makes up a fact | Ask it for the source and date. No source = ignore it. |
 
 ## Want it done for you?
 

@@ -19,6 +19,10 @@ That's JARVIS. You've seen the "I built JARVIS for the stock market" posts. I re
 - ✅ Real numbers with a source, not guesses
 - ✅ The full plan for the phone version
 
+**How it works:** Your holdings + rules → JARVIS looks up real numbers → answers with sources → morning brief on your phone
+
+> **READ FIRST:** Smart enough to research, never allowed to trade. Every claim needs a source and a date.
+
 **Why this works:** Most traders have 12 tabs open and still miss the one thing that mattered. JARVIS looks it all up for you, gives you the answer first, then shows the proof and the risk. One question, one clear answer.
 
 ## Try it now: 10 minutes, no code
@@ -60,6 +64,20 @@ The real JARVIS has 4 parts:
 **To build it yourself,** you'd write the tools in Python, connect them to Claude, build the loop, set up the Telegram bot, and keep it running all day. If you're good with Python, that's a few evenings. If not, a lot longer.
 
 > Educational only. Not financial advice.
+
+## Your first run checklist
+
+- [ ] You set up JARVIS with your holdings and rules
+- [ ] You asked it one real question and got sources back
+- [ ] You got your first morning brief
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It answers without sources | Reply: "Every claim needs a source and a date." |
+| It gives advice like "buy" | Remind it: "You research. I decide. No buy or sell calls." |
+| The brief is too long | Ask for 3 bullets: what moved, what's on today, one risk. |
 
 ## Want it done for you?
 

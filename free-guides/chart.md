@@ -17,6 +17,10 @@ You can. It's free, and it takes 15 minutes to set up.
 - ✅ A plain-English answer: trend, key prices, the setup, and the biggest red flag
 - ✅ A simple rule for what to watch next
 
+**How it works:** Clean screenshot → Claude reads trend, key prices, setup and biggest red flag → you check its work → save one watch line
+
+> **READ FIRST:** Claude can misread a chart. Always check one number yourself before you trust the read.
+
 **Why this works:** Claude can read pictures. Give it a clear chart and strict rules, and it reads the chart the same careful way every time. No moods. No hope. No fear. You'll check its work yourself in step 4, so you know it's real.
 
 All you need: a free [TradingView](https://www.tradingview.com/chart/) account and [Claude](https://claude.ai/).
@@ -70,6 +74,20 @@ Copy Claude's **WHAT TO WATCH** line into your notes. Check it tomorrow after th
 **You did it if:** you have a saved chart read, and you checked 2 of its claims with your own eyes.
 
 > Educational only. Not financial advice. A screenshot is a snapshot, not live prices.
+
+## Your first run checklist
+
+- [ ] You uploaded one clean daily chart
+- [ ] You got the trend, 2 key prices, the setup and the red flag
+- [ ] You checked one price on the chart yourself
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| Claude reads the wrong prices | Zoom in so the price axis is clear, or type the key prices in. |
+| The read is vague | Reply: "Give exact prices, not ranges." |
+| It sounds too sure | Ask: "What would prove this wrong?" |
 
 ## Want it done for you?
 

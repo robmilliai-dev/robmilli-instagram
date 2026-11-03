@@ -19,6 +19,10 @@ I rebuilt the system behind bots like that, from scratch, and tested it. This gu
 - ✅ A clear answer: **READY FOR YOUR REVIEW** or **BLOCKED BY RISK**
 - ✅ The full plan for how the automatic bot works
 
+**How it works:** Scout finds markets → Odds finds the gap → News checks the facts → Thesis builds both sides → Risk can cancel → you approve
+
+> **READ FIRST:** It never places a bet on its own. Most ideas get cancelled. Check that prediction markets are legal where you live.
+
 **Why this works:** The secret isn't one smart AI. It's a **team**. Each agent has one job, and any of them can kill a bad bet. Most bots lose because nobody says no. This one is built to say no, so the bets that get through are the ones worth your time.
 
 **SCOUT → NEWS → THESIS → ODDS → RISK → EXECUTION**
@@ -67,6 +71,20 @@ Every run is saved to a log. After a month, you can see if the team beat the mar
 **To build it yourself,** you'd write each agent in Python, connect Polymarket's free data feed, call Claude for the news and thesis steps, set up a Telegram bot for texts, and schedule it to run every hour. If you're good with Python, that's a few evenings. If not, a lot longer.
 
 > Educational only. Not financial advice. You can lose what you bet. Check that Polymarket is allowed where you live.
+
+## Your first run checklist
+
+- [ ] You ran the team on one real market
+- [ ] You got the YES case, the NO case and the kill rule
+- [ ] You know why Risk passed or cancelled it
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It treats rumors as news | Paste only dated, linked sources. |
+| Every market looks good | Ask Risk: "Give 3 reasons to skip this." |
+| It can't see live prices | Paste the current price and volume yourself. |
 
 ## Want it done for you?
 

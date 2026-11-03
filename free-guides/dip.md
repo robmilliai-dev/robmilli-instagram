@@ -94,6 +94,12 @@ if strategy.position_size > 0 and r > rsiExit
 3. Turn on **Notify in app**. Click **Create**.
 4. Install the TradingView app on your phone and log in. New dots now ping your phone.
 
+## Your first run checklist
+
+- [ ] Index Dip is on your daily SPY or QQQ chart
+- [ ] You can see blue dots when you scroll back
+- [ ] Your phone got a test alert
+
 ## Troubleshooting
 
 | Problem | Fix |

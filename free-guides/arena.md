@@ -19,6 +19,10 @@ The winner didn't win by being smarter. **It won by being more disciplined.** I 
 - ✅ A free prompt that runs the 4-agent team on any crypto chart
 - ✅ A clear answer: **READY FOR YOUR REVIEW** or **BLOCKED BY RISK**
 
+**How it works:** Market data → 4 agents (scout, analyst, risk, judge) → one trade plan with a stop → you decide
+
+> **READ FIRST:** It's a research playbook, not a promise. It never places a trade. Use small risk on anything you try.
+
 **Why this works:** Here's what the winner did differently:
 
 | The winner | The rest |
@@ -72,6 +76,20 @@ After a month, the log shows if the high-scoring trades really did better. That'
 **To build it yourself,** you'd pull hourly prices in Python, calculate MACD, RSI and the EMA, connect Claude, write the risk rules, set up phone texts and run it every hour. An evening if you code.
 
 > Educational only. Not financial advice. Crypto moves fast and you can lose money.
+
+## Your first run checklist
+
+- [ ] You ran all 4 agents on one coin or stock
+- [ ] You got a plan with an entry, a stop and a target
+- [ ] You know what would make the plan wrong
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The AI makes up prices | Paste the real prices yourself and say "use only these numbers". |
+| The plan has no stop | Reply: "Every plan needs a stop. Redo it." |
+| All 4 agents agree every time | Ask the risk agent to argue against the trade first. |
 
 ## Want it done for you?
 

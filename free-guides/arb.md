@@ -21,6 +21,10 @@ I rebuilt the idea from scratch and tested it. This guide shows you exactly how 
 - ✅ A clear answer: **READY FOR YOUR REVIEW** or **BLOCKED BY RISK**
 - ✅ The full plan for the automatic bot
 
+**How it works:** Same game, two prices → strip the bookie's cut → find the gap → Claude checks the fine print → risk kills most → you decide
+
+> **READ FIRST:** Gaps are rare and close fast. Most checks end in "no bet", and that's the system working. Check that prediction markets are legal where you live.
+
 **Why this works:** Big sportsbooks set their odds with huge amounts of money and data. Polymarket prices come from whoever happens to be trading that minute. When the two disagree on the same game, Polymarket is usually the one that's off. That gap is the opportunity.
 
 ## Try it now: 10 minutes, no code
@@ -65,6 +69,20 @@ Every ticket goes to your phone and into a log. After a month, the log shows if 
 **To build it yourself,** you'd connect both price feeds in Python, match team names across two sites, write the math, call Claude for the fine print, set up phone texts, and run it every few minutes on game days. A weekend if you code.
 
 > Educational only. Not financial advice. Fast pro bots close most gaps quickly. Check that sports prediction markets are legal where you live.
+
+## Your first run checklist
+
+- [ ] You checked one real game with the free prompt
+- [ ] You worked out the fair price without the bookie's cut
+- [ ] You got a clear BET or NO BET with the reason
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The odds look different in different places | Use odds from the same minute. Old odds make fake gaps. |
+| The gap is under 4 points | Skip it. Small gaps are usually eaten by fees and slippage. |
+| The rules don't match (overtime, dates) | Not a real gap. Skip it. |
 
 ## Want it done for you?
 

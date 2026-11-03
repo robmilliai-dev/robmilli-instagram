@@ -17,6 +17,10 @@ OpenBB is a free, open-source tool that pulls real market data for you. In 10 mi
 - ✅ A file with real daily prices you pulled yourself
 - ✅ A Claude market brief where every number comes from your file
 
+**How it works:** Install OpenBB → pull real prices → Claude writes a brief using only that data → you check one number
+
+> **READ FIRST:** Claude must use only the numbers you give it. Always check one number yourself.
+
 **Why this works:** When you ask AI about the market with no data, it guesses. When you hand it real data, it can't guess. It has to use your numbers. That's the difference between a toy and a tool. You'll check it yourself in step 4.
 
 All you need: a computer, Python (free, step 1 shows you), and [Claude](https://claude.ai/).
@@ -91,6 +95,20 @@ Open **spy_daily.csv**. Find one number Claude used. Does it match? Good. Now yo
 **You did it if:** you have a price file you pulled yourself, and a brief where you checked a number.
 
 > Educational only. Not financial advice. OpenBB is free and open-source. It's not a Bloomberg product.
+
+## Your first run checklist
+
+- [ ] OpenBB is installed and runs
+- [ ] You pulled real prices for one stock
+- [ ] Claude wrote a brief and you checked one number
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| "python" isn't found | Install Python from python.org and tick "Add to PATH", then reopen the terminal. |
+| pip install fails | Run: python -m pip install --upgrade pip, then try again. |
+| Claude adds numbers you didn't give it | Reply: "Use only the data I pasted." |
 
 ## Want it done for you?
 

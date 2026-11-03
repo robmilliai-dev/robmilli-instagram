@@ -17,6 +17,10 @@ In 15 minutes, you'll build that desk with 7 AI bots, free, and run your first s
 - ✅ A vote on your stock idea, with the #1 reason against it
 - ✅ One clear call: **APPROVED**, **WATCHLIST** or **REJECTED**
 
+**How it works:** Your idea → 7 bots each check one thing → Risk can veto → 5 of 7 must agree → one clear ticket
+
+> **READ FIRST:** It never places an order. A "no" from the desk is a win: it saved you money.
+
 **Why this works:** When one brain likes an idea, it ignores the warning signs. Seven bots that each look for a different problem catch what you'd miss. And the risk bot can veto anything, so no amount of excitement can push a bad trade through.
 
 ## Step 1: Pick one stock idea (3 minutes)
@@ -84,6 +88,20 @@ The finished version runs the same desk on its own, every hour the market is ope
 **To build it yourself,** you'd write each bot in Python, connect real price and news data, write the risk rules, set up phone texts and schedule it. A few evenings if you code.
 
 > Educational only. Not financial advice. One AI playing seven bots is still one AI, so check its facts.
+
+## Your first run checklist
+
+- [ ] You sent one stock idea to the desk
+- [ ] You got all 7 votes back
+- [ ] You read the Risk bot's answer first
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| It answers as one voice, not 7 | Reply: "Answer as all 7 bots, one line each, then the vote." |
+| Every idea passes | Ask the Risk bot to be stricter: "No stop = no trade." |
+| It makes up news | Paste the news yourself with a date and link. |
 
 ## Want it done for you?
 

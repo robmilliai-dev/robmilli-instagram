@@ -17,6 +17,10 @@ In 15 minutes, you'll set that up too. Free.
 - ✅ An AI "second opinion" that checks the move before you act
 - ✅ A simple yes/no answer: **WORTH A LOOK** or **SKIP**
 
+**How it works:** Pick a stock and a price → TradingView alert → your phone pings → AI checks the move → you write down what happened
+
+> **READ FIRST:** The alert only tells you the price was hit. AI checks the move. You make every decision.
+
 **Why this works:** Most bad trades happen when you chase a move you saw by accident. An alert flips that. You decide your price when you're calm. Then the AI checks the move with fresh eyes. You'll see it work on your own screen in step 3.
 
 All you need: a free [TradingView](https://www.tradingview.com/chart/) account and a free [Claude](https://claude.ai/) or ChatGPT account.
@@ -75,6 +79,20 @@ After 10 alerts, read your notes. You'll spot your own patterns fast. Most peopl
 **You did it if:** you have one live alert set, and one AI check saved in your notes.
 
 > Educational only. Not financial advice. An alert is a heads-up, not a reason to buy.
+
+## Your first run checklist
+
+- [ ] You set one price alert in TradingView
+- [ ] You tested it (set one close to the current price)
+- [ ] You saved the AI check prompt for when it fires
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The alert never fired | Check it's set to "Crossing" and the app has notifications on. |
+| Too many alerts | Use one alert per stock, on prices that matter. |
+| The AI check is vague | Paste the chart screenshot and the news headline with it. |
 
 ## Want it done for you?
 

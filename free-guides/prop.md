@@ -117,6 +117,12 @@ if flat and sellSig
 
 Optional extra safety (not part of our test, so it can make passes slower): stop for the day if you're down 3%, and cut risk to 0.5% if you're down 6% overall.
 
+## Your first run checklist
+
+- [ ] Trend Dots is on all 8 daily charts with Risk per trade set to 1
+- [ ] Alerts are on for all 8
+- [ ] You saved the daily checklist where you'll see it
+
 ## Troubleshooting
 
 | Problem | Fix |
