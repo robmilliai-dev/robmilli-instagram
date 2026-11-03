@@ -372,16 +372,6 @@
     "caption": "Hedge funds pay 6 analysts to argue over every stock. I got all 6 for $0. 🧠\n\n6 AI experts argue about your stock before you spend a dollar:\n🌍 Macro: what the economy is doing\n📑 Fundamental: the company's real numbers\n📈 Technical: what the chart says\n🛡️ Risk Manager: can veto anything\n😈 Devil's Advocate: paid to kill the idea\n🎯 Portfolio Manager: makes one call, PASS, WATCH or CANDIDATE\n\nMost ideas never get a yes. That's the point. The ones that die here are the ones that would have cost you.\n\nComment HEDGE and I'll DM you the free setup: all 6 experts, ready to paste into Claude. Run it on any stock tonight, free. 📌 Save this.\n\nIt never buys or sells. You make every decision. Example on the slides is an illustration, not a result. Educational, not financial advice.\n#claudeai #aiagents #stockmarket #investing #hedgefund"
   },
   {
-    "key": "C14-POLYBOT-REEL",
-    "kind": "reel",
-    "keyword": "POLYBOT",
-    "scheduledAt": "2026-11-04T22:00:00Z",
-    "media": [
-      "reels/o-polybot.mp4"
-    ],
-    "caption": "This Polymarket bot reportedly turned $150 into $279,053. 🤖\n\nSo I built my own version as a team of 6 AI agents:\n\n🔎 SCOUT finds markets with volume spikes and moving odds\n📊 ODDS looks for the gap between price and probability\n📰 NEWS verifies the source and timestamp, and blocks rumors\n🧠 THESIS builds the YES case, the NO case and the kill rule\n🛡️ RISK can cancel any trade\n✅ EXECUTION only acts when the whole team agrees, and then I approve it\n\nThe $279,053 is the original creator's self-reported result, not mine, and it hasn't been independently verified.\n\nComment POLYBOT and I'll DM you my free 6-Agent Blueprint: how it works, how to build it, plus a free prompt that runs the whole team in Claude today. The finished, tested bot is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.\n\nEducational, not financial advice. Numbers on the slides are examples. It never places a bet on its own; you make every decision.\nVoiceover is AI-generated.\n#polymarket #aitrading #predictionmarkets #claudeai #automation"
-  },
-  {
     "key": "C15-TVIND-REEL",
     "kind": "reel",
     "keyword": "TRADINGVIEW",
@@ -406,16 +396,6 @@
       "b12-team/slide-7.jpg"
     ],
     "caption": "I hired an AI employee for $0. It drafts every customer reply in about 30 seconds. 🤖\n\nHere's the whole setup:\n1️⃣ Grab one real customer message (remove names and order numbers first)\n2️⃣ Paste one prompt that gives it the job: write drafts, never send, never make up refunds or dates\n3️⃣ It answers in 4 parts: STATUS, REPLY, CHECK BEFORE SENDING, NOT SURE ABOUT\n4️⃣ Legal threat, fraud or safety issue? It marks it ESCALATE and promises nothing\n\nThe AI drafts. You check and hit send. That's how real companies use AI support safely.\n\nComment TEAM and I'll DM you the free guide: the prompt, a practice message and the 5-point check. Works with free Claude or ChatGPT. 📌 Save this.\n\nExample reply on the slides is for illustration.\n#claudeai #aiagents #chatgpt #smallbusiness #automation"
-  },
-  {
-    "key": "C16-ARB-REEL",
-    "kind": "reel",
-    "keyword": "ARB",
-    "scheduledAt": "2026-11-05T22:00:00Z",
-    "media": [
-      "reels/o-arb.mp4"
-    ],
-    "caption": "This Polymarket bot reportedly turned $1 into $3.3 million. 🤖\n\nIt didn't predict anything. It compared.\n\nSame game, two prices: the sportsbooks and Polymarket. When they disagree, one of them is wrong.\n\nSo I rebuilt it as a team of 4:\n📡 WATCHER pulls live odds from the big sportsbooks and live prices from Polymarket\n🧮 MATH strips out the bookie's cut to get the fair price\n🧠 CLAUDE reads the fine print: same game? same date? does overtime count?\n🛡️ RISK kills most of them: gap under 4 points, thin order book, stale odds, more than 2% of the bankroll\n\nThe survivors hit my phone. I tap yes or no.\n\nThe $1 → $3.3M is a viral claim (a video shared on X covering Aug 2025 to Apr 2026). It's not my result, and nobody has independently verified it. Pro bots are fast, so most gaps close in seconds.\n\nComment ARB and I'll DM you my free Gap-Finder Blueprint: how it works, how to build it, plus a free prompt that checks any game in Claude today. The finished, tested bot is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.\n\nEducational, not financial advice. Numbers on the slides are examples. It never places a bet on its own. Check that sports prediction markets are legal where you live.\nVoiceover is AI-generated.\n#polymarket #sportsbetting #aitrading #claudeai #predictionmarkets"
   },
   {
     "key": "C17-JARVIS-OS-REEL",
