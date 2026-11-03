@@ -1,85 +1,211 @@
 ---
 title: Claude × TradingView Blueprint
-promise: Connect Claude to your TradingView charts so it reads every setup and texts you. Level 1 is free and takes 5 minutes. Levels 2 and 3 show how the automatic version works.
+promise: Turn Claude into your own TradingView analyst tonight. Master Prompt, 25 copy-paste prompts, alert templates, risk rules and a free tested indicator. Level 1 takes 15 minutes.
 minutes: 10
 nextSystemSlug: tradingview-claude-chart-analyst
 ---
 
-# Claude × TradingView Blueprint
+# Claude × TradingView: The Complete Analyst Kit
 
 **"I connected Claude to TradingView, and now it reads every chart for me."**
 
-You've seen the posts. I rebuilt that setup from scratch and tested it. Here's how it works, in 3 levels. Level 1 is free and you'll have it in 5 minutes. If you'd rather skip building Levels 2 and 3, the finished version is at the end.
+You've seen the posts. Here's the full kit, free: the Master Prompt, 25 copy-paste prompts, the alert setup, the risk rules and a free indicator we actually tested. If you'd rather have it all running automatically, the finished version is at the end.
 
 **When you're done, you'll have:**
 
-- ✅ Your own Claude chart analyst (Level 1, free, tonight)
-- ✅ The plan for TradingView alerts that watch charts for you (Level 2)
-- ✅ The plan for Claude reading every alert and texting you (Level 3)
+- ✅ Your own Claude chart analyst that follows **your** rules (tonight, free)
+- ✅ TradingView alerts that send Claude every number it needs
+- ✅ A daily 10-minute routine, a risk calculator and a trade journal
+- ✅ 25 copy-paste prompts for every step
 
-**How it works:** Level 1: Claude reads your chart → Level 2: TradingView watches for you → Level 3: Claude checks every alert and texts you
+**How it works:** Connect → Scan → Analyze → Decide → Alert → Review
 
-> **READ FIRST:** Start with Level 1. It's free and takes 5 minutes. Level 3's phone texts need a paid TradingView plan for webhooks.
+> **READ FIRST (the honest truth):** TradingView has no official way for Claude to read your live charts on its own. Anyone promising that is selling you something. What really works: (1) screenshots or exported data into Claude, (2) Claude writing Pine Script for you, and (3) alert webhooks that send signals out (paid TradingView plan). That's what this kit uses. Claude helps you analyze. It never trades, and you make every decision.
 
-**Why this works:** TradingView is great at watching prices. Claude is great at explaining what it sees. Put them together and you get a tireless chart reader that never gets tired, scared or greedy.
+## What connects to what
 
-## Level 1: Claude reads your chart (5 minutes, free)
+| Connection | Direction | What it does | Cost |
+|---|---|---|---|
+| Screenshot → Claude | TradingView → Claude | Claude reads the trend, levels and setup from a picture | Free |
+| Export data → Claude | TradingView → Claude | Export the chart data (CSV), Claude reads the numbers | Free |
+| Claude writes Pine Script | Claude → TradingView | Claude codes an indicator, you paste it in | Free |
+| Phone alerts | TradingView → you | Your phone pings when a level or signal hits | Free |
+| Webhook alerts | TradingView → your app → Claude | Each alert goes straight to Claude to check | Paid TradingView plan |
 
-1. In [Claude](https://claude.ai/), make a **Project** called **Chart Analyst**. Paste this into its instructions:
+## The 15-minute setup
+
+| Minutes | Do this |
+|---|---|
+| 0–3 | Make a Claude Project called **Chart Analyst**. Paste the Master Prompt (Step 1). |
+| 3–7 | Paste your rules file (Step 2). Now Claude knows your setups. |
+| 7–11 | Screenshot one chart, run the 4-step read (Step 3). Check it matches what you see. |
+| 11–15 | Add the free Milli Dots indicator and one alert (Step 4). |
+
+## Step 1: The Master Prompt (3 minutes)
+
+In [Claude](https://claude.ai/), make a **Project** called **Chart Analyst**. Paste this into its instructions:
 
 ```text
-You are my chart analyst. You never tell me to buy or sell. I decide.
-When I upload a chart:
-1. Name the stock, timeframe and dates you can see.
-2. TREND: up, down or sideways, and why.
-3. KEY PRICES: the 2 most important support and resistance prices.
-4. SETUP: breakout, pullback, reversal or none. Explain it simply.
-5. PLAN: entry, stop (where the idea is wrong) and target.
-6. RED FLAG: the best reason NOT to take it.
-7. VERDICT: TAKE A CLOSER LOOK, WATCH or SKIP.
-Only use what's on the chart. Never make up numbers. Plain English.
+You are my TradingView analyst. I send you chart screenshots, exported data or alert messages.
+You analyze them against MY rules and help me decide. You never decide for me.
+
+Your jobs:
+1. Read every chart in 4 steps: STRUCTURE, LEVELS, SETUP MATCH, INVALIDATION.
+2. Judge setups only against my rules file, not generic opinions.
+3. Work out position size from my stop distance and show the math.
+4. When an alert message comes in, re-check the setup. Still valid, or not?
+5. After a closed trade, grade whether I followed my plan and give me one lesson.
+
+Hard limits:
+- Never predict prices. Never say "buy" or "sell". Say what MY rules say.
+- You're reading a picture or numbers I paste. Say how sure you are.
+  Tell me to confirm exact prices on the live chart.
+- Never make up price data.
+- Remind me: practice new setups with pretend money first. Not financial advice.
+
+Start by asking for my rules file, my account size and my first chart.
 ```
 
-2. In [TradingView](https://www.tradingview.com/chart/), open any chart. Press **Alt+S** (Windows) or **Option+S** (Mac) to save a screenshot.
-3. Drop the picture into your Project. Get your read in about a minute.
+## Step 2: Your rules file (4 minutes)
 
-**Tip:** add the **EMA 20**, **EMA 50** and **volume** to the chart first. Claude can only read what it can see.
+Claude is only as good as the rules you give it. Fill this in and paste it into the Project (or save it as a file in the Project):
 
-## Level 2: Let TradingView do the watching
+```text
+MY RULES FILE
+Account size: $____
+Max risk per trade: 1% of the account
+Stop: only where the idea is proven wrong. Never moved further away.
+Minimum reward: 2x the risk (2R)
+Max open trades: 3
+New setups: practice 30 times with pretend money before real money
 
-Instead of you checking charts, a small TradingView script watches them for you. It fires an alert when it sees one of two setups:
+MY SETUPS (2 or 3 max)
+1. Breakout: daily close above the highest high of the last 20 days, above the 200 EMA, volume above average.
+2. Pullback: uptrend (50 EMA above 200 EMA), price dips to the 20 EMA and closes back above it.
+3. (Your own): ____
+```
 
-- **Breakout:** price closes above its highest point of the last 20 days.
-- **Pullback:** in an uptrend, price dips to the EMA 20 and bounces back above it.
+**Tip:** before you screenshot, add the **EMA 20, 50 and 200** and **volume** to the chart. Claude can only read what it can see.
 
-It only fires when a candle **closes**, not halfway through, so you don't get fooled by moves that reverse. Each alert includes all the numbers Claude needs.
+## Step 3: The 4-step chart read (4 minutes)
 
-## Level 3: Claude reads every alert and texts you
+In TradingView, open a chart and press **Alt+S** (Windows) or **Option+S** (Mac) to save a screenshot. Drop it into your Project with: *"Run the 4-step read."*
 
-TradingView can send each alert to a small web app (this is called a "webhook"). The app:
+| Step | What Claude checks |
+|---|---|
+| 1. Structure | Trend direction, higher highs or lower lows, the bigger picture |
+| 2. Levels | The key support and resistance prices, recent swing points |
+| 3. Setup match | Does this match one of MY setups, or none? |
+| 4. Invalidation | Where is the idea proven wrong? That's the stop. |
 
-1. Checks a secret password so nobody can send fake alerts.
-2. Sends the numbers to Claude to read, with your account size, so it can work out a safe position size.
-3. Texts Claude's answer to your phone (a free Telegram bot).
-4. Saves every alert so you can see what happened later.
+> **Honest limit:** Claude reads a picture. It can get exact prices wrong. Treat it as a second opinion that has to agree with what you see. Always check the levels on the real chart.
 
-**To build it yourself,** you'd write the TradingView script (in its Pine Script language), build and host the web app, connect Claude and Telegram, and test it all end to end. A few evenings if you've done this before.
+## Step 4: Add a free tested indicator + your first alert (4 minutes)
 
-> Educational only. Not financial advice. Claude reads charts. It never trades.
+Want dots on your chart instead of eyeballing setups? Use our free **Milli Dots** indicators. We picked the settings on 2010–2019 data and tested them on 2020–2026, years they'd never seen: **Pullback Dots won 27 of 33 S&P 500 futures trades (hypothetical backtest)** and **Trend Dots was profitable on 41 of 43 markets**. Get the code free at [milli-ai.com/free/dots](https://milli-ai.com/free/dots).
+
+Then set the alert:
+
+1. Click the **alarm clock** (Alerts) on the right → **Create alert**.
+2. Condition: **Milli Pullback Dots** (or Trend Dots) → **alert() function calls only**. Or pick a price level: **Crossing** your price.
+3. Trigger: **Once per bar close**, so you don't get fooled by moves that reverse mid-candle.
+4. Paste this into the **Message** box, so every alert carries the numbers Claude needs:
+
+```text
+{"ticker":"{{ticker}}","exchange":"{{exchange}}","timeframe":"{{interval}}","price":"{{close}}","high":"{{high}}","low":"{{low}}","volume":"{{volume}}","time":"{{time}}","setup":"breakout"}
+```
+
+5. Turn on **Notify in app** and install the TradingView phone app. When it pings, paste the message into Claude with prompt #16.
+
+## Step 5: Your 10-minute daily routine
+
+- [ ] Check which alerts fired (TradingView does the watching, not you)
+- [ ] Screenshot those charts and run prompt #5 to rank them
+- [ ] Run the 4-step read on the best one (prompt #6)
+- [ ] If it passes, build the plan and size it (prompts #13 and #14)
+- [ ] Log it in your journal, even the ones you skip
+
+**Why only a few charts?** Claude reads what you show it. It can't watch 40 live charts. The edge is one consistent analyst applying **your** rules the same way every time.
+
+## Step 6: Risk rules that keep you in the game
+
+Keep these in your rules file. They're not optional:
+
+- **Max 1% risk per trade.** Ten losses in a row costs about 10%, not your account.
+- **Stop at invalidation only.** Never move it further away.
+- **At least 2R.** If the target isn't twice the risk, skip it.
+- **Max 3 open trades.**
+- **Size from the stop:** shares = (account × 1%) ÷ (entry − stop). Prompt #13 does the math.
+
+## Step 7: Review = where the edge grows
+
+After every trade, screenshot the chart with your entry and exit marked and run prompt #18. Write 4 lines in your journal: the setup, the result in R, did you follow the plan, one lesson. Every week, paste the journal into Claude and run prompt #19. This loop is where traders actually get better.
+
+## 25 copy-paste prompts
+
+**Set up**
+1. "Write a TradingView Pine Script v6 indicator for these rules: [rules]. Mark buy signals with dots, add alert() calls that include the ticker and price, and add strategy tester code with commissions."
+2. "Turn this TradingView alert into a clean message with ticker, price, timeframe and setup name: [alert]."
+3. "Here are my setups and risk rules: [paste]. Turn them into a rules file you'll apply to every chart I send."
+4. "Explain step by step, like I'm a beginner, how to send a TradingView webhook alert to a free n8n or Make.com workflow that saves it to a sheet."
+
+**Scan and analyze**
+5. "Here are [N] chart screenshots. Rank them by how well each matches my setups. Best first, one line each."
+6. "Run the 4-step read on this chart: structure, levels, setup match, invalidation."
+7. "Here's exported OHLCV data for [ticker]: [paste CSV]. Find the trend, recent support and resistance, and any setup forming. Use only this data."
+8. "Compare the daily chart and the 1-hour chart: [2 screenshots]. Do they agree or conflict? What do my rules say when they conflict?"
+
+**Levels and setups**
+9. "Mark the 3 strongest support and 3 strongest resistance prices on this chart. Rate each by how many times it was tested."
+10. "Is this a real breakout or a fakeout risk? What would confirm it, and what would prove it wrong?"
+11. "Score this setup 1 to 10 against my checklist and give me the single biggest reason to skip it."
+12. "Where are the entry, stop and target on this chart, per my rules? Give it as a plan, not a prediction."
+
+**Decide and risk**
+13. "Position size: account $[X], 1% risk, entry $[A], stop $[B]. Show the math."
+14. "Build a full trade plan from this setup. Flag it if the reward is less than 2x the risk."
+15. "Talk me out of this trade. Give me the strongest case against it and the first warning signs it's failing."
+
+**Alerts and monitoring**
+16. "An alert just fired: [paste the alert message]. Re-check it against my rules. Still valid, or did something change?"
+17. "Here's my watchlist with trigger prices: [paste]. Which are closest to triggering, and what should I have ready?"
+18. "Review this closed trade: [screenshot with entry and exit + my plan]. Did I follow the plan? One lesson."
+19. "Here's my journal for the week: [paste]. Which setups, times of day or habits show up in my wins vs my losses?"
+20. "Am I ready for real money? Judge my pretend-money record: [stats]. My bar: 30+ trades, positive average R, followed my plan 90%+ of the time. Be brutal."
+
+**Bonus prompts**
+21. "Here's a Pine Script error from TradingView: [paste]. Fix the script and explain the fix in one line."
+22. "Rewrite this indicator so it only fires when the daily trend agrees with the 1-hour signal: [paste code]."
+23. "Check my rules for holes: [paste rules file]. What situations do they not cover?"
+24. "Here are 20 of my past trades: [paste]. If I'd skipped every trade under 2R, what would my results have been?"
+25. "Earnings or big news this week for [tickers]? List dates with sources. If you can't verify a date, say so."
+
+## Level 3: Make it automatic (the honest version)
+
+Here's how the fully automatic version works:
+
+TradingView alert fires → webhook → your small web app → Claude checks it against your rules → a text on your phone → **you** decide.
+
+To build it yourself you'd need: the Pine Script (Step 4), a hosted web app with a secret password so nobody can send fake alerts, Claude's API, a free Telegram bot for the texts, and a log of every alert. A few evenings if you've done this before. It needs a paid TradingView plan for webhooks.
 
 ## Your first run checklist
 
-- [ ] Claude read one of your charts (Level 1)
-- [ ] You set one TradingView alert (Level 2)
-- [ ] You know what Level 3 adds
+- [ ] Master Prompt and rules file are in your Chart Analyst Project
+- [ ] Claude ran the 4-step read on one chart, and it matched what you see
+- [ ] You set one alert with the message template
+- [ ] Your journal has its first entry
 
 ## Troubleshooting
 
 | Problem | Fix |
 |---|---|
-| Claude misreads the chart | Use a clean daily chart with the price axis showing. |
-| The alert never fires | Set it to "Once per bar close" and turn on app notifications. |
-| Webhooks are greyed out | Webhooks need a paid TradingView plan. Levels 1 and 2 are free. |
+| Claude misreads prices | Zoom in so the price axis is readable, or paste the key prices as text. |
+| Claude says "buy" or "sell" | Paste the Master Prompt again. It should only say what your rules say. |
+| The alert never fires | Use "Once per bar close" and turn on app notifications. Check the condition is right. |
+| Webhook option is greyed out | Webhooks need a paid TradingView plan. Everything else in this kit is free. |
+| "Script could not be translated" | Paste the error into Claude with prompt #21. |
+
+> Hypothetical backtests on past prices; past results don't guarantee future results. Educational only, not financial advice. Claude analyzes. It never trades. You make every decision.
 
 ## Want it done for you?
 

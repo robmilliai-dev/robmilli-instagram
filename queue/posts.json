@@ -498,5 +498,82 @@
       "reels/o-dots.mp4"
     ],
     "caption": "27 wins out of 33 S&P trades. One free indicator. 2-minute setup. 📈\n\nWe built our own TradingView indicator, then did everything we could to break it:\n🔒 Settings locked on 2010–2019 data\n🧪 Graded on 2020–2026, years it never saw\n✅ Profitable on 34 of 43 markets (losers shown on slide 4)\n📉 Worst drop on the S&P: -2.4% at 1% risk per trade\n\nHow it works: buy the sharp dip, only in an uptrend. Exit on the bounce.\n\nBonus: Trend Dots, profitable on 41 of 43 markets in the same unseen-data test.\n\nComment DOTS and I'll DM you both indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: S&P 500 futures, daily, Jan 2020–Nov 2026, 33 trades, 1% risk per trade, costs included. 43 markets tested; losers included. Past results don't guarantee future results. Educational tools, not financial advice. You make every decision.\nVoiceover is AI-generated.\n#tradingview #pinescript #tradingindicator #daytrading #stockmarket"
+  },
+  {
+    "key": "C21-DIP-REEL",
+    "kind": "reel",
+    "keyword": "DIP",
+    "scheduledAt": "2026-11-08T16:00:00Z",
+    "media": [
+      "reels/o-dip.mp4"
+    ],
+    "caption": "81% of S&P 500 dip-buys won. 57 out of 70. One free indicator. 📉➡️📈\n\nOur new free TradingView indicator, Milli Index Dip:\n1️⃣ Uptrend only: price above its 200-day average\n2️⃣ Panic day: 2-day RSI under 20 and the close near the day's low = blue dot\n3️⃣ Sell the bounce: 2-day RSI over 70, or 10 days, or a wide safety stop\n\nWe picked the settings on 2010–2019 data, then graded it on 2020–2026, years it never saw:\n✅ 57 of 70 SPY trades won (81%)\n💵 $2.03 won for every $1 lost\n📉 Worst drop -10% (SPY itself fell -34%)\n\nTested on 22 markets. Best on indexes (S&P futures 80%, QQQ 80%). Weaker on single stocks, and it lost money on Bitcoin, so we call it an index tool.\n\nComment DIP and I'll DM you the code. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: SPY daily, Jan 2020–Oct 2026, 70 trades, fully invested, costs included. It's in the market about 17% of the time; holding SPY made more over the period (+156% vs +36%). Past results don't guarantee future results. Educational tool, not financial advice.\nVoiceover is AI-generated.\n#tradingview #pinescript #spy #stockmarket #tradingindicator"
+  },
+  {
+    "key": "B15-WHALE",
+    "kind": "carousel",
+    "keyword": "WHALE",
+    "scheduledAt": "2026-11-08T19:00:00Z",
+    "media": [
+      "b15-whale/slide-1.jpg",
+      "b15-whale/slide-2.jpg",
+      "b15-whale/slide-3.jpg",
+      "b15-whale/slide-4.jpg",
+      "b15-whale/slide-5.jpg",
+      "b15-whale/slide-6.jpg",
+      "b15-whale/slide-7.jpg",
+      "b15-whale/slide-8.jpg"
+    ],
+    "caption": "The #1 Polymarket wallet made $7,733,265 this month. 🐋\n\nEvery wallet on Polymarket is public. So I built 6 AI agents that read them all:\n\n🔎 Wallet Scout pulls the top wallets from the public leaderboard\n🧪 Luck Filter kills one-hit wonders, brand-new accounts and high-speed bots you can't copy\n📡 Market Scanner finds bets 2+ smart wallets share right now\n📊 Odds Analyst checks if there's still value, or the move already happened\n🛡️ Risk Manager can veto anything (price already moved, thin market, too big)\n📒 Tracker logs every idea with pretend money first\n\nWhen I ran it on Nov 3, 9 of the top 25 wallets failed the Luck Filter. Big profit isn't the same as skill.\n\nComment WHALE and I'll DM you the free step-by-step guide, including the Luck Filter prompt. No code needed. 📌 Save this.\n\nReal public Polymarket leaderboard data from Nov 3, 2026; wallet names are public usernames. Past profits don't predict future results. It never places a bet; you make every decision. Check that prediction markets are legal where you live. Educational, not financial advice.\n#polymarket #predictionmarkets #aiagents #claudeai #aitrading"
+  },
+  {
+    "key": "C22-PROP-REEL",
+    "kind": "reel",
+    "keyword": "PROP",
+    "scheduledAt": "2026-11-08T22:00:00Z",
+    "media": [
+      "reels/o-prop.mp4"
+    ],
+    "caption": "64 prop challenges passed. 2 blown. Same rules every month since 2020. 📊\n\nWe ran a new $100K challenge every single month from January 2020 to now: 83 of them, under FTMO-style rules (+10% to pass, 10% max loss, 5% daily loss).\n\nEach one traded our free indicator, Milli Trend Dots, on 8 daily markets at 1% risk:\n✅ 64 passed\n❌ 2 blown\n⏳ 17 still running\n\nThe secret isn't the entry. It's the risk. Same dots at 2% risk passed faster but blew 21 accounts.\n\nComment PROP and I'll DM you the playbook: the indicator code, the exact 1% risk rules and the 1-minute daily checklist. 📌 Save this.\n\nIt's not fast: the median pass took about 4.5 months, and every challenge started since mid-2025 is still running. Hypothetical simulation on daily prices, costs included; markets and settings picked on 2010–2019 data. Real firms have their own rules and fees. Not affiliated with or endorsed by FTMO or any prop firm. Not financial advice.\nVoiceover is AI-generated.\n#propfirm #proptrading #fundedtrader #tradingview #daytrading"
+  },
+  {
+    "key": "C23-WHALE-REEL",
+    "kind": "reel",
+    "keyword": "WHALE",
+    "scheduledAt": "2026-11-09T16:00:00Z",
+    "media": [
+      "reels/o-whale.mp4"
+    ],
+    "caption": "The #1 Polymarket wallet made $7,733,265 this month. 🐋\n\nEvery wallet on Polymarket is public. So I built 6 AI agents that read them all:\n\n🔎 Wallet Scout pulls the top wallets from the public leaderboard\n🧪 Luck Filter kills one-hit wonders, brand-new accounts and high-speed bots you can't copy\n📡 Market Scanner finds bets 2+ smart wallets share right now\n📊 Odds Analyst checks if there's still value, or the move already happened\n🛡️ Risk Manager can veto anything (price already moved, thin market, too big)\n📒 Tracker logs every idea with pretend money first\n\nWhen I ran it on Nov 3, 9 of the top 25 wallets failed the Luck Filter. Big profit isn't the same as skill.\n\nComment WHALE and I'll DM you the free step-by-step guide, including the Luck Filter prompt. No code needed. 📌 Save this.\n\nReal public Polymarket leaderboard data from Nov 3, 2026; wallet names are public usernames. Past profits don't predict future results. It never places a bet; you make every decision. Check that prediction markets are legal where you live. Educational, not financial advice.\nVoiceover is AI-generated.\n#polymarket #predictionmarkets #aiagents #claudeai #aitrading"
+  },
+  {
+    "key": "B13-DIP",
+    "kind": "carousel",
+    "keyword": "DIP",
+    "scheduledAt": "2026-11-09T19:00:00Z",
+    "media": [
+      "b13-dip/slide-1.jpg",
+      "b13-dip/slide-2.jpg",
+      "b13-dip/slide-3.jpg",
+      "b13-dip/slide-4.jpg",
+      "b13-dip/slide-5.jpg",
+      "b13-dip/slide-6.jpg"
+    ],
+    "caption": "81% of S&P 500 dip-buys won. 57 out of 70. One free indicator. 📉➡️📈\n\nOur new free TradingView indicator, Milli Index Dip:\n1️⃣ Uptrend only: price above its 200-day average\n2️⃣ Panic day: 2-day RSI under 20 and the close near the day's low = blue dot\n3️⃣ Sell the bounce: 2-day RSI over 70, or 10 days, or a wide safety stop\n\nWe picked the settings on 2010–2019 data, then graded it on 2020–2026, years it never saw:\n✅ 57 of 70 SPY trades won (81%)\n💵 $2.03 won for every $1 lost\n📉 Worst drop -10% (SPY itself fell -34%)\n\nTested on 22 markets. Best on indexes (S&P futures 80%, QQQ 80%). Weaker on single stocks, and it lost money on Bitcoin, so we call it an index tool.\n\nComment DIP and I'll DM you the code. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: SPY daily, Jan 2020–Oct 2026, 70 trades, fully invested, costs included. It's in the market about 17% of the time; holding SPY made more over the period (+156% vs +36%). Past results don't guarantee future results. Educational tool, not financial advice.\n#tradingview #pinescript #spy #stockmarket #tradingindicator"
+  },
+  {
+    "key": "B14-PROP",
+    "kind": "carousel",
+    "keyword": "PROP",
+    "scheduledAt": "2026-11-10T19:00:00Z",
+    "media": [
+      "b14-prop/slide-1.jpg",
+      "b14-prop/slide-2.jpg",
+      "b14-prop/slide-3.jpg",
+      "b14-prop/slide-4.jpg",
+      "b14-prop/slide-5.jpg",
+      "b14-prop/slide-6.jpg"
+    ],
+    "caption": "64 prop challenges passed. 2 blown. Same rules every month since 2020. 📊\n\nWe ran a new $100K challenge every single month from January 2020 to now: 83 of them, under FTMO-style rules (+10% to pass, 10% max loss, 5% daily loss).\n\nEach one traded our free indicator, Milli Trend Dots, on 8 daily markets at 1% risk:\n✅ 64 passed\n❌ 2 blown\n⏳ 17 still running\n\nThe secret isn't the entry. It's the risk. Same dots at 2% risk passed faster but blew 21 accounts.\n\nComment PROP and I'll DM you the playbook: the indicator code, the exact 1% risk rules and the 1-minute daily checklist. 📌 Save this.\n\nIt's not fast: the median pass took about 4.5 months, and every challenge started since mid-2025 is still running. Hypothetical simulation on daily prices, costs included; markets and settings picked on 2010–2019 data. Real firms have their own rules and fees. Not affiliated with or endorsed by FTMO or any prop firm. Not financial advice.\n#propfirm #proptrading #fundedtrader #tradingview #daytrading"
   }
 ]
