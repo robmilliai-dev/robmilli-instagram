@@ -14,6 +14,10 @@ One free TradingView indicator. When the S&P 500 has a panic day inside an uptre
 - Buy dots on panic days, exit marks on the bounce
 - A phone alert every time a new dot shows up
 
+**How it works:** Uptrend check → panic day = blue dot → you get a phone alert → sell the bounce (orange x)
+
+> **READ FIRST:** Daily charts only. Big indexes only (SPY, QQQ, S&P or Nasdaq futures). No leverage. It never places a trade for you.
+
 ## Why this works
 
 We picked the settings using 2010 to 2019 data only. Then we tested on January 2020 to October 2026: years the indicator had never seen.
@@ -89,6 +93,15 @@ if strategy.position_size > 0 and r > rsiExit
 2. Condition: pick **Milli Index Dip**, then **alert() function calls only**.
 3. Turn on **Notify in app**. Click **Create**.
 4. Install the TradingView app on your phone and log in. New dots now ping your phone.
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| No dots on the chart | Switch to the **1D** (daily) chart and scroll back. Dots only appear when price is above the gray 200-day line. |
+| "Script could not be translated" error | Make sure you deleted everything in the Pine Editor before pasting, and that the first line is `//@version=6`. |
+| Alert doesn't fire | In the alert, pick **alert() function calls only**, not "Buy dot". |
+| Lots of dots on a stock or crypto | It's built for indexes. On single stocks it's weaker and on Bitcoin it lost money. |
 
 ## Keep it safe
 

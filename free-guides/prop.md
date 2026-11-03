@@ -14,6 +14,10 @@ Most people blow prop challenges the same way: too much risk, too fast. This pla
 - The exact risk rules we tested
 - A 1-minute daily checklist so you never hit the daily loss limit
 
+**How it works:** 8 daily charts → blue breakout dot → 1% risk to the red stop line → the stop only moves up → +10% = pass
+
+> **READ FIRST:** This is a simulation, not a promise. It's slow on purpose. Never raise risk to catch up. Not affiliated with any prop firm.
+
 ## What we tested
 
 We simulated a new $100k challenge every month from January 2020 to now: **83 challenges**. FTMO-style rules: +10% to pass, 10% max loss, 5% max daily loss, no time limit. Each one traded Milli Trend Dots on 8 daily markets at once, picked using 2010-2019 data only.
@@ -112,6 +116,16 @@ if flat and sellSig
 3. **Up 10%?** You passed. Stop trading the challenge.
 
 Optional extra safety (not part of our test, so it can make passes slower): stop for the day if you're down 3%, and cut risk to 0.5% if you're down 6% overall.
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| No dots on the chart | Use the **1D** chart. Dots only appear on a fresh 20-day breakout above the 200 EMA. Some weeks have none. |
+| "Script could not be translated" error | Delete everything in the Pine Editor first, then paste. The first line must be `//@version=6`. |
+| My firm doesn't offer BTC or TSLA | Skip them, or use the closest market it offers (e.g. another big US stock or index). |
+| Two dots on the same day | Take both at 1% each. That's how the test ran. |
+| Down a lot in one week | Normal for trend systems. Keep 1% risk. The test's worst cases came from raising risk. |
 
 ## Keep it safe
 
