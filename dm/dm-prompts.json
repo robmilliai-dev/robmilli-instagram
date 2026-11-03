@@ -1,0 +1,21 @@
+{
+ "CHART": "Try this now: upload a daily chart to Claude and paste: \"Read this chart. Give me the trend, the 2 key prices, the setup, the biggest red flag, and one line on what to watch. Only use what you can see.\"",
+ "DESK": "Try this now: paste into Claude: \"My stock is ___ and my alert price is ___. If it closes past that price, what would make it real and what would make it a fake move? Answer STILL VALID, WAIT or IGNORE.\"",
+ "HEDGE": "Try this now: paste into Claude: \"Act as 3 analysts: Bull, Bear and Risk Manager. Debate [ticker] in 3 short turns, then give PASS, WATCH or CANDIDATE. Risk can veto. Use only facts you can date.\"",
+ "TEAM": "Try this now: paste into Claude: \"You are my support rep. Draft a friendly reply to this customer message, flag anything you are unsure about, and never promise refunds or dates: [paste message].\"",
+ "TERMINAL": "Try this now: paste a table of prices into Claude with: \"Write a 5-line morning brief using ONLY these numbers. Show the date of each number. Say 'not in data' for anything missing.\"",
+ "LEGENDS": "Try this now: paste into Claude: \"Turn this investing idea into one simple rule with exact numbers, then list every way a test of it could fool me: [idea].\"",
+ "TRADINGVIEW": "Try this now: screenshot a chart and paste into Claude: \"Run a 4-step read: structure, key levels, does it match my setup, and where is the idea wrong. Say how sure you are.\"",
+ "DOTS": "Quick tip: set your alert to \"Once per bar close\" so you only get dots that hold.",
+ "DIP": "Quick tip: use it on daily S&P 500 or Nasdaq 100 charts only. That is what we tested.",
+ "PROP": "Quick tip: risk 1% per trade. In our test, 2% blew 21 challenges, 1% blew 2.",
+ "WHALE": "Try this now: paste the Polymarket top 25 into Claude with: \"Mark each wallet PASS or FAIL. FAIL if profit is under 1% of volume, it made its money in 1-3 markets, or it is not on the all-time board.\"",
+ "24/7": "Try this now: screenshot a chart and paste into Claude: \"Is this a breakout or pullback in line with the 200-day trend? Check my 1% risk rule and reply APPROVE FOR REVIEW, WATCHLIST or REJECT.\"",
+ "JARVIS": "Try this now: paste into Claude: \"Here are my holdings: [list]. What moved this week and why? Give a source and a date for every number.\"",
+ "POLYBOT": "Try this now: paste a Polymarket market into Claude with: \"Give me the best case for YES and NO, what dated news says, and a Risk veto check. End with WATCH or SKIP.\"",
+ "ARENA": "Try this now: screenshot a BTC chart and paste: \"Build a plan: entry, stop where the idea is wrong, target at 2x risk, size at 1% of $10,000. Flag it if it fails any rule.\"",
+ "ARB": "Try this now: paste both prices into Claude: \"Convert these odds to percentages, remove the bookie's cut, and tell me the real gap after fees. Then list how the two sites might settle differently.\"",
+ "BOARD": "Try this now: paste into Claude: \"Act as 5 board seats: News, Crowd, Chart, Bull and Risk. Each votes on [ticker] with one reason. Risk can block. Count the vote.\"",
+ "HQ": "Try this now: paste into Claude: \"Send [ticker] up 6 floors: Scan, Research, Charts, Test, Risk, Decision. Any floor can stop it. Tell me which floor stopped it and why.\"",
+ "BOTS": "Try this now: paste into Claude: \"Act as 7 bots: Trend, Momentum, Value, News, Sentiment, Devil's Advocate, Risk. Each votes YES or NO on [ticker]. 5 of 7 must agree and Risk can veto.\""
+}
