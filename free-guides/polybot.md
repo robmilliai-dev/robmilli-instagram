@@ -72,6 +72,70 @@ Every run is saved to a log. After a month, you can see if the team beat the mar
 
 > Educational only. Not financial advice. You can lose what you bet. Check that Polymarket is allowed where you live.
 
+## Build the starter bot with Claude Code (20 minutes)
+
+Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter POLYBOT that scans Polymarket markets and runs the 6 agents on the best ones. It runs on pretend money or in read-only mode. It never places a trade or bet.
+
+**You need:** [Claude Code](https://code.claude.com/docs/en/quickstart) (needs a paid Claude plan), Python 3, and an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) (pay as you go, usually cents per run).
+
+**1. Install Claude Code** (Mac/Linux terminal):
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Windows PowerShell: `irm https://claude.ai/install.ps1 | iex`
+
+**2. Make a folder and open Claude Code in it:**
+
+```bash
+mkdir polybot && cd polybot
+claude
+```
+
+**3. Paste this build prompt:**
+
+```text
+Build me a beginner-friendly starter bot called polybot in Python 3: a starter POLYBOT that scans Polymarket markets and runs the 6 agents on the best ones.
+
+WHAT IT DOES
+1. Pull active markets from the public Polymarket Gamma API (https://gamma-api.polymarket.com/markets?active=true&closed=false). If a field name is unclear, print a sample and leave a clear TODO instead of guessing.
+2. Keep markets with enough volume that resolve within 60 days. For the top 5, run 6 Claude roles: Scout, Odds, News, Thesis, Risk (can veto), Execution (writes the ticket only). Each replies as JSON.
+3. Never place bets. No wallet, no keys, no signing code. Log every ticket to logs/tickets.jsonl.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+```
+
+**4. Install and test:**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+```
+
+Add your key to `.env` with a text editor, then run it for real (the README shows the exact command).
+
+> **Keep your key safe:** never paste API keys into a chat, a screenshot or GitHub. Keep `.env` in `.gitignore`.
+
+**Starter vs finished**
+
+| | Starter (free, this prompt) | Finished (AI Desk) |
+|---|---|---|
+| Works on your computer | ✅ | ✅ |
+| Runs every hour and texts you the best tickets | ❌ | ✅ |
+| News checks with dated sources | ❌ | ✅ |
+| Self-grading log so you see if it works | ❌ | ✅ |
+| Tested agent prompts | ❌ | ✅ |
+| Tested by us, with setup support | ❌ | ✅ |
+
 ## Make it yours: your rules (3 minutes)
 
 Paste this under the agent prompt so every agent follows **your** limits:
