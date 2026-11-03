@@ -428,6 +428,19 @@
     "caption": "This Polymarket bot reportedly turned $1 into $3.3 million. 🤖\n\nIt didn't predict anything. It compared.\n\nSame game, two prices: the sportsbooks and Polymarket. When they disagree, one of them is wrong.\n\nSo I rebuilt it as a team of 4:\n📡 WATCHER pulls live odds from the big sportsbooks and live prices from Polymarket\n🧮 MATH strips out the bookie's cut to get the fair price\n🧠 CLAUDE reads the fine print: same game? same date? does overtime count?\n🛡️ RISK kills most of them: gap under 4 points, thin order book, stale odds, more than 2% of the bankroll\n\nThe survivors hit my phone. I tap yes or no.\n\nThe $1 → $3.3M is a viral claim (a video shared on X covering Aug 2025 to Apr 2026). It's not my result, and nobody has independently verified it. Pro bots are fast, so most gaps close in seconds.\n\nComment ARB and I'll DM you my free Gap-Finder Blueprint: how it works, how to build it, plus a free prompt that checks any game in Claude today. The finished, tested bot is in the AI Desk. Sign up at the link I send and the full guide will be emailed to you.\n\nEducational, not financial advice. Numbers on the slides are examples. It never places a bet on its own. Check that sports prediction markets are legal where you live.\nVoiceover is AI-generated.\n#polymarket #sportsbetting #aitrading #claudeai #predictionmarkets"
   },
   {
+    "key": "B17-GIVE-G1",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-06T13:00:00Z",
+    "media": [
+      "b16-give/g1/slide-1.jpg",
+      "b16-give/g1/slide-2.jpg",
+      "b16-give/g1/slide-3.jpg",
+      "b16-give/g1/slide-4.jpg",
+      "b16-give/g1/slide-5.jpg"
+    ],
+    "caption": "Steal my 1-prompt chart read. Free, no sign-up. 📈\n\nScreenshot any daily chart, paste it into Claude with the prompt on slide 3, and get the trend, the 2 key prices, the setup and the biggest red flag in about 60 seconds.\n\nThe red-flag line is the best part. It makes you look at the reason to skip before you get excited.\n\nThen check one price yourself. Claude can misread a chart. You're the boss.\n\nSave this for your next chart. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
     "key": "C17-JARVIS-OS-REEL",
     "kind": "reel",
     "keyword": "JARVIS",
@@ -464,6 +477,20 @@
     "caption": "Hedge funds pay 6 analysts to argue over every stock. I got all 6 for $0. 🧠\n\n6 AI experts argue about your stock before you spend a dollar:\n🌍 Macro: what the economy is doing\n📑 Fundamental: the company's real numbers\n📈 Technical: what the chart says\n🛡️ Risk Manager: can veto anything\n😈 Devil's Advocate: paid to kill the idea\n🎯 Portfolio Manager: makes one call, PASS, WATCH or CANDIDATE\n\nMost ideas never get a yes. That's the point. The ones that die here are the ones that would have cost you.\n\nComment HEDGE and I'll DM you the free setup: all 6 experts, ready to paste into Claude. Run it on any stock tonight, free. 📌 Save this.\n\nIt never buys or sells. You make every decision. Example on the slides is an illustration, not a result. Educational, not financial advice.\nVoiceover is AI-generated.\n#claudeai #aiagents #stockmarket #investing #hedgefund"
   },
   {
+    "key": "B18-GIVE-G2",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-07T13:00:00Z",
+    "media": [
+      "b16-give/g2/slide-1.jpg",
+      "b16-give/g2/slide-2.jpg",
+      "b16-give/g2/slide-3.jpg",
+      "b16-give/g2/slide-4.jpg",
+      "b16-give/g2/slide-5.jpg",
+      "b16-give/g2/slide-6.jpg"
+    ],
+    "caption": "How many shares should you buy? 10 seconds. 🧮\n\nRisk $ = account × 1%\nStop gap = entry − stop\nShares = Risk $ ÷ Stop gap\n\n$10,000 account, entry $50, stop $47: risk $100, gap $3, buy 33 shares. If the stop hits, you lose about $100. Not your account.\n\nWhy 1%? In our simulation of 83 prop challenges (Jan 2020–Nov 2026, same free indicator), 1% risk passed 64 and blew 2. At 2% risk, blown challenges jumped to 21.\n\nSave this before your next trade. Follow @robmilli.ai for a new free tool every day.\n\nHypothetical simulation. Past results don't guarantee future results. Not financial advice.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
     "key": "C19-TEAM-REEL",
     "kind": "reel",
     "keyword": "TEAM",
@@ -498,6 +525,19 @@
       "reels/o-dots.mp4"
     ],
     "caption": "27 wins out of 33 S&P trades. One free indicator. 2-minute setup. 📈\n\nWe built our own TradingView indicator, then did everything we could to break it:\n🔒 Settings locked on 2010–2019 data\n🧪 Graded on 2020–2026, years it never saw\n✅ Profitable on 34 of 43 markets (losers shown on slide 4)\n📉 Worst drop on the S&P: -2.4% at 1% risk per trade\n\nHow it works: buy the sharp dip, only in an uptrend. Exit on the bounce.\n\nBonus: Trend Dots, profitable on 41 of 43 markets in the same unseen-data test.\n\nComment DOTS and I'll DM you both indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: S&P 500 futures, daily, Jan 2020–Nov 2026, 33 trades, 1% risk per trade, costs included. 43 markets tested; losers included. Past results don't guarantee future results. Educational tools, not financial advice. You make every decision.\nVoiceover is AI-generated.\n#tradingview #pinescript #tradingindicator #daytrading #stockmarket"
+  },
+  {
+    "key": "B19-GIVE-G3",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-08T13:00:00Z",
+    "media": [
+      "b16-give/g3/slide-1.jpg",
+      "b16-give/g3/slide-2.jpg",
+      "b16-give/g3/slide-3.jpg",
+      "b16-give/g3/slide-4.jpg",
+      "b16-give/g3/slide-5.jpg"
+    ],
+    "caption": "Before you hit buy, ask Claude 3 questions. 🛑\n\n1. Where am I wrong? That exact price is your stop.\n2. What's the strongest case against this?\n3. Is anything due in the next 2 days? Earnings, Fed, CPI.\n\nIf you can't answer one, that is your answer.\n\nThe full prompt is on slide 3. It takes 60 seconds and it will save you from your most excited trades.\n\nSave this and use it every trade. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
   },
   {
     "key": "C21-DIP-REEL",
@@ -537,6 +577,19 @@
     "caption": "64 prop challenges passed. 2 blown. Same rules every month since 2020. 📊\n\nWe ran a new $100K challenge every single month from January 2020 to now: 83 of them, under FTMO-style rules (+10% to pass, 10% max loss, 5% daily loss).\n\nEach one traded our free indicator, Milli Trend Dots, on 8 daily markets at 1% risk:\n✅ 64 passed\n❌ 2 blown\n⏳ 17 still running\n\nThe secret isn't the entry. It's the risk. Same dots at 2% risk passed faster but blew 21 accounts.\n\nComment PROP and I'll DM you the playbook: the indicator code, the exact 1% risk rules and the 1-minute daily checklist. 📌 Save this.\n\nIt's not fast: the median pass took about 4.5 months, and every challenge started since mid-2025 is still running. Hypothetical simulation on daily prices, costs included; markets and settings picked on 2010–2019 data. Real firms have their own rules and fees. Not affiliated with or endorsed by FTMO or any prop firm. Not financial advice.\nVoiceover is AI-generated.\n#propfirm #proptrading #fundedtrader #tradingview #daytrading"
   },
   {
+    "key": "B20-GIVE-G4",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-09T13:00:00Z",
+    "media": [
+      "b16-give/g4/slide-1.jpg",
+      "b16-give/g4/slide-2.jpg",
+      "b16-give/g4/slide-3.jpg",
+      "b16-give/g4/slide-4.jpg",
+      "b16-give/g4/slide-5.jpg"
+    ],
+    "caption": "9 of the top 25 Polymarket wallets were probably just lucky. 🐋\n\nWe checked this month's top 25 profit wallets on Nov 3, 2026 with 3 simple rules:\n\n1. Made it on 1-3 big bets? One lucky bet can top the board.\n2. Not on the all-time board? No track record.\n3. Profit under 1% of volume? A high-speed bot you can't copy by hand.\n\nFail any one = don't copy. The prompt is on slide 3.\n\nSave this before you copy anyone. Follow @robmilli.ai for a new free tool every day.\n\nReal public Polymarket data. Past profits don't predict future results. Not financial advice. Check prediction markets are legal where you live.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
     "key": "C23-WHALE-REEL",
     "kind": "reel",
     "keyword": "WHALE",
@@ -560,6 +613,19 @@
       "b13-dip/slide-6.jpg"
     ],
     "caption": "81% of S&P 500 dip-buys won. 57 out of 70. One free indicator. 📉➡️📈\n\nOur new free TradingView indicator, Milli Index Dip:\n1️⃣ Uptrend only: price above its 200-day average\n2️⃣ Panic day: 2-day RSI under 20 and the close near the day's low = blue dot\n3️⃣ Sell the bounce: 2-day RSI over 70, or 10 days, or a wide safety stop\n\nWe picked the settings on 2010–2019 data, then graded it on 2020–2026, years it never saw:\n✅ 57 of 70 SPY trades won (81%)\n💵 $2.03 won for every $1 lost\n📉 Worst drop -10% (SPY itself fell -34%)\n\nTested on 22 markets. Best on indexes (S&P futures 80%, QQQ 80%). Weaker on single stocks, and it lost money on Bitcoin, so we call it an index tool.\n\nComment DIP and I'll DM you the code. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest: SPY daily, Jan 2020–Oct 2026, 70 trades, fully invested, costs included. It's in the market about 17% of the time; holding SPY made more over the period (+156% vs +36%). Past results don't guarantee future results. Educational tool, not financial advice.\n#tradingview #pinescript #spy #stockmarket #tradingindicator"
+  },
+  {
+    "key": "B21-GIVE-G5",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-10T13:00:00Z",
+    "media": [
+      "b16-give/g5/slide-1.jpg",
+      "b16-give/g5/slide-2.jpg",
+      "b16-give/g5/slide-3.jpg",
+      "b16-give/g5/slide-4.jpg",
+      "b16-give/g5/slide-5.jpg"
+    ],
+    "caption": "My AI morning brief prompt. Free. ☕\n\nPaste your watchlist prices into Claude with the prompt on slide 3 and get a 5-line brief: market mood, your biggest movers, anything near a 52-week high or low, and 3 things to watch.\n\nThe trick is \"ONLY these numbers.\" AI makes things up when you let it guess. This prompt makes it show dates and admit what's missing.\n\nSave this for tomorrow morning. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
   },
   {
     "key": "B14-PROP",
