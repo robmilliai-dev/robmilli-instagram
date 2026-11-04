@@ -402,20 +402,19 @@
     "caption": "Claude wrote my TradingView indicator. One prompt, zero coding. 📈\n\n1️⃣ Say the rule in plain English\n2️⃣ Claude writes the Pine Script\n3️⃣ Paste it into the Pine Editor → Add to chart\n4️⃣ Turn the signal into an alert\n5️⃣ Make Claude check every alert: VALID or SKIP, with the reason and the stop\n\nThe indicator finds the setup. Claude asks if it's actually good. You decide.\n\nComment TRADINGVIEW and I'll DM you the free setup guide. 📌 Save this.\n\nChart is an illustration. Webhook alerts need a paid TradingView plan. Educational, not financial advice.\nVoiceover is AI-generated.\n#tradingview #claudeai #pinescript #aitrading #stockmarket"
   },
   {
-    "key": "B12-TEAM-EMPLOYEE",
+    "key": "B22-TV-ALERTS",
     "kind": "carousel",
-    "keyword": "TEAM",
+    "keyword": "TRADINGVIEW",
     "scheduledAt": "2026-11-05T19:00:00Z",
     "media": [
-      "b12-team/slide-1.jpg",
-      "b12-team/slide-2.jpg",
-      "b12-team/slide-3.jpg",
-      "b12-team/slide-4.jpg",
-      "b12-team/slide-5.jpg",
-      "b12-team/slide-6.jpg",
-      "b12-team/slide-7.jpg"
+      "b17-tv/tv1/slide-1.jpg",
+      "b17-tv/tv1/slide-2.jpg",
+      "b17-tv/tv1/slide-3.jpg",
+      "b17-tv/tv1/slide-4.jpg",
+      "b17-tv/tv1/slide-5.jpg",
+      "b17-tv/tv1/slide-6.jpg"
     ],
-    "caption": "I hired an AI employee for $0. It drafts every customer reply in about 30 seconds. 🤖\n\nHere's the whole setup:\n1️⃣ Grab one real customer message (remove names and order numbers first)\n2️⃣ Paste one prompt that gives it the job: write drafts, never send, never make up refunds or dates\n3️⃣ It answers in 4 parts: STATUS, REPLY, CHECK BEFORE SENDING, NOT SURE ABOUT\n4️⃣ Legal threat, fraud or safety issue? It marks it ESCALATE and promises nothing\n\nThe AI drafts. You check and hit send. That's how real companies use AI support safely.\n\nComment TEAM and I'll DM you the free guide: the prompt, a practice message and the 5-point check. Works with free Claude or ChatGPT. 📌 Save this.\n\nExample reply on the slides is for illustration.\n#claudeai #aiagents #chatgpt #smallbusiness #automation"
+    "caption": "TradingView alerts that Claude checks for you. 📈\n\nStop jumping at every ping. When a TradingView alert fires, Claude checks it against YOUR rules and gives you one answer: STILL VALID, WAIT or IGNORE.\n\n1. Paste the alert message on slide 3 into TradingView's Message box. Now every alert carries the price, high, low, volume and time.\n2. When it pings, paste it into Claude with the check on slide 4.\n3. Claude asks: did price CLOSE past the level? Volume above normal? Earnings or Fed in 2 days? Where is the idea wrong?\n\nThe honest part: Claude can't watch your live charts by itself. Free version = phone alert + paste (10 seconds). Paid TradingView plan = webhooks send it automatically.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #aitrading #claudeai #daytrading #stockmarket"
   },
   {
     "key": "C25-ARB-REEL",
@@ -491,14 +490,14 @@
     "caption": "How many shares should you buy? 10 seconds. 🧮\n\nRisk $ = account × 1%\nStop gap = entry − stop\nShares = Risk $ ÷ Stop gap\n\n$10,000 account, entry $50, stop $47: risk $100, gap $3, buy 33 shares. If the stop hits, you lose about $100. Not your account.\n\nWhy 1%? In our simulation of 83 prop challenges (Jan 2020–Nov 2026, same free indicator), 1% risk passed 64 and blew 2. At 2% risk, blown challenges jumped to 21.\n\nSave this before your next trade. Follow @robmilli.ai for a new free tool every day.\n\nHypothetical simulation. Past results don't guarantee future results. Not financial advice.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
   },
   {
-    "key": "C19-TEAM-REEL",
+    "key": "C30-TV-MASTER-REEL",
     "kind": "reel",
-    "keyword": "TEAM",
+    "keyword": "TRADINGVIEW",
     "scheduledAt": "2026-11-07T16:00:00Z",
     "media": [
-      "reels/o-team.mp4"
+      "reels/o-tv2.mp4"
     ],
-    "caption": "I hired an AI employee for $0. It drafts every customer reply in about 30 seconds. 🤖\n\nHere's the whole setup:\n1️⃣ Grab one real customer message (remove names and order numbers first)\n2️⃣ Paste one prompt that gives it the job: write drafts, never send, never make up refunds or dates\n3️⃣ It answers in 4 parts: STATUS, REPLY, CHECK BEFORE SENDING, NOT SURE ABOUT\n4️⃣ Legal threat, fraud or safety issue? It marks it ESCALATE and promises nothing\n\nThe AI drafts. You check and hit send. That's how real companies use AI support safely.\n\nComment TEAM and I'll DM you the free guide: the prompt, a practice message and the 5-point check. Works with free Claude or ChatGPT. 📌 Save this.\n\nExample reply on the slides is for illustration.\nVoiceover is AI-generated.\n#claudeai #aiagents #chatgpt #smallbusiness #automation"
+    "caption": "Turn Claude into your own TradingView analyst. One master prompt. 📈\n\nEvery chart gets the same 4-step read:\n1. Structure: trend, higher highs or lower lows\n2. Levels: key support and resistance\n3. Setup match: does it match YOUR setup, or none?\n4. Invalidation: where the idea is wrong (your stop)\n\nThen it sizes the trade at 1% risk and shows the math. It never predicts prices and never tells you to buy or sell.\n\nThe master prompt and the rules file are in the video. Claude is only as good as your rules.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll send it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #aitrading #claudeai #daytrading #stockmarket"
   },
   {
     "key": "B11-HEDGE-6",
