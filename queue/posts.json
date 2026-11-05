@@ -667,5 +667,143 @@
       "reels/o-g3.mp4"
     ],
     "caption": "Before you hit buy, ask Claude 3 questions. 🛑\n\n1. Where am I wrong? That exact price is your stop.\n2. What's the strongest case against this?\n3. Is anything due in the next 2 days? Earnings, Fed, CPI.\n\nIf you can't answer one, that is your answer.\n\nThe full prompt is on slide 3. It takes 60 seconds and it will save you from your most excited trades.\n\nSave this and use it every trade. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
+    "key": "B23-NEWS-ANT",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-11T13:00:00Z",
+    "media": [
+      "b18-nov11/ant/slide-1.jpg",
+      "b18-nov11/ant/slide-2.jpg",
+      "b18-nov11/ant/slide-3.jpg",
+      "b18-nov11/ant/slide-4.jpg",
+      "b18-nov11/ant/slide-5.jpg"
+    ],
+    "caption": "The company behind Claude just filed to go public. Ticker: ANT. 📰\n\nAnthropic filed its S-1 with the SEC on Oct 26, 2026, to list on Nasdaq. From the filing:\n• 2025 revenue: $4.6B\n• Jan–Jun 2026 revenue: $16.3B\n• Jul–Sep 2026 revenue: about $17.0B (added in an updated filing in early November)\n\nThat's revenue, not profit. As of Nov 4, no share price or listing date was set, so check the latest news before you believe any headline.\n\nBig IPOs bring big noise. The smart move is to read the filing yourself. It's free on the SEC's EDGAR site, and the prompt on slide 4 turns hundreds of pages into a 1-page brief: what they sell, the numbers with dates, the 5 biggest risks, the lockup, and what's still blank.\n\nSave this for every IPO. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Anthropic S-1 (Oct 26, 2026) and S-1/A, as reported by Yahoo Finance (Oct 26) and StockTitan (Oct 26 + Nov 2). Not financial advice. We are not affiliated with Anthropic.\n#ainews #anthropic #claudeai #ipo #stockmarket"
+  },
+  {
+    "key": "C31-GIVE-G4-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-11T16:00:00Z",
+    "media": [
+      "reels/o-g4.mp4"
+    ],
+    "caption": "9 of the top 25 Polymarket wallets were probably just lucky. 🐋\n\nWe checked this month's top 25 profit wallets on Nov 3, 2026 with 3 simple rules:\n\n1. Made it on 1-3 big bets? One lucky bet can top the board.\n2. Not on the all-time board? No track record.\n3. Profit under 1% of volume? A high-speed bot you can't copy by hand.\n\nFail any one = don't copy. The prompt is in the video.\n\nSave this before you copy anyone. Follow @robmilli.ai for a new free tool every day.\n\nReal public Polymarket data. Past profits don't predict future results. Not financial advice. Check prediction markets are legal where you live.\nVoiceover is AI-generated.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
+    "key": "B24-LEGENDS-RULES",
+    "kind": "carousel",
+    "keyword": "LEGENDS",
+    "scheduledAt": "2026-11-11T19:00:00Z",
+    "media": [
+      "b18-nov11/lg1/slide-1.jpg",
+      "b18-nov11/lg1/slide-2.jpg",
+      "b18-nov11/lg1/slide-3.jpg",
+      "b18-nov11/lg1/slide-4.jpg",
+      "b18-nov11/lg1/slide-5.jpg"
+    ],
+    "caption": "Buffett, Lynch, Dalio, Soros and Simons didn't trade on feelings. Neither should you. 🏛️\n\nHere are their big ideas as 5 simple rules a computer can test:\n🏛️ Buffett: profitable, low debt, P/E under 25\n📈 Lynch: growing 15%+ a year, PEG under 1\n⚖️ Dalio: mix assets, rebalance monthly\n🌊 Soros: stay in while the last 6 months are up\n🔢 Simons: buy sharp dips in long uptrends\n\nGot your own idea? The prompt on slide 3 turns it into a clear, testable rule in 10 minutes. Then run the honest test: no peeking, pay the fees, and only the years you didn't build it on count.\n\nWant all 5 rules, the honest-test checklist and a 20-minute build prompt? Comment LEGENDS and I'll DM you the free guide.\n\nSimple teaching models inspired by public ideas, not their real strategies. None of these investors endorse this. Educational only. Not financial advice. Past results never promise future ones.\n#aitrading #claudeai #investing #warrenbuffett #stockmarket"
+  },
+  {
+    "key": "C32-TV-ALERTS-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-11T22:00:00Z",
+    "media": [
+      "reels/o-tv3.mp4"
+    ],
+    "caption": "TradingView alerts that Claude checks for you. 📈\n\nStop jumping at every ping. When a TradingView alert fires, Claude checks it against YOUR rules and gives you one answer: STILL VALID, WAIT or IGNORE.\n\n1. Paste the alert message in the video into TradingView's Message box. Now every alert carries the price, high, low, volume and time.\n2. When it pings, paste it into Claude with the check in the video.\n3. Claude asks: did price CLOSE past the level? Volume above normal? Earnings or Fed in 2 days? Where is the idea wrong?\n\nThe honest part: Claude can't watch your live charts by itself. Free version = phone alert + paste (10 seconds). Paid TradingView plan = webhooks send it automatically.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #aitrading #claudeai #daytrading #stockmarket"
+  },
+  {
+    "key": "B25-GIVE-G6",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-12T13:00:00Z",
+    "media": [
+      "b18-nov11/g6/slide-1.jpg",
+      "b18-nov11/g6/slide-2.jpg",
+      "b18-nov11/g6/slide-3.jpg",
+      "b18-nov11/g6/slide-4.jpg",
+      "b18-nov11/g6/slide-5.jpg"
+    ],
+    "caption": "Your trade journal is a gold mine. Let Claude dig. 📓\n\nEvery Sunday:\n1. Log 4 lines per trade: the setup, the result in R, did you follow the plan, one lesson.\n2. Paste the week into Claude with the prompt on slide 3.\n3. Change ONE thing. Check it next Sunday.\n\nClaude finds your best habit, your biggest leak and every rule you broke. Most traders repeat the same mistake for months because nobody points at it. Now something does.\n\n(\"R\" = what you risked. +2R means you made twice your risk.)\n\nSave this for Sunday. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\n#aitrading #claudeai #tradingtips #tradingjournal #daytrading"
+  },
+  {
+    "key": "C33-GIVE-G5-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-12T16:00:00Z",
+    "media": [
+      "reels/o-g5.mp4"
+    ],
+    "caption": "My AI morning brief prompt. Free. ☕\n\nPaste your watchlist prices into Claude with the prompt in the video and get a 5-line brief: market mood, your biggest movers, anything near a 52-week high or low, and 3 things to watch.\n\nThe trick is \"ONLY these numbers.\" AI makes things up when you let it guess. This prompt makes it show dates and admit what's missing.\n\nSave this for tomorrow morning. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #tradingtips #daytrading #stockmarket"
+  },
+  {
+    "key": "B26-PARTNER",
+    "kind": "carousel",
+    "keyword": "PARTNER",
+    "scheduledAt": "2026-11-12T19:00:00Z",
+    "media": [
+      "b18-nov11/pt1/slide-1.jpg",
+      "b18-nov11/pt1/slide-2.jpg",
+      "b18-nov11/pt1/slide-3.jpg",
+      "b18-nov11/pt1/slide-4.jpg",
+      "b18-nov11/pt1/slide-5.jpg"
+    ],
+    "caption": "Got a trading audience? Get paid about $80 for every trader you send. 🤝\n\nThe Milli.ai Partner Program pays 40% of every sale. On the $199 AI Desk (founding price until Dec 1), that's $79.60 per sale, paid automatically 14 days after the sale.\n\nHow it works:\n1. Comment PARTNER and I'll DM you the sign-up link.\n2. Get your link and the partner kit: hooks, captions, story texts and an email swipe.\n3. Share it your way: posts, stories, your newsletter, YouTube.\n\nEasy to recommend: buyers get a 7-day \"It Runs or It's Free\" guarantee.\n\nThe rules are simple. Honest only. No profit promises, no fake results, and always say it's an affiliate link. What you earn depends on your audience. Nothing is guaranteed.\n\nComment PARTNER and I'll send you the link.\n\nNot financial advice.\n#affiliatemarketing #aitrading #claudeai #tradingcommunity #sidehustle"
+  },
+  {
+    "key": "C34-LEGENDS-REEL",
+    "kind": "reel",
+    "keyword": "LEGENDS",
+    "scheduledAt": "2026-11-12T22:00:00Z",
+    "media": [
+      "reels/o-lg1.mp4"
+    ],
+    "caption": "Buffett, Lynch, Dalio, Soros and Simons didn't trade on feelings. Neither should you. 🏛️\n\nHere are their big ideas as 5 simple rules a computer can test:\n🏛️ Buffett: profitable, low debt, P/E under 25\n📈 Lynch: growing 15%+ a year, PEG under 1\n⚖️ Dalio: mix assets, rebalance monthly\n🌊 Soros: stay in while the last 6 months are up\n🔢 Simons: buy sharp dips in long uptrends\n\nGot your own idea? The prompt in the video turns it into a clear, testable rule in 10 minutes. Then run the honest test: no peeking, pay the fees, and only the years you didn't build it on count.\n\nWant all 5 rules, the honest-test checklist and a 20-minute build prompt? Comment LEGENDS and I'll DM you the free guide.\n\nSimple teaching models inspired by public ideas, not their real strategies. None of these investors endorse this. Educational only. Not financial advice. Past results never promise future ones.\nVoiceover is AI-generated.\n#aitrading #claudeai #investing #warrenbuffett #stockmarket"
+  },
+  {
+    "key": "B27-NEWS-GEMINI",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-13T13:00:00Z",
+    "media": [
+      "b18-nov11/gem/slide-1.jpg",
+      "b18-nov11/gem/slide-2.jpg",
+      "b18-nov11/gem/slide-3.jpg",
+      "b18-nov11/gem/slide-4.jpg",
+      "b18-nov11/gem/slide-5.jpg"
+    ],
+    "caption": "The No. 1 AI model just changed. Again. 📰\n\nOn Oct 28, 2026, Google announced Gemini 4 Carbon. On the Artificial Analysis Intelligence Index it scored 59, just ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57). For now it's only open to a small group of cyber defenders, with no public date yet.\n\nThe lesson for anyone building an AI trading bot: don't marry a model. 1 point is a tie, not a takeover, and the top spot keeps moving.\n\nBuild your bot so the model is ONE setting in a config file. When a better model ships, you change one word. No rebuild. The prompt on slide 4 does it for you and adds a side-by-side test.\n\nSave this for the next model drop. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Tom's Hardware (Nov 3, 2026), Signal Drift (Nov 1, 2026), Khaleej Times (Oct 28, 2026). Not affiliated with Google, Anthropic or OpenAI. Educational only.\n#ainews #gemini #claudeai #aitrading #artificialintelligence"
+  },
+  {
+    "key": "C35-GIVE-G6-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-13T16:00:00Z",
+    "media": [
+      "reels/o-g6.mp4"
+    ],
+    "caption": "Your trade journal is a gold mine. Let Claude dig. 📓\n\nEvery Sunday:\n1. Log 4 lines per trade: the setup, the result in R, did you follow the plan, one lesson.\n2. Paste the week into Claude with the prompt in the video.\n3. Change ONE thing. Check it next Sunday.\n\nClaude finds your best habit, your biggest leak and every rule you broke. Most traders repeat the same mistake for months because nobody points at it. Now something does.\n\n(\"R\" = what you risked. +2R means you made twice your risk.)\n\nSave this for Sunday. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #tradingtips #tradingjournal #daytrading"
+  },
+  {
+    "key": "B28-TV-PINE",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-13T19:00:00Z",
+    "media": [
+      "b18-nov11/tv3/slide-1.jpg",
+      "b18-nov11/tv3/slide-2.jpg",
+      "b18-nov11/tv3/slide-3.jpg",
+      "b18-nov11/tv3/slide-4.jpg",
+      "b18-nov11/tv3/slide-5.jpg"
+    ],
+    "caption": "Describe your setup in plain English. Claude writes the TradingView indicator. 📈\n\n1. Write your setup in English (e.g. close above the 20-day high, volume above average).\n2. Paste it into Claude with the prompt on slide 3.\n3. Paste the code into TradingView: Pine Editor → Add to chart.\n4. Test it in Strategy Tester with fees on before you trust it.\n\nYou get dots on your chart, alerts on your phone and a plain-English explanation of every line. Got an error? Paste it back into Claude.\n\nThe honest part: working code isn't an edge. Test it on years it has never seen. If it only works on the years you tuned it on, it's a fake rule.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #pinescript #aitrading #claudeai #daytrading"
+  },
+  {
+    "key": "C36-PARTNER-REEL",
+    "kind": "reel",
+    "keyword": "PARTNER",
+    "scheduledAt": "2026-11-13T22:00:00Z",
+    "media": [
+      "reels/o-pt1.mp4"
+    ],
+    "caption": "Got a trading audience? Get paid about $80 for every trader you send. 🤝\n\nThe Milli.ai Partner Program pays 40% of every sale. On the $199 AI Desk (founding price until Dec 1), that's $79.60 per sale, paid automatically 14 days after the sale.\n\nHow it works:\n1. Comment PARTNER and I'll DM you the sign-up link.\n2. Get your link and the partner kit: hooks, captions, story texts and an email swipe.\n3. Share it your way: posts, stories, your newsletter, YouTube.\n\nEasy to recommend: buyers get a 7-day \"It Runs or It's Free\" guarantee.\n\nThe rules are simple. Honest only. No profit promises, no fake results, and always say it's an affiliate link. What you earn depends on your audience. Nothing is guaranteed.\n\nComment PARTNER and I'll send you the link.\n\nNot financial advice.\nVoiceover is AI-generated.\n#affiliatemarketing #aitrading #claudeai #tradingcommunity #sidehustle"
   }
 ]
