@@ -1,0 +1,138 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Milli Index Dip Indicator: Free AI Trading Bot Guide | Milli.ai</title><meta name="description" content="The free TradingView indicator that won 57 of 70 S&amp;P 500 dip-buys on years it never saw. Copy, paste, done in 2 minutes."><link rel="canonical" href="https://milli-ai.com/guides/dip/">
+<meta property="og:title" content="The Milli Index Dip Indicator: Free AI Trading Bot Guide | Milli.ai"><meta property="og:description" content="The free TradingView indicator that won 57 of 70 S&amp;P 500 dip-buys on years it never saw. Copy, paste, done in 2 minutes."><meta property="og:url" content="https://milli-ai.com/guides/dip/"><meta property="og:type" content="article"><meta property="og:image" content="https://milli-ai.com/avatar.jpg">
+<meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><style>:root{--bg:#0b0d12;--card:#141821;--fg:#e9edf3;--mut:#9aa4b2;--acc:#3987e5;--ok:#2fbf71;--bad:#e66767;--line:#252b36}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}a{color:var(--acc)}h1{font-size:1.9rem;line-height:1.2;margin:.4em 0}h2{font-size:1.3rem;margin-top:2em}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}.top a{color:var(--fg);text-decoration:none;font-weight:700}
+.v{border-radius:12px;padding:16px;margin:20px 0;background:var(--card);border-left:5px solid var(--acc)}.v.ok{border-color:var(--ok)}.v.bad{border-color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.95rem;margin:12px 0}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--mut);font-weight:600}
+.cta{display:block;text-align:center;background:var(--acc);color:#fff;font-weight:700;padding:14px 18px;border-radius:10px;text-decoration:none;margin:24px 0}
+.mut{color:var(--mut);font-size:.9rem}ul.l{columns:2;padding-left:18px}pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto;font-size:.85rem;white-space:pre-wrap}
+code{background:var(--card);padding:1px 4px;border-radius:4px}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px}</style></head><body>
+<div class="top"><a href="/">Milli.ai</a><a href="/free" style="font-weight:600;color:var(--acc)">Free guides</a></div><main><h1>The Milli Index Dip Indicator</h1>
+<p>The free TradingView indicator that won 57 of 70 S&amp;P 500 dip-buys on years it never saw. Copy, paste, done in 2 minutes.</p>
+<p><strong>How it works:</strong> Uptrend check → panic day = blue dot → you get a phone alert → sell the bounce (orange x)</p>
+<blockquote>
+<p><strong>READ FIRST:</strong> Daily charts only. Big indexes only (SPY, QQQ, S&amp;P or Nasdaq futures). No leverage. It never places a trade for you.</p>
+</blockquote>
+<p><strong>Free full guide (step by step, with 12 copy-paste prompts, daily routine and weekly review):</strong> <a href="https://milli-ai.com/free/dip?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=dip">milli-ai.com/free/dip</a></p>
+<h2>Why this works</h2>
+<p>We picked the settings using 2010 to 2019 data only. Then we tested on January 2020 to October 2026: years the indicator had never seen.</p>
+<ul>
+<li><strong>SPY, daily:</strong> 57 of 70 trades won (81%). $2.03 won for every $1 lost. Worst drop: -10% (SPY itself fell -34%).</li>
+<li><strong>S&amp;P 500 futures:</strong> 80% won. <strong>QQQ:</strong> 80%. <strong>Nasdaq futures:</strong> 77%.</li>
+<li><strong>We tested 22 markets.</strong> Single stocks did worse (65-75%), gold about 70%, and it <strong>lost money on Bitcoin</strong>. So use it on the big indexes.</li>
+<li>It's in the market only about 17% of the time, about 4 days per trade. Holding SPY made more over the whole period (+156% vs +36%), with much bigger drops on the way.</li>
+</ul>
+<h2>Step 1: Add Index Dip (2 minutes)</h2>
+<ol>
+<li>Open <a href="https://www.tradingview.com/">TradingView</a> on a computer and open a <strong>SPY</strong> (or QQQ) chart.</li>
+<li>Click <strong>Pine Editor</strong> at the bottom of the screen.</li>
+<li>Delete everything in the editor. Paste the code below.</li>
+<li>Click <strong>Save</strong>, then <strong>Add to chart</strong>.</li>
+<li>Switch the chart to <strong>1D</strong> (daily).</li>
+</ol>
+<pre><code class="language-pine">//@version=6
+// Milli Index Dip by Milli.ai (DAILY charts, built for index markets: S&amp;P 500, Nasdaq 100)
+// Buy dot: price above its 200-day average, RSI(2) under 20, and the close in the bottom 25% of the day's range.
+// Exit: the first close with RSI(2) above 70 (sell next open), or after 10 bars, or a 5 x ATR(14) disaster stop.
+// Settings were picked on 2010-2019 data only, then tested on 2020-2026 data they never saw.
+// Educational tool. Hypothetical backtests. Not financial advice. Past results do not guarantee future results.
+strategy(&quot;Milli Index Dip&quot;, overlay = true, initial_capital = 10000, default_qty_type = strategy.percent_of_equity,
+     default_qty_value = 100, commission_type = strategy.commission.percent, commission_value = 0.05, process_orders_on_close = false)
+
+rsiBuy  = input.float(20, &quot;Buy when RSI(2) below&quot;, minval = 1)
+ibsMax  = input.float(0.25, &quot;Close in bottom part of day's range (0-1)&quot;, minval = 0.01, maxval = 1)
+rsiExit = input.float(70, &quot;Exit when RSI(2) above&quot;, minval = 1)
+maxBars = input.int(10, &quot;Max bars in trade&quot;, minval = 1)
+stopAtr = input.float(5.0, &quot;Disaster stop (x ATR 14)&quot;, minval = 0.5)
+
+r    = ta.rsi(close, 2)
+sma  = ta.sma(close, 200)
+ibs  = high &gt; low ? (close - low) / (high - low) : 0.5
+atr  = ta.atr(14)
+flat = strategy.position_size == 0
+buySig = bar_index &gt; 200 and close &gt; sma and r &lt; rsiBuy and ibs &lt; ibsMax
+
+var float stopPx = na
+var int entryBar = na
+if flat and buySig
+    stopPx := na
+    strategy.entry(&quot;Long&quot;, strategy.long)
+if strategy.position_size &gt; 0
+    if na(stopPx)
+        stopPx := strategy.position_avg_price - stopAtr * atr[1]
+        entryBar := bar_index
+    strategy.exit(&quot;Stop&quot;, &quot;Long&quot;, stop = stopPx)
+    if r &gt; rsiExit or bar_index - entryBar + 1 &gt;= maxBars
+        strategy.close(&quot;Long&quot;, comment = &quot;Exit dot&quot;)
+
+plot(sma, &quot;200 SMA&quot;, color.new(color.gray, 40))
+plotshape(flat and buySig, &quot;Buy dot&quot;, shape.circle, location.belowbar, color.new(#3987e5, 0), size = size.small)
+plotshape(strategy.position_size &gt; 0 and r &gt; rsiExit, &quot;Exit dot&quot;, shape.xcross, location.abovebar, color.new(color.orange, 0), size = size.tiny)
+if flat and buySig
+    alert(&quot;Milli Index Dip BUY on &quot; + syminfo.ticker + &quot; at &quot; + str.tostring(close), alert.freq_once_per_bar_close)
+if strategy.position_size &gt; 0 and r &gt; rsiExit
+    alert(&quot;Milli Index Dip EXIT on &quot; + syminfo.ticker + &quot; at &quot; + str.tostring(close), alert.freq_once_per_bar_close)
+</code></pre>
+<h2>Step 2: Read the dots</h2>
+<ul>
+<li><strong>Blue dot under a candle:</strong> a panic day in an uptrend. That's the buy signal (the test bought at the next day's open).</li>
+<li><strong>Orange x:</strong> the bounce came (2-day RSI over 70). That's the exit.</li>
+<li><strong>Gray line:</strong> the 200-day average. No dots when price is under it.</li>
+<li><strong>Strategy Tester tab:</strong> shows how the dots did on the chart you're looking at.</li>
+</ul>
+<h2>Step 3: Get a phone alert for every new dot</h2>
+<ol>
+<li>Click the <strong>alarm clock</strong> (Alerts) on the right.</li>
+<li>Condition: pick <strong>Milli Index Dip</strong>, then <strong>alert() function calls only</strong>.</li>
+<li>Turn on <strong>Notify in app</strong>. Click <strong>Create</strong>.</li>
+<li>Install the TradingView app on your phone and log in. New dots now ping your phone.</li>
+</ol>
+<h2>Keep it safe</h2>
+<ul>
+<li><strong>Daily charts, big indexes, no leverage.</strong> That's what we tested. With leverage it failed our prop-challenge tests, so don't use it for that.</li>
+<li>A dot is a setup, not a promise. 13 of the 70 SPY trades lost. That's in the numbers above.</li>
+</ul>
+<blockquote>
+<p>Hypothetical backtest on Yahoo Finance daily prices, next-day entries, costs included, settings chosen on 2010-2019 data. Past results don't guarantee future results. Educational tool, not financial advice. You make every decision.</p>
+</blockquote>
+<h2>Troubleshooting</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No dots on the chart</td>
+<td>Switch to the <strong>1D</strong> (daily) chart and scroll back. Dots only appear when price is above the gray 200-day line.</td>
+</tr>
+<tr>
+<td>"Script could not be translated" error</td>
+<td>Make sure you deleted everything in the Pine Editor before pasting, and that the first line is <code>//@version=6</code>.</td>
+</tr>
+<tr>
+<td>Alert doesn't fire</td>
+<td>In the alert, pick <strong>alert() function calls only</strong>, not "Buy dot".</td>
+</tr>
+<tr>
+<td>Lots of dots on a stock or crypto</td>
+<td>It's built for indexes. On single stocks it's weaker and on Bitcoin it lost money.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Want the finished version?</h2>
+<p>These indicators are free forever. Want finished trading bots that do the watching for you (one-command install, plain setup steps, and help if you get stuck)? They are in the Milli.ai AI Desk.</p>
+<ul>
+<li>Free full guide: <a href="https://milli-ai.com/free/dip?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=dip">milli-ai.com/free/dip</a></li>
+<li>Finished bot: <a href="https://milli-ai.com/?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=dip">milli-ai.com</a></li>
+</ul>
+<blockquote>
+<p>Educational only. Not financial advice. It never places trades for you. You make every decision.</p>
+</blockquote>
+<footer class="mut"><p><b>Educational only. Not financial advice.</b> All backtest results are hypothetical, use historical data, and include trading costs. Past results do not guarantee future results. Trading is risky and you can lose money.</p>
+<p><a href="/backtests/">All backtests</a> · <a href="/guides/">Free bot guides</a> · <a href="https://github.com/robmilliai-dev/ai-trading-bots">Open source on GitHub</a> · <a href="/">Milli.ai</a></p></footer></main></body></html>

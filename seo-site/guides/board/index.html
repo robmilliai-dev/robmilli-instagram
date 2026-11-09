@@ -1,0 +1,143 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The AI Board Blueprint: Free AI Trading Bot Guide | Milli.ai</title><meta name="description" content="Five top AIs, five jobs, one vote. Perplexity, Grok, Gemini, ChatGPT and Claude each check a trade, and Claude can veto. Here&#x27;s how it works, how to build "><link rel="canonical" href="https://milli-ai.com/guides/board/">
+<meta property="og:title" content="The AI Board Blueprint: Free AI Trading Bot Guide | Milli.ai"><meta property="og:description" content="Five top AIs, five jobs, one vote. Perplexity, Grok, Gemini, ChatGPT and Claude each check a trade, and Claude can veto. Here&#x27;s how it works, how to build "><meta property="og:url" content="https://milli-ai.com/guides/board/"><meta property="og:type" content="article"><meta property="og:image" content="https://milli-ai.com/avatar.jpg">
+<meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><style>:root{--bg:#0b0d12;--card:#141821;--fg:#e9edf3;--mut:#9aa4b2;--acc:#3987e5;--ok:#2fbf71;--bad:#e66767;--line:#252b36}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}a{color:var(--acc)}h1{font-size:1.9rem;line-height:1.2;margin:.4em 0}h2{font-size:1.3rem;margin-top:2em}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}.top a{color:var(--fg);text-decoration:none;font-weight:700}
+.v{border-radius:12px;padding:16px;margin:20px 0;background:var(--card);border-left:5px solid var(--acc)}.v.ok{border-color:var(--ok)}.v.bad{border-color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.95rem;margin:12px 0}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--mut);font-weight:600}
+.cta{display:block;text-align:center;background:var(--acc);color:#fff;font-weight:700;padding:14px 18px;border-radius:10px;text-decoration:none;margin:24px 0}
+.mut{color:var(--mut);font-size:.9rem}ul.l{columns:2;padding-left:18px}pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto;font-size:.85rem;white-space:pre-wrap}
+code{background:var(--card);padding:1px 4px;border-radius:4px}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px}</style></head><body>
+<div class="top"><a href="/">Milli.ai</a><a href="/free" style="font-weight:600;color:var(--acc)">Free guides</a></div><main><h1>The AI Board Blueprint</h1>
+<p>Five top AIs, five jobs, one vote. Perplexity, Grok, Gemini, ChatGPT and Claude each check a trade, and Claude can veto. Here's how it works, how to build it, and 5 free prompts you can use today.</p>
+<p><strong>How it works:</strong> Perplexity finds the news → Grok reads the crowd → Gemini reads the chart → ChatGPT builds the case → Claude hunts for risk → vote</p>
+<blockquote>
+<p><strong>READ FIRST:</strong> A trade only passes if 4 of 5 say yes and Claude doesn't veto. It never trades for you.</p>
+</blockquote>
+<p><strong>Free full guide (step by step, with 12 copy-paste prompts, daily routine and weekly review):</strong> <a href="https://milli-ai.com/free/board?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=board">milli-ai.com/free/board</a></p>
+<a class="cta" href="/free/board?utm_source=seo&utm_medium=organic&utm_campaign=board-guide">Get the full free guide →</a><h2>How it works</h2>
+<ol>
+<li><strong>Real data first.</strong> The bot pulls a year of real prices, so the chart seat can't make up numbers.</li>
+<li><strong>One call per AI.</strong> Each AI gets its prompt automatically and sends back a vote.</li>
+<li><strong>Backup plan.</strong> No key for one of the AIs? Claude fills that seat. If an AI breaks or times out, that seat votes NO. A broken AI can never sneak through a yes.</li>
+<li><strong>Hard rules in code.</strong> 4 of 5 votes, no Claude veto, at least 2 real sources, a sensible stop, and a 1% max loss. The AIs can't argue past these.</li>
+<li><strong>Ticket to your phone.</strong> One text with every vote and the reason. Every run is saved, so you can see if the board's picks beat its rejects.</li>
+</ol>
+<blockquote>
+<p>Educational only. Not financial advice. AI can be wrong.</p>
+</blockquote>
+<h2>Build the free starter version with Claude Code (20 minutes)</h2>
+<p>Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter AI Board: 5 seats vote on a stock idea and Claude can block it. It runs on pretend money or in read-only mode. It never places a trade or bet.</p>
+<p><strong>You need:</strong> <a href="https://code.claude.com/docs/en/quickstart">Claude Code</a> (needs a paid Claude plan), Python 3, and an Anthropic API key from <a href="https://console.anthropic.com/">console.anthropic.com</a> (pay as you go, usually cents per run).</p>
+<p><strong>1. Install Claude Code</strong> (Mac/Linux terminal):</p>
+<pre><code class="language-bash">curl -fsSL https://claude.ai/install.sh | bash
+</code></pre>
+<p>Windows PowerShell: <code>irm https://claude.ai/install.ps1 | iex</code></p>
+<p><strong>2. Make a folder and open Claude Code in it:</strong></p>
+<pre><code class="language-bash">mkdir ai-board &amp;&amp; cd ai-board
+claude
+</code></pre>
+<p><strong>3. Paste this build prompt:</strong></p>
+<pre><code class="language-text">Build me a beginner-friendly starter bot called ai-board in Python 3: a starter AI Board: 5 seats vote on a stock idea and Claude can block it.
+
+WHAT IT DOES
+1. Command: python src/main.py --ticker NVDA. Pull prices with the free yfinance library.
+2. Run 5 seats as 5 separate Claude calls with different jobs (News, Crowd, Chart, Bull case, Risk). If I add other AI keys later, each seat can use a different model; leave a clear setting for that.
+3. Count the votes. Risk can block. Final: PASS, WATCH or CANDIDATE. Save to memos/.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+</code></pre>
+<p><strong>4. Install and test:</strong></p>
+<pre><code class="language-bash">pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+</code></pre>
+<p>Add your key to <code>.env</code> with a text editor, then run it for real (the README shows the exact command).</p>
+<blockquote>
+<p><strong>Keep your key safe:</strong> never paste API keys into a chat, a screenshot or GitHub. Keep <code>.env</code> in <code>.gitignore</code>.</p>
+</blockquote>
+<p><strong>Starter vs finished</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Starter (free, this prompt)</th>
+<th>Finished (AI Desk)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Works on your computer</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>5 different AI models (Perplexity, Grok, Gemini, ChatGPT, Claude)</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tested seat prompts</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Vote scorecard over time</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Weekly watchlist run</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tested by us, with setup support</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Troubleshooting</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I don't have all 5 AIs</td>
+<td>Free versions work. Missing one? Count it as a "no".</td>
+</tr>
+<tr>
+<td>The AIs disagree a lot</td>
+<td>Good. That's the point. Read the "no" reasons first.</td>
+</tr>
+<tr>
+<td>One AI makes up a fact</td>
+<td>Ask it for the source and date. No source = ignore it.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Want the finished version?</h2>
+<p>The prompt above builds a starter. The finished, tested version (one-command install, plain setup steps, and help if you get stuck) is part of the Milli.ai AI Desk.</p>
+<ul>
+<li>Free full guide: <a href="https://milli-ai.com/free/board?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=board">milli-ai.com/free/board</a></li>
+<li>Finished bot: <a href="https://milli-ai.com/?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=board">milli-ai.com</a></li>
+</ul>
+<blockquote>
+<p>Educational only. Not financial advice. It never places trades for you. You make every decision.</p>
+</blockquote>
+<footer class="mut"><p><b>Educational only. Not financial advice.</b> All backtest results are hypothetical, use historical data, and include trading costs. Past results do not guarantee future results. Trading is risky and you can lose money.</p>
+<p><a href="/backtests/">All backtests</a> · <a href="/guides/">Free bot guides</a> · <a href="https://github.com/robmilliai-dev/ai-trading-bots">Open source on GitHub</a> · <a href="/">Milli.ai</a></p></footer></main></body></html>

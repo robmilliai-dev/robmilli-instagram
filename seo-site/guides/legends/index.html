@@ -1,0 +1,132 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Legends Algo Blueprint: Free AI Trading Bot Guide | Milli.ai</title><meta name="description" content="Turn the ideas of Buffett, Lynch, Dalio, Soros and Simons into 5 simple rules a computer can test. Plus a free prompt that turns your own idea into a rule "><link rel="canonical" href="https://milli-ai.com/guides/legends/">
+<meta property="og:title" content="The Legends Algo Blueprint: Free AI Trading Bot Guide | Milli.ai"><meta property="og:description" content="Turn the ideas of Buffett, Lynch, Dalio, Soros and Simons into 5 simple rules a computer can test. Plus a free prompt that turns your own idea into a rule "><meta property="og:url" content="https://milli-ai.com/guides/legends/"><meta property="og:type" content="article"><meta property="og:image" content="https://milli-ai.com/avatar.jpg">
+<meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><style>:root{--bg:#0b0d12;--card:#141821;--fg:#e9edf3;--mut:#9aa4b2;--acc:#3987e5;--ok:#2fbf71;--bad:#e66767;--line:#252b36}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}a{color:var(--acc)}h1{font-size:1.9rem;line-height:1.2;margin:.4em 0}h2{font-size:1.3rem;margin-top:2em}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}.top a{color:var(--fg);text-decoration:none;font-weight:700}
+.v{border-radius:12px;padding:16px;margin:20px 0;background:var(--card);border-left:5px solid var(--acc)}.v.ok{border-color:var(--ok)}.v.bad{border-color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.95rem;margin:12px 0}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--mut);font-weight:600}
+.cta{display:block;text-align:center;background:var(--acc);color:#fff;font-weight:700;padding:14px 18px;border-radius:10px;text-decoration:none;margin:24px 0}
+.mut{color:var(--mut);font-size:.9rem}ul.l{columns:2;padding-left:18px}pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto;font-size:.85rem;white-space:pre-wrap}
+code{background:var(--card);padding:1px 4px;border-radius:4px}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px}</style></head><body>
+<div class="top"><a href="/">Milli.ai</a><a href="/free" style="font-weight:600;color:var(--acc)">Free guides</a></div><main><h1>The Legends Algo Blueprint</h1>
+<p>Turn the ideas of Buffett, Lynch, Dalio, Soros and Simons into 5 simple rules a computer can test. Plus a free prompt that turns your own idea into a rule in 10 minutes.</p>
+<p><strong>How it works:</strong> Pick a legend's idea → turn it into one simple rule → test it on years it never saw → keep it only if it holds up</p>
+<blockquote>
+<p><strong>READ FIRST:</strong> Old results don't promise future ones. A rule that only works on the years you tuned it on is a fake rule.</p>
+</blockquote>
+<p><strong>Free full guide (step by step, with 12 copy-paste prompts, daily routine and weekly review):</strong> <a href="https://milli-ai.com/free/legends?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=legends">milli-ai.com/free/legends</a></p>
+<h2>Build the free starter version with Claude Code (20 minutes)</h2>
+<p>Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter Legends Test Lab that tests a simple rule on years it never saw. It runs on pretend money or in read-only mode. It never places a trade or bet.</p>
+<p><strong>You need:</strong> <a href="https://code.claude.com/docs/en/quickstart">Claude Code</a> (needs a paid Claude plan), Python 3, and an Anthropic API key from <a href="https://console.anthropic.com/">console.anthropic.com</a> (pay as you go, usually cents per run).</p>
+<p><strong>1. Install Claude Code</strong> (Mac/Linux terminal):</p>
+<pre><code class="language-bash">curl -fsSL https://claude.ai/install.sh | bash
+</code></pre>
+<p>Windows PowerShell: <code>irm https://claude.ai/install.ps1 | iex</code></p>
+<p><strong>2. Make a folder and open Claude Code in it:</strong></p>
+<pre><code class="language-bash">mkdir legends-lab &amp;&amp; cd legends-lab
+claude
+</code></pre>
+<p><strong>3. Paste this build prompt:</strong></p>
+<pre><code class="language-text">Build me a beginner-friendly starter bot called legends-lab in Python 3: a starter Legends Test Lab that tests a simple rule on years it never saw.
+
+WHAT IT DOES
+1. Read rule settings from config.json. Pull daily prices with the free yfinance library for the tickers listed.
+2. Backtest one rule (start with: buy when price is above its 200-day average, sell when below). Include 0.05% costs per trade and use only today's close to decide tomorrow's trade.
+3. Split the data: pick settings on years up to 2019, report results on 2020 onward. Report trades, win rate, average win vs loss, worst drop, and buy-and-hold for comparison. Save to reports/.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+</code></pre>
+<p><strong>4. Install and test:</strong></p>
+<pre><code class="language-bash">pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+</code></pre>
+<p>Add your key to <code>.env</code> with a text editor, then run it for real (the README shows the exact command).</p>
+<blockquote>
+<p><strong>Keep your key safe:</strong> never paste API keys into a chat, a screenshot or GitHub. Keep <code>.env</code> in <code>.gitignore</code>.</p>
+</blockquote>
+<p><strong>Starter vs finished</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Starter (free, this prompt)</th>
+<th>Finished (AI Desk)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Works on your computer</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>All 5 legend rules built and tested</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Many markets at once</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Charts and a one-page report</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Rule-cheating checks built in</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tested by us, with setup support</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Troubleshooting</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>My rule has "feel" words</td>
+<td>Swap them for numbers: not "cheap", but "price under 15x earnings".</td>
+</tr>
+<tr>
+<td>It looks amazing in the test</td>
+<td>Check it on years you didn't tune on. Most "amazing" rules fail there.</td>
+</tr>
+<tr>
+<td>Too few trades to judge</td>
+<td>Test more markets or more years.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Want the finished version?</h2>
+<p>The prompt above builds a starter. The finished, tested version (one-command install, plain setup steps, and help if you get stuck) is part of the Milli.ai AI Desk.</p>
+<ul>
+<li>Free full guide: <a href="https://milli-ai.com/free/legends?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=legends">milli-ai.com/free/legends</a></li>
+<li>Finished bot: <a href="https://milli-ai.com/?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=legends">milli-ai.com</a></li>
+</ul>
+<blockquote>
+<p>Educational only. Not financial advice. It never places trades for you. You make every decision.</p>
+</blockquote>
+<footer class="mut"><p><b>Educational only. Not financial advice.</b> All backtest results are hypothetical, use historical data, and include trading costs. Past results do not guarantee future results. Trading is risky and you can lose money.</p>
+<p><a href="/backtests/">All backtests</a> · <a href="/guides/">Free bot guides</a> · <a href="https://github.com/robmilliai-dev/ai-trading-bots">Open source on GitHub</a> · <a href="/">Milli.ai</a></p></footer></main></body></html>

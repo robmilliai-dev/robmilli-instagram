@@ -1,0 +1,145 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The 24/7 AI Trader Blueprint: Free AI Trading Bot Guide | Milli.ai</title><meta name="description" content="An AI trader that watches the market while you work and texts you only when there&#x27;s a real setup. Here&#x27;s how it works, how to build it, and a free prompt t"><link rel="canonical" href="https://milli-ai.com/guides/24-7/">
+<meta property="og:title" content="The 24/7 AI Trader Blueprint: Free AI Trading Bot Guide | Milli.ai"><meta property="og:description" content="An AI trader that watches the market while you work and texts you only when there&#x27;s a real setup. Here&#x27;s how it works, how to build it, and a free prompt t"><meta property="og:url" content="https://milli-ai.com/guides/24-7/"><meta property="og:type" content="article"><meta property="og:image" content="https://milli-ai.com/avatar.jpg">
+<meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><style>:root{--bg:#0b0d12;--card:#141821;--fg:#e9edf3;--mut:#9aa4b2;--acc:#3987e5;--ok:#2fbf71;--bad:#e66767;--line:#252b36}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}a{color:var(--acc)}h1{font-size:1.9rem;line-height:1.2;margin:.4em 0}h2{font-size:1.3rem;margin-top:2em}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}.top a{color:var(--fg);text-decoration:none;font-weight:700}
+.v{border-radius:12px;padding:16px;margin:20px 0;background:var(--card);border-left:5px solid var(--acc)}.v.ok{border-color:var(--ok)}.v.bad{border-color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.95rem;margin:12px 0}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--mut);font-weight:600}
+.cta{display:block;text-align:center;background:var(--acc);color:#fff;font-weight:700;padding:14px 18px;border-radius:10px;text-decoration:none;margin:24px 0}
+.mut{color:var(--mut);font-size:.9rem}ul.l{columns:2;padding-left:18px}pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto;font-size:.85rem;white-space:pre-wrap}
+code{background:var(--card);padding:1px 4px;border-radius:4px}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px}</style></head><body>
+<div class="top"><a href="/">Milli.ai</a><a href="/free" style="font-weight:600;color:var(--acc)">Free guides</a></div><main><h1>The 24/7 AI Trader Blueprint</h1>
+<p>An AI trader that watches the market while you work and texts you only when there's a real setup. Here's how it works, how to build it, and a free prompt that runs it on any chart today.</p>
+<p><strong>How it works:</strong> Pick a chart → paste the free prompt → AI checks breakout or pullback → strict risk check → APPROVE FOR REVIEW, WATCHLIST or REJECT</p>
+<blockquote>
+<p><strong>READ FIRST:</strong> It never places a trade. It does the homework, you make the call. A REJECT is a win: it saved you from a bad trade.</p>
+</blockquote>
+<p><strong>Free full guide (step by step, with 12 copy-paste prompts, daily routine and weekly review):</strong> <a href="https://milli-ai.com/free/24-7?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=24-7">milli-ai.com/free/24-7</a></p>
+<a class="cta" href="/free/24-7?utm_source=seo&utm_medium=organic&utm_campaign=24-7-guide">Get the full free guide →</a><h2>How it works</h2>
+<p>The real AI trader does the same thing, on its own, every hour:</p>
+<ol>
+<li><strong>Scan.</strong> It pulls prices for every stock on your watchlist. Free data.</li>
+<li><strong>Spot.</strong> It looks for the two setups: breakout or pullback.</li>
+<li><strong>Plan.</strong> It works out the entry, stop and target.</li>
+<li><strong>Risk check.</strong> It sizes the trade so a loss only costs 1%. If the reward is too small, it's a hard <strong>no</strong>. The AI can't argue past this.</li>
+<li><strong>Decide.</strong> Claude writes one short note: approve, watch or reject, and why.</li>
+<li><strong>Text you.</strong> The note goes straight to your phone. Every idea is saved in a log.</li>
+</ol>
+<blockquote>
+<p>Educational only. Not financial advice.</p>
+</blockquote>
+<h2>Build the free starter version with Claude Code (20 minutes)</h2>
+<p>Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter 24/7 Market Watch that scans your watchlist on a schedule and writes a risk-checked memo. It runs on pretend money or in read-only mode. It never places a trade or bet.</p>
+<p><strong>You need:</strong> <a href="https://code.claude.com/docs/en/quickstart">Claude Code</a> (needs a paid Claude plan), Python 3, and an Anthropic API key from <a href="https://console.anthropic.com/">console.anthropic.com</a> (pay as you go, usually cents per run).</p>
+<p><strong>1. Install Claude Code</strong> (Mac/Linux terminal):</p>
+<pre><code class="language-bash">curl -fsSL https://claude.ai/install.sh | bash
+</code></pre>
+<p>Windows PowerShell: <code>irm https://claude.ai/install.ps1 | iex</code></p>
+<p><strong>2. Make a folder and open Claude Code in it:</strong></p>
+<pre><code class="language-bash">mkdir trader-247 &amp;&amp; cd trader-247
+claude
+</code></pre>
+<p><strong>3. Paste this build prompt:</strong></p>
+<pre><code class="language-text">Build me a beginner-friendly starter bot called trader-247 in Python 3: a starter 24/7 Market Watch that scans your watchlist on a schedule and writes a risk-checked memo.
+
+WHAT IT DOES
+1. Every hour, pull daily prices for watchlist.json with the free yfinance library. Flag breakouts (close above the 20-day high) and pullbacks (uptrend, close back above the 20-day average).
+2. Send each flagged ticker's numbers to Claude with rules.md. Reply as JSON: {&quot;verdict&quot;:&quot;APPROVE FOR REVIEW|WATCHLIST|REJECT&quot;,&quot;rule_that_decided&quot;,&quot;stop&quot;,&quot;target&quot;}.
+3. Never place orders. Log to logs/memos.jsonl and print a morning summary.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+</code></pre>
+<p><strong>4. Install and test:</strong></p>
+<pre><code class="language-bash">pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+</code></pre>
+<p>Add your key to <code>.env</code> with a text editor, then run it for real (the README shows the exact command).</p>
+<blockquote>
+<p><strong>Keep your key safe:</strong> never paste API keys into a chat, a screenshot or GitHub. Keep <code>.env</code> in <code>.gitignore</code>.</p>
+</blockquote>
+<p><strong>Starter vs finished</strong></p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th></th>
+<th>Starter (free, this prompt)</th>
+<th>Finished (AI Desk)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Works on your computer</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Runs 24/7 on a cheap server</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Phone alerts</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Earnings and Fed-day blocker</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tested scan and risk rules</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Tested by us, with setup support</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Troubleshooting</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>It says it can't see the chart</td>
+<td>Upload a clear screenshot with the price axis showing, or paste the last 20 closes as text.</td>
+</tr>
+<tr>
+<td>Every answer is REJECT</td>
+<td>Normal on quiet days. Try a stock that moved a lot this week.</td>
+</tr>
+<tr>
+<td>The answer is long and messy</td>
+<td>Reply: "Answer only in the format I gave you."</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Want the finished version?</h2>
+<p>The prompt above builds a starter. The finished, tested version (one-command install, plain setup steps, and help if you get stuck) is part of the Milli.ai AI Desk.</p>
+<ul>
+<li>Free full guide: <a href="https://milli-ai.com/free/24-7?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=24-7">milli-ai.com/free/24-7</a></li>
+<li>Finished bot: <a href="https://milli-ai.com/?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=24-7">milli-ai.com</a></li>
+</ul>
+<blockquote>
+<p>Educational only. Not financial advice. It never places trades for you. You make every decision.</p>
+</blockquote>
+<footer class="mut"><p><b>Educational only. Not financial advice.</b> All backtest results are hypothetical, use historical data, and include trading costs. Past results do not guarantee future results. Trading is risky and you can lose money.</p>
+<p><a href="/backtests/">All backtests</a> · <a href="/guides/">Free bot guides</a> · <a href="https://github.com/robmilliai-dev/ai-trading-bots">Open source on GitHub</a> · <a href="/">Milli.ai</a></p></footer></main></body></html>

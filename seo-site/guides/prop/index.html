@@ -1,0 +1,189 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Prop Challenge Playbook: Free AI Trading Bot Guide | Milli.ai</title><meta name="description" content="83 simulated prop challenges since 2020. 64 passed, 2 blown at 1% risk. Here are the exact rules, the free indicator and the daily checklist."><link rel="canonical" href="https://milli-ai.com/guides/prop/">
+<meta property="og:title" content="The Prop Challenge Playbook: Free AI Trading Bot Guide | Milli.ai"><meta property="og:description" content="83 simulated prop challenges since 2020. 64 passed, 2 blown at 1% risk. Here are the exact rules, the free indicator and the daily checklist."><meta property="og:url" content="https://milli-ai.com/guides/prop/"><meta property="og:type" content="article"><meta property="og:image" content="https://milli-ai.com/avatar.jpg">
+<meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.svg"><style>:root{--bg:#0b0d12;--card:#141821;--fg:#e9edf3;--mut:#9aa4b2;--acc:#3987e5;--ok:#2fbf71;--bad:#e66767;--line:#252b36}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}a{color:var(--acc)}h1{font-size:1.9rem;line-height:1.2;margin:.4em 0}h2{font-size:1.3rem;margin-top:2em}
+.top{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}.top a{color:var(--fg);text-decoration:none;font-weight:700}
+.v{border-radius:12px;padding:16px;margin:20px 0;background:var(--card);border-left:5px solid var(--acc)}.v.ok{border-color:var(--ok)}.v.bad{border-color:var(--bad)}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.95rem;margin:12px 0}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{color:var(--mut);font-weight:600}
+.cta{display:block;text-align:center;background:var(--acc);color:#fff;font-weight:700;padding:14px 18px;border-radius:10px;text-decoration:none;margin:24px 0}
+.mut{color:var(--mut);font-size:.9rem}ul.l{columns:2;padding-left:18px}pre{background:var(--card);padding:12px;border-radius:8px;overflow-x:auto;font-size:.85rem;white-space:pre-wrap}
+code{background:var(--card);padding:1px 4px;border-radius:4px}footer{border-top:1px solid var(--line);margin-top:48px;padding-top:16px}</style></head><body>
+<div class="top"><a href="/">Milli.ai</a><a href="/free" style="font-weight:600;color:var(--acc)">Free guides</a></div><main><h1>The Prop Challenge Playbook</h1>
+<p>83 simulated prop challenges since 2020. 64 passed, 2 blown at 1% risk. Here are the exact rules, the free indicator and the daily checklist.</p>
+<p><strong>How it works:</strong> 8 daily charts → blue breakout dot → 1% risk to the red stop line → the stop only moves up → +10% = pass</p>
+<blockquote>
+<p><strong>READ FIRST:</strong> This is a simulation, not a promise. It's slow on purpose. Never raise risk to catch up. Not affiliated with any prop firm.</p>
+</blockquote>
+<p><strong>Free full guide (step by step, with 12 copy-paste prompts, daily routine and weekly review):</strong> <a href="https://milli-ai.com/free/prop?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=prop">milli-ai.com/free/prop</a></p>
+<h2>What we tested</h2>
+<p>We simulated a new $100k challenge every month from January 2020 to now: <strong>83 challenges</strong>. FTMO-style rules: +10% to pass, 10% max loss, 5% max daily loss, no time limit. Each one traded Milli Trend Dots on 8 daily markets at once, picked using 2010-2019 data only.</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Risk per trade</th>
+<th>Passed</th>
+<th>Blown</th>
+<th>Still running</th>
+<th>Median time to pass</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.5%</td>
+<td>59</td>
+<td>0</td>
+<td>24</td>
+<td>about 12 months</td>
+</tr>
+<tr>
+<td><strong>1%</strong></td>
+<td><strong>64</strong></td>
+<td><strong>2</strong></td>
+<td><strong>17</strong></td>
+<td><strong>about 4.5 months</strong></td>
+</tr>
+<tr>
+<td>2%</td>
+<td>55</td>
+<td>21</td>
+<td>7</td>
+<td>about 2.3 months</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The lesson:</strong> more risk = faster passes but way more blown accounts. 1% was the sweet spot. It's not fast. It's survivable.</p>
+<p>The 8 markets: BTC, SPY, COST, DIA, AAPL, TSLA, S&amp;P 500 futures, gold futures. Check which of these your firm lets you trade, and use the closest ones it offers.</p>
+<h2>Step 1: Add Trend Dots (2 minutes)</h2>
+<ol>
+<li>Open <a href="https://www.tradingview.com/">TradingView</a> on a computer and open any chart.</li>
+<li>Click <strong>Pine Editor</strong>, delete everything, paste the code below.</li>
+<li>Click <strong>Save</strong>, then <strong>Add to chart</strong>. Use the <strong>1D</strong> (daily) chart.</li>
+</ol>
+<pre><code class="language-pine">//@version=6
+// Milli Trend Dots by Milli.ai
+// Buy dot: close breaks the highest high of the last 20 bars while price is above the 200 EMA.
+// Exit: a 3 x ATR(14) trailing stop that only moves in your favour (the red line). One trade at a time.
+// Settings were picked on 2010-2019 data only, then tested on 2020-2026 data they never saw.
+// Educational tool. Hypothetical backtests. Not financial advice. Past results do not guarantee future results.
+strategy(&quot;Milli Trend Dots&quot;, overlay = true, initial_capital = 10000, commission_type = strategy.commission.percent,
+     commission_value = 0.05, process_orders_on_close = false, calc_on_every_tick = false)
+
+n        = input.int(20, &quot;Breakout lookback (bars)&quot;, minval = 2)
+emaLen   = input.int(200, &quot;Trend filter EMA&quot;, minval = 1)
+k        = input.float(3.0, &quot;Trailing stop (x ATR 14)&quot;, minval = 0.5, step = 0.5)
+riskPct  = input.float(1.0, &quot;Risk per trade (% of equity)&quot;, minval = 0.1, step = 0.1)
+maxLev   = input.float(5.0, &quot;Max position (x equity)&quot;, minval = 0.1)
+allowShort = input.bool(false, &quot;Also take sell dots (off in the tested version)&quot;)
+
+ema = ta.ema(close, emaLen)
+hh  = ta.highest(high, n)[1]
+ll  = ta.lowest(low, n)[1]
+atr = ta.atr(14)
+warm = bar_index &gt; math.max(n, emaLen)
+
+buySig  = warm and close &gt; hh and close[1] &lt;= hh[1] and close &gt; ema
+sellSig = warm and allowShort and close &lt; ll and close[1] &gt;= ll[1] and close &lt; ema
+
+var float trail = na
+flat = strategy.position_size == 0
+
+if flat and buySig
+    stopPx = close - k * atr
+    qty = math.min(strategy.equity * riskPct / 100 / (k * atr), strategy.equity * maxLev / close)
+    strategy.entry(&quot;Long&quot;, strategy.long, qty = qty)
+    trail := stopPx
+else if flat and sellSig
+    stopPx = close + k * atr
+    qty = math.min(strategy.equity * riskPct / 100 / (k * atr), strategy.equity * maxLev / close)
+    strategy.entry(&quot;Short&quot;, strategy.short, qty = qty)
+    trail := stopPx
+
+if strategy.position_size &gt; 0
+    trail := math.max(nz(trail, close - k * atr), close - k * atr)
+    strategy.exit(&quot;Long exit&quot;, &quot;Long&quot;, stop = trail)
+else if strategy.position_size &lt; 0
+    trail := math.min(nz(trail, close + k * atr), close + k * atr)
+    strategy.exit(&quot;Short exit&quot;, &quot;Short&quot;, stop = trail)
+else if not (buySig or sellSig)
+    trail := na
+
+plot(ema, &quot;Trend EMA&quot;, color.new(color.gray, 40))
+plot(strategy.position_size != 0 ? trail : na, &quot;Trailing stop&quot;, color.new(color.red, 0), 2, plot.style_linebr)
+plotshape(flat and buySig, &quot;Buy dot&quot;, shape.circle, location.belowbar, color.new(#3987e5, 0), size = size.small)
+plotshape(flat and sellSig, &quot;Sell dot&quot;, shape.circle, location.abovebar, color.new(#e66767, 0), size = size.small)
+if flat and buySig
+    alert(&quot;Milli Trend Dots: BUY dot on &quot; + syminfo.ticker + &quot; &quot; + timeframe.period + &quot; at &quot; + str.tostring(close), alert.freq_once_per_bar_close)
+if flat and sellSig
+    alert(&quot;Milli Trend Dots: SELL dot on &quot; + syminfo.ticker + &quot; &quot; + timeframe.period + &quot; at &quot; + str.tostring(close), alert.freq_once_per_bar_close)
+</code></pre>
+<h2>Step 2: Set your risk (1 minute)</h2>
+<ul>
+<li>Open the indicator settings and set <strong>Risk per trade</strong> to <strong>1</strong>.</li>
+<li>On a $100k account, 1% = <strong>$1,000 per trade</strong>, measured from your entry to the red trailing-stop line.</li>
+<li>Position size = $1,000 ÷ (entry price − stop price). The indicator does this math for you in the Strategy Tester.</li>
+</ul>
+<h2>Step 3: Alerts on all 8 markets (5 minutes)</h2>
+<ol>
+<li>Open each market's daily chart with Trend Dots on it.</li>
+<li>Click the <strong>alarm clock</strong> → Condition: <strong>Milli Trend Dots</strong> → <strong>alert() function calls only</strong> → <strong>Notify in app</strong> → Create.</li>
+<li>Repeat for each market. New dots now ping your phone.</li>
+</ol>
+<h2>Step 4: The 1-minute daily checklist</h2>
+<ol>
+<li><strong>Any new blue dot?</strong> Enter with 1% risk. Set the stop at the red line.</li>
+<li><strong>Open trades:</strong> move each stop to today's red line (it only moves up).</li>
+<li><strong>Up 10%?</strong> You passed. Stop trading the challenge.</li>
+</ol>
+<p>Optional extra safety (not part of our test, so it can make passes slower): stop for the day if you're down 3%, and cut risk to 0.5% if you're down 6% overall.</p>
+<h2>Keep it safe</h2>
+<ul>
+<li>Never raise risk to "catch up". That's how the 2% runs blew 21 accounts.</li>
+<li>Patience is the edge. At 1% risk, half the passes took longer than 4.5 months, and 17 challenges were still running when we stopped the test.</li>
+</ul>
+<blockquote>
+<p>Hypothetical simulation on Yahoo Finance daily prices, costs included, settings and markets chosen on 2010-2019 data. Real prop firms have their own rules, fees and instrument lists. Not affiliated with or endorsed by FTMO or any prop firm. Past results don't guarantee future results. Educational, not financial advice.</p>
+</blockquote>
+<h2>Troubleshooting</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No dots on the chart</td>
+<td>Use the <strong>1D</strong> chart. Dots only appear on a fresh 20-day breakout above the 200 EMA. Some weeks have none.</td>
+</tr>
+<tr>
+<td>"Script could not be translated" error</td>
+<td>Delete everything in the Pine Editor first, then paste. The first line must be <code>//@version=6</code>.</td>
+</tr>
+<tr>
+<td>My firm doesn't offer BTC or TSLA</td>
+<td>Skip them, or use the closest market it offers (e.g. another big US stock or index).</td>
+</tr>
+<tr>
+<td>Two dots on the same day</td>
+<td>Take both at 1% each. That's how the test ran.</td>
+</tr>
+<tr>
+<td>Down a lot in one week</td>
+<td>Normal for trend systems. Keep 1% risk. The test's worst cases came from raising risk.</td>
+</tr>
+</tbody>
+</table></div>
+<h2>Want the finished version?</h2>
+<p>These indicators are free forever. Want finished trading bots that do the watching for you (one-command install, plain setup steps, and help if you get stuck)? They are in the Milli.ai AI Desk.</p>
+<ul>
+<li>Free full guide: <a href="https://milli-ai.com/free/prop?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=prop">milli-ai.com/free/prop</a></li>
+<li>Finished bot: <a href="https://milli-ai.com/?utm_source=seo&amp;utm_medium=organic&amp;utm_campaign=prop">milli-ai.com</a></li>
+</ul>
+<blockquote>
+<p>Educational only. Not financial advice. It never places trades for you. You make every decision.</p>
+</blockquote>
+<footer class="mut"><p><b>Educational only. Not financial advice.</b> All backtest results are hypothetical, use historical data, and include trading costs. Past results do not guarantee future results. Trading is risky and you can lose money.</p>
+<p><a href="/backtests/">All backtests</a> · <a href="/guides/">Free bot guides</a> · <a href="https://github.com/robmilliai-dev/ai-trading-bots">Open source on GitHub</a> · <a href="/">Milli.ai</a></p></footer></main></body></html>
