@@ -976,5 +976,19 @@
       "reels/o-g8.mp4"
     ],
     "caption": "Holding through earnings? Ask this first. 📅\n\nStops don't work on gaps. If a stock opens far below your stop, you sell at the open price, not your stop.\n\nYou need 3 numbers (all free):\n1. The report date and time (before the open or after the close)\n2. The expected move (from the options chain, or ask your broker)\n3. Your position: shares, entry, stop\n\nPaste them into Claude with the prompt in the video. You'll see your worst case in dollars BEFORE the report, whether it breaks your 1% risk rule, and the pros and cons of holding, trimming or exiting. Most pros size down or step aside. Your call.\n\nSave this for earnings season. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #earnings #stockmarket #riskmanagement"
+  },
+  {
+    "key": "B36-NEWS-FABLE",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-13T01:00:00Z",
+    "media": [
+      "b20-fable/slide-1.jpg",
+      "b20-fable/slide-2.jpg",
+      "b20-fable/slide-3.jpg",
+      "b20-fable/slide-4.jpg",
+      "b20-fable/slide-5.jpg",
+      "b20-fable/slide-6.jpg"
+    ],
+    "caption": "Claude just released Fable 5.2. Here's what it can do. 📰\n\nAnthropic launched it on Nov 9, 2026. The short version:\n• Runs big technical jobs for days and checks its own work\n• Can coordinate more than a thousand sub-agents at once\n• Stronger at finance math and at reading charts and PDFs\n• Up to 30% faster, and about 20% cheaper ($8 per million input tokens, down from $10)\n\nThe numbers on slide 3 are Anthropic's own tests, so treat them as their claims. And it didn't win everything: Gemini 4 Carbon scored higher on one automation test.\n\nWhat it means for traders: use it for the hard part. Building and testing a bot, reading a long filing, checking your backtest math. It can still be wrong, and it doesn't predict prices.\n\nThe prompt on slide 5 makes it review your bot like a strict tester. Save it.\n\nSend this to a trader who uses Claude. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Anthropic announcement (Nov 9, 2026), TestingCatalog (Nov 9, 2026), MakeUseOf (Nov 9, 2026). Benchmarks are Anthropic-reported. Educational only. Not financial advice. We are not affiliated with Anthropic.\n#ainews #claudeai #anthropic #aitrading #artificialintelligence"
   }
 ]
