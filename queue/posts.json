@@ -771,7 +771,8 @@
       "b18-nov11/gem/slide-4.jpg",
       "b18-nov11/gem/slide-5.jpg"
     ],
-    "caption": "The No. 1 AI model just changed. Again. 📰\n\nOn Oct 28, 2026, Google announced Gemini 4 Carbon. On the Artificial Analysis Intelligence Index it scored 59, just ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57). For now it's only open to a small group of cyber defenders, with no public date yet.\n\nThe lesson for anyone building an AI trading bot: don't marry a model. 1 point is a tie, not a takeover, and the top spot keeps moving.\n\nBuild your bot so the model is ONE setting in a config file. When a better model ships, you change one word. No rebuild. The prompt on slide 4 does it for you and adds a side-by-side test.\n\nSave this for the next model drop. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Tom's Hardware (Nov 3, 2026), Signal Drift (Nov 1, 2026), Khaleej Times (Oct 28, 2026). Not affiliated with Google, Anthropic or OpenAI. Educational only.\n#ainews #gemini #claudeai #aitrading #artificialintelligence"
+    "caption": "The No. 1 AI model just changed. Again. 📰\n\nOn Oct 28, 2026, Google announced Gemini 4 Carbon. On the Artificial Analysis Intelligence Index it scored 59, just ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57). For now it's only open to a small group of cyber defenders, with no public date yet.\n\nThe lesson for anyone building an AI trading bot: don't marry a model. 1 point is a tie, not a takeover, and the top spot keeps moving.\n\nBuild your bot so the model is ONE setting in a config file. When a better model ships, you change one word. No rebuild. The prompt on slide 4 does it for you and adds a side-by-side test.\n\nSave this for the next model drop. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Tom's Hardware (Nov 3, 2026), Signal Drift (Nov 1, 2026), Khaleej Times (Oct 28, 2026). Not affiliated with Google, Anthropic or OpenAI. Educational only.\n#ainews #gemini #claudeai #aitrading #artificialintelligence",
+    "cancelled": true
   },
   {
     "key": "C35-GIVE-G6-REEL",
@@ -794,7 +795,8 @@
       "b18-nov11/tv3/slide-4.jpg",
       "b18-nov11/tv3/slide-5.jpg"
     ],
-    "caption": "Describe your setup in plain English. Claude writes the TradingView indicator. 📈\n\n1. Write your setup in English (e.g. close above the 20-day high, volume above average).\n2. Paste it into Claude with the prompt on slide 3.\n3. Paste the code into TradingView: Pine Editor → Add to chart.\n4. Test it in Strategy Tester with fees on before you trust it.\n\nYou get dots on your chart, alerts on your phone and a plain-English explanation of every line. Got an error? Paste it back into Claude.\n\nThe honest part: working code isn't an edge. Test it on years it has never seen. If it only works on the years you tuned it on, it's a fake rule.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #pinescript #aitrading #claudeai #daytrading"
+    "caption": "Describe your setup in plain English. Claude writes the TradingView indicator. 📈\n\n1. Write your setup in English (e.g. close above the 20-day high, volume above average).\n2. Paste it into Claude with the prompt on slide 3.\n3. Paste the code into TradingView: Pine Editor → Add to chart.\n4. Test it in Strategy Tester with fees on before you trust it.\n\nYou get dots on your chart, alerts on your phone and a plain-English explanation of every line. Got an error? Paste it back into Claude.\n\nThe honest part: working code isn't an edge. Test it on years it has never seen. If it only works on the years you tuned it on, it's a fake rule.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #pinescript #aitrading #claudeai #daytrading",
+    "cancelled": true
   },
   {
     "key": "C36-PARTNER-REEL",
@@ -817,7 +819,8 @@
       "b19-nov14/g7/slide-4.jpg",
       "b19-nov14/g7/slide-5.jpg"
     ],
-    "caption": "Run your strategy 1,000 times before you risk a dollar. 🎲\n\nYour backtest shows one path. Real life picks a random one. The same trades in a different order can feel like a totally different strategy.\n\nHow to use it:\n1. List your last 30+ trade results in R (+2R = you made twice your risk).\n2. Paste them into Claude with the prompt on slide 3 (analysis on).\n3. Read the worst case. That's what you must be ready for.\n\nSeeing the bad losing streaks BEFORE they happen means you won't quit a good system in a normal rough patch. Under 30 trades? Keep logging first.\n\nSave this before your next test. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Simulations show possibilities, not predictions.\n#aitrading #claudeai #backtesting #tradingtips #riskmanagement"
+    "caption": "Run your strategy 1,000 times before you risk a dollar. 🎲\n\nYour backtest shows one path. Real life picks a random one. The same trades in a different order can feel like a totally different strategy.\n\nHow to use it:\n1. List your last 30+ trade results in R (+2R = you made twice your risk).\n2. Paste them into Claude with the prompt on slide 3 (analysis on).\n3. Read the worst case. That's what you must be ready for.\n\nSeeing the bad losing streaks BEFORE they happen means you won't quit a good system in a normal rough patch. Under 30 trades? Keep logging first.\n\nSave this before your next test. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Simulations show possibilities, not predictions.\n#aitrading #claudeai #backtesting #tradingtips #riskmanagement",
+    "cancelled": true
   },
   {
     "key": "C37-TV-PINE-REEL",
@@ -841,7 +844,8 @@
       "b19-nov14/tv4/slide-4.jpg",
       "b19-nov14/tv4/slide-5.jpg"
     ],
-    "caption": "Set your levels before price gets there. Then let TradingView watch. 📈\n\nMost bad trades come from chasing a move you saw by accident. Flip it:\n1. Screenshot the daily chart (price axis and dates showing).\n2. Paste it into Claude with the prompt on slide 3. It marks 3 prices: SUPPORT, RESISTANCE, and WRONG (where your idea breaks).\n3. Draw them in TradingView and set alerts: Once per bar close.\n4. Check only when it pings. No chasing.\n\nCalm you picks the prices. TradingView watches all day for free. Always check every level on the real chart: Claude can misread a picture.\n\nWant the full TradingView kit? 25 prompts, alert setup, a daily routine and a free tested indicator. Comment TRADINGVIEW and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #aitrading #claudeai #technicalanalysis #daytrading"
+    "caption": "Set your levels before price gets there. Then let TradingView watch. 📈\n\nMost bad trades come from chasing a move you saw by accident. Flip it:\n1. Screenshot the daily chart (price axis and dates showing).\n2. Paste it into Claude with the prompt on slide 3. It marks 3 prices: SUPPORT, RESISTANCE, and WRONG (where your idea breaks).\n3. Draw them in TradingView and set alerts: Once per bar close.\n4. Check only when it pings. No chasing.\n\nCalm you picks the prices. TradingView watches all day for free. Always check every level on the real chart: Claude can misread a picture.\n\nWant the full TradingView kit? 25 prompts, alert setup, a daily routine and a free tested indicator. Comment TRADINGVIEW and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #aitrading #claudeai #technicalanalysis #daytrading",
+    "cancelled": true
   },
   {
     "key": "C38-GEM-REEL",
@@ -864,7 +868,8 @@
       "b19-nov14/k1/slide-4.jpg",
       "b19-nov14/k1/slide-5.jpg"
     ],
-    "caption": "My AI trader texts me only when it's worth it. The rest of the day, I live. 🤖\n\nEvery hour it:\n🔎 Scans every stock on my list\n📐 Spots a breakout or a pullback (or nothing)\n🛡️ Checks the risk: target must be 2x the stop, size = 1% risk\n📲 Texts me: APPROVE FOR REVIEW, WATCHLIST or REJECT\n\nThe best part? REJECT is a win. Most of the time it says no, and that stops me from forcing bad trades. It never places a trade. I make every call.\n\nTry the same check free today with the prompt on slide 3.\n\nWant the full 24/7 blueprint, how the auto version works plus a 20-minute build prompt? Comment 24/7 and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #tradingbot #stocks #daytrading"
+    "caption": "My AI trader texts me only when it's worth it. The rest of the day, I live. 🤖\n\nEvery hour it:\n🔎 Scans every stock on my list\n📐 Spots a breakout or a pullback (or nothing)\n🛡️ Checks the risk: target must be 2x the stop, size = 1% risk\n📲 Texts me: APPROVE FOR REVIEW, WATCHLIST or REJECT\n\nThe best part? REJECT is a win. Most of the time it says no, and that stops me from forcing bad trades. It never places a trade. I make every call.\n\nTry the same check free today with the prompt on slide 3.\n\nWant the full 24/7 blueprint, how the auto version works plus a 20-minute build prompt? Comment 24/7 and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #tradingbot #stocks #daytrading",
+    "cancelled": true
   },
   {
     "key": "B32-NEWS-PPX",
@@ -877,7 +882,8 @@
       "b19-nov14/ppx/slide-4.jpg",
       "b19-nov14/ppx/slide-5.jpg"
     ],
-    "caption": "Perplexity just launched AI \"teammates\" that keep working. $200 a month. 📰\n\nWhat launched (Nov 5, 2026): Perplexity Teammates, persistent AI agents. Each gets a role, standing rules and tools. They work in the background, keep context, and ask a human before decisions that need approval.\n\nThe trader lesson: the power isn't the price tag. It's the standing instructions. A role, rules, and exactly when to ping you. Write those once and any AI gets more useful.\n\nThe prompt on slide 4 is your free \"market watch teammate.\" Pair it with free TradingView alerts and you have a watcher that never sleeps.\n\nSave this. Skip the $200. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Let's Data Science (Nov 5, 2026, citing Digital Trends) and AlphaSignal. Educational only. Not financial advice. We are not affiliated with Perplexity.\n#ainews #perplexity #aiagents #claudeai #aitrading"
+    "caption": "Perplexity just launched AI \"teammates\" that keep working. $200 a month. 📰\n\nWhat launched (Nov 5, 2026): Perplexity Teammates, persistent AI agents. Each gets a role, standing rules and tools. They work in the background, keep context, and ask a human before decisions that need approval.\n\nThe trader lesson: the power isn't the price tag. It's the standing instructions. A role, rules, and exactly when to ping you. Write those once and any AI gets more useful.\n\nThe prompt on slide 4 is your free \"market watch teammate.\" Pair it with free TradingView alerts and you have a watcher that never sleeps.\n\nSave this. Skip the $200. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Let's Data Science (Nov 5, 2026, citing Digital Trends) and AlphaSignal. Educational only. Not financial advice. We are not affiliated with Perplexity.\n#ainews #perplexity #aiagents #claudeai #aitrading",
+    "cancelled": true
   },
   {
     "key": "C39-GIVE-G7-REEL",
@@ -900,7 +906,8 @@
       "b19-nov14/k2/slide-4.jpg",
       "b19-nov14/k2/slide-5.jpg"
     ],
-    "caption": "Stop staring at charts all day. Pros set one alert and walk away. ⏰\n\nThe 15-minute setup (free):\n1. Pick a stock and your price (e.g. \"AAPL at $235, the recent high\").\n2. Set a TradingView alert crossing your price. Phone + email on.\n3. When it pings, paste it into AI with the check on slide 3: WORTH A LOOK or SKIP.\n4. Write down what happened. After 10 alerts you'll see your patterns.\n\nCalm you picks the price. AI checks the move with fresh eyes. Most people find they were chasing moves they should have skipped.\n\nWant the full step-by-step setup, the check and a build prompt? Comment DESK and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#aitrading #claudeai #tradingview #daytrading #stockmarket"
+    "caption": "Stop staring at charts all day. Pros set one alert and walk away. ⏰\n\nThe 15-minute setup (free):\n1. Pick a stock and your price (e.g. \"AAPL at $235, the recent high\").\n2. Set a TradingView alert crossing your price. Phone + email on.\n3. When it pings, paste it into AI with the check on slide 3: WORTH A LOOK or SKIP.\n4. Write down what happened. After 10 alerts you'll see your patterns.\n\nCalm you picks the price. AI checks the move with fresh eyes. Most people find they were chasing moves they should have skipped.\n\nWant the full step-by-step setup, the check and a build prompt? Comment DESK and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#aitrading #claudeai #tradingview #daytrading #stockmarket",
+    "cancelled": true
   },
   {
     "key": "C40-TV-LEVELS-REEL",
@@ -933,7 +940,8 @@
       "b19-nov14/g8/slide-4.jpg",
       "b19-nov14/g8/slide-5.jpg"
     ],
-    "caption": "Holding through earnings? Ask this first. 📅\n\nStops don't work on gaps. If a stock opens far below your stop, you sell at the open price, not your stop.\n\nYou need 3 numbers (all free):\n1. The report date and time (before the open or after the close)\n2. The expected move (from the options chain, or ask your broker)\n3. Your position: shares, entry, stop\n\nPaste them into Claude with the prompt on slide 3. You'll see your worst case in dollars BEFORE the report, whether it breaks your 1% risk rule, and the pros and cons of holding, trimming or exiting. Most pros size down or step aside. Your call.\n\nSave this for earnings season. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #earnings #stockmarket #riskmanagement"
+    "caption": "Holding through earnings? Ask this first. 📅\n\nStops don't work on gaps. If a stock opens far below your stop, you sell at the open price, not your stop.\n\nYou need 3 numbers (all free):\n1. The report date and time (before the open or after the close)\n2. The expected move (from the options chain, or ask your broker)\n3. Your position: shares, entry, stop\n\nPaste them into Claude with the prompt on slide 3. You'll see your worst case in dollars BEFORE the report, whether it breaks your 1% risk rule, and the pros and cons of holding, trimming or exiting. Most pros size down or step aside. Your call.\n\nSave this for earnings season. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #earnings #stockmarket #riskmanagement",
+    "cancelled": true
   },
   {
     "key": "C42-DESK-REEL",
@@ -957,7 +965,8 @@
       "b19-nov14/k3/slide-4.jpg",
       "b19-nov14/k3/slide-5.jpg"
     ],
-    "caption": "Text \"brief me.\" Get your market in 30 seconds. 💬\n\nJARVIS is your own AI market assistant:\n1. You text a question: \"Brief me.\" \"How's NVDA?\"\n2. It looks up real numbers on the web, with sources.\n3. Answer first. Then the proof. Then the risk.\n\nThe rule that matters: research yes, trading no. Every claim needs a source and a date. If it can't find one, it says so. You make every call.\n\nStart free in 10 minutes: paste the prompt on slide 3 into Claude with web search on.\n\nWant the phone version plan, how it texts you plus a 20-minute build prompt? Comment JARVIS and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #aiassistant #stockmarket #investing"
+    "caption": "Text \"brief me.\" Get your market in 30 seconds. 💬\n\nJARVIS is your own AI market assistant:\n1. You text a question: \"Brief me.\" \"How's NVDA?\"\n2. It looks up real numbers on the web, with sources.\n3. Answer first. Then the proof. Then the risk.\n\nThe rule that matters: research yes, trading no. Every claim needs a source and a date. If it can't find one, it says so. You make every call.\n\nStart free in 10 minutes: paste the prompt on slide 3 into Claude with web search on.\n\nWant the phone version plan, how it texts you plus a 20-minute build prompt? Comment JARVIS and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #aiassistant #stockmarket #investing",
+    "cancelled": true
   },
   {
     "key": "C43-NEWS-PPX-REEL",
@@ -990,5 +999,127 @@
       "b20-fable/slide-6.jpg"
     ],
     "caption": "Claude just released Fable 5.2. Here's what it can do. 📰\n\nAnthropic launched it on Nov 9, 2026. The short version:\n• Runs big technical jobs for days and checks its own work\n• Can coordinate more than a thousand sub-agents at once\n• Stronger at finance math and at reading charts and PDFs\n• Up to 30% faster, and about 20% cheaper ($8 per million input tokens, down from $10)\n\nThe numbers on slide 3 are Anthropic's own tests, so treat them as their claims. And it didn't win everything: Gemini 4 Carbon scored higher on one automation test.\n\nWhat it means for traders: use it for the hard part. Building and testing a bot, reading a long filing, checking your backtest math. It can still be wrong, and it doesn't predict prices.\n\nThe prompt on slide 5 makes it review your bot like a strict tester. Save it.\n\nSend this to a trader who uses Claude. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Anthropic announcement (Nov 9, 2026), TestingCatalog (Nov 9, 2026), MakeUseOf (Nov 9, 2026). Benchmarks are Anthropic-reported. Educational only. Not financial advice. We are not affiliated with Anthropic.\n#ainews #claudeai #anthropic #aitrading #artificialintelligence"
+  },
+  {
+    "key": "BR27-NEWS-GEMINI",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-13T13:00:00Z",
+    "media": [
+      "b21-restyle/gem/slide-1.jpg",
+      "b21-restyle/gem/slide-2.jpg",
+      "b21-restyle/gem/slide-3.jpg",
+      "b21-restyle/gem/slide-4.jpg",
+      "b21-restyle/gem/slide-5.jpg"
+    ],
+    "caption": "The No. 1 AI model just changed. Again. 📰\n\nOn Oct 28, 2026, Google announced Gemini 4 Carbon. On the Artificial Analysis Intelligence Index it scored 59, just ahead of Claude Opus 5.5 (58) and GPT-6 Astra (57). For now it's only open to a small group of cyber defenders, with no public date yet.\n\nThe lesson for anyone building an AI trading bot: don't marry a model. 1 point is a tie, not a takeover, and the top spot keeps moving.\n\nBuild your bot so the model is ONE setting in a config file. When a better model ships, you change one word. No rebuild. The prompt on slide 4 does it for you and adds a side-by-side test.\n\nSave this for the next model drop. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Tom's Hardware (Nov 3, 2026), Signal Drift (Nov 1, 2026), Khaleej Times (Oct 28, 2026). Not affiliated with Google, Anthropic or OpenAI. Educational only.\n#ainews #gemini #claudeai #aitrading #artificialintelligence"
+  },
+  {
+    "key": "BR28-TV-PINE",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-13T19:00:00Z",
+    "media": [
+      "b21-restyle/tv3/slide-1.jpg",
+      "b21-restyle/tv3/slide-2.jpg",
+      "b21-restyle/tv3/slide-3.jpg",
+      "b21-restyle/tv3/slide-4.jpg",
+      "b21-restyle/tv3/slide-5.jpg"
+    ],
+    "caption": "Describe your setup in plain English. Claude writes the TradingView indicator. 📈\n\n1. Write your setup in English (e.g. close above the 20-day high, volume above average).\n2. Paste it into Claude with the prompt on slide 3.\n3. Paste the code into TradingView: Pine Editor → Add to chart.\n4. Test it in Strategy Tester with fees on before you trust it.\n\nYou get dots on your chart, alerts on your phone and a plain-English explanation of every line. Got an error? Paste it back into Claude.\n\nThe honest part: working code isn't an edge. Test it on years it has never seen. If it only works on the years you tuned it on, it's a fake rule.\n\nWant the full TradingView kit? Comment TRADINGVIEW and I'll DM you the master prompt, 25 prompts, the alert setup and a free tested indicator.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #pinescript #aitrading #claudeai #daytrading"
+  },
+  {
+    "key": "BR29-GIVE-G7",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-14T13:00:00Z",
+    "media": [
+      "b21-restyle/g7/slide-1.jpg",
+      "b21-restyle/g7/slide-2.jpg",
+      "b21-restyle/g7/slide-3.jpg",
+      "b21-restyle/g7/slide-4.jpg",
+      "b21-restyle/g7/slide-5.jpg"
+    ],
+    "caption": "Run your strategy 1,000 times before you risk a dollar. 🎲\n\nYour backtest shows one path. Real life picks a random one. The same trades in a different order can feel like a totally different strategy.\n\nHow to use it:\n1. List your last 30+ trade results in R (+2R = you made twice your risk).\n2. Paste them into Claude with the prompt on slide 3 (analysis on).\n3. Read the worst case. That's what you must be ready for.\n\nSeeing the bad losing streaks BEFORE they happen means you won't quit a good system in a normal rough patch. Under 30 trades? Keep logging first.\n\nSave this before your next test. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Simulations show possibilities, not predictions.\n#aitrading #claudeai #backtesting #tradingtips #riskmanagement"
+  },
+  {
+    "key": "BR30-TV-LEVELS",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-14T19:00:00Z",
+    "media": [
+      "b21-restyle/tv4/slide-1.jpg",
+      "b21-restyle/tv4/slide-2.jpg",
+      "b21-restyle/tv4/slide-3.jpg",
+      "b21-restyle/tv4/slide-4.jpg",
+      "b21-restyle/tv4/slide-5.jpg"
+    ],
+    "caption": "Set your levels before price gets there. Then let TradingView watch. 📈\n\nMost bad trades come from chasing a move you saw by accident. Flip it:\n1. Screenshot the daily chart (price axis and dates showing).\n2. Paste it into Claude with the prompt on slide 3. It marks 3 prices: SUPPORT, RESISTANCE, and WRONG (where your idea breaks).\n3. Draw them in TradingView and set alerts: Once per bar close.\n4. Check only when it pings. No chasing.\n\nCalm you picks the prices. TradingView watches all day for free. Always check every level on the real chart: Claude can misread a picture.\n\nWant the full TradingView kit? 25 prompts, alert setup, a daily routine and a free tested indicator. Comment TRADINGVIEW and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#tradingview #aitrading #claudeai #technicalanalysis #daytrading"
+  },
+  {
+    "key": "BR31-247-REMIX",
+    "kind": "carousel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-11-15T01:00:00Z",
+    "media": [
+      "b21-restyle/k1/slide-1.jpg",
+      "b21-restyle/k1/slide-2.jpg",
+      "b21-restyle/k1/slide-3.jpg",
+      "b21-restyle/k1/slide-4.jpg",
+      "b21-restyle/k1/slide-5.jpg"
+    ],
+    "caption": "My AI trader texts me only when it's worth it. The rest of the day, I live. 🤖\n\nEvery hour it:\n🔎 Scans every stock on my list\n📐 Spots a breakout or a pullback (or nothing)\n🛡️ Checks the risk: target must be 2x the stop, size = 1% risk\n📲 Texts me: APPROVE FOR REVIEW, WATCHLIST or REJECT\n\nThe best part? REJECT is a win. Most of the time it says no, and that stops me from forcing bad trades. It never places a trade. I make every call.\n\nTry the same check free today with the prompt on slide 3.\n\nWant the full 24/7 blueprint, how the auto version works plus a 20-minute build prompt? Comment 24/7 and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #tradingbot #stocks #daytrading"
+  },
+  {
+    "key": "BR32-NEWS-PPX",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-15T13:00:00Z",
+    "media": [
+      "b21-restyle/ppx/slide-1.jpg",
+      "b21-restyle/ppx/slide-2.jpg",
+      "b21-restyle/ppx/slide-3.jpg",
+      "b21-restyle/ppx/slide-4.jpg",
+      "b21-restyle/ppx/slide-5.jpg"
+    ],
+    "caption": "Perplexity just launched AI \"teammates\" that keep working. $200 a month. 📰\n\nWhat launched (Nov 5, 2026): Perplexity Teammates, persistent AI agents. Each gets a role, standing rules and tools. They work in the background, keep context, and ask a human before decisions that need approval.\n\nThe trader lesson: the power isn't the price tag. It's the standing instructions. A role, rules, and exactly when to ping you. Write those once and any AI gets more useful.\n\nThe prompt on slide 4 is your free \"market watch teammate.\" Pair it with free TradingView alerts and you have a watcher that never sleeps.\n\nSave this. Skip the $200. Follow @robmilli.ai for a new free AI trading tool every day.\n\nSources: Let's Data Science (Nov 5, 2026, citing Digital Trends) and AlphaSignal. Educational only. Not financial advice. We are not affiliated with Perplexity.\n#ainews #perplexity #aiagents #claudeai #aitrading"
+  },
+  {
+    "key": "BR33-DESK-ALERT",
+    "kind": "carousel",
+    "keyword": "DESK",
+    "scheduledAt": "2026-11-15T19:00:00Z",
+    "media": [
+      "b21-restyle/k2/slide-1.jpg",
+      "b21-restyle/k2/slide-2.jpg",
+      "b21-restyle/k2/slide-3.jpg",
+      "b21-restyle/k2/slide-4.jpg",
+      "b21-restyle/k2/slide-5.jpg"
+    ],
+    "caption": "Stop staring at charts all day. Pros set one alert and walk away. ⏰\n\nThe 15-minute setup (free):\n1. Pick a stock and your price (e.g. \"AAPL at $235, the recent high\").\n2. Set a TradingView alert crossing your price. Phone + email on.\n3. When it pings, paste it into AI with the check on slide 3: WORTH A LOOK or SKIP.\n4. Write down what happened. After 10 alerts you'll see your patterns.\n\nCalm you picks the price. AI checks the move with fresh eyes. Most people find they were chasing moves they should have skipped.\n\nWant the full step-by-step setup, the check and a build prompt? Comment DESK and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision. Not affiliated with TradingView.\n#aitrading #claudeai #tradingview #daytrading #stockmarket"
+  },
+  {
+    "key": "BR34-GIVE-G8",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-16T13:00:00Z",
+    "media": [
+      "b21-restyle/g8/slide-1.jpg",
+      "b21-restyle/g8/slide-2.jpg",
+      "b21-restyle/g8/slide-3.jpg",
+      "b21-restyle/g8/slide-4.jpg",
+      "b21-restyle/g8/slide-5.jpg"
+    ],
+    "caption": "Holding through earnings? Ask this first. 📅\n\nStops don't work on gaps. If a stock opens far below your stop, you sell at the open price, not your stop.\n\nYou need 3 numbers (all free):\n1. The report date and time (before the open or after the close)\n2. The expected move (from the options chain, or ask your broker)\n3. Your position: shares, entry, stop\n\nPaste them into Claude with the prompt on slide 3. You'll see your worst case in dollars BEFORE the report, whether it breaks your 1% risk rule, and the pros and cons of holding, trimming or exiting. Most pros size down or step aside. Your call.\n\nSave this for earnings season. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #earnings #stockmarket #riskmanagement"
+  },
+  {
+    "key": "BR35-JARVIS-BRIEF",
+    "kind": "carousel",
+    "keyword": "JARVIS",
+    "scheduledAt": "2026-11-16T19:00:00Z",
+    "media": [
+      "b21-restyle/k3/slide-1.jpg",
+      "b21-restyle/k3/slide-2.jpg",
+      "b21-restyle/k3/slide-3.jpg",
+      "b21-restyle/k3/slide-4.jpg",
+      "b21-restyle/k3/slide-5.jpg"
+    ],
+    "caption": "Text \"brief me.\" Get your market in 30 seconds. 💬\n\nJARVIS is your own AI market assistant:\n1. You text a question: \"Brief me.\" \"How's NVDA?\"\n2. It looks up real numbers on the web, with sources.\n3. Answer first. Then the proof. Then the risk.\n\nThe rule that matters: research yes, trading no. Every claim needs a source and a date. If it can't find one, it says so. You make every call.\n\nStart free in 10 minutes: paste the prompt on slide 3 into Claude with web search on.\n\nWant the phone version plan, how it texts you plus a 20-minute build prompt? Comment JARVIS and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #aiassistant #stockmarket #investing"
   }
 ]
