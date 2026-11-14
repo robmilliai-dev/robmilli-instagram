@@ -1226,5 +1226,184 @@
       "reels/r-g8.mp4"
     ],
     "caption": "Holding through earnings? Ask this first. 📅\n\nStops don't work on gaps. If a stock opens far below your stop, you sell at the open price, not your stop.\n\nYou need 3 numbers (all free):\n1. The report date and time (before the open or after the close)\n2. The expected move (from the options chain, or ask your broker)\n3. Your position: shares, entry, stop\n\nPaste them into Claude with the prompt in the video. You'll see your worst case in dollars BEFORE the report, whether it breaks your 1% risk rule, and the pros and cons of holding, trimming or exiting. Most pros size down or step aside. Your call.\n\nSave this for earnings season. Follow @robmilli.ai for a new free AI trading tool every day.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #earnings #stockmarket #riskmanagement"
+  },
+  {
+    "key": "B37-NEWS-HYDROGEN",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-17T13:00:00Z",
+    "media": [
+      "b22-nov17/hyd/slide-1.jpg",
+      "b22-nov17/hyd/slide-2.jpg",
+      "b22-nov17/hyd/slide-3.jpg",
+      "b22-nov17/hyd/slide-4.jpg",
+      "b22-nov17/hyd/slide-5.jpg"
+    ],
+    "caption": "Google just launched Gemini 4 Hydrogen. Here's how a trader should use it. ⚡\n\nWhat launched (Nov 13):\n• 2.5x faster than Gemini 3.8 Flash (Google's own claim)\n• 4 thinking levels: low, medium, high and extra-high\n• Rolling out in the Gemini app, Google Search, AI Studio and the API\n\nThe trader lesson: fast for scanning, slow for deciding.\nLet a fast model do the boring part: scan your watchlist, sort the news, tag each name QUIET, MOVING or NEWS. Then turn the thinking up for the few that matter and make it argue against you.\n\nThe two-pass prompt is on slide 4. Save it.\n\nSpeed does not make it right. Check every number.\n\nSources: ANI and Tech Times, Nov 13, 2026. Educational only. Not financial advice. Not affiliated with Google.\n#gemini #googleai #aitrading #aitools #trading"
+  },
+  {
+    "key": "C45-VIRAL1-RSI-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-17T16:00:00Z",
+    "media": [
+      "reels/r-vt1.mp4"
+    ],
+    "caption": "We tested the viral strategy #1: the RSI 30/70 rule. It lost $4,120 on Netflix. 📉\n\nYou've seen it everywhere: buy when RSI drops under 30, sell when it goes over 70. No stop.\n\nSo I ran it. $10,000 on each of 12 markets, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Netflix: -41% (holding: +90%)\n• Solana: -56% (holding: +11,253%)\n• Bitcoin: +23% (holding: +988%)\n• S&P 500: +58% (holding: +157%)\n\nIt trailed plain holding on all 12 markets. Worst single trade: -74%.\n\nWhy: RSI under 30 doesn't mean cheap. It means falling hard. With no stop, one bad buy sits there for months.\n\nI test viral strategies so you don't have to. Want one that passed my tests? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#rsi #tradingstrategy #backtesting #tradingview #aitrading"
+  },
+  {
+    "key": "B38-TEST-JUNK",
+    "kind": "carousel",
+    "keyword": "DESK",
+    "scheduledAt": "2026-11-17T19:00:00Z",
+    "media": [
+      "b22-nov17/fv1/slide-1.jpg",
+      "b22-nov17/fv1/slide-2.jpg",
+      "b22-nov17/fv1/slide-3.jpg",
+      "b22-nov17/fv1/slide-4.jpg",
+      "b22-nov17/fv1/slide-5.jpg"
+    ],
+    "caption": "Most viral AI trading bots are junk. I test them so you don't have to.\n\nHere's what I do to every one before it gets near you:\n1. Rebuild it from scratch. If I can't, the \"results\" mean nothing.\n2. Run it on years of real prices, with fees, on data it has never seen.\n3. Count the bad days. The worst drop matters more than the best month.\n\nMost fail right there. Those never reach you.\n\nMy scorecard (hypothetical backtests):\n✅ Trend Dots, daily: profitable on 41 of 43 markets\n❌ Pullback Dots, 4-hour: 0 of 11\n❌ Hourly crypto bot: lost on every coin\n❌ Dip-buying on Bitcoin: lost money\n\nA screenshot is not a test. The few that pass, I rebuild and give away.\n\nWant one I rebuilt? Comment DESK and I'll DM you the guide. Free.\n\nHypothetical backtests, not real trades. Past results do not predict future results. Educational only. Not financial advice. You make every call.\n#aitrading #tradingbot #backtesting #algotrading #claudeai"
+  },
+  {
+    "key": "C46-PROOF-BTC-REEL",
+    "kind": "reel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-11-17T22:00:00Z",
+    "media": [
+      "reels/r-prf.mp4"
+    ],
+    "caption": "+77% on Bitcoin. Worst drop: only 7%. Bitcoin itself dropped 83%.\n\nThat's my Desk 24/7 rules on 12 years of Bitcoin (Sep 2014 to Nov 2026), 1% risk per trade, fees included. Hypothetical backtest.\n\nNow the part most bot sellers skip: holding Bitcoin made FAR more money. The bot's job is a calmer ride, not a bigger number.\n\nThe full scorecard, 43 markets, 2010 to Oct 2026:\n• Profitable on 36 of 43\n• Typical worst drop: 7 to 9%\n• Small total gains. It did not beat holding the S&P 500.\n• 7 markets lost money. I count those too.\n\nI show you the bad parts because you should know them before you start.\n\nWant the 24/7 blueprint? Comment 24/7 and I'll DM you how it works + a 20-minute build prompt. Free.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#bitcoin #tradingbot #backtesting #aitrading #cryptotrading"
+  },
+  {
+    "key": "B39-TEST-FAKE",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-18T01:00:00Z",
+    "media": [
+      "b22-nov17/fv2/slide-1.jpg",
+      "b22-nov17/fv2/slide-2.jpg",
+      "b22-nov17/fv2/slide-3.jpg",
+      "b22-nov17/fv2/slide-4.jpg",
+      "b22-nov17/fv2/slide-5.jpg"
+    ],
+    "caption": "That bot did not make a million dollars. Here's how the screenshot gets made. 🧐\n\nThe 4 tricks:\n1. Pick the best month. Show 30 good days, hide the rest of the year.\n2. Leave out the fees. Small costs eat fast bots alive.\n3. Use a demo account. Fake money fills at perfect prices.\n4. Tune it to the past. Fit the settings to old prices and it \"predicts\" history.\n\nNext time you see one, paste it into Claude with the skeptic prompt on slide 3.\n\nI'm not saying every bot is a scam. Some work. I'm saying a screenshot is not a test. Years of prices, with fees, on data it never saw: that's a test. It's the only kind of result I post.\n\nKnow someone about to buy a bot? Send them this first.\n\nEducational only. Not financial advice. AI can be wrong.\n#tradingbot #aitrading #tradingscams #daytrading #claudeai"
+  },
+  {
+    "key": "B40-TV-BACKTEST",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-18T13:00:00Z",
+    "media": [
+      "b22-nov17/tv6/slide-1.jpg",
+      "b22-nov17/tv6/slide-2.jpg",
+      "b22-nov17/tv6/slide-3.jpg",
+      "b22-nov17/tv6/slide-4.jpg",
+      "b22-nov17/tv6/slide-5.jpg"
+    ],
+    "caption": "Is your TradingView backtest lying to you? Ask Claude these 5 questions. 📈\n\n1. Open the Strategy Tester under your chart.\n2. Copy the performance summary: net profit, trades, win rate, max drawdown, profit factor.\n3. Paste it into Claude with the prompt on slide 3.\n\nIt checks the 3 things that make most viral strategies look great: no fees, too few trades, and settings tuned to the past. Then it tells you which test would break it.\n\nI run these checks on every bot before I share it. Most fail.\n\nWant the full TradingView kit? 25 prompts, alert setup, a routine + a free tested indicator. Comment TRADINGVIEW and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. Not affiliated with TradingView.\n#tradingview #backtesting #aitrading #claudeai #tradingstrategy"
+  },
+  {
+    "key": "C47-TEST-TEAM-REEL",
+    "kind": "reel",
+    "keyword": "TEAM",
+    "scheduledAt": "2026-11-18T16:00:00Z",
+    "media": [
+      "reels/r-fv3.mp4"
+    ],
+    "caption": "Wall Street has a team behind every trade. You have a hunch and a chatbot that says yes.\n\nFix that tonight. Free.\n\nAsk one AI \"is this a good trade?\" and it finds reasons to say yes. So give six of them one job each:\n• Macro, Fundamental and Technical look at the same idea\n• The Devil's Advocate's only job is to argue against you\n• The Risk Manager can veto the whole thing\n• The Portfolio Manager gives the verdict: PASS, WATCH or CANDIDATE\n\nThe full prompt is in the video. Most ideas should die on the table. That's the point.\n\nWant the full team setup? Comment TEAM and I'll DM you the 6 roles, the rules and a build prompt.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\nVoiceover is AI-generated.\n#aitrading #claudeai #stockmarket #investing #tradingtips"
+  },
+  {
+    "key": "B41-VIRAL1-RSI",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-18T19:00:00Z",
+    "media": [
+      "b22-nov17/vt1/slide-1.jpg",
+      "b22-nov17/vt1/slide-2.jpg",
+      "b22-nov17/vt1/slide-3.jpg",
+      "b22-nov17/vt1/slide-4.jpg",
+      "b22-nov17/vt1/slide-5.jpg"
+    ],
+    "caption": "We tested the viral strategy #1: the RSI 30/70 rule. It lost $4,120 on Netflix. 📉\n\nYou've seen it everywhere: buy when RSI drops under 30, sell when it goes over 70. No stop.\n\nSo I ran it. $10,000 on each of 12 markets, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Netflix: -41% (holding: +90%)\n• Solana: -56% (holding: +11,253%)\n• Bitcoin: +23% (holding: +988%)\n• S&P 500: +58% (holding: +157%)\n\nIt trailed plain holding on all 12 markets. Worst single trade: -74%.\n\nWhy: RSI under 30 doesn't mean cheap. It means falling hard. With no stop, one bad buy sits there for months.\n\nI test viral strategies so you don't have to. Want one that passed my tests? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\n#rsi #tradingstrategy #backtesting #tradingview #aitrading"
+  },
+  {
+    "key": "C48-NEWS-HYDROGEN-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-18T22:00:00Z",
+    "media": [
+      "reels/r-hyd.mp4"
+    ],
+    "caption": "Google just launched Gemini 4 Hydrogen. Here's how a trader should use it. ⚡\n\nWhat launched (Nov 13):\n• 2.5x faster than Gemini 3.8 Flash (Google's own claim)\n• 4 thinking levels: low, medium, high and extra-high\n• Rolling out in the Gemini app, Google Search, AI Studio and the API\n\nThe trader lesson: fast for scanning, slow for deciding.\nLet a fast model do the boring part: scan your watchlist, sort the news, tag each name QUIET, MOVING or NEWS. Then turn the thinking up for the few that matter and make it argue against you.\n\nThe two-pass prompt is in the video. Save it.\n\nSpeed does not make it right. Check every number.\n\nSources: ANI and Tech Times, Nov 13, 2026. Educational only. Not financial advice. Not affiliated with Google.\nVoiceover is AI-generated.\n#gemini #googleai #aitrading #aitools #trading"
+  },
+  {
+    "key": "C49-TV-BACKTEST-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-19T01:00:00Z",
+    "media": [
+      "reels/r-tv6.mp4"
+    ],
+    "caption": "Is your TradingView backtest lying to you? Ask Claude these 5 questions. 📈\n\n1. Open the Strategy Tester under your chart.\n2. Copy the performance summary: net profit, trades, win rate, max drawdown, profit factor.\n3. Paste it into Claude with the prompt in the video.\n\nIt checks the 3 things that make most viral strategies look great: no fees, too few trades, and settings tuned to the past. Then it tells you which test would break it.\n\nI run these checks on every bot before I share it. Most fail.\n\nWant the full TradingView kit? 25 prompts, alert setup, a routine + a free tested indicator. Comment TRADINGVIEW and I'll DM it to you.\n\nEducational only. Not financial advice. AI can be wrong. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #backtesting #aitrading #claudeai #tradingstrategy"
+  },
+  {
+    "key": "B42-TEST-TEAM",
+    "kind": "carousel",
+    "keyword": "TEAM",
+    "scheduledAt": "2026-11-19T13:00:00Z",
+    "media": [
+      "b22-nov17/fv3/slide-1.jpg",
+      "b22-nov17/fv3/slide-2.jpg",
+      "b22-nov17/fv3/slide-3.jpg",
+      "b22-nov17/fv3/slide-4.jpg",
+      "b22-nov17/fv3/slide-5.jpg"
+    ],
+    "caption": "Wall Street has a team behind every trade. You have a hunch and a chatbot that says yes.\n\nFix that tonight. Free.\n\nAsk one AI \"is this a good trade?\" and it finds reasons to say yes. So give six of them one job each:\n• Macro, Fundamental and Technical look at the same idea\n• The Devil's Advocate's only job is to argue against you\n• The Risk Manager can veto the whole thing\n• The Portfolio Manager gives the verdict: PASS, WATCH or CANDIDATE\n\nThe full prompt is on slide 3. Most ideas should die on the table. That's the point.\n\nWant the full team setup? Comment TEAM and I'll DM you the 6 roles, the rules and a build prompt.\n\nEducational only. Not financial advice. AI can be wrong. You make every decision.\n#aitrading #claudeai #stockmarket #investing #tradingtips"
+  },
+  {
+    "key": "C50-VIRAL2-200D-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-19T16:00:00Z",
+    "media": [
+      "reels/r-vt2.mp4"
+    ],
+    "caption": "We tested the viral strategy #2: one line on a chart made +628% on Bitcoin. 📈\n\nThe 200-day line rule: price closes above the 200-day average, buy next morning. Closes below, sell. That's the whole rule.\n\n$10,000 on each of 12 markets, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Bitcoin: +628% (worst drop -64%)\n• Netflix: +317% (-29%)\n• Nasdaq 100: +196% (-23%)\n• S&P 500: +101% (-20%)\n\nIt made money on 12 of 12 markets. The honest part: plain holding made more on 10 of them. Holding Bitcoin made +988%, with a -77% drop.\n\nIt's a seatbelt, not an engine. Smaller drops on 11 of 12 markets, but lots of small losing trades (only 24% of Bitcoin trades won). Most people quit a rule like that. Know it before you start.\n\nWant an indicator I already tested? Comment TRADINGVIEW and I'll DM it free.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#bitcoin #movingaverage #tradingstrategy #backtesting #tradingview"
+  },
+  {
+    "key": "B43-PARTNER",
+    "kind": "carousel",
+    "keyword": "PARTNER",
+    "scheduledAt": "2026-11-19T19:00:00Z",
+    "media": [
+      "b22-nov17/pt2/slide-1.jpg",
+      "b22-nov17/pt2/slide-2.jpg",
+      "b22-nov17/pt2/slide-3.jpg",
+      "b22-nov17/pt2/slide-4.jpg",
+      "b22-nov17/pt2/slide-5.jpg"
+    ],
+    "caption": "One sale. $79.60 to you. 🤝\n\nThe Milli.ai Partner Program pays 40% of every sale. On the $199 AI Desk (founding price, ends Dec 1), that's $79.60 per sale, paid automatically 14 days after.\n\n1 sale: $79.60\n5 sales: $398\n10 sales: $796\n\nHow it works:\n1. Comment PARTNER and I'll DM you the sign-up link.\n2. Get your link and the partner kit: hooks, captions, story texts and an email swipe.\n3. Share it your way: posts, stories, your group or newsletter.\n\nBuyers get a simple guarantee: running in 7 days, or we set it up with them. Still not running? Full refund.\n\nThe rules: honest only. No profit promises, no fake results, always say it's an affiliate link. What you earn depends on your audience. Nothing is guaranteed.\n\nComment PARTNER and I'll send you the link.\n\nNot financial advice.\n#affiliatemarketing #aitrading #sidehustle #tradingcommunity #claudeai"
+  },
+  {
+    "key": "C51-TEST-JUNK-REEL",
+    "kind": "reel",
+    "keyword": "DESK",
+    "scheduledAt": "2026-11-19T22:00:00Z",
+    "media": [
+      "reels/r-fv1.mp4"
+    ],
+    "caption": "Most viral AI trading bots are junk. I test them so you don't have to.\n\nHere's what I do to every one before it gets near you:\n1. Rebuild it from scratch. If I can't, the \"results\" mean nothing.\n2. Run it on years of real prices, with fees, on data it has never seen.\n3. Count the bad days. The worst drop matters more than the best month.\n\nMost fail right there. Those never reach you.\n\nMy scorecard (hypothetical backtests):\n✅ Trend Dots, daily: profitable on 41 of 43 markets\n❌ Pullback Dots, 4-hour: 0 of 11\n❌ Hourly crypto bot: lost on every coin\n❌ Dip-buying on Bitcoin: lost money\n\nA screenshot is not a test. The few that pass, I rebuild and give away.\n\nWant one I rebuilt? Comment DESK and I'll DM you the guide. Free.\n\nHypothetical backtests, not real trades. Past results do not predict future results. Educational only. Not financial advice. You make every call.\nVoiceover is AI-generated.\n#aitrading #tradingbot #backtesting #algotrading #claudeai"
+  },
+  {
+    "key": "B44-VIRAL2-200D",
+    "kind": "carousel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-20T01:00:00Z",
+    "media": [
+      "b22-nov17/vt2/slide-1.jpg",
+      "b22-nov17/vt2/slide-2.jpg",
+      "b22-nov17/vt2/slide-3.jpg",
+      "b22-nov17/vt2/slide-4.jpg",
+      "b22-nov17/vt2/slide-5.jpg"
+    ],
+    "caption": "We tested the viral strategy #2: one line on a chart made +628% on Bitcoin. 📈\n\nThe 200-day line rule: price closes above the 200-day average, buy next morning. Closes below, sell. That's the whole rule.\n\n$10,000 on each of 12 markets, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Bitcoin: +628% (worst drop -64%)\n• Netflix: +317% (-29%)\n• Nasdaq 100: +196% (-23%)\n• S&P 500: +101% (-20%)\n\nIt made money on 12 of 12 markets. The honest part: plain holding made more on 10 of them. Holding Bitcoin made +988%, with a -77% drop.\n\nIt's a seatbelt, not an engine. Smaller drops on 11 of 12 markets, but lots of small losing trades (only 24% of Bitcoin trades won). Most people quit a rule like that. Know it before you start.\n\nWant an indicator I already tested? Comment TRADINGVIEW and I'll DM it free.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\n#bitcoin #movingaverage #tradingstrategy #backtesting #tradingview"
   }
 ]
