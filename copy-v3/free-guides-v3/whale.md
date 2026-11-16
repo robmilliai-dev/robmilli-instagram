@@ -1,0 +1,226 @@
+---
+title: The Whale Team
+promise: Find the Polymarket wallets that actually win, throw out the lucky ones, and see what the smart money holds right now. 6 AI agents, public data, no code.
+minutes: 20
+nextSystemSlug: polymarket-research-team
+---
+
+# The Whale Team
+
+**Every Polymarket wallet is public.** The #1 wallet this month made over $7.7 million, and you can see every bet it holds.
+
+But big profit isn't the same as skill. Not even close.
+
+So this guide gives you 6 AI agents that find the wallets worth watching, throw out the lucky ones, and check if a bet still has value before you touch it.
+
+**When you're done, you'll have:**
+
+- ✅ A shortlist of wallets that passed the Luck Filter
+- ✅ The bets 2 or more of them share right now
+- ✅ A clear call on each: WATCH or SKIP, with the reason
+
+**How it works:** Wallet Scout → Luck Filter → Market Scanner → Odds Analyst → Risk Manager (can veto) → Tracker (simulated log)
+
+> **READ FIRST:** This is research, not auto-copying. It never places a bet. Past profits don't predict future ones. Check that prediction markets are legal where you live.
+
+**Why this works:** Copying blindly is how people lose. Most "top wallets" are one lucky bet, a brand-new account, or a high-speed bot you could never copy by hand. When I ran the Luck Filter on the top 25 wallets on Nov 3, 2026, **9 of 25 failed.**
+
+All you need: a web browser and free [Claude](https://claude.ai/) or ChatGPT.
+
+## Step 1: Wallet Scout (3 minutes)
+
+1. Open the [Polymarket leaderboard](https://polymarket.com/leaderboard). Pick **Monthly** and **Profit**.
+2. Copy the top 25 rows (name, profit, volume) into a note.
+3. For each wallet, also note its **All-time** rank (switch the leaderboard to All) if it's there.
+
+## Step 2: Luck Filter (5 minutes)
+
+Paste this into Claude, then paste your list under it:
+
+```text
+You are my Luck Filter for Polymarket wallets. For each wallet decide PASS or FAIL.
+FAIL if any of these are true:
+1. Profit came from 1-3 markets only (one big bet can be luck).
+2. Profit is under 1% of volume (a high-speed bot: tiny edge, can't copy by hand).
+3. It is not on the all-time leaderboard (no long track record).
+4. Profit is more than 10x its volume (something odd: skip it).
+Answer as a table: wallet | PASS/FAIL | reason. Then list the PASS wallets.
+If a number is missing, say "need data" instead of guessing.
+```
+
+## Step 3: Market Scanner (5 minutes)
+
+1. Open each PASS wallet's profile on Polymarket (click its name).
+2. Write down its biggest open positions: the market, YES or NO, what it paid, and the price now.
+3. Look for **markets that 2 or more PASS wallets hold on the same side.** Those are your leads.
+
+## Step 4: Odds Analyst + Risk Manager (5 minutes)
+
+Paste this with one lead:
+
+```text
+You are two agents. ODDS ANALYST: given the market, what the smart wallets paid and the price now,
+say if there is still value or if the move already happened. Use only facts I give you plus dated,
+linked sources. RISK MANAGER: you can veto. VETO if the price moved more than 10 cents since they
+bought, the market is thin, it resolves in more than 60 days, or the idea needs more than 2% of my
+bankroll. Final answer: WATCH or SKIP, with one-line reasons from each agent.
+```
+
+## Step 5: Tracker (2 minutes)
+
+Make a simple sheet: date, market, side, price, WATCH/SKIP, and the result when it resolves. Track every idea with pretend money for 30 days before you use real money.
+
+## Build the starter bot with Claude Code (20 minutes)
+
+Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter Whale Team that runs the Luck Filter on the Polymarket leaderboard and finds shared bets. It runs on pretend money or in read-only mode. It never places a trade or bet.
+
+**You need:** [Claude Code](https://code.claude.com/docs/en/quickstart) (needs a paid Claude plan), Python 3, and an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) (pay as you go, usually cents per run).
+
+**1. Install Claude Code** (Mac/Linux terminal):
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Windows PowerShell: `irm https://claude.ai/install.ps1 | iex`
+
+**2. Make a folder and open Claude Code in it:**
+
+```bash
+mkdir whale-team && cd whale-team
+claude
+```
+
+**3. Paste this build prompt:**
+
+```text
+Build me a beginner-friendly starter bot called whale-team in Python 3: a starter Whale Team that runs the Luck Filter on the Polymarket leaderboard and finds shared bets.
+
+WHAT IT DOES
+1. Pull the monthly profit leaderboard from the public Polymarket data API (https://data-api.polymarket.com/v2/leaderboard?timePeriod=MONTH&orderBy=PNL&limit=50) and the all-time one. If a field name is unclear, print a sample and leave a TODO.
+2. Apply the Luck Filter in Python: fail wallets with profit under 1% of volume, wallets not on the all-time list, and wallets with fewer than 20 markets traded.
+3. For passing wallets, pull open positions (https://data-api.polymarket.com/v2/positions?user=WALLET) and list markets that 2+ passing wallets hold on the same side. Ask Claude for a WATCH or SKIP on each. Never place bets.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+```
+
+**4. Install and test:**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+```
+
+Add your key to `.env` with a text editor, then run it for real (the README shows the exact command).
+
+> **Keep your key safe:** never paste API keys into a chat, a screenshot or GitHub. Keep `.env` in `.gitignore`.
+
+**Starter vs finished**
+
+| | Starter (free, this prompt) | Finished (AI Desk) |
+|---|---|---|
+| Works on your computer | ✅ | ✅ |
+| Runs daily and messages you new shared bets | ❌ | ✅ |
+| Price-moved-already check | ❌ | ✅ |
+| Wallet scorecard over time | ❌ | ✅ |
+| Pairs with the finished POLYBOT | ❌ | ✅ |
+| Tested by us, with setup support | ❌ | ✅ |
+
+## 12 more copy-paste prompts
+
+**Finding wallets**
+
+1. "Here's the weekly leaderboard: [paste]. Run my Luck Filter. Who passes this week who didn't last week?"
+2. "Here's one wallet's open positions: [paste]. Is it spread out, or one big bet?"
+3. "Compare these 3 PASS wallets. Do they trade the same topics, or different ones?"
+
+**Checking a lead**
+
+4. "Smart wallets bought at [x]¢, it's now [y]¢. Is there still value, or did the move already happen?"
+5. "Read the resolution rules for this market: [link]. Anything that could surprise me?"
+6. "What dated news could explain why these wallets bought? Links only."
+7. "Give me the best case AGAINST following these wallets on this one."
+
+**Tracking**
+
+8. "Turn this into one log line: date, market, side, price, wallets, WATCH/SKIP."
+9. "It's 2 weeks later. Here's my log and the prices now. Did following the whales help?"
+10. "Which wallet in my log made the best calls? Which should I drop?"
+11. "One of my PASS wallets just made a big new bet: [paste]. Run the Odds Analyst and Risk Manager."
+12. "Give me a 5-line summary of the smart money this week I can read on my phone."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| Monday (10 min) | Luck Filter on the leaderboard (prompt 1). Update your PASS list. |
+| Midweek (5 min) | Check what PASS wallets hold. Look for shared bets. |
+| Any lead (5 min) | Odds Analyst + Risk Manager. Log it with pretend money. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
+## Your first run checklist
+
+- [ ] You ran the Luck Filter on the top 25 wallets
+- [ ] You found at least one market 2+ PASS wallets share
+- [ ] You got a WATCH or SKIP with reasons
+- [ ] You logged it in your tracker
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The leaderboard won't show volume | Open each wallet's profile; volume is shown there. |
+| No markets are shared | Normal on some days. Try the weekly leaderboard, or widen to the top 50. |
+| Claude invents numbers | Reply: "Use only the numbers I gave you." |
+| Every lead gets vetoed | Good. The Risk Manager is doing its job. Most copy ideas should die. |
+
+> Real public Polymarket data. Wallet names are public usernames. Past profits don't predict future results. Educational, not financial advice. You make every decision.
+
+## Want it done for you?
+
+You just did it once, by hand. That was the hard way.
+
+**The finished POLYBOT inside the AI Desk runs the research for you every hour.** It scans the busiest markets, runs six agents, and texts the best tickets straight to your phone.
+
+Pair it with your Luck Filter shortlist, and you'll know what the smart money holds and whether it's still worth a look. It even grades itself, so you can see if it's working before you bet a dollar.
+
+I already did the hard part. I built it. I tested it. I wrote down every setting and every step.
+
+Your part is a 60-minute setup. Copy. Paste. Done. You don't need to know how to code.
+
+**Here's everything you get for one payment of $199:**
+
+- ✅ **The finished POLYBOT**, tested and ready to run
+- ✅ **10 more finished trading bots:** JARVIS, ARENA, ARB, the AI Board, the 24/7 Market Watch, the Claude Chart Analyst and more
+- ✅ **Bots in your inbox for 3 months:** a morning email with what my 5 tested bots see on your markets. Nothing to install
+- ✅ **The Milli Indicator Pack** for TradingView. Paste it and see the dots on your chart in 2 minutes
+- ✅ **30 AI business systems** for sales, content, apps and outreach
+- ✅ **The Never-Blow-Up Kit**, so one bad trade can't sink your account
+- ✅ **Every new bot I release for the next 12 months, free**
+
+That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and nothing to cancel.
+
+On December 1 the price goes to $349. Same bots. Same files. You'd just be paying $150 more for waiting.
+
+**My promise.** Follow the steps. If your bot isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
+
+**[Yes, give me the finished POLYBOT for $199 →]({{offerUrl}})**

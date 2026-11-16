@@ -1,0 +1,240 @@
+---
+title: The ARENA Playbook Blueprint
+promise: An AI beat ChatGPT, Claude, Gemini and Grok in a real-money trading contest: +22% in 17 days. It didn't win by being smarter. I rebuilt its playbook as a 4-agent team, and you can run it free in 10 minutes.
+minutes: 10
+nextSystemSlug: arena-trading-team
+---
+
+# The ARENA Playbook Blueprint
+
+**An AI beat ChatGPT, Claude, Gemini and Grok in a real-money trading contest. +22% in 17 days.**
+
+In Nof1's Alpha Arena (Season 1, fall 2025), six top AIs each got $10,000 of real money to trade crypto on their own. Qwen 3 Max finished first, up 22.3%. *(Those are Nof1's reported results from one short contest, not mine. One contest doesn't predict the future.)*
+
+Now here's the interesting part. The winner didn't win by being smarter. **It won by being more disciplined.**
+
+So I rebuilt its playbook as a team of 4 AIs. This guide shows you how it works. You'll run it free in 10 minutes. The finished bot is at the bottom of the page.
+
+**When you're done, you'll have:**
+
+- ✅ The winner's 4 habits, in plain English
+- ✅ A free prompt that runs the 4-agent team on any crypto chart
+- ✅ A clear answer: **READY FOR YOUR REVIEW** or **BLOCKED BY RISK**
+
+**How it works:** Market data → 4 agents (scout, analyst, risk, judge) → one trade plan with a stop → you decide
+
+> **READ FIRST:** It's a research playbook, not a promise. It never places a trade. Use small risk on anything you try.
+
+**Why this works:** Look at what the winner did that the others didn't:
+
+| The winner | The rest |
+|---|---|
+| Made the fewest trades | Traded way too often and paid big fees |
+| Only took high-confidence setups | Chased hype and headlines |
+| A stop and a target on every trade | No stops, or stops that moved |
+| Simple signals: MACD + RSI | Overthought it |
+
+Those habits are easy to copy. That's what this team does.
+
+## Try it now: 10 minutes, no code
+
+1. Open any crypto chart in [TradingView](https://www.tradingview.com/chart/) (free) on the **1-hour** timeframe.
+2. Add 3 indicators: **MACD**, **RSI** and **EMA 50**.
+3. Copy the numbers into [Claude](https://claude.ai/) with this:
+
+```text
+You are a 4-person crypto trading team. You copy the Alpha Arena winner:
+few trades, high confidence only, a stop and target on every trade.
+You never place trades.
+
+COIN: [e.g. ETH]   PRICE: [ ]   EMA 50: [ ]   RSI: [ ]
+Did MACD just cross? [up / down / no]
+Trades I already took today: [ ]   My account: $[ ]
+
+1. SIGNAL: LONG only if MACD just crossed up, RSI is 40-65 and price
+   is above EMA 50. SHORT only if MACD crossed down, RSI is 35-60 and
+   price is below EMA 50. Otherwise say "NO SETUP" and stop.
+2. JUDGE: Score it 0-100. Set a stop where the idea is clearly wrong
+   and a target at least 1.5x as far away.
+3. RISK: Pass or fail: score 70+, reward at least 1.5x risk, fewer
+   than 3 trades today. Any fail = BLOCKED. If it passes, size it so
+   hitting the stop loses only 1% of my account.
+4. JOURNAL: "READY FOR YOUR REVIEW" or "BLOCKED BY RISK: [why]".
+   End with "Nothing has been placed. You decide."
+Only use my numbers. Never make up prices.
+```
+
+**NO SETUP and BLOCKED will be the most common answers.** That's the whole lesson. The winner waited.
+
+## How each agent works
+
+1. **SIGNAL** checks Bitcoin, Ethereum and Solana every hour (free data). It only looks for the two setups above. No setup? No AI call, no cost.
+2. **JUDGE** is Claude. It scores the setup and sets the stop and target. It's told to skip when in doubt.
+3. **RISK** is plain code. The AI can't argue with it. Score under 70, bad stop, small reward, or 3 trades already today? Blocked. Every trade is sized so a loss costs just 1%.
+4. **JOURNAL** saves every idea and texts the ticket to your phone.
+
+After a month, the log shows if the high-scoring trades really did better. That's how you tune it.
+
+**To build it yourself,** you'd pull hourly prices in Python, calculate MACD, RSI and the EMA, connect Claude, write the risk rules, set up phone texts and run it every hour. An evening if you code.
+
+> Educational only. Not financial advice. Crypto moves fast and you can lose money.
+
+## Build the starter bot with Claude Code (20 minutes)
+
+Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter ARENA crypto desk: SIGNAL, JUDGE, RISK and JOURNAL agents on BTC, ETH and SOL. It runs on pretend money or in read-only mode. It never places a trade or bet.
+
+**You need:** [Claude Code](https://code.claude.com/docs/en/quickstart) (needs a paid Claude plan), Python 3, and an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) (pay as you go, usually cents per run).
+
+**1. Install Claude Code** (Mac/Linux terminal):
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Windows PowerShell: `irm https://claude.ai/install.ps1 | iex`
+
+**2. Make a folder and open Claude Code in it:**
+
+```bash
+mkdir arena && cd arena
+claude
+```
+
+**3. Paste this build prompt:**
+
+```text
+Build me a beginner-friendly starter bot called arena in Python 3: a starter ARENA crypto desk: SIGNAL, JUDGE, RISK and JOURNAL agents on BTC, ETH and SOL.
+
+WHAT IT DOES
+1. Pull daily candles for BTC, ETH and SOL from a free public source (for example the Coinbase Exchange public candles endpoint). If unsure of an endpoint, leave a TODO.
+2. SIGNAL (Python): trend and 20-day breakout. JUDGE (Claude): builds a plan with entry, stop, target. RISK (Python): size at 1% of a pretend $10,000 account, reject if reward under 2x risk, no leverage.
+3. Pretend-money only. Log every plan and result to journal.jsonl.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+```
+
+**4. Install and test:**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+```
+
+Add your key to `.env` with a text editor, then run it for real (the README shows the exact command).
+
+> **Keep your key safe:** never paste API keys into a chat, a screenshot or GitHub. Keep `.env` in `.gitignore`.
+
+**Starter vs finished**
+
+| | Starter (free, this prompt) | Finished (AI Desk) |
+|---|---|---|
+| Works on your computer | ✅ | ✅ |
+| Runs on a schedule with phone alerts | ❌ | ✅ |
+| Tested risk rules | ❌ | ✅ |
+| Weekly journal review | ❌ | ✅ |
+| Multi-model judge | ❌ | ✅ |
+| Tested by us, with setup support | ❌ | ✅ |
+
+## Make it yours: your rules (3 minutes)
+
+```text
+MY CRYPTO RULES
+Account size: $____   Max risk per trade: 1%
+No leverage while I'm learning.
+Every plan needs: entry, stop where the idea is wrong, target at least 2x the risk.
+Max 2 open trades. Skip anything during big news (Fed, CPI) days.
+Track every plan with pretend money for 30 days first. You never place trades. I decide.
+```
+
+## 12 copy-paste prompts
+
+**Signal**
+
+1. "Scout: here are charts of BTC, ETH and SOL. Which one has the cleanest setup today, and why?"
+2. "Analyst: is this an uptrend, downtrend or chop? What on the chart shows it?"
+3. "What's on the economic calendar this week that could move crypto? Dates only."
+
+**Judge and risk**
+
+4. "Judge: build a full plan for this chart: entry, stop, target. Flag it if reward is under 2x risk."
+5. "Risk: account $___, 1% risk, entry $___, stop $___. Position size? Show the math."
+6. "Give me the strongest case against this trade."
+7. "If price hits my stop, what was I wrong about? Write it down before I start."
+
+**Journal**
+
+8. "Turn this plan into one journal line: date, coin, setup, entry, stop, target, reason."
+9. "Here's my journal for the week. Which setups worked and which didn't?"
+10. "Did I break any of my rules this week? Be blunt."
+11. "Run the whole SIGNAL → JUDGE → RISK → JOURNAL loop on this chart in one answer."
+12. "What's one rule I should add to stop my worst habit?"
+
+## Your daily routine
+
+| When | Do this |
+|---|---|
+| Morning (5 min) | Prompt 1 on 3 coins. |
+| Best setup (5 min) | Run the whole loop (prompt 11). |
+| Evening (2 min) | Journal it (prompt 8). |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
+## Your first run checklist
+
+- [ ] You ran all 4 agents on one coin or stock
+- [ ] You got a plan with an entry, a stop and a target
+- [ ] You know what would make the plan wrong
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| The AI makes up prices | Paste the real prices yourself and say "use only these numbers". |
+| The plan has no stop | Reply: "Every plan needs a stop. Redo it." |
+| All 4 agents agree every time | Ask the risk agent to argue against the trade first. |
+
+## Want it done for you?
+
+You just did it once, by hand. That was the hard way.
+
+**The finished ARENA desk does it for you every hour.** Bitcoin, Ethereum and Solana, with the winner's discipline built right in. Only the trades that pass every rule ever reach your phone.
+
+I already did the hard part. I built it. I tested it. I wrote down every setting and every step.
+
+Your part is a 60-minute setup. Copy. Paste. Done. You don't need to know how to code.
+
+**Here's everything you get for one payment of $199:**
+
+- ✅ **The finished ARENA desk**, tested and ready to run
+- ✅ **10 more finished trading bots:** POLYBOT, JARVIS, ARB, the AI Board, the 24/7 Market Watch, the Claude Chart Analyst and more
+- ✅ **Bots in your inbox for 3 months:** a morning email with what my 5 tested bots see on your markets. Nothing to install
+- ✅ **The Milli Indicator Pack** for TradingView. Paste it and see the dots on your chart in 2 minutes
+- ✅ **30 AI business systems** for sales, content, apps and outreach
+- ✅ **The Never-Blow-Up Kit**, so one bad trade can't sink your account
+- ✅ **Every new bot I release for the next 12 months, free**
+
+That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and nothing to cancel.
+
+On December 1 the price goes to $349. Same bots. Same files. You'd just be paying $150 more for waiting.
+
+**My promise.** Follow the steps. If your bot isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
+
+**[Yes, give me the finished ARENA desk for $199 →]({{offerUrl}})**

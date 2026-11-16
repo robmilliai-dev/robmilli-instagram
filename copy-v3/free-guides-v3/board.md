@@ -1,0 +1,251 @@
+---
+title: The AI Board Blueprint
+promise: Five top AIs, five jobs, one vote. Perplexity, Grok, Gemini, ChatGPT and Claude each check a trade, and Claude can veto all of them. Here's how it works, and 5 free prompts you can use today.
+minutes: 15
+nextSystemSlug: ai-board
+---
+
+# The AI Board Blueprint
+
+**What if the 5 smartest AIs in the world all had to agree before you made a trade?**
+
+Perplexity finds the news. Grok reads the crowd on X. Gemini reads the chart. ChatGPT builds the case. And Claude hunts for risk, and can say no to all of them.
+
+I call it the AI Board. This guide shows you how it works and hands you 5 free prompts to run it today.
+
+The finished bot is at the bottom of the page.
+
+**When you're done, you'll have:**
+
+- ✅ 5 free prompts, one for each AI
+- ✅ A vote: a trade only passes if 4 of 5 say yes and Claude doesn't veto
+- ✅ The full plan for the automatic board
+
+**How it works:** Perplexity finds the news → Grok reads the crowd → Gemini reads the chart → ChatGPT builds the case → Claude hunts for risk → vote
+
+> **READ FIRST:** A trade only passes if 4 of 5 say yes and Claude doesn't veto. It never trades for you.
+
+**Why this works:** Every AI has blind spots. So the board gives each one the job it's best at, and none of them can push a trade through alone. One AI can be fooled. Five checking each other? Much harder.
+
+| Seat | AI | Its job | Votes NO when |
+|---|---|---|---|
+| News | Perplexity | Find fresh news with links and dates | Not enough real sources |
+| Crowd | Grok | Read what traders on X are saying | It's all hype |
+| Chart | Gemini | Find the entry, stop and target | No clean setup |
+| Case | ChatGPT | Argue for the trade, then against it | The case falls apart |
+| Risk | Claude | Find what could go wrong. **Can veto.** | Anything looks off |
+
+## Try it now: 5 free prompts
+
+Open each AI in its own tab. Run the prompts in order, and paste each answer into the next one. **Only have Claude? Run all 5 prompts in Claude.** That works too.
+
+**1. Perplexity (News)**
+```text
+You're the NEWS seat on a 5-AI trading board. Find news from the last
+14 days about [TICKER]: earnings, reports, big announcements.
+List each one as: what happened, source, date, link.
+No link and date? It doesn't count. End with VOTE: YES or NO.
+```
+
+**2. Grok (Crowd)**
+```text
+You're the CROWD seat on a 5-AI trading board. What are traders on X
+saying about [TICKER] right now? Give % bullish, % bearish, and
+HYPE ALERT yes or no. Hype is a warning sign. End with VOTE: YES or NO.
+```
+
+**3. Gemini (Chart)**: attach a daily chart screenshot.
+```text
+You're the CHART seat on a 5-AI trading board. Using only this chart,
+give me: direction (up, down or none), entry, stop (where it's wrong),
+and target (at least 1.5x as far as the stop). No clean setup = NONE.
+End with VOTE: YES or NO. Never make up prices.
+```
+
+**4. ChatGPT (Case)**: paste answers 1-3.
+```text
+You're the CASE seat on a 5-AI trading board. Using these reports, make
+the best case for this trade. Then attack it as hard as you can.
+Vote YES only if it survives. End with VOTE: YES or NO.
+[paste reports 1-3]
+```
+
+**5. Claude (Risk)**: paste answers 1-4.
+```text
+You're the RISK seat on a 5-AI trading board, and you can VETO.
+Read these 4 reports. List anything missing, weak or hyped.
+Then: VETO yes or no, and your VOTE.
+Count the votes. If 4 of 5 say YES and there's no veto, size the trade
+so hitting the stop loses only 1% of a $[ACCOUNT] account.
+Otherwise say "NO TRADE" and why.
+End with "Nothing has been placed. You decide."
+[paste reports 1-4]
+```
+
+**NO TRADE will be the most common answer.** That's the board protecting your money.
+
+## How the automatic board works
+
+1. **Real data first.** The bot pulls a year of real prices, so the chart seat can't make up numbers.
+2. **One call per AI.** Each AI gets its prompt automatically and sends back a vote.
+3. **Backup plan.** No key for one of the AIs? Claude fills that seat. If an AI breaks or times out, that seat votes NO. A broken AI can never sneak through a yes.
+4. **Hard rules in code.** 4 of 5 votes, no Claude veto, at least 2 real sources, a sensible stop, and a 1% max loss. The AIs can't argue past these.
+5. **Ticket to your phone.** One text with every vote and the reason. Every run is saved, so you can see if the board's picks beat its rejects.
+
+**To build it yourself,** you'd connect 5 different AI services (each one works a bit differently), write the voting and risk rules in Python, set up phone texts, and run it daily. If you code, a weekend or two.
+
+> Educational only. Not financial advice. AI can be wrong.
+
+## Build the starter bot with Claude Code (20 minutes)
+
+Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter AI Board: 5 seats vote on a stock idea and Claude can block it. It runs on pretend money or in read-only mode. It never places a trade or bet.
+
+**You need:** [Claude Code](https://code.claude.com/docs/en/quickstart) (needs a paid Claude plan), Python 3, and an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) (pay as you go, usually cents per run).
+
+**1. Install Claude Code** (Mac/Linux terminal):
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Windows PowerShell: `irm https://claude.ai/install.ps1 | iex`
+
+**2. Make a folder and open Claude Code in it:**
+
+```bash
+mkdir ai-board && cd ai-board
+claude
+```
+
+**3. Paste this build prompt:**
+
+```text
+Build me a beginner-friendly starter bot called ai-board in Python 3: a starter AI Board: 5 seats vote on a stock idea and Claude can block it.
+
+WHAT IT DOES
+1. Command: python src/main.py --ticker NVDA. Pull prices with the free yfinance library.
+2. Run 5 seats as 5 separate Claude calls with different jobs (News, Crowd, Chart, Bull case, Risk). If I add other AI keys later, each seat can use a different model; leave a clear setting for that.
+3. Count the votes. Risk can block. Final: PASS, WATCH or CANDIDATE. Save to memos/.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+```
+
+**4. Install and test:**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+```
+
+Add your key to `.env` with a text editor, then run it for real (the README shows the exact command).
+
+> **Keep your key safe:** never paste API keys into a chat, a screenshot or GitHub. Keep `.env` in `.gitignore`.
+
+**Starter vs finished**
+
+| | Starter (free, this prompt) | Finished (AI Desk) |
+|---|---|---|
+| Works on your computer | ✅ | ✅ |
+| 5 different AI models (Perplexity, Grok, Gemini, ChatGPT, Claude) | ❌ | ✅ |
+| Tested seat prompts | ❌ | ✅ |
+| Vote scorecard over time | ❌ | ✅ |
+| Weekly watchlist run | ❌ | ✅ |
+| Tested by us, with setup support | ❌ | ✅ |
+
+## Make it yours: the board's rules (3 minutes)
+
+Paste this into each AI before its seat prompt, so the whole board follows **your** limits:
+
+```text
+BOARD RULES (these beat any vote)
+Account size: $____   Max risk per idea: 1%
+No idea passes without a price where we admit we're wrong.
+No new ideas 2 days before earnings.
+Claude (the risk seat) can block anything that breaks these rules.
+Final call: PASS, WATCH or CANDIDATE. The board never trades. I decide.
+```
+
+## 12 more copy-paste prompts
+
+1. "Perplexity: what changed for [ticker] in the last 7 days? Dates and links only."
+2. "Grok: what is the crowd saying about [ticker]? Is it getting more excited or more worried?"
+3. "Gemini: here's the chart. Trend, key prices, and where the idea is wrong."
+4. "ChatGPT: here are the other seats' answers: [paste]. Build the best case FOR the idea."
+5. "Claude: here's everything: [paste]. Find the biggest risk. Block or allow?"
+6. "Count the votes: [paste the 5 answers]. PASS, WATCH or CANDIDATE?"
+7. "The board split 3-2. What's the one fact that would settle it?"
+8. "Account $___, 1% risk, entry $___, stop $___. Size? Show the math."
+9. "Write one memo from the whole board: the idea, the votes, the risk, the date to check back."
+10. "30 days later, here's the price: [paste]. Was the board right? Which seat was most right?"
+11. "Which seat is right most often in my log? Should its vote count more?"
+12. "Run all 5 seats in one answer, as if you were each AI in turn."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| Monday (5 min) | Pick one idea for the board. |
+| Midweek (15 min) | Run all 5 seats and count the vote. Save the memo. |
+| 30 days later | Score it (prompt 10). |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
+## Your first run checklist
+
+- [ ] You ran all 5 prompts on one stock
+- [ ] You tallied the vote
+- [ ] You read Claude's risk check before anything else
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| I don't have all 5 AIs | Free versions work. Missing one? Count it as a "no". |
+| The AIs disagree a lot | Good. That's the point. Read the "no" reasons first. |
+| One AI makes up a fact | Ask it for the source and date. No source = ignore it. |
+
+## Want it done for you?
+
+You just did it once, by hand. That was the hard way.
+
+**The finished AI Board does it for you every day after the market closes.** All 5 AIs vote on your watchlist, and only the trades that pass land on your phone. It even runs on just one Claude key.
+
+I already did the hard part. I built it. I tested it. I wrote down every setting and every step.
+
+Your part is a 60-minute setup. Copy. Paste. Done. You don't need to know how to code.
+
+**Here's everything you get for one payment of $199:**
+
+- ✅ **The finished AI Board**, tested and ready to run
+- ✅ **10 more finished trading bots:** POLYBOT, JARVIS, ARENA, ARB, the 24/7 Market Watch, the Claude Chart Analyst and more
+- ✅ **Bots in your inbox for 3 months:** a morning email with what my 5 tested bots see on your markets. Nothing to install
+- ✅ **The Milli Indicator Pack** for TradingView. Paste it and see the dots on your chart in 2 minutes
+- ✅ **30 AI business systems** for sales, content, apps and outreach
+- ✅ **The Never-Blow-Up Kit**, so one bad trade can't sink your account
+- ✅ **Every new bot I release for the next 12 months, free**
+
+That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and nothing to cancel.
+
+On December 1 the price goes to $349. Same bots. Same files. You'd just be paying $150 more for waiting.
+
+**My promise.** Follow the steps. If your bot isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
+
+**[Yes, give me the finished AI Board for $199 →]({{offerUrl}})**

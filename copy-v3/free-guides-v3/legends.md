@@ -1,0 +1,242 @@
+---
+title: The Legends Algo Blueprint
+promise: Turn the big ideas of Buffett, Lynch, Dalio, Soros and Simons into 5 simple rules a computer can test. Plus a free prompt that turns your own idea into a rule in 10 minutes.
+minutes: 15
+nextSystemSlug: legends-strategy-lab
+---
+
+# The Legends Algo Blueprint
+
+**Buffett. Lynch. Dalio. Soros. Simons.** Five of the most famous investors who ever lived.
+
+Most people "learn" from them by reading quotes. But here's the problem. Quotes don't trade. **Rules do.**
+
+So this guide turns each legend's big idea into one simple rule a computer can follow and test. And if you'd rather skip the building, the finished lab is at the bottom of the page.
+
+**When you're done, you'll have:**
+
+- ✅ 5 legend-inspired rules, in plain English
+- ✅ The 3 rules of an honest test, so you never fool yourself
+- ✅ A free prompt that turns **your own** idea into a testable rule
+
+**How it works:** Pick a legend's idea → turn it into one simple rule → test it on years it never saw → keep it only if it holds up
+
+> **READ FIRST:** Old results don't promise future ones. A rule that only works on the years you tuned it on is a fake rule.
+
+**Why this works:** A rule doesn't get scared. It doesn't get greedy. It does the same thing every time. And once your idea is a rule, you can test it on years of real prices and see the truth before you risk a dollar.
+
+*These rules are inspired by each investor's public ideas. They're simple teaching models, not their real strategies. None of them endorse this guide.*
+
+## The 5 legends as simple rules
+
+**1. Buffett: great companies at a fair price.**
+Buy companies that make lots of profit (return on equity over 15%), have little debt, and aren't too expensive (P/E under 25).
+
+**2. Lynch: fast growth that's still cheap.**
+Buy companies growing 15%+ a year where the price hasn't caught up yet (PEG ratio under 1).
+
+**3. Dalio: spread out the risk.**
+Own stocks, bonds, gold and commodities. Put less money in the jumpy ones and more in the calm ones. Rebalance once a month.
+
+**4. Soros: ride the wave.**
+When prices keep rising, people pile in, and that pushes prices higher. Stay in while the last 6 months are up. Go to cash when they're not.
+
+**5. Simons: let the numbers decide.**
+In a stock that's going up long-term, buy the short, sharp dips. Sell when it bounces back.
+
+## The 3 rules of an honest test
+
+Every idea sounds smart. A test tells you which ones actually work. Break any of these and your results are fake:
+
+1. **No peeking.** If your signal uses today's closing price, you can only trade tomorrow.
+2. **Pay the fees.** Every trade costs money. Include it.
+3. **Test on new years.** Build your rule on old data (say, up to 2021). Then test it on the years after. Only the second result counts.
+
+## Turn your own idea into a rule (10 minutes, free)
+
+Paste this into [Claude](https://claude.ai/):
+
+```text
+You are my trading research assistant. Turn my idea into a simple rule
+a computer can test.
+
+My idea: [describe it in 1-2 sentences]
+
+1. Write the rule so it's 100% clear: exactly when to buy, when to sell,
+   and how often to check.
+2. What data do I need, and where can I get it free?
+3. The 3 most likely ways this rule fails.
+4. How to test it honestly: no peeking, include fees, test on new years.
+Don't give me any results. You haven't tested anything yet.
+Plain English.
+```
+
+**Tip:** change one thing at a time when you test. If you tweak a rule 20 times until it looks amazing, you've fooled yourself.
+
+## How to build the test lab
+
+**To build it yourself,** you'd write a Python program that downloads years of prices, turns each legend's rule into code, runs an honest test with the 3 rules above, and prints a scorecard next to "just buy and hold." If you know Python, that's a weekend.
+
+> Educational only. Not financial advice. Past results never promise future ones.
+
+## Build the starter bot with Claude Code (20 minutes)
+
+Want it running on your computer instead of in a chat? Paste one prompt and Claude Code builds a starter Legends Test Lab that tests a simple rule on years it never saw. It runs on pretend money or in read-only mode. It never places a trade or bet.
+
+**You need:** [Claude Code](https://code.claude.com/docs/en/quickstart) (needs a paid Claude plan), Python 3, and an Anthropic API key from [console.anthropic.com](https://console.anthropic.com/) (pay as you go, usually cents per run).
+
+**1. Install Claude Code** (Mac/Linux terminal):
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+Windows PowerShell: `irm https://claude.ai/install.ps1 | iex`
+
+**2. Make a folder and open Claude Code in it:**
+
+```bash
+mkdir legends-lab && cd legends-lab
+claude
+```
+
+**3. Paste this build prompt:**
+
+```text
+Build me a beginner-friendly starter bot called legends-lab in Python 3: a starter Legends Test Lab that tests a simple rule on years it never saw.
+
+WHAT IT DOES
+1. Read rule settings from config.json. Pull daily prices with the free yfinance library for the tickers listed.
+2. Backtest one rule (start with: buy when price is above its 200-day average, sell when below). Include 0.05% costs per trade and use only today's close to decide tomorrow's trade.
+3. Split the data: pick settings on years up to 2019, report results on 2020 onward. Report trades, win rate, average win vs loss, worst drop, and buy-and-hold for comparison. Save to reports/.
+
+RULES FOR THE BUILD
+4. Use the official Anthropic Python SDK. Put the model name in config.json. Read ANTHROPIC_API_KEY from .env with python-dotenv. Create .env.example with placeholders and add .env, data/ and logs/ to .gitignore. Never hardcode keys.
+5. It never places real trades or bets. No broker or wallet code, no private keys.
+6. Put every setting (limits, tickers, thresholds) in config.json so I can change them without touching code.
+7. Add a --demo flag that runs the whole thing on made-up data with no internet, so I can test it first.
+8. Handle errors and rate limits with a short wait and retry. If you are not sure an API endpoint or field exists, leave a clear TODO instead of guessing.
+9. Write a README.md for a total beginner: install, add the key, run --demo, run for real, read the logs.
+10. Keep it simple and well commented, under about 400 lines. When done, explain what you built and list anything you could not check.
+```
+
+**4. Install and test:**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python src/main.py --demo
+```
+
+Add your key to `.env` with a text editor, then run it for real (the README shows the exact command).
+
+> **Keep your key safe:** never paste API keys into a chat, a screenshot or GitHub. Keep `.env` in `.gitignore`.
+
+**Starter vs finished**
+
+| | Starter (free, this prompt) | Finished (AI Desk) |
+|---|---|---|
+| Works on your computer | ✅ | ✅ |
+| All 5 legend rules built and tested | ❌ | ✅ |
+| Many markets at once | ❌ | ✅ |
+| Charts and a one-page report | ❌ | ✅ |
+| Rule-cheating checks built in | ❌ | ✅ |
+| Tested by us, with setup support | ❌ | ✅ |
+
+## Make it yours: your testing rules (3 minutes)
+
+Paste this into Claude before you test any idea, so it can't fool you (or itself):
+
+```text
+MY TESTING RULES
+Pick settings on older years only. Test on newer years the rules never saw.
+Include trading costs. No using tomorrow's price to decide today.
+Report: number of trades, win rate, average win vs average loss, worst drop,
+and how it compares to simply buying and holding.
+If the result only works on one market or one short period, say so.
+```
+
+## 12 copy-paste prompts
+
+**Turning ideas into rules**
+
+1. "Turn this idea into one simple rule with exact numbers: [idea]."
+2. "Here's my rule. List every way it could be cheating (looking ahead, ignoring costs, tiny sample)."
+3. "Make this rule simpler. Fewer settings = less chance it's just luck."
+
+**Testing**
+
+4. "Write a simple Python test for this rule using free daily data, with costs and an older/newer year split."
+5. "Here are my test results: [paste]. Is this real, or luck? Be blunt."
+6. "Run the same rule on 5 other markets. Does it still work?"
+7. "What's the worst losing streak in these results? Could I stick with it?"
+
+**Comparing legends**
+
+8. "Compare the 5 legends' rules side by side: how often they trade, how long they hold, what they need to work."
+9. "Which legend rule fits someone with $___ and 15 minutes a day?"
+10. "Combine two rules into one. Does the mix do better on the newer years, or worse?"
+11. "Write the rule as TradingView Pine Script v6 so I can see it on a chart."
+12. "Give me a 1-page summary of this test I can save: rule, result, honest weaknesses."
+
+## Your weekly routine
+
+| When | Do this |
+|---|---|
+| One evening (20 min) | Pick one idea. Turn it into a rule (prompt 1). Check it for cheating (prompt 2). |
+| Test (20 min) | Run the test (prompt 4). Judge it (prompt 5). |
+| Save | Keep a list of every rule tested, including the ones that failed. |
+
+## Weekly review (10 minutes, every Sunday)
+
+This is where you actually get better. Paste your week's notes into Claude with this:
+
+```text
+Here are my notes from this week: [paste]
+1. Which ideas worked and which didn't? Look for patterns (setup, day, time, market).
+2. Where did I break my own rules?
+3. Give me ONE change to make next week. Just one.
+Use only what's in my notes. Don't guess.
+```
+
+## Your first run checklist
+
+- [ ] You picked one legend rule (or your own idea)
+- [ ] You wrote it as one clear rule a computer could follow
+- [ ] You know the 3 rules of an honest test
+
+## Troubleshooting
+
+| Problem | Fix |
+|---|---|
+| My rule has "feel" words | Swap them for numbers: not "cheap", but "price under 15x earnings". |
+| It looks amazing in the test | Check it on years you didn't tune on. Most "amazing" rules fail there. |
+| Too few trades to judge | Test more markets or more years. |
+
+## Want it done for you?
+
+You just did it once, by hand. That was the hard way.
+
+**The finished Legends Lab tests all five legends for you with one click.** Honestly. It prints a scorecard right next to plain buy-and-hold, and it runs free in Google Colab with nothing to install.
+
+I already did the hard part. I built it. I tested it. I wrote down every setting and every step.
+
+Your part is a 60-minute setup. Copy. Paste. Done. You don't need to know how to code.
+
+**Here's everything you get for one payment of $199:**
+
+- ✅ **The finished Legends Lab**, tested and ready to run
+- ✅ **11 finished trading bots:** POLYBOT, JARVIS, ARENA, ARB, the AI Board, the 24/7 Market Watch, the Claude Chart Analyst and more
+- ✅ **Bots in your inbox for 3 months:** a morning email with what my 5 tested bots see on your markets. Nothing to install
+- ✅ **The Milli Indicator Pack** for TradingView. Paste it and see the dots on your chart in 2 minutes
+- ✅ **30 AI business systems** for sales, content, apps and outreach
+- ✅ **The Never-Blow-Up Kit**, so one bad trade can't sink your account
+- ✅ **Every new bot I release for the next 12 months, free**
+
+That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and nothing to cancel.
+
+On December 1 the price goes to $349. Same bots. Same files. You'd just be paying $150 more for waiting.
+
+**My promise.** Follow the steps. If your lab isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
+
+**[Yes, give me the finished Legends Lab for $199 →]({{offerUrl}})**
