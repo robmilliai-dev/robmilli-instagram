@@ -371,6 +371,20 @@ def apply(slug, g):
     s = s[:i] + off
     p.write_text(s)
 
+import hashlib
+def body(t):
+    a = t.find("\n## "); b = t.find("\n## Want")
+    return t[a:b]
+done, missing = [], []
 for slug, g in G.items():
+    p = D / f"{slug}.md"
+    if not p.exists():
+        missing.append(slug); continue
+    before = p.read_text()
+    if "That's $2,175 of systems." in before:
+        done.append(slug + "(already)"); continue
     apply(slug, g)
-print("ok", len(G))
+    assert body(before) == body(p.read_text()), slug + ": technical body changed, aborting"
+    done.append(slug)
+print("free guides rewritten:", len(done), done)
+print("free guides not found (skipped):", missing)

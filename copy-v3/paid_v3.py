@@ -61,6 +61,10 @@ def apply(slug):
     return "ok"
 
 dirs = sorted(x.name for x in D.iterdir() if x.is_dir())
-missing = [d for d in dirs if d not in O]
-assert not missing, missing
-print({d: apply(d) for d in dirs})
+res = {}
+for d in dirs:
+    if d not in O or not (D / d / "00-START-HERE.md").exists():
+        res[d] = "skipped"; continue
+    res[d] = apply(d)
+print("paid START-HERE:", sum(v == "ok" for v in res.values()), "updated;", res)
+print("paid slugs with no opener written:", [d for d,v in res.items() if v == "skipped"])
