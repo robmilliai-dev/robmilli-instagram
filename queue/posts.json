@@ -1659,5 +1659,45 @@
       "b23-3d/desk-06.jpg"
     ],
     "caption": "Bitcoin dropped 83%. My bot's worst drop: only 7%. 🛡️\n\nThat's my Desk 24/7 rules on 12 years of Bitcoin (Sep 2014 to Nov 2026), 1% risk per trade, fees included. Hypothetical backtest. Total: +77%.\n\nNow the part most bot sellers skip: holding Bitcoin made FAR more money. The bot's job is a calmer ride, not a bigger number. Most people can't sit through an 83% drop. They sell at the bottom.\n\nThe full scorecard, 43 markets, 2010 to Oct 2026:\n• Profitable on 36 of 43\n• Typical worst drop: 7 to 9%\n• Small total gains. It did not beat holding the S&P 500.\n• 7 markets lost money. I count those too.\n\nI show you the bad parts because you should know them before you start.\n\nWant the 24/7 blueprint? Comment 24/7 and I'll DM you how it works + a 20-minute build prompt. Free.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. You make every call.\n#bitcoin #tradingbot #aitrading #crypto #riskmanagement"
+  },
+  {
+    "key": "D19-3D-DOTS-REEL",
+    "kind": "reel",
+    "keyword": "DOTS",
+    "scheduledAt": "2026-11-20T16:00:00Z",
+    "media": [
+      "reels/r3-dots.mp4"
+    ],
+    "caption": "I tested my indicator on 43 markets. 41 were profitable. 🟣\n\nMilli Trend Dots, daily chart:\n• Buy dot: price breaks the 20-day high while above the 200 EMA\n• Exit: a trailing stop (3x ATR)\n\nHow I tested it so it can't cheat:\n• Settings picked on 2010-2019 only, then frozen\n• Graded on Jan 2020 to Oct 2026, years it never saw\n• 1% risk per trade, fees included\n\nResults (hypothetical backtest):\n• Profitable on 41 of 43 markets\n• Median win rate: 45%. It loses more often than it wins.\n• But the wins are bigger: median profit factor 1.91\n• Losers: euro/dollar and long-term bonds\n\nWant it free? Comment DOTS and I'll DM you the indicator. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not affiliated with TradingView. Not financial advice. You make every call.\nVoiceover is AI-generated.\n#tradingview #pinescript #tradingindicator #backtesting #stocks"
+  },
+  {
+    "key": "D20-3D-NFLX-REEL",
+    "kind": "reel",
+    "keyword": "TRADINGVIEW",
+    "scheduledAt": "2026-11-20T19:00:00Z",
+    "media": [
+      "reels/r3-nflx.mp4"
+    ],
+    "caption": "One line beat holding Netflix. +1,481%. 🍿\n\nThe 200-day line rule:\n• Price closes above the 200-day average: buy\n• Closes below it: sell\n\n$10,000 start, Jan 2015 to Oct 2026, fees included, our own hypothetical backtest:\n• Line rule: +1,481% (worst drop -42%)\n• Just holding Netflix: +1,163% (worst drop -76%)\n\nStart in 2020 and it still won: +317% vs +90% for holding.\n\nBut Netflix is the exception, not the rule. I ran the same line on 12 markets from 2020:\n• Profitable on 12 of 12\n• Smaller worst drop on 11 of 12\n• Holding still made more on 10 of 12\n\nSo I'll never sell it to you as a money machine. It's a seatbelt that sometimes wins the race.\n\nWant an indicator that passed my tests? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 TradingView prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not affiliated with Netflix or TradingView. Not financial advice.\nVoiceover is AI-generated.\n#netflix #tradingview #backtesting #stocks #aitrading"
+  },
+  {
+    "key": "D21-3D-RSI-REEL",
+    "kind": "reel",
+    "keyword": "BACKTEST",
+    "scheduledAt": "2026-11-20T22:00:00Z",
+    "media": [
+      "reels/r3-rsi.mp4"
+    ],
+    "caption": "We tested the viral strategy #1: the RSI 30/70 rule. On Solana it LOST 56%. 📉\n\nYou've seen it everywhere: buy when RSI drops under 30, sell when it goes over 70. No stop.\n\nSo I ran it. $10,000 on each of 12 markets, Jan 2020 to Oct 2026 (Solana from Apr 2020), fees included, our own hypothetical backtest:\n• Solana: -56% (holding: +11,253%)\n• Netflix: -41% (holding: +90%)\n• Bitcoin: +23% (holding: +988%)\n• S&P 500: +58% (holding: +157%)\n\nIt trailed plain holding on all 12 markets. Worst single trade: -74%.\n\nWhy: RSI under 30 doesn't mean cheap. It means falling hard. With no stop, one bad buy sits there for months.\n\nI test viral strategies so you don't have to. Want to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt that backtests any idea for you.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#rsi #tradingstrategy #backtesting #solana #aitrading"
+  },
+  {
+    "key": "D22-3D-DESK-REEL",
+    "kind": "reel",
+    "keyword": "24/7",
+    "scheduledAt": "2026-11-21T01:00:00Z",
+    "media": [
+      "reels/r3-desk.mp4"
+    ],
+    "caption": "Bitcoin dropped 83%. My bot's worst drop: only 7%. 🛡️\n\nThat's my Desk 24/7 rules on 12 years of Bitcoin (Sep 2014 to Nov 2026), 1% risk per trade, fees included. Hypothetical backtest. Total: +77%.\n\nNow the part most bot sellers skip: holding Bitcoin made FAR more money. The bot's job is a calmer ride, not a bigger number. Most people can't sit through an 83% drop. They sell at the bottom.\n\nThe full scorecard, 43 markets, 2010 to Oct 2026:\n• Profitable on 36 of 43\n• Typical worst drop: 7 to 9%\n• Small total gains. It did not beat holding the S&P 500.\n• 7 markets lost money. I count those too.\n\nI show you the bad parts because you should know them before you start.\n\nWant the 24/7 blueprint? Comment 24/7 and I'll DM you how it works + a 20-minute build prompt. Free.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. You make every call.\nVoiceover is AI-generated.\n#bitcoin #tradingbot #aitrading #crypto #riskmanagement"
   }
 ]
