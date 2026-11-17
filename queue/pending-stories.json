@@ -1,0 +1,56 @@
+[
+  {
+    "key": "BFS01-NOV24",
+    "kind": "story",
+    "media": "stories/BFS01-NOV24.jpg",
+    "scheduledAt": "2026-11-24T15:00:00Z"
+  },
+  {
+    "key": "BFS02-NOV25",
+    "kind": "story",
+    "media": "stories/BFS02-NOV25.jpg",
+    "scheduledAt": "2026-11-25T15:00:00Z"
+  },
+  {
+    "key": "BFS03-NOV26",
+    "kind": "story",
+    "media": "stories/BFS03-NOV26.jpg",
+    "scheduledAt": "2026-11-26T15:00:00Z"
+  },
+  {
+    "key": "BFS04-NOV27",
+    "kind": "story",
+    "media": "stories/BFS04-NOV27.jpg",
+    "scheduledAt": "2026-11-27T15:00:00Z"
+  },
+  {
+    "key": "BFS05-NOV28",
+    "kind": "story",
+    "media": "stories/BFS05-NOV28.jpg",
+    "scheduledAt": "2026-11-28T15:00:00Z"
+  },
+  {
+    "key": "BFS06-NOV29",
+    "kind": "story",
+    "media": "stories/BFS06-NOV29.jpg",
+    "scheduledAt": "2026-11-29T15:00:00Z"
+  },
+  {
+    "key": "BFS07-NOV30A",
+    "kind": "story",
+    "media": "stories/BFS07-NOV30A.jpg",
+    "scheduledAt": "2026-11-30T12:00:00Z"
+  },
+  {
+    "key": "BFS08-NOV30B",
+    "kind": "story",
+    "media": "stories/BFS08-NOV30B.jpg",
+    "scheduledAt": "2026-11-30T15:00:00Z"
+  },
+  {
+    "key": "BFS09-NOV30C",
+    "kind": "story",
+    "media": "stories/BFS09-NOV30C.jpg",
+    "scheduledAt": "2026-11-30T18:00:00Z"
+  }
+]
