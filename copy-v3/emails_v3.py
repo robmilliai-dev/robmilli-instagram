@@ -9,7 +9,7 @@ import re, sys, pathlib
 
 D = pathlib.Path(sys.argv[1])
 MARK = "<!-- copy-v3 -->"  # not used in output; idempotence is by body comparison
-PROMISE = "Follow the steps. If it isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files."
+PROMISE = "Follow the steps. If it isn't running in 7 days, email robmilli.ai@gmail.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files."
 SEVEN = """I built it. I tested it. I wrote every step. You never touch the code.
 
 And you can start with just this one, for $7: {{starterUrl}}
@@ -18,7 +18,7 @@ Why so cheap? Because I'd rather you watch it run on your own laptop than take m
 
 Rob
 
-P.S. If it doesn't do what I say, email support@milli-ai.com within 14 days and I'll send your $7 back."""
+P.S. If it doesn't do what I say, email robmilli.ai@gmail.com within 14 days and I'll send your $7 back."""
 
 def try_it(action, did, tip):
     return f"""Hey {{{{firstName}}}},

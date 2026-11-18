@@ -46,12 +46,12 @@ O = {
 "viral-reel-builder": "Nobody can promise you a viral video. Anyone who does is lying.\n\nWhat I can do is take away the two things that stop most people: editing time, and not knowing what makes someone stop scrolling.",
 }
 
-SIGNOFF = "\n\n---\n\nStuck on a step? Email support@milli-ai.com and tell me which one. I'll help you get it running.\n\nRob\n"
+SIGNOFF = "\n\n---\n\nStuck on a step? Email robmilli.ai@gmail.com and tell me which one. I'll help you get it running.\n\nRob\n"
 
 def apply(slug):
     p = D / slug / "00-START-HERE.md"
     s = p.read_text()
-    if "Stuck on a step? Email support@milli-ai.com" in s:
+    if "Stuck on a step? Email robmilli.ai@gmail.com" in s:
         return "skip"
     m = re.match(r"(# [^\n]*\n\n)", s)
     assert m, slug

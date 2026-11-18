@@ -27,7 +27,7 @@ That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and not
 
 On December 1 the price goes to $349. Same bots. Same files. You'd just be paying $150 more for waiting.
 
-**My promise.** Follow the steps. If your {what} isn't running in 7 days, email support@milli-ai.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
+**My promise.** Follow the steps. If your {what} isn't running in 7 days, email robmilli.ai@gmail.com and I'll set it up with you. Still not running? You get every dollar back, and you keep the files anyway.
 
 **[{button}]({{{{offerUrl}}}})**
 """
@@ -347,7 +347,7 @@ That's $2,175 of systems. **You pay $199. Once.** There's no monthly fee and not
 
 On December 1 the price goes to $349. Same files. You'd just be paying $150 more for waiting.
 
-**My promise.** Follow the steps. If it isn't working in 7 days, email support@milli-ai.com and I'll set it up with you. Still not working? You get every dollar back, and you keep the files anyway.
+**My promise.** Follow the steps. If it isn't working in 7 days, email robmilli.ai@gmail.com and I'll set it up with you. Still not working? You get every dollar back, and you keep the files anyway.
 
 **[Yes, give me the AI team and all 11 bots for $199 →]({{offerUrl}})**
 """
