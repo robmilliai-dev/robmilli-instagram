@@ -1,0 +1,182 @@
+[
+ {
+  "id": "account-stats",
+  "title": "The Account Stats skill",
+  "category": "review",
+  "summary": "Your real scoreboard from Alpaca or any broker CSV: equity, today's P&L, return, worst drop, exposure, win rate, profit factor. As a block, an honest post or JSON. Knows the traps that make stats lie."
+ },
+ {
+  "id": "alert-inbox",
+  "title": "The Alert Inbox skill",
+  "category": "research",
+  "summary": "Forty trading emails a day into one morning brief: real alerts by ticker, newsletters in 2 lines, hype counted and ignored, scams flagged. Drafts replies, never sends, never trades."
+ },
+ {
+  "id": "backtest-viral-strategy",
+  "title": "Test a Viral Trading Strategy",
+  "category": "test",
+  "summary": "Turn a strategy from a reel, tweet or video into one exact rule, test it on years of real prices with costs, run the 5 honesty checks, and get a plain verdict (HELD UP / WEAK / FAILED / NOT ENOUGH TRADES)."
+ },
+ {
+  "id": "bias-audit",
+  "title": "The Trader Bias Audit",
+  "category": "mindset",
+  "summary": "One prompt makes your AI profile you as a trader from everything you've told it, then names the bias costing you the most and one rule to fix it."
+ },
+ {
+  "id": "bot-audit",
+  "title": "The Bot Audit skill",
+  "category": "build",
+  "summary": "Six blind reviewers audit a trading bot before it touches money: backtest honesty, risk and kill switches, order bugs, leaked keys, data timing, overfitting. Findings JSON + plain report + verified fixes."
+ },
+ {
+  "id": "bot-brain",
+  "title": "The Bot Brain meta-prompt",
+  "category": "build",
+  "summary": "The 9-part pattern behind serious AI products' instructions, and the meta-prompt that writes a pro-grade system prompt for your trading bot."
+ },
+ {
+  "id": "data-lockdown",
+  "title": "The Trading Data Lockdown",
+  "category": "mindset",
+  "summary": "What your AI has stored about your money and keys, the scam email that would work on you, and exactly what to delete today."
+ },
+ {
+  "id": "drawdown-recovery",
+  "title": "Drawdown Recovery Plan",
+  "category": "plan",
+  "summary": "You're down and it hurts. A calm plan: stop the bleeding, find out what actually went wrong (system vs. you vs. market), cut size, and the exact conditions to scale back up."
+ },
+ {
+  "id": "earnings-game-plan",
+  "title": "The Earnings Game Plan skill",
+  "category": "plan",
+  "summary": "Decide before the number drops: landmines table, the move options expect vs. the last four, three if/then scenarios, size math, minute-by-minute plan and a one-page cheat sheet."
+ },
+ {
+  "id": "equity-video",
+  "title": "The Equity Curve Video skill",
+  "category": "content",
+  "summary": "Equity curve CSV into a 12-second animated MP4: hook, the curve draws itself, the worst drop marked in red, final stats. Reel, square and wide presets."
+ },
+ {
+  "id": "honest-trade-review",
+  "title": "The Yes-Man Off prompt",
+  "category": "mindset",
+  "summary": "Why your AI agrees with every trade idea, and the 10-line override that makes it act like a risk manager instead of a cheerleader."
+ },
+ {
+  "id": "hook-writer",
+  "title": "Trading Hook Writer",
+  "category": "content",
+  "summary": "Ten ranked opening lines for a trading reel, carousel or post, each tagged with its hook family, tested against the 3-question hook test, plus a rewrite of your current hook. Honest by default."
+ },
+ {
+  "id": "morning-brief",
+  "title": "Pre-Market Morning Brief",
+  "category": "research",
+  "summary": "A 2-minute pre-market brief for your watchlist: overnight moves, scheduled events today (earnings, economic data, Fed speakers), key levels, and what would change your plan. No predictions."
+ },
+ {
+  "id": "pine-script-writer",
+  "title": "The Pine Script Writer",
+  "category": "build",
+  "summary": "Plain English to TradingView Pine Script v6, then checked for repainting, lookahead, unconfirmed-bar signals and missing costs. Webhook-ready alerts included."
+ },
+ {
+  "id": "position-size",
+  "title": "Position Size Calculator (Never Blow Up)",
+  "category": "risk",
+  "summary": "Work out exactly how many shares, contracts or coins to buy so one losing trade costs a fixed, small slice of your account, including gap risk and what to do when the math says the trade is too big."
+ },
+ {
+  "id": "pre-trade-checklist",
+  "title": "60-Second Pre-Trade Check",
+  "category": "risk",
+  "summary": "Before you click buy, answer 8 questions out loud. Returns GO, WAIT or NO with the reason, and the exact stop and size if it's a GO."
+ },
+ {
+  "id": "prop-challenge-plan",
+  "title": "Prop Firm Challenge Plan",
+  "category": "plan",
+  "summary": "A day-by-day plan to pass a prop firm evaluation without breaking its rules: the daily loss and max drawdown math, the size that keeps you safe, how many good days you need, and a practice routine before paying the fee."
+ },
+ {
+  "id": "reel-prompts",
+  "title": "The AI B-Roll Prompt skill",
+  "category": "content",
+  "summary": "Twelve 2-second trading hooks for AI video models, a master prompt template, shot plans for 5 trading video types and a credit estimate before you generate."
+ },
+ {
+  "id": "reel-script",
+  "title": "The Reel Script skill",
+  "category": "content",
+  "summary": "Three hooks from different families ranked, a 45-second script with on-screen text and B-roll cues, caption, keyword CTA and a prediction against your own past reels."
+ },
+ {
+  "id": "research-committee",
+  "title": "The One-Ticker Research Committee",
+  "category": "research",
+  "summary": "Six AI roles review one ticker like a hedge fund committee (Macro, Fundamental, Technical, Risk Manager with a veto, Devil's Advocate, Portfolio Manager) and the PM returns PASS, WATCH or CANDIDATE with the reason."
+ },
+ {
+  "id": "saved-posts-sorter",
+  "title": "The Saved Posts Sorter",
+  "category": "test",
+  "summary": "Your saved trading reels into a ranked shortlist of strategies worth testing. Parses your Instagram/TikTok export, pulls the claim and exact rule, scores testability."
+ },
+ {
+  "id": "skill-builder",
+  "title": "The Skill Builder",
+  "category": "build",
+  "summary": "Turn anything you repeat as a trader into a reusable skill: intake, process, rules with reasons, output contract, self-check, stop-and-show. Tested on your real example."
+ },
+ {
+  "id": "strategy-to-bot-spec",
+  "title": "The Strategy-to-Bot Spec skill",
+  "category": "build",
+  "summary": "Any trading idea into an exact build spec a developer or AI coder can build without guessing: every rule, data, timing, risk limits, kill switch, test plan, definition of done."
+ },
+ {
+  "id": "ticker-deep-dive",
+  "title": "The Ticker Deep Dive skill",
+  "category": "research",
+  "summary": "Eight research passes into one 8-section brief: what they sell, the numbers, earnings pattern, insiders, chart, 90 days of news, catalysts, the bear case. Every fact sourced."
+ },
+ {
+  "id": "trade-carousel",
+  "title": "The Trade Carousel skill",
+  "category": "content",
+  "summary": "Carousel about a trade or backtest: giant-number hook slide, content slides, keyword CTA, caption. HTML to 1080x1350 PNGs plus a PDF DM asset. Dark and light."
+ },
+ {
+  "id": "trade-journal-review",
+  "title": "Weekly Trade Journal Review",
+  "category": "review",
+  "summary": "Paste or upload your trades and notes for the week; get the numbers, the rule breaks, the one pattern costing you the most, and one rule to change for next week."
+ },
+ {
+  "id": "trade-recap",
+  "title": "The Trade Recap Post skill",
+  "category": "content",
+  "summary": "An honest trade post for X, Threads, StockTwits or LinkedIn. One true detail, a first line that survives the cut, the loss next to the win. Refuses to write without a real number."
+ },
+ {
+  "id": "trading-dashboard-app",
+  "title": "Build Your Trading Dashboard App",
+  "category": "build",
+  "summary": "Your own private dashboard on a link: watchlist, alert log via webhook, bot status with a KILL switch, weekly scoreboard. The exact starter prompt and the build order that avoids dead ends."
+ },
+ {
+  "id": "trading-plan",
+  "title": "The Trading Plan skill",
+  "category": "plan",
+  "summary": "Your written trading plan: your honest rung on the Bot Ladder, one market that fits your time and money, risk rules first, a 90-day path from manual to automated, the don't-do list and a weekly scoreboard. HTML + PDF."
+ },
+ {
+  "id": "watchlist-pull",
+  "title": "The Watchlist Pull skill",
+  "category": "research",
+  "summary": "Plain-English market idea into a screened, deduped, ranked watchlist CSV plus a TradingView import line and a why-each-one note. Resumable, free data, logs every drop."
+ }
+]

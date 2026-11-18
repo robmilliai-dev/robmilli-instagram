@@ -1,0 +1,322 @@
+{
+  "id": "milli-trader-skills",
+  "version": "1.0",
+  "updatedAt": "2026-11-18",
+  "outcome": "17 Claude skills and 6 prompt kits built for traders (plan, bot audit, account stats, watchlist scan, research, earnings plans, Pine Script, content tools), plus the Milli MCP link that puts 30 trading playbooks inside Claude or ChatGPT.",
+  "setupTime": "2 minutes for the MCP link; 5 minutes to install every skill",
+  "difficulty": "beginner",
+  "worksWith": [
+    "Claude",
+    "ChatGPT",
+    "Claude Code",
+    "Python 3.8+",
+    "Node 18+",
+    "TradingView",
+    "Alpaca"
+  ],
+  "whoFor": [
+    "Traders who use AI and want repeatable, honest workflows",
+    "Anyone building or running a trading bot",
+    "Traders who post their results online"
+  ],
+  "prerequisites": [
+    "A Claude or ChatGPT account (paid plan for connectors)",
+    "Claude Code for the skills that run scripts (optional)"
+  ],
+  "costNote": "Everything here is included. Claude, ChatGPT and data providers are billed by them; free tiers work for most skills.",
+  "quickStart": [
+    "Read 00-START-HERE (3 min).",
+    "Add https://milli-ai.com/api/mcp as a connector and ask 'Milli: list your playbooks'.",
+    "Run /trading-plan me, then /bot-audit on any bot before it goes live."
+  ],
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-11-18",
+      "note": "First release: 17 skills, 6 prompt kits, 30 MCP playbooks."
+    }
+  ],
+  "files": [
+    {
+      "path": "00-START-HERE.md",
+      "title": "Start here",
+      "blurb": "Connect the Milli MCP in 2 minutes, install all 17 skills in one command, and the three to run first.",
+      "preview": true
+    },
+    {
+      "path": "prompts/bias-audit.md",
+      "title": "Prompt kit: bias audit",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "prompts/bot-brain.md",
+      "title": "Prompt kit: bot brain",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "prompts/claude-code-for-traders.md",
+      "title": "Prompt kit: claude code for traders",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "prompts/data-lockdown.md",
+      "title": "Prompt kit: data lockdown",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "prompts/local-trading-ai.md",
+      "title": "Prompt kit: local trading ai",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "prompts/yes-man-off.md",
+      "title": "Prompt kit: yes man off",
+      "blurb": "Copy-paste prompt kit for Claude or ChatGPT."
+    },
+    {
+      "path": "skills/account-stats/.env.example",
+      "title": "account-stats: .env.example",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/account-stats/README.md",
+      "title": "account-stats: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/account-stats/SKILL.md",
+      "title": "account-stats: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/account-stats/scripts/account_stats.py",
+      "title": "account-stats: scripts/account_stats.py",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/alert-inbox/README.md",
+      "title": "alert-inbox: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/alert-inbox/RULES.md",
+      "title": "alert-inbox: RULES.md",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/alert-inbox/SKILL.md",
+      "title": "alert-inbox: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/bot-audit/README.md",
+      "title": "bot-audit: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/bot-audit/SKILL.md",
+      "title": "bot-audit: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/earnings-game-plan/README.md",
+      "title": "earnings-game-plan: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/earnings-game-plan/SKILL.md",
+      "title": "earnings-game-plan: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/equity-video/README.md",
+      "title": "equity-video: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/equity-video/SKILL.md",
+      "title": "equity-video: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/equity-video/scripts/csv_to_props.py",
+      "title": "equity-video: scripts/csv_to_props.py",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/scripts/setup.sh",
+      "title": "equity-video: scripts/setup.sh",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/template/package.json",
+      "title": "equity-video: template/package.json",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/template/tsconfig.json",
+      "title": "equity-video: template/tsconfig.json",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/template/src/EquityCurve.tsx",
+      "title": "equity-video: template/src/EquityCurve.tsx",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/template/src/Root.tsx",
+      "title": "equity-video: template/src/Root.tsx",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/equity-video/template/src/index.ts",
+      "title": "equity-video: template/src/index.ts",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/pine-script-writer/README.md",
+      "title": "pine-script-writer: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/pine-script-writer/SKILL.md",
+      "title": "pine-script-writer: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/reel-prompts/README.md",
+      "title": "reel-prompts: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/reel-prompts/SKILL.md",
+      "title": "reel-prompts: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/reel-script/README.md",
+      "title": "reel-script: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/reel-script/SKILL.md",
+      "title": "reel-script: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/saved-posts-sorter/README.md",
+      "title": "saved-posts-sorter: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/saved-posts-sorter/SKILL.md",
+      "title": "saved-posts-sorter: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/saved-posts-sorter/scripts/parse_saved.py",
+      "title": "saved-posts-sorter: scripts/parse_saved.py",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/saved-posts-sorter/scripts/rank.py",
+      "title": "saved-posts-sorter: scripts/rank.py",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/skill-builder/README.md",
+      "title": "skill-builder: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/skill-builder/SKILL.md",
+      "title": "skill-builder: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/strategy-to-bot-spec/README.md",
+      "title": "strategy-to-bot-spec: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/strategy-to-bot-spec/SKILL.md",
+      "title": "strategy-to-bot-spec: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/ticker-deep-dive/README.md",
+      "title": "ticker-deep-dive: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/ticker-deep-dive/SKILL.md",
+      "title": "ticker-deep-dive: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/trade-carousel/README.md",
+      "title": "trade-carousel: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/trade-carousel/SKILL.md",
+      "title": "trade-carousel: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/trade-carousel/scripts/render.mjs",
+      "title": "trade-carousel: scripts/render.mjs",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/trade-carousel/templates/carousel.html",
+      "title": "trade-carousel: templates/carousel.html",
+      "blurb": "Helper file used by this skill."
+    },
+    {
+      "path": "skills/trade-recap/README.md",
+      "title": "trade-recap: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/trade-recap/SKILL.md",
+      "title": "trade-recap: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/trading-dashboard-app/README.md",
+      "title": "trading-dashboard-app: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/trading-dashboard-app/SKILL.md",
+      "title": "trading-dashboard-app: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/trading-plan/README.md",
+      "title": "trading-plan: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/trading-plan/SKILL.md",
+      "title": "trading-plan: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/watchlist-pull/README.md",
+      "title": "watchlist-pull: README.md",
+      "blurb": "Install steps and requirements."
+    },
+    {
+      "path": "skills/watchlist-pull/SKILL.md",
+      "title": "watchlist-pull: SKILL.md",
+      "blurb": "The skill itself: copy the folder into ~/.claude/skills."
+    },
+    {
+      "path": "skills/watchlist-pull/scripts/pull.py",
+      "title": "watchlist-pull: scripts/pull.py",
+      "blurb": "Helper file used by this skill."
+    }
+  ]
+}
