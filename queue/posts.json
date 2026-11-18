@@ -1782,5 +1782,239 @@
       "reels/rbf-last.mp4"
     ],
     "caption": "Cyber Monday. Last day. ⏰\n\nTonight at midnight ET:\n• AI Desk Pro goes back to $497 (it's $249 today): all 50 systems, listed at $3,081, plus every system I ever build\n• 3 months of free Desk Live ends: a new finished bot every month\n• Free Setup Fast-Track ($37) ends\n• The free $997 custom bot for the first 5 buyers ends. If any are left, the site shows it.\n• And the regular AI Desk goes from $199 to $349\n\nThe guarantee: running in 7 days, or I set it up with you. Still not running? Full refund, and you keep the files.\n\nMidnight ET. Then it's gone. Link in bio.\n\nEducational tools. Backtests are hypothetical. Not financial advice. You make every call.\nVoiceover is AI-generated.\n#cybermonday #aitrading #tradingbot #claudeai #trading"
+  },
+  {
+    "key": "E01-3D-MANIFESTO",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-21T13:00:00Z",
+    "media": [
+      "b25-e/manifesto-01.jpg",
+      "b25-e/manifesto-02.jpg",
+      "b25-e/manifesto-03.jpg",
+      "b25-e/manifesto-04.jpg",
+      "b25-e/manifesto-05.jpg",
+      "b25-e/manifesto-06.jpg"
+    ],
+    "caption": "Screenshots are not proof. 🧾\n\nViral bots get posted with a screenshot and no test behind them. So I test them myself, on years of real prices with fees, and show you everything, including the losers.\n\nWhat we believe:\nAnyone can show you a winning trade. Anyone can tune a bot until the past looks perfect.\nWe don't trust it until it's tested. On data it has never seen. With the losses shown, not hidden.\nMost viral bots fail that test. The few that pass get rebuilt and handed to you.\nWe don't need a hunch. We have a desk.\n\nWe are Testers. Tested, not trusted.\n\nComment TESTER if you're one of us. 👇\n\nEducational only. Not financial advice.\n#aitrading #tradingbot #backtesting #algotrading #trading"
+  },
+  {
+    "key": "E02-3D-ETHMACD-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-21T16:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r4-ethmacd.mp4"
+    ],
+    "caption": "The viral MACD bot beat holding Ethereum. +989%. 📈\n\nThe whole bot is 2 lines:\n• Fast line crosses above slow line: buy\n• Crosses below: sell\n\n$10,000 start, Nov 2017 to Nov 2026, fees included, our own hypothetical backtest:\n• MACD bot: +989% (worst drop -72%)\n• Just holding Ethereum: +637% (worst drop -94%)\n\nWhat the viral posts leave out:\n• Only 38% of its 118 trades won. Worst single trade: -29%.\n• Same bot on AMD (2015 to 2026): +3,440%. Holding AMD: +18,806%.\n\nOne win proves nothing. That's why I test every viral bot on 12 markets before I tell you anything.\n\nWant to test any strategy yourself? Comment BACKTEST and I'll DM you the free prompt that backtests any idea for you.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#ethereum #macd #tradingbot #backtesting #crypto"
+  },
+  {
+    "key": "E03-3D-PULLBACK",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-21T19:00:00Z",
+    "keyword": "DOTS",
+    "media": [
+      "b25-e/pullback-01.jpg",
+      "b25-e/pullback-02.jpg",
+      "b25-e/pullback-03.jpg",
+      "b25-e/pullback-04.jpg",
+      "b25-e/pullback-05.jpg",
+      "b25-e/pullback-06.jpg"
+    ],
+    "caption": "My pullback indicator won 82% of its S&P 500 trades. 🎯\n\nMilli Pullback Dots (daily chart):\n• Uptrend only: 50 EMA above the 200 EMA, price above the 200\n• Buy dot on a sharp dip (RSI(2) under 5)\n• Exit on the first close above the 5 EMA, or a 2x ATR stop\n\nSettings picked on 2010-2019 only. Tested on Jan 2020 to Oct 2026, years they never saw. Our own hypothetical backtest:\n• S&P 500 futures: 27 of 33 trades won (82%)\n• Google: 24 of 29 won (83%)\n• Profitable on 34 of 43 markets, median win rate 65%\n• Losers include Costco, Meta, Amazon and gold\n\nAnd on the 4-hour chart it failed: 0 of 11 markets. So I only use it on the daily.\n\nWant it free? Comment DOTS and I'll DM you both Milli Dots indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\n#tradingview #pinescript #sp500 #tradingindicator #stocks"
+  },
+  {
+    "key": "E04-3D-ETH200-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-21T22:00:00Z",
+    "keyword": "TRADINGVIEW",
+    "media": [
+      "reels/r4-eth200.mp4"
+    ],
+    "caption": "One line made +1,688% on Ethereum. 💎\n\nThe 200-day line rule:\n• Price closes above the 200-day average: buy\n• Closes below it: sell\n\n$10,000 start, Nov 2017 to Nov 2026, fees included, our own hypothetical backtest:\n• Line rule: +1,688% (worst drop -71%)\n• Just holding Ethereum: +637% (worst drop -94%)\n\nThe catch: 65% of its 23 trades lost. A few big trends paid for everything. And a 71% drop is still brutal. This is a seatbelt, not a magic trick.\n\nWant an indicator that passed my tests? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 TradingView prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#ethereum #crypto #tradingview #backtesting #aitrading"
+  },
+  {
+    "key": "E05-3D-ETHMACD",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-22T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b25-e/ethmacd-01.jpg",
+      "b25-e/ethmacd-02.jpg",
+      "b25-e/ethmacd-03.jpg",
+      "b25-e/ethmacd-04.jpg",
+      "b25-e/ethmacd-05.jpg",
+      "b25-e/ethmacd-06.jpg"
+    ],
+    "caption": "The viral MACD bot beat holding Ethereum. +989%. 📈\n\nThe whole bot is 2 lines:\n• Fast line crosses above slow line: buy\n• Crosses below: sell\n\n$10,000 start, Nov 2017 to Nov 2026, fees included, our own hypothetical backtest:\n• MACD bot: +989% (worst drop -72%)\n• Just holding Ethereum: +637% (worst drop -94%)\n\nWhat the viral posts leave out:\n• Only 38% of its 118 trades won. Worst single trade: -29%.\n• Same bot on AMD (2015 to 2026): +3,440%. Holding AMD: +18,806%.\n\nOne win proves nothing. That's why I test every viral bot on 12 markets before I tell you anything.\n\nWant to test any strategy yourself? Comment BACKTEST and I'll DM you the free prompt that backtests any idea for you.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\n#ethereum #macd #tradingbot #backtesting #crypto"
+  },
+  {
+    "key": "E06-3D-SEC1",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-22T13:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b25-e/sec1-01.jpg",
+      "b25-e/sec1-02.jpg",
+      "b25-e/sec1-03.jpg",
+      "b25-e/sec1-04.jpg",
+      "b25-e/sec1-05.jpg",
+      "b25-e/sec1-06.jpg"
+    ],
+    "caption": "Secret #1: the boring rule beat the famous one on 12 of 12 markets. 🧪\n\n\"Buy when RSI drops under 30. Sell when it goes over 70.\" It's in every trading video. I assumed it worked too. So I tested it: 12 markets, Bitcoin to gold, every day from Jan 2020 to Oct 2026, $10,000 on each.\n\nIt trailed simply holding on all 12. Not 11. All 12. On Solana it lost 56%.\n\nThen I tested something so boring nobody posts it: own the market above its 200-day average, step aside below it. Profitable on 12 of 12. Bitcoin +628%, Nasdaq +196%, S&P +101%.\n\nHonest part: holding made more than the 200-day rule on 10 of the 12. Its job is smaller drops, not bigger gains.\n\nThe rule everyone shares isn't the rule that works. It's the rule that's easy to share. Screenshots are not proof. Tests are.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#backtesting #tradingstrategy #rsi #aitrading #stocks"
+  },
+  {
+    "key": "E07-3D-GCROSS-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-22T16:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r4-gcross.mp4"
+    ],
+    "caption": "We tested the viral strategy: the golden cross on Netflix. 3 trades. +286%. 🎬\n\nThe rule everyone posts:\n• 50-day average crosses above the 200-day: buy\n• Crosses back below: sell\n\n$10,000 start, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Golden cross: +286% (worst drop -48%)\n• Just holding Netflix: +90% (worst drop -76%)\n\nLooks amazing. But it's 3 trades in almost 7 years. 2 won, the worst lost 21%. Three trades is not proof. It's a coin flip with a great story.\n\nThat's exactly how viral posts sell you: one great chart. I run every rule on 12 markets, fees in, before I trust it.\n\nWant to test any viral rule yourself? Comment BACKTEST and I'll DM you the free prompt that backtests any idea for you.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\nVoiceover is AI-generated.\n#goldencross #netflix #backtesting #tradingstrategy #stocks"
+  },
+  {
+    "key": "E08-3D-ETH200",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-22T19:00:00Z",
+    "keyword": "TRADINGVIEW",
+    "media": [
+      "b25-e/eth200-01.jpg",
+      "b25-e/eth200-02.jpg",
+      "b25-e/eth200-03.jpg",
+      "b25-e/eth200-04.jpg",
+      "b25-e/eth200-05.jpg",
+      "b25-e/eth200-06.jpg"
+    ],
+    "caption": "One line made +1,688% on Ethereum. 💎\n\nThe 200-day line rule:\n• Price closes above the 200-day average: buy\n• Closes below it: sell\n\n$10,000 start, Nov 2017 to Nov 2026, fees included, our own hypothetical backtest:\n• Line rule: +1,688% (worst drop -71%)\n• Just holding Ethereum: +637% (worst drop -94%)\n\nThe catch: 65% of its 23 trades lost. A few big trends paid for everything. And a 71% drop is still brutal. This is a seatbelt, not a magic trick.\n\nWant an indicator that passed my tests? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 TradingView prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\n#ethereum #crypto #tradingview #backtesting #aitrading"
+  },
+  {
+    "key": "E09-3D-PULLBACK-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-22T22:00:00Z",
+    "keyword": "DOTS",
+    "media": [
+      "reels/r4-pullback.mp4"
+    ],
+    "caption": "My pullback indicator won 82% of its S&P 500 trades. 🎯\n\nMilli Pullback Dots (daily chart):\n• Uptrend only: 50 EMA above the 200 EMA, price above the 200\n• Buy dot on a sharp dip (RSI(2) under 5)\n• Exit on the first close above the 5 EMA, or a 2x ATR stop\n\nSettings picked on 2010-2019 only. Tested on Jan 2020 to Oct 2026, years they never saw. Our own hypothetical backtest:\n• S&P 500 futures: 27 of 33 trades won (82%)\n• Google: 24 of 29 won (83%)\n• Profitable on 34 of 43 markets, median win rate 65%\n• Losers include Costco, Meta, Amazon and gold\n\nAnd on the 4-hour chart it failed: 0 of 11 markets. So I only use it on the daily.\n\nWant it free? Comment DOTS and I'll DM you both Milli Dots indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #pinescript #sp500 #tradingindicator #stocks"
+  },
+  {
+    "key": "E10-3D-GCROSS",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-23T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b25-e/gcross-01.jpg",
+      "b25-e/gcross-02.jpg",
+      "b25-e/gcross-03.jpg",
+      "b25-e/gcross-04.jpg",
+      "b25-e/gcross-05.jpg",
+      "b25-e/gcross-06.jpg"
+    ],
+    "caption": "We tested the viral strategy: the golden cross on Netflix. 3 trades. +286%. 🎬\n\nThe rule everyone posts:\n• 50-day average crosses above the 200-day: buy\n• Crosses back below: sell\n\n$10,000 start, Jan 2020 to Oct 2026, fees included, our own hypothetical backtest:\n• Golden cross: +286% (worst drop -48%)\n• Just holding Netflix: +90% (worst drop -76%)\n\nLooks amazing. But it's 3 trades in almost 7 years. 2 won, the worst lost 21%. Three trades is not proof. It's a coin flip with a great story.\n\nThat's exactly how viral posts sell you: one great chart. I run every rule on 12 markets, fees in, before I trust it.\n\nWant to test any viral rule yourself? Comment BACKTEST and I'll DM you the free prompt that backtests any idea for you.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice.\n#goldencross #netflix #backtesting #tradingstrategy #stocks"
+  },
+  {
+    "key": "E11-3D-SEC2",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-23T13:00:00Z",
+    "keyword": "DOTS",
+    "media": [
+      "b25-e/sec2-01.jpg",
+      "b25-e/sec2-02.jpg",
+      "b25-e/sec2-03.jpg",
+      "b25-e/sec2-04.jpg",
+      "b25-e/sec2-05.jpg",
+      "b25-e/sec2-06.jpg"
+    ],
+    "caption": "Secret #2: I locked the settings in 2019. Then it was profitable on 41 of 43 markets. 🔒\n\nHere's the trick behind most bot screenshots: someone tweaks the settings until the past looks perfect. Of course it looks perfect. It saw the answers.\n\nWhen I built Trend Dots, I did the opposite. I picked its settings using 2010 to 2019 only and locked them. No touching. Then I ran it on 2020 to 2026: six years it had never seen. A pandemic crash, a bubble, a bear market.\n\nProfitable on 41 of 43 markets.\n\nHonest part: median win rate 45%. It loses more often than it wins; the wins are just bigger (median profit factor 1.91). It lost money on euro/dollar and long bonds.\n\nIf it can't win on data it's never seen, it doesn't get a seat on your desk.\n\nWant it free? Comment DOTS and I'll DM you the indicator. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, 43 markets, settings frozen on 2010-2019, graded on Jan 2020 to Oct 2026, 1% risk per trade. Not financial advice. Not affiliated with TradingView. Tested, not trusted.\n#tradingview #pinescript #backtesting #tradingindicator #aitrading"
+  },
+  {
+    "key": "E12-3D-BTCDOTS-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-23T16:00:00Z",
+    "keyword": "DOTS",
+    "media": [
+      "reels/r4-btcdots.mp4"
+    ],
+    "caption": "Bitcoin fell 77%. My indicator's worst drop: -4.5%. 🛡️\n\nMilli Trend Dots on Bitcoin, daily chart, Jan 2020 to Oct 2026, 1% risk per trade, fees included. Settings frozen on 2010-2019 data, so it never saw these years. Our own hypothetical backtest:\n• 30 trades, half won\n• Profit factor 3.17: the winners were about 3x bigger in total\n• Total: +28% at 1% risk\n• Worst drop: -4.5%. Holding Bitcoin dropped 77% at its worst in the same years.\n\nHonest part: holding Bitcoin made far more money. This is for people who can't sit through a -77% year.\n\nAcross 43 markets it was profitable on 41.\n\nWant it free? Comment DOTS and I'll DM you both Milli Dots indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#bitcoin #tradingview #riskmanagement #crypto #backtesting"
+  },
+  {
+    "key": "E13-3D-GOLDPROP",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-23T19:00:00Z",
+    "keyword": "PRACTICE",
+    "media": [
+      "b25-e/goldprop-01.jpg",
+      "b25-e/goldprop-02.jpg",
+      "b25-e/goldprop-03.jpg",
+      "b25-e/goldprop-04.jpg",
+      "b25-e/goldprop-05.jpg",
+      "b25-e/goldprop-06.jpg"
+    ],
+    "caption": "1,000 simulated prop challenges on gold. 994 passed. 🥇\n\nThe test prop traders use: take our real trades, reshuffle the order 1,000 times, and run each one through a 2-step challenge:\n• Step 1: +10%. Step 2: +5%\n• 10% max loss\n• 1% risk per trade\n\nTrades come from Milli Trend Dots on gold, 4-hour chart, Jun 2024 to Nov 2026 (48 trades, 54% won, +16%, worst drop -4.5%, profit factor 2.08).\n\nResult: 994 passed, 6 failed.\n\nThe catch: it's SLOW. The median pass took 44 trades, about 2 years at our trade rate. At 2% risk it's about 1 year, but only 88% passed. Speed costs you.\n\nWant to practice a prop challenge free first? Comment PRACTICE and I'll DM you the free practice kit and the risk rules.\n\nSimulated on reshuffled historical trades, not real challenge accounts. FTMO-style rules. Not affiliated with any prop firm. Not financial advice.\n#propfirm #gold #xauusd #funded #trading"
+  },
+  {
+    "key": "E14-3D-ANALYST-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-23T22:00:00Z",
+    "keyword": "TRADINGVIEW",
+    "media": [
+      "reels/r4-analyst.mp4"
+    ],
+    "caption": "I built an AI TradingView analyst. Profitable on 38 of 43 markets. 📊\n\nHow it works: a TradingView alert fires, the AI checks the setup against its rules, and you get a verdict with the reason. It never places a trade. You make the call.\n\nOur own hypothetical backtest of its rules, 2010 to Oct 2026, 43 markets:\n• Profitable on 38, lost on 5\n• Typical worst drop: 7 to 9%\n• Small total gains. It did NOT beat simply holding the S&P 500.\n\nIt's a filter, not a money printer. Its job is to stop bad trades and keep the drops small.\n\nWant the Claude + TradingView blueprint? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 TradingView prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #claudeai #aitrading #tradingbot #stocks"
+  },
+  {
+    "key": "E15-3D-BTCDOTS",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-24T01:00:00Z",
+    "keyword": "DOTS",
+    "media": [
+      "b25-e/btcdots-01.jpg",
+      "b25-e/btcdots-02.jpg",
+      "b25-e/btcdots-03.jpg",
+      "b25-e/btcdots-04.jpg",
+      "b25-e/btcdots-05.jpg",
+      "b25-e/btcdots-06.jpg"
+    ],
+    "caption": "Bitcoin fell 77%. My indicator's worst drop: -4.5%. 🛡️\n\nMilli Trend Dots on Bitcoin, daily chart, Jan 2020 to Oct 2026, 1% risk per trade, fees included. Settings frozen on 2010-2019 data, so it never saw these years. Our own hypothetical backtest:\n• 30 trades, half won\n• Profit factor 3.17: the winners were about 3x bigger in total\n• Total: +28% at 1% risk\n• Worst drop: -4.5%. Holding Bitcoin dropped 77% at its worst in the same years.\n\nHonest part: holding Bitcoin made far more money. This is for people who can't sit through a -77% year.\n\nAcross 43 markets it was profitable on 41.\n\nWant it free? Comment DOTS and I'll DM you both Milli Dots indicators. Copy-paste into TradingView in 2 minutes.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\n#bitcoin #tradingview #riskmanagement #crypto #backtesting"
+  },
+  {
+    "key": "E16-3D-SEC3",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-24T13:00:00Z",
+    "keyword": "HEDGE",
+    "media": [
+      "b25-e/sec3-01.jpg",
+      "b25-e/sec3-02.jpg",
+      "b25-e/sec3-03.jpg",
+      "b25-e/sec3-04.jpg",
+      "b25-e/sec3-05.jpg",
+      "b25-e/sec3-06.jpg"
+    ],
+    "caption": "Secret #3: I built a bot that can veto my trades. ✋\n\nMost traders think they lose because Wall Street is smarter. It isn't. They lose because they trade alone. Nobody checks them. Nobody says \"that's too big\" or \"earnings are tomorrow.\"\n\nA hedge fund trade goes past a room of people first. Someone checks the economy. Someone checks the chart. Someone's whole job is to say no.\n\nSo I built the room:\n• Six AI bots argue about your trade\n• A Devil's Advocate argues against you, every time\n• The Risk Manager can kill the trade on the spot\n• A calculator sizes the trade so one bad call can't wipe you out\n\nIt never places a trade. You still make the call. You just stop making it alone.\n\nYou don't have to outsmart Wall Street. You just have to stop trading without a desk.\n\nWant the room, built for one stock? Comment HEDGE and I'll DM you the One-Ticker Committee. Free.\n\nEducational only. AI can be wrong. Not financial advice. You make every decision. Tested, not trusted.\n#aiagents #claudeai #aitrading #hedgefund #stocks"
+  },
+  {
+    "key": "E17-3D-GOLDPROP-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-24T16:00:00Z",
+    "keyword": "PRACTICE",
+    "media": [
+      "reels/r4-goldprop.mp4"
+    ],
+    "caption": "1,000 simulated prop challenges on gold. 994 passed. 🥇\n\nThe test prop traders use: take our real trades, reshuffle the order 1,000 times, and run each one through a 2-step challenge:\n• Step 1: +10%. Step 2: +5%\n• 10% max loss\n• 1% risk per trade\n\nTrades come from Milli Trend Dots on gold, 4-hour chart, Jun 2024 to Nov 2026 (48 trades, 54% won, +16%, worst drop -4.5%, profit factor 2.08).\n\nResult: 994 passed, 6 failed.\n\nThe catch: it's SLOW. The median pass took 44 trades, about 2 years at our trade rate. At 2% risk it's about 1 year, but only 88% passed. Speed costs you.\n\nWant to practice a prop challenge free first? Comment PRACTICE and I'll DM you the free practice kit and the risk rules.\n\nSimulated on reshuffled historical trades, not real challenge accounts. FTMO-style rules. Not affiliated with any prop firm. Not financial advice.\nVoiceover is AI-generated.\n#propfirm #gold #xauusd #funded #trading"
+  },
+  {
+    "key": "E18-3D-ANALYST",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-25T01:00:00Z",
+    "keyword": "TRADINGVIEW",
+    "media": [
+      "b25-e/analyst-01.jpg",
+      "b25-e/analyst-02.jpg",
+      "b25-e/analyst-03.jpg",
+      "b25-e/analyst-04.jpg",
+      "b25-e/analyst-05.jpg",
+      "b25-e/analyst-06.jpg"
+    ],
+    "caption": "I built an AI TradingView analyst. Profitable on 38 of 43 markets. 📊\n\nHow it works: a TradingView alert fires, the AI checks the setup against its rules, and you get a verdict with the reason. It never places a trade. You make the call.\n\nOur own hypothetical backtest of its rules, 2010 to Oct 2026, 43 markets:\n• Profitable on 38, lost on 5\n• Typical worst drop: 7 to 9%\n• Small total gains. It did NOT beat simply holding the S&P 500.\n\nIt's a filter, not a money printer. Its job is to stop bad trades and keep the drops small.\n\nWant the Claude + TradingView blueprint? Comment TRADINGVIEW and I'll DM you a free tested indicator + 25 TradingView prompts.\n\nHypothetical backtest, not real trades. Past results do not predict future results. Not financial advice. Not affiliated with TradingView.\n#tradingview #claudeai #aitrading #tradingbot #stocks"
   }
 ]
