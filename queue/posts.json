@@ -2070,5 +2070,180 @@
     "kind": "story",
     "media": "stories/BFS09-NOV30C.jpg",
     "scheduledAt": "2026-11-30T18:00:00Z"
+  },
+  {
+    "key": "G01-3D-JOURNAL-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-24T22:00:00Z",
+    "keyword": "JOURNAL",
+    "media": [
+      "reels/r5-journal.mp4"
+    ],
+    "caption": "You don't need a new strategy. You need to stop 3 leaks. 🩸\n\nEvery trader remembers their trades wrong. You remember the smart wins. You forget the angry losses.\n\nYou can't see your leaks from inside your own head. A journal can.\n\n• 60 seconds a trade: setup, stop, size, one word for your mood\n• One question: did you follow the plan? Yes or no.\n• Then Claude reads it and finds your worst leak: revenge trades, sizing up, one bad setup, breaking the plan\n\nYou get one rule for next week. Not ten. One.\n\nHonest catch: it only works if you log the bad trades too. Those are the ones that pay for the journal.\n\nWant the journal + the Claude prompt? Comment JOURNAL and I'll DM it to you free. 10 minutes.\n\nEducational only. Not financial advice.\nVoiceover is AI-generated.\n#tradingjournal #tradingpsychology #daytrading #aitrading #trading"
+  },
+  {
+    "key": "G02-3D-VIRAL2",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-25T13:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b26-g/viral2-01.jpg",
+      "b26-g/viral2-02.jpg",
+      "b26-g/viral2-03.jpg",
+      "b26-g/viral2-04.jpg",
+      "b26-g/viral2-05.jpg",
+      "b26-g/viral2-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #2: the 200-day line on Bitcoin. +628%. 📈\n\nThe rule is one line. Bitcoin closes above its 200-day average: buy. Closes below it: sell. That's the whole bot.\n\nWe ran it on real daily prices, Jan 2020 to Nov 2026, $10,000 start, fees included:\n• 200-day bot: +628%\n• Just holding Bitcoin: +988%\n\nSo holding made more. Why would anyone use it?\n\nThe worst drop. Holding fell 77% at one point. The bot's worst drop was 64%. It's a seatbelt, not a rocket.\n\nHonest catch: only 24% of its 29 trades won. Lots of small losses while it waits for a big trend. Most people quit before the trend shows up.\n\nWant to test any rule like this before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, Bitcoin daily, Jan 2020 to Nov 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#bitcoin #backtesting #tradingstrategy #aitrading #crypto"
+  },
+  {
+    "key": "G03-3D-TERMINAL-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-25T16:00:00Z",
+    "keyword": "TERMINAL",
+    "media": [
+      "reels/r5-terminal.mp4"
+    ],
+    "caption": "A Bloomberg Terminal costs about $30,000 a year. I built mine for $0. 💻\n\nIt runs on OpenBB, free open-source software that pulls real market data straight to your computer.\n\nHere's why that matters. Ask AI about the market with no data and it guesses. Sometimes it makes numbers up.\n\nHand it a file of real prices and it can't guess. Claude writes your market brief using only the numbers in your file.\n\n• Install OpenBB: 5 minutes\n• Pull real prices: 5 minutes\n• Claude writes the brief from your data\n\nHonest catch: it's not a Bloomberg. No live news desk, no chat. But for real prices and a brief you can check, it costs nothing.\n\nCheck one number every time. That's the difference between a toy and a tool.\n\nWant the free setup? Comment TERMINAL and I'll DM you the 10-minute guide. Copy, paste, done.\n\nEducational only. Not affiliated with Bloomberg or OpenBB. Not financial advice.\nVoiceover is AI-generated.\n#stockmarket #trading #aitrading #python #investing"
+  },
+  {
+    "key": "G04-3D-JARVIS",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-25T19:00:00Z",
+    "keyword": "JARVIS",
+    "media": [
+      "b26-g/jarvis-01.jpg",
+      "b26-g/jarvis-02.jpg",
+      "b26-g/jarvis-03.jpg",
+      "b26-g/jarvis-04.jpg",
+      "b26-g/jarvis-05.jpg",
+      "b26-g/jarvis-06.jpg"
+    ],
+    "caption": "I built my own JARVIS for the stock market. 🤖\n\nYou've got 12 tabs open and you still miss the one thing that mattered today.\n\nSo here's how it works. You text it like a friend:\n• \"Brief me.\"\n• \"How's NVDA?\"\n• \"Which of my positions is closest to its stop?\"\n\nIt looks up the real numbers on the web. Every number gets a source and a date. Rule #1: never guess.\n\nThen it answers first, in one line. Then the proof. Then the risk.\n\nHonest catch: AI can be wrong. Check one number against your own chart the first few times. And it never tells you to buy or sell. You decide.\n\nWant your own? Comment JARVIS and I'll DM you the free version. Running in 10 minutes, no code.\n\nEducational tool. It never places a trade. Not financial advice.\n#aitrading #claudeai #stockmarket #tradingtools #ai"
+  },
+  {
+    "key": "G05-3D-WHALE-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-25T22:00:00Z",
+    "keyword": "WHALE",
+    "media": [
+      "reels/r5-whale.mp4"
+    ],
+    "caption": "I built 6 AI agents that hunt Polymarket whales. 🐋\n\nEvery Polymarket wallet is public. You can see every bet the top wallets hold right now.\n\nBut big profit isn't skill. Most \"top wallets\" are one lucky bet, a brand-new account, or a high-speed bot you could never copy by hand.\n\nSo the team works like this:\n• Wallet Scout finds the top wallets\n• Luck Filter throws out the lucky ones\n• Market Scanner finds bets 2+ good wallets share\n• Odds Analyst checks if there's still value at today's price\n• Risk Manager can veto any bet\n• Tracker logs it, simulated\n\nHonest catch: this is research, not auto-copying. It never places a bet. Past profits don't predict future ones.\n\nWant the Whale Team? Comment WHALE and I'll DM you all 6 agents free. Web browser + Claude, no code.\n\nResearch only. Check prediction markets are legal where you live. Not financial advice.\nVoiceover is AI-generated.\n#polymarket #predictionmarkets #aitrading #claudeai #crypto"
+  },
+  {
+    "key": "G06-3D-CHARTAI",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-26T01:00:00Z",
+    "keyword": "CHART",
+    "media": [
+      "b26-g/chartai-01.jpg",
+      "b26-g/chartai-02.jpg",
+      "b26-g/chartai-03.jpg",
+      "b26-g/chartai-04.jpg",
+      "b26-g/chartai-05.jpg",
+      "b26-g/chartai-06.jpg"
+    ],
+    "caption": "I built an AI that reads any chart in 60 seconds. 📊\n\nUpload one screenshot. Any stock, daily chart.\n\nIt reads it the same careful way every time:\n• The trend, and what on the chart shows it\n• The 2 prices that matter most\n• The setup: breakout, pullback, bounce or none\n• The red flag: the strongest reason NOT to trust it\n• What to watch on the next candle\n\nNo moods. No hope. No fear.\n\nHonest catch: AI can misread a chart. So you check one number yourself before you trust the read. Trust is earned.\n\nWant the free chart analyst? Comment CHART and I'll DM you the setup. 15 minutes.\n\nEducational tool. You make every call. Not financial advice. Not affiliated with TradingView.\n#tradingview #chartanalysis #aitrading #claudeai #daytrading"
+  },
+  {
+    "key": "G07-3D-LEGENDS",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-26T13:00:00Z",
+    "keyword": "LEGENDS",
+    "media": [
+      "b26-g/legends-01.jpg",
+      "b26-g/legends-02.jpg",
+      "b26-g/legends-03.jpg",
+      "b26-g/legends-04.jpg",
+      "b26-g/legends-05.jpg",
+      "b26-g/legends-06.jpg"
+    ],
+    "caption": "I turned 5 legends into rules a bot can test. 🏛️\n\nQuotes don't trade. Rules do.\n\n• Buffett: great companies at a fair price (high return on equity, low debt, P/E under 25)\n• Lynch: fast growth that's still cheap (PEG under 1)\n• Dalio: spread the risk across stocks, bonds, gold and commodities\n• Soros: ride the wave while the last 6 months are up\n• Simons: in a long-term uptrend, buy the short, sharp dips\n\nA rule doesn't get scared. It doesn't get greedy. And you can test it before you risk a dollar.\n\nHonest catch: these are simple teaching models inspired by their public ideas, not their real strategies. And a rule that only works on the years you tuned it on is a fake rule. Test it on years it never saw.\n\nWant all 5 rules + a prompt that turns YOUR idea into one? Comment LEGENDS.\n\nEducational only. No endorsement by any investor named. Not financial advice.\n#warrenbuffett #investing #algotrading #backtesting #stockmarket"
+  },
+  {
+    "key": "G08-3D-VIRAL2-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-26T16:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r5-viral2.mp4"
+    ],
+    "caption": "We tested the viral strategy #2: the 200-day line on Bitcoin. +628%. 📈\n\nThe rule is one line. Bitcoin closes above its 200-day average: buy. Closes below it: sell. That's the whole bot.\n\nWe ran it on real daily prices, Jan 2020 to Nov 2026, $10,000 start, fees included:\n• 200-day bot: +628%\n• Just holding Bitcoin: +988%\n\nSo holding made more. Why would anyone use it?\n\nThe worst drop. Holding fell 77% at one point. The bot's worst drop was 64%. It's a seatbelt, not a rocket.\n\nHonest catch: only 24% of its 29 trades won. Lots of small losses while it waits for a big trend. Most people quit before the trend shows up.\n\nWant to test any rule like this before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, Bitcoin daily, Jan 2020 to Nov 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#bitcoin #backtesting #tradingstrategy #aitrading #crypto"
+  },
+  {
+    "key": "G09-3D-TERMINAL",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-26T19:00:00Z",
+    "keyword": "TERMINAL",
+    "media": [
+      "b26-g/terminal-01.jpg",
+      "b26-g/terminal-02.jpg",
+      "b26-g/terminal-03.jpg",
+      "b26-g/terminal-04.jpg",
+      "b26-g/terminal-05.jpg",
+      "b26-g/terminal-06.jpg"
+    ],
+    "caption": "A Bloomberg Terminal costs about $30,000 a year. I built mine for $0. 💻\n\nIt runs on OpenBB, free open-source software that pulls real market data straight to your computer.\n\nHere's why that matters. Ask AI about the market with no data and it guesses. Sometimes it makes numbers up.\n\nHand it a file of real prices and it can't guess. Claude writes your market brief using only the numbers in your file.\n\n• Install OpenBB: 5 minutes\n• Pull real prices: 5 minutes\n• Claude writes the brief from your data\n\nHonest catch: it's not a Bloomberg. No live news desk, no chat. But for real prices and a brief you can check, it costs nothing.\n\nCheck one number every time. That's the difference between a toy and a tool.\n\nWant the free setup? Comment TERMINAL and I'll DM you the 10-minute guide. Copy, paste, done.\n\nEducational only. Not affiliated with Bloomberg or OpenBB. Not financial advice.\n#stockmarket #trading #aitrading #python #investing"
+  },
+  {
+    "key": "G10-3D-JARVIS-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-26T22:00:00Z",
+    "keyword": "JARVIS",
+    "media": [
+      "reels/r5-jarvis.mp4"
+    ],
+    "caption": "I built my own JARVIS for the stock market. 🤖\n\nYou've got 12 tabs open and you still miss the one thing that mattered today.\n\nSo here's how it works. You text it like a friend:\n• \"Brief me.\"\n• \"How's NVDA?\"\n• \"Which of my positions is closest to its stop?\"\n\nIt looks up the real numbers on the web. Every number gets a source and a date. Rule #1: never guess.\n\nThen it answers first, in one line. Then the proof. Then the risk.\n\nHonest catch: AI can be wrong. Check one number against your own chart the first few times. And it never tells you to buy or sell. You decide.\n\nWant your own? Comment JARVIS and I'll DM you the free version. Running in 10 minutes, no code.\n\nEducational tool. It never places a trade. Not financial advice.\nVoiceover is AI-generated.\n#aitrading #claudeai #stockmarket #tradingtools #ai"
+  },
+  {
+    "key": "G11-3D-JOURNAL",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-27T13:00:00Z",
+    "keyword": "JOURNAL",
+    "media": [
+      "b26-g/journal-01.jpg",
+      "b26-g/journal-02.jpg",
+      "b26-g/journal-03.jpg",
+      "b26-g/journal-04.jpg",
+      "b26-g/journal-05.jpg",
+      "b26-g/journal-06.jpg"
+    ],
+    "caption": "You don't need a new strategy. You need to stop 3 leaks. 🩸\n\nEvery trader remembers their trades wrong. You remember the smart wins. You forget the angry losses.\n\nYou can't see your leaks from inside your own head. A journal can.\n\n• 60 seconds a trade: setup, stop, size, one word for your mood\n• One question: did you follow the plan? Yes or no.\n• Then Claude reads it and finds your worst leak: revenge trades, sizing up, one bad setup, breaking the plan\n\nYou get one rule for next week. Not ten. One.\n\nHonest catch: it only works if you log the bad trades too. Those are the ones that pay for the journal.\n\nWant the journal + the Claude prompt? Comment JOURNAL and I'll DM it to you free. 10 minutes.\n\nEducational only. Not financial advice.\n#tradingjournal #tradingpsychology #daytrading #aitrading #trading"
+  },
+  {
+    "key": "G12-3D-WHALE",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-27T19:00:00Z",
+    "keyword": "WHALE",
+    "media": [
+      "b26-g/whale-01.jpg",
+      "b26-g/whale-02.jpg",
+      "b26-g/whale-03.jpg",
+      "b26-g/whale-04.jpg",
+      "b26-g/whale-05.jpg",
+      "b26-g/whale-06.jpg"
+    ],
+    "caption": "I built 6 AI agents that hunt Polymarket whales. 🐋\n\nEvery Polymarket wallet is public. You can see every bet the top wallets hold right now.\n\nBut big profit isn't skill. Most \"top wallets\" are one lucky bet, a brand-new account, or a high-speed bot you could never copy by hand.\n\nSo the team works like this:\n• Wallet Scout finds the top wallets\n• Luck Filter throws out the lucky ones\n• Market Scanner finds bets 2+ good wallets share\n• Odds Analyst checks if there's still value at today's price\n• Risk Manager can veto any bet\n• Tracker logs it, simulated\n\nHonest catch: this is research, not auto-copying. It never places a bet. Past profits don't predict future ones.\n\nWant the Whale Team? Comment WHALE and I'll DM you all 6 agents free. Web browser + Claude, no code.\n\nResearch only. Check prediction markets are legal where you live. Not financial advice.\n#polymarket #predictionmarkets #aitrading #claudeai #crypto"
+  },
+  {
+    "key": "G13-3D-CHARTAI-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-28T16:00:00Z",
+    "keyword": "CHART",
+    "media": [
+      "reels/r5-chartai.mp4"
+    ],
+    "caption": "I built an AI that reads any chart in 60 seconds. 📊\n\nUpload one screenshot. Any stock, daily chart.\n\nIt reads it the same careful way every time:\n• The trend, and what on the chart shows it\n• The 2 prices that matter most\n• The setup: breakout, pullback, bounce or none\n• The red flag: the strongest reason NOT to trust it\n• What to watch on the next candle\n\nNo moods. No hope. No fear.\n\nHonest catch: AI can misread a chart. So you check one number yourself before you trust the read. Trust is earned.\n\nWant the free chart analyst? Comment CHART and I'll DM you the setup. 15 minutes.\n\nEducational tool. You make every call. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#tradingview #chartanalysis #aitrading #claudeai #daytrading"
+  },
+  {
+    "key": "G14-3D-LEGENDS-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-28T22:00:00Z",
+    "keyword": "LEGENDS",
+    "media": [
+      "reels/r5-legends.mp4"
+    ],
+    "caption": "I turned 5 legends into rules a bot can test. 🏛️\n\nQuotes don't trade. Rules do.\n\n• Buffett: great companies at a fair price (high return on equity, low debt, P/E under 25)\n• Lynch: fast growth that's still cheap (PEG under 1)\n• Dalio: spread the risk across stocks, bonds, gold and commodities\n• Soros: ride the wave while the last 6 months are up\n• Simons: in a long-term uptrend, buy the short, sharp dips\n\nA rule doesn't get scared. It doesn't get greedy. And you can test it before you risk a dollar.\n\nHonest catch: these are simple teaching models inspired by their public ideas, not their real strategies. And a rule that only works on the years you tuned it on is a fake rule. Test it on years it never saw.\n\nWant all 5 rules + a prompt that turns YOUR idea into one? Comment LEGENDS.\n\nEducational only. No endorsement by any investor named. Not financial advice.\nVoiceover is AI-generated.\n#warrenbuffett #investing #algotrading #backtesting #stockmarket"
   }
 ]
