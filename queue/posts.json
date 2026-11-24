@@ -2245,5 +2245,180 @@
       "reels/r5-legends.mp4"
     ],
     "caption": "I turned 5 legends into rules a bot can test. 🏛️\n\nQuotes don't trade. Rules do.\n\n• Buffett: great companies at a fair price (high return on equity, low debt, P/E under 25)\n• Lynch: fast growth that's still cheap (PEG under 1)\n• Dalio: spread the risk across stocks, bonds, gold and commodities\n• Soros: ride the wave while the last 6 months are up\n• Simons: in a long-term uptrend, buy the short, sharp dips\n\nA rule doesn't get scared. It doesn't get greedy. And you can test it before you risk a dollar.\n\nHonest catch: these are simple teaching models inspired by their public ideas, not their real strategies. And a rule that only works on the years you tuned it on is a fake rule. Test it on years it never saw.\n\nWant all 5 rules + a prompt that turns YOUR idea into one? Comment LEGENDS.\n\nEducational only. No endorsement by any investor named. Not financial advice.\nVoiceover is AI-generated.\n#warrenbuffett #investing #algotrading #backtesting #stockmarket"
+  },
+  {
+    "key": "H01-3D-VIRAL3-MACD",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-28T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b27-h/viral3-01.jpg",
+      "b27-h/viral3-02.jpg",
+      "b27-h/viral3-03.jpg",
+      "b27-h/viral3-04.jpg",
+      "b27-h/viral3-05.jpg",
+      "b27-h/viral3-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #3: the MACD bot on 12 markets. Profitable on 11 of 12. 📊\n\nThe whole bot is 2 lines. Fast line crosses above the slow line: buy. Crosses below: sell.\n\nWe ran it on Bitcoin, Ethereum, Solana, the S&P 500, Nasdaq, Nvidia, Tesla, Apple, gold, Meta, Netflix and AMD. Daily, Jan 2020 to Oct 2026, $10,000 each, fees included.\n\n• Profitable on 11 of 12 (only Netflix lost, -0.8%)\n• Bitcoin +660%, Tesla +993%\n• Smaller worst drop than holding on all 12 (Bitcoin -51% vs -77%)\n\nHonest catch: it beat simply holding on 0 of 12. Bitcoin +660% vs +988% for holding. S&P 500 +42% vs +157%. And only 36-49% of its trades won.\n\nSo it's a seatbelt, not a money printer. Viral posts only show you the winning chart.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#macd #backtesting #tradingstrategy #aitrading #bitcoin"
+  },
+  {
+    "key": "H02-3D-HQ",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-28T13:00:00Z",
+    "keyword": "HQ",
+    "media": [
+      "b27-h/hq-01.jpg",
+      "b27-h/hq-02.jpg",
+      "b27-h/hq-03.jpg",
+      "b27-h/hq-04.jpg",
+      "b27-h/hq-05.jpg",
+      "b27-h/hq-06.jpg"
+    ],
+    "caption": "I built a 6-floor AI trading HQ. Any floor can kill your trade. 🏢\n\nMost traders see a move and buy it. Real trading firms send every idea up a building first.\n\nSo your idea rides up 6 floors:\n1. Scan: did anything unusual happen?\n2. Research: is there real, dated news, or is it a rumor?\n3. Chart: is there a clean setup with enough reward?\n4. Test: what's the best case against it?\n5. Risk: is the size safe? This floor can veto.\n6. Decision: PASS, WATCH or CANDIDATE.\n\nHonest catch: most ideas stop on a lower floor. That's the point. A bad trade almost always has one obvious flaw, the one you didn't want to see.\n\nIt never places a trade. You make the call.\n\nWant the free HQ? Comment HQ and I'll DM it to you. One Claude chat, 15 minutes.\n\nEducational tool. AI can be wrong. Not financial advice.\n#aitrading #claudeai #stockmarket #tradingtools #daytrading"
+  },
+  {
+    "key": "H03-3D-QQQDIP",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-29T01:00:00Z",
+    "keyword": "DIP",
+    "media": [
+      "b27-h/qqqdip-01.jpg",
+      "b27-h/qqqdip-02.jpg",
+      "b27-h/qqqdip-03.jpg",
+      "b27-h/qqqdip-04.jpg",
+      "b27-h/qqqdip-05.jpg",
+      "b27-h/qqqdip-06.jpg"
+    ],
+    "caption": "My dip-buying bot won 80% of its Nasdaq trades. 🎯\n\nIt only buys real dips:\n• The Nasdaq (QQQ) is above its 200-day average (uptrend only)\n• A big 2-day drop (RSI(2) under 20)\n• It closed near the low of the day\nThen it buys the next open, and sells after the bounce, after 10 days, or at a hard stop.\n\nI picked the settings on 2010-2019 only, then locked them and ran them on 2020 to 2026, years they never saw:\n• 62 of 78 trades won (80%)\n• Profit factor 2.31, total +82%\n• Worst drop -13%. The Nasdaq itself fell 35%.\n\nHonest catch: just holding QQQ made more, +235%. And I tested it on 22 markets: index funds worked, single stocks less so, and on Bitcoin it lost money. It's an index tool.\n\nWant the rules and the free TradingView script? Comment DIP.\n\nHypothetical backtest, QQQ daily, settings frozen on 2010-2019, graded on Jan 2020 to Oct 2026, costs included. Not financial advice. Not affiliated with TradingView.\n#nasdaq #qqq #backtesting #tradingstrategy #buythedip"
+  },
+  {
+    "key": "H04-3D-PROP4H",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-29T13:00:00Z",
+    "keyword": "PROP",
+    "media": [
+      "b27-h/prop4h-01.jpg",
+      "b27-h/prop4h-02.jpg",
+      "b27-h/prop4h-03.jpg",
+      "b27-h/prop4h-04.jpg",
+      "b27-h/prop4h-05.jpg",
+      "b27-h/prop4h-06.jpg"
+    ],
+    "caption": "I ran 24 simulated prop challenges on 4 markets. 18 passed. 🏁\n\nThe setup:\n• FTMO-style rules: hit the profit target without breaking the max loss or daily loss limit\n• One indicator, Milli Trend Dots, on the 4-hour chart\n• 4 markets at once: gold, Bitcoin, Ethereum and Nasdaq (QQQ)\n• 1% risk per trade, every trade\n• 24 challenges, each starting on a different date, Dec 2024 to now\n\nThe result:\n• 18 passed\n• 3 blew up\n• 3 still running\n• Median time to pass: 2.5 months\n\nHonest catch: 3 of 24 still blew up. And this is a simulation, not a promise. Real fills, real nerves and real firm rules can be worse.\n\nThe lesson is always the same: small risk, a tested rule, and patience. Never raise risk to catch up.\n\nWant the playbook, the free indicator and the daily checklist? Comment PROP.\n\nSimulated, hypothetical results, 4H, Dec 2024 to now, 1% risk. Not affiliated with any prop firm. Not financial advice.\n#propfirm #fundedtrader #ftmo #tradingview #trading"
+  },
+  {
+    "key": "H05-3D-247-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-29T16:00:00Z",
+    "keyword": "24/7",
+    "media": [
+      "reels/r6-p247.mp4"
+    ],
+    "caption": "I built an AI trader that watches the market 24/7. ⏰\n\nNo more checking your phone at lunch. No more finding the big move after it's already gone.\n\nIt hunts 2 plain setups traders have trusted for decades:\n• Breakout: price closes above its 20-day high\n• Pullback: a dip in an uptrend that bounces\n\nThen a strict risk check. Every trade is sized so a loss costs 1%. If the reward is too small, it's a hard no. The AI can't argue past it.\n\nYou get one of three answers: APPROVE FOR REVIEW, WATCHLIST or REJECT.\n\nHonest catch: expect plenty of REJECTs. Each one is a win. It just saved you from a bad trade. And it never places a trade. It does the homework, you make the call.\n\nWant the free prompt? Comment 24/7 and I'll DM it to you. Run it on any chart today.\n\nEducational tool. AI can be wrong. Not financial advice.\nVoiceover is AI-generated.\n#aitrading #tradingbot #daytrading #stockmarket #claudeai"
+  },
+  {
+    "key": "H06-3D-BOARD",
+    "kind": "carousel",
+    "scheduledAt": "2026-11-29T19:00:00Z",
+    "keyword": "BOARD",
+    "media": [
+      "b27-h/board-01.jpg",
+      "b27-h/board-02.jpg",
+      "b27-h/board-03.jpg",
+      "b27-h/board-04.jpg",
+      "b27-h/board-05.jpg",
+      "b27-h/board-06.jpg"
+    ],
+    "caption": "5 AIs vote on every trade. 1 of them can veto. 🗳️\n\nEvery AI has blind spots. So the AI Board gives each one the job it's best at:\n• News: Perplexity finds fresh news with links and dates\n• Crowd: Grok reads what traders on X are saying\n• Chart: Gemini finds the entry, stop and target\n• Case: ChatGPT argues for the trade, then against it\n• Risk: Claude hunts for what could go wrong, and can veto all of it\n\nA trade only passes if 4 of 5 say yes and Claude doesn't veto.\n\nHonest catch: AIs can still be wrong together. That's why it never trades for you. One AI can be fooled. Five checking each other is much harder.\n\nWant all 5 prompts? Comment BOARD and I'll DM them to you free.\n\nEducational tool. Not affiliated with any AI company. Not financial advice.\n#aitrading #chatgpt #claudeai #stockmarket #trading"
+  },
+  {
+    "key": "H07-3D-VIRAL3-MACD-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-11-29T22:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r6-viral3.mp4"
+    ],
+    "caption": "We tested the viral strategy #3: the MACD bot on 12 markets. Profitable on 11 of 12. 📊\n\nThe whole bot is 2 lines. Fast line crosses above the slow line: buy. Crosses below: sell.\n\nWe ran it on Bitcoin, Ethereum, Solana, the S&P 500, Nasdaq, Nvidia, Tesla, Apple, gold, Meta, Netflix and AMD. Daily, Jan 2020 to Oct 2026, $10,000 each, fees included.\n\n• Profitable on 11 of 12 (only Netflix lost, -0.8%)\n• Bitcoin +660%, Tesla +993%\n• Smaller worst drop than holding on all 12 (Bitcoin -51% vs -77%)\n\nHonest catch: it beat simply holding on 0 of 12. Bitcoin +660% vs +988% for holding. S&P 500 +42% vs +157%. And only 36-49% of its trades won.\n\nSo it's a seatbelt, not a money printer. Viral posts only show you the winning chart.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#macd #backtesting #tradingstrategy #aitrading #bitcoin"
+  },
+  {
+    "key": "H08-3D-VIRAL4-GCROSS",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-01T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b27-h/viral4-01.jpg",
+      "b27-h/viral4-02.jpg",
+      "b27-h/viral4-03.jpg",
+      "b27-h/viral4-04.jpg",
+      "b27-h/viral4-05.jpg",
+      "b27-h/viral4-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #4: the golden cross on 12 markets. Profitable on 12 of 12. ✨\n\nThe rule: the 50-day average crosses above the 200-day: buy. Crosses back below: sell.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• Profitable on all 12\n• Nvidia +2,861%, Nasdaq +219%, gold +93%\n• Smaller worst drop than holding on 10 of 12\n\nHonest catch #1: holding still won on 11 of 12. Nvidia +2,861% vs +3,352% for holding. It only beat holding on Netflix.\n\nHonest catch #2: it barely trades. 3 to 8 trades per market in almost 7 years. That's a handful of coin flips, not proof.\n\nThe golden cross isn't a secret weapon. It's a slow trend filter. Know what you're buying before you trust it.\n\nWant to test any rule yourself? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#goldencross #backtesting #tradingstrategy #stocks #aitrading"
+  },
+  {
+    "key": "H09-3D-247",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-01T13:00:00Z",
+    "keyword": "24/7",
+    "media": [
+      "b27-h/p247-01.jpg",
+      "b27-h/p247-02.jpg",
+      "b27-h/p247-03.jpg",
+      "b27-h/p247-04.jpg",
+      "b27-h/p247-05.jpg",
+      "b27-h/p247-06.jpg"
+    ],
+    "caption": "I built an AI trader that watches the market 24/7. ⏰\n\nNo more checking your phone at lunch. No more finding the big move after it's already gone.\n\nIt hunts 2 plain setups traders have trusted for decades:\n• Breakout: price closes above its 20-day high\n• Pullback: a dip in an uptrend that bounces\n\nThen a strict risk check. Every trade is sized so a loss costs 1%. If the reward is too small, it's a hard no. The AI can't argue past it.\n\nYou get one of three answers: APPROVE FOR REVIEW, WATCHLIST or REJECT.\n\nHonest catch: expect plenty of REJECTs. Each one is a win. It just saved you from a bad trade. And it never places a trade. It does the homework, you make the call.\n\nWant the free prompt? Comment 24/7 and I'll DM it to you. Run it on any chart today.\n\nEducational tool. AI can be wrong. Not financial advice.\n#aitrading #tradingbot #daytrading #stockmarket #claudeai"
+  },
+  {
+    "key": "H10-3D-HQ-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-01T16:00:00Z",
+    "keyword": "HQ",
+    "media": [
+      "reels/r6-hq.mp4"
+    ],
+    "caption": "I built a 6-floor AI trading HQ. Any floor can kill your trade. 🏢\n\nMost traders see a move and buy it. Real trading firms send every idea up a building first.\n\nSo your idea rides up 6 floors:\n1. Scan: did anything unusual happen?\n2. Research: is there real, dated news, or is it a rumor?\n3. Chart: is there a clean setup with enough reward?\n4. Test: what's the best case against it?\n5. Risk: is the size safe? This floor can veto.\n6. Decision: PASS, WATCH or CANDIDATE.\n\nHonest catch: most ideas stop on a lower floor. That's the point. A bad trade almost always has one obvious flaw, the one you didn't want to see.\n\nIt never places a trade. You make the call.\n\nWant the free HQ? Comment HQ and I'll DM it to you. One Claude chat, 15 minutes.\n\nEducational tool. AI can be wrong. Not financial advice.\nVoiceover is AI-generated.\n#aitrading #claudeai #stockmarket #tradingtools #daytrading"
+  },
+  {
+    "key": "H11-3D-BOARD-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-01T19:00:00Z",
+    "keyword": "BOARD",
+    "media": [
+      "reels/r6-board.mp4"
+    ],
+    "caption": "5 AIs vote on every trade. 1 of them can veto. 🗳️\n\nEvery AI has blind spots. So the AI Board gives each one the job it's best at:\n• News: Perplexity finds fresh news with links and dates\n• Crowd: Grok reads what traders on X are saying\n• Chart: Gemini finds the entry, stop and target\n• Case: ChatGPT argues for the trade, then against it\n• Risk: Claude hunts for what could go wrong, and can veto all of it\n\nA trade only passes if 4 of 5 say yes and Claude doesn't veto.\n\nHonest catch: AIs can still be wrong together. That's why it never trades for you. One AI can be fooled. Five checking each other is much harder.\n\nWant all 5 prompts? Comment BOARD and I'll DM them to you free.\n\nEducational tool. Not affiliated with any AI company. Not financial advice.\nVoiceover is AI-generated.\n#aitrading #chatgpt #claudeai #stockmarket #trading"
+  },
+  {
+    "key": "H12-3D-QQQDIP-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-01T22:00:00Z",
+    "keyword": "DIP",
+    "media": [
+      "reels/r6-qqqdip.mp4"
+    ],
+    "caption": "My dip-buying bot won 80% of its Nasdaq trades. 🎯\n\nIt only buys real dips:\n• The Nasdaq (QQQ) is above its 200-day average (uptrend only)\n• A big 2-day drop (RSI(2) under 20)\n• It closed near the low of the day\nThen it buys the next open, and sells after the bounce, after 10 days, or at a hard stop.\n\nI picked the settings on 2010-2019 only, then locked them and ran them on 2020 to 2026, years they never saw:\n• 62 of 78 trades won (80%)\n• Profit factor 2.31, total +82%\n• Worst drop -13%. The Nasdaq itself fell 35%.\n\nHonest catch: just holding QQQ made more, +235%. And I tested it on 22 markets: index funds worked, single stocks less so, and on Bitcoin it lost money. It's an index tool.\n\nWant the rules and the free TradingView script? Comment DIP.\n\nHypothetical backtest, QQQ daily, settings frozen on 2010-2019, graded on Jan 2020 to Oct 2026, costs included. Not financial advice. Not affiliated with TradingView.\nVoiceover is AI-generated.\n#nasdaq #qqq #backtesting #tradingstrategy #buythedip"
+  },
+  {
+    "key": "H13-3D-PROP4H-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-02T16:00:00Z",
+    "keyword": "PROP",
+    "media": [
+      "reels/r6-prop4h.mp4"
+    ],
+    "caption": "I ran 24 simulated prop challenges on 4 markets. 18 passed. 🏁\n\nThe setup:\n• FTMO-style rules: hit the profit target without breaking the max loss or daily loss limit\n• One indicator, Milli Trend Dots, on the 4-hour chart\n• 4 markets at once: gold, Bitcoin, Ethereum and Nasdaq (QQQ)\n• 1% risk per trade, every trade\n• 24 challenges, each starting on a different date, Dec 2024 to now\n\nThe result:\n• 18 passed\n• 3 blew up\n• 3 still running\n• Median time to pass: 2.5 months\n\nHonest catch: 3 of 24 still blew up. And this is a simulation, not a promise. Real fills, real nerves and real firm rules can be worse.\n\nThe lesson is always the same: small risk, a tested rule, and patience. Never raise risk to catch up.\n\nWant the playbook, the free indicator and the daily checklist? Comment PROP.\n\nSimulated, hypothetical results, 4H, Dec 2024 to now, 1% risk. Not affiliated with any prop firm. Not financial advice.\nVoiceover is AI-generated.\n#propfirm #fundedtrader #ftmo #tradingview #trading"
+  },
+  {
+    "key": "H14-3D-VIRAL4-GCROSS-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-02T22:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r6-viral4.mp4"
+    ],
+    "caption": "We tested the viral strategy #4: the golden cross on 12 markets. Profitable on 12 of 12. ✨\n\nThe rule: the 50-day average crosses above the 200-day: buy. Crosses back below: sell.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• Profitable on all 12\n• Nvidia +2,861%, Nasdaq +219%, gold +93%\n• Smaller worst drop than holding on 10 of 12\n\nHonest catch #1: holding still won on 11 of 12. Nvidia +2,861% vs +3,352% for holding. It only beat holding on Netflix.\n\nHonest catch #2: it barely trades. 3 to 8 trades per market in almost 7 years. That's a handful of coin flips, not proof.\n\nThe golden cross isn't a secret weapon. It's a slow trend filter. Know what you're buying before you trust it.\n\nWant to test any rule yourself? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#goldencross #backtesting #tradingstrategy #stocks #aitrading"
   }
 ]
