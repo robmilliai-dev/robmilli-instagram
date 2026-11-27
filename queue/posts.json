@@ -2420,5 +2420,180 @@
       "reels/r6-viral4.mp4"
     ],
     "caption": "We tested the viral strategy #4: the golden cross on 12 markets. Profitable on 12 of 12. ✨\n\nThe rule: the 50-day average crosses above the 200-day: buy. Crosses back below: sell.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• Profitable on all 12\n• Nvidia +2,861%, Nasdaq +219%, gold +93%\n• Smaller worst drop than holding on 10 of 12\n\nHonest catch #1: holding still won on 11 of 12. Nvidia +2,861% vs +3,352% for holding. It only beat holding on Netflix.\n\nHonest catch #2: it barely trades. 3 to 8 trades per market in almost 7 years. That's a handful of coin flips, not proof.\n\nThe golden cross isn't a secret weapon. It's a slow trend filter. Know what you're buying before you trust it.\n\nWant to test any rule yourself? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#goldencross #backtesting #tradingstrategy #stocks #aitrading"
+  },
+  {
+    "key": "I01-3D-VIRAL6-SUPERTREND",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-02T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b28-i/viral6-01.jpg",
+      "b28-i/viral6-02.jpg",
+      "b28-i/viral6-03.jpg",
+      "b28-i/viral6-04.jpg",
+      "b28-i/viral6-05.jpg",
+      "b28-i/viral6-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #6: the Supertrend bot. On Ethereum it made +3,081%. Holding made +1,654%. 📈\n\nThe whole bot is one line on the chart. Price closes above it: buy. Closes below it: sell. Settings 10 and 3, the ones everyone posts.\n\nWe ran it on Bitcoin, Ethereum, Solana, the S&P 500, Nasdaq, Nvidia, Tesla, Apple, gold, Meta, Netflix and AMD. Daily, Jan 2020 to Oct 2026, $10,000 each, fees included.\n\n• Profitable on all 12\n• Solana +23,769%, Nvidia +972%, Tesla +640%\n• Beat simply holding on 3 of 12 (Ethereum, Solana, Meta)\n• Smaller worst drop than holding on all 12 (Nasdaq -20% vs -35%)\n\nHonest catch: holding still won on 9 of 12. Bitcoin +304% vs +988% for holding. And only 41-58% of its trades won.\n\nIt's the best of the viral bots we've tested so far. It's still not magic.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#supertrend #backtesting #tradingstrategy #ethereum #aitrading"
+  },
+  {
+    "key": "I02-3D-HEDGE",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-02T13:00:00Z",
+    "keyword": "HEDGE",
+    "media": [
+      "b28-i/hedge-01.jpg",
+      "b28-i/hedge-02.jpg",
+      "b28-i/hedge-03.jpg",
+      "b28-i/hedge-04.jpg",
+      "b28-i/hedge-05.jpg",
+      "b28-i/hedge-06.jpg"
+    ],
+    "caption": "Hedge funds never let one person buy a stock alone. 6 experts argue first. 🏛️\n\nOne brain falls in love with an idea. A team with a skeptic doesn't. So I built the same committee in one Claude chat:\n1. Macro: what in the economy matters for this stock?\n2. Fundamentals: what do the company's own numbers say?\n3. Chart: what does the price trend say?\n4. Risk Manager: what could go badly wrong? Can veto\n5. Devil's Advocate: the best case against it, on purpose\n6. Boss: PASS, WATCH or CANDIDATE\n\nRead the \"no\" first. If you can't answer the Devil's Advocate, the answer is WATCH.\n\nHonest catch: six AI roles are still one AI. Check every fact yourself. Most calls come back PASS, and that's the point. It saves you from weak ideas.\n\nWant the free prompt? Comment HEDGE and I'll DM it to you. Run it on any stock tonight.\n\nEducational only. AI can be wrong. Not financial advice. You make every call.\n#stocks #investing #aitrading #claudeai #hedgefund"
+  },
+  {
+    "key": "I03-3D-POLYBOT-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-02T19:00:00Z",
+    "keyword": "POLYBOT",
+    "media": [
+      "reels/r7-polybot.mp4"
+    ],
+    "caption": "I rebuilt a viral Polymarket bot as a team of 6 AI agents. 🤖\n\nMost bots lose because nobody says no. So in this one, any agent can kill a bad bet:\n1. Scout: why might this price be wrong right now?\n2. News: real, dated news with a named source, or a rumor?\n3. Thesis: the best case for YES, the best case for NO\n4. Odds: the team's chance vs the market's price. 57% vs 42% is a 15-point gap\n5. Risk: the bouncer. Blocks small gaps, rumors and unclear rules. Never more than 2% a bet\n6. Execution: one ticket, sent to you. It never bets for you\n\nThe answer is READY FOR YOUR REVIEW or BLOCKED BY RISK.\n\nHonest catch: BLOCKED is the usual answer. Most markets are priced about right. A bot that says yes to everything is broken.\n\nWant the free prompt? Comment POLYBOT and I'll DM it to you. Run it on any market in 10 minutes.\n\nEducational only. AI can be wrong. Not financial advice. You can lose what you bet. Check that Polymarket is allowed where you live.\nVoiceover is AI-generated.\n#polymarket #aitrading #predictionmarkets #claudeai #aiagents"
+  },
+  {
+    "key": "I04-3D-VIRAL5-BOLLINGER",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-03T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b28-i/viral5-01.jpg",
+      "b28-i/viral5-02.jpg",
+      "b28-i/viral5-03.jpg",
+      "b28-i/viral5-04.jpg",
+      "b28-i/viral5-05.jpg",
+      "b28-i/viral5-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #5: the Bollinger bounce. It won 87% of its Nvidia trades. 🎯\n\nThe rule everyone posts: price closes below the lower band: buy. Back above the middle band: sell.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• 58% to 87% of trades won, on every market\n• Nvidia 87% won, S&P 500 84% won\n• Profitable on 10 of 12\n• Smaller worst drop than holding on all 12\n\nHonest catch: it beat simply holding on 0 of 12. Nvidia +280% vs +3,352% for holding.\n\nAnd Bitcoin: 68% of its trades won, and it still lost money. -3.8% vs +988% for holding. Lots of small wins, then a few big losses wipe them out.\n\nThat's why it goes viral. A high win rate looks amazing in a screenshot. Win rate is not profit.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#bollingerbands #backtesting #tradingstrategy #stocks #aitrading"
+  },
+  {
+    "key": "I05-3D-ARENA",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-03T13:00:00Z",
+    "keyword": "ARENA",
+    "media": [
+      "b28-i/arena-01.jpg",
+      "b28-i/arena-02.jpg",
+      "b28-i/arena-03.jpg",
+      "b28-i/arena-04.jpg",
+      "b28-i/arena-05.jpg",
+      "b28-i/arena-06.jpg"
+    ],
+    "caption": "An AI beat ChatGPT, Claude, Gemini and Grok in a real-money trading contest. +22% in 17 days. 🏆\n\nIn Nof1's Alpha Arena (Season 1, fall 2025), six top AIs each got $10,000 of real money to trade crypto on their own. Qwen 3 Max finished first, up 22.3%. (That's Nof1's reported result, not mine.)\n\nIt didn't win by being smarter. It won by being more disciplined:\n• Fewest trades\n• High-confidence setups only\n• A stop and a target on every trade\n• Simple signals: MACD + RSI\n\nSo I rebuilt that playbook as a 4-agent team: Signal, Judge, Risk, Journal. Risk is plain code the AI can't argue with. Score under 70, reward under 1.5x, or 3 trades already today: blocked. Each loss costs 1%.\n\nHonest catch: one short contest doesn't predict the future. And NO SETUP is the most common answer. That's the whole lesson. The winner waited.\n\nWant the free prompt? Comment ARENA and I'll DM it to you.\n\nEducational only. Not affiliated with Nof1 or any AI company. Not financial advice. Crypto moves fast and you can lose money.\n#aitrading #crypto #chatgpt #claudeai #tradingbot"
+  },
+  {
+    "key": "I06-3D-VIRAL6-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-03T16:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r7-viral6.mp4"
+    ],
+    "caption": "We tested the viral strategy #6: the Supertrend bot. On Ethereum it made +3,081%. Holding made +1,654%. 📈\n\nThe whole bot is one line on the chart. Price closes above it: buy. Closes below it: sell. Settings 10 and 3, the ones everyone posts.\n\nWe ran it on Bitcoin, Ethereum, Solana, the S&P 500, Nasdaq, Nvidia, Tesla, Apple, gold, Meta, Netflix and AMD. Daily, Jan 2020 to Oct 2026, $10,000 each, fees included.\n\n• Profitable on all 12\n• Solana +23,769%, Nvidia +972%, Tesla +640%\n• Beat simply holding on 3 of 12 (Ethereum, Solana, Meta)\n• Smaller worst drop than holding on all 12 (Nasdaq -20% vs -35%)\n\nHonest catch: holding still won on 9 of 12. Bitcoin +304% vs +988% for holding. And only 41-58% of its trades won.\n\nIt's the best of the viral bots we've tested so far. It's still not magic.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#supertrend #backtesting #tradingstrategy #ethereum #aitrading"
+  },
+  {
+    "key": "I07-3D-ARB",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-03T19:00:00Z",
+    "keyword": "ARB",
+    "media": [
+      "b28-i/arb-01.jpg",
+      "b28-i/arb-02.jpg",
+      "b28-i/arb-03.jpg",
+      "b28-i/arb-04.jpg",
+      "b28-i/arb-05.jpg",
+      "b28-i/arb-06.jpg"
+    ],
+    "caption": "I built a Polymarket bot that never predicts games. It finds price gaps. 🔍\n\nBig sportsbooks set their odds with huge amounts of money and data. Polymarket prices come from whoever is trading that minute. When the two disagree on the same game, Polymarket is usually the one that's off.\n\nThe 4 agents:\n1. Watcher: pulls odds from 3+ sportsbooks and the Polymarket price\n2. Math: removes the bookie's cut to get the fair chance\n3. Claude: reads the fine print. Same game? Same date? Does overtime count?\n4. Risk: needs a gap of 4+ points, matching fine print and 3+ books. Max 2% a bet\n\nExample: the books say 57% fair, Polymarket sells it at 52¢. That's a 5-point gap.\n\nHonest catch: most gaps are fake. The fine print doesn't match, or the gap closes. BLOCKED is the usual answer, and nothing is ever placed for you.\n\nWant the free prompt? Comment ARB and I'll DM it to you. Check any game in 10 minutes.\n\nEducational only. Not financial advice. You can lose what you bet. Check that sports betting and Polymarket are allowed where you live.\n#polymarket #sportsbetting #aitrading #claudeai #predictionmarkets"
+  },
+  {
+    "key": "I08-3D-HEDGE-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-03T22:00:00Z",
+    "keyword": "HEDGE",
+    "media": [
+      "reels/r7-hedge.mp4"
+    ],
+    "caption": "Hedge funds never let one person buy a stock alone. 6 experts argue first. 🏛️\n\nOne brain falls in love with an idea. A team with a skeptic doesn't. So I built the same committee in one Claude chat:\n1. Macro: what in the economy matters for this stock?\n2. Fundamentals: what do the company's own numbers say?\n3. Chart: what does the price trend say?\n4. Risk Manager: what could go badly wrong? Can veto\n5. Devil's Advocate: the best case against it, on purpose\n6. Boss: PASS, WATCH or CANDIDATE\n\nRead the \"no\" first. If you can't answer the Devil's Advocate, the answer is WATCH.\n\nHonest catch: six AI roles are still one AI. Check every fact yourself. Most calls come back PASS, and that's the point. It saves you from weak ideas.\n\nWant the free prompt? Comment HEDGE and I'll DM it to you. Run it on any stock tonight.\n\nEducational only. AI can be wrong. Not financial advice. You make every call.\nVoiceover is AI-generated.\n#stocks #investing #aitrading #claudeai #hedgefund"
+  },
+  {
+    "key": "I09-3D-VIRAL7-TURTLE",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-04T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "b28-i/viral7-01.jpg",
+      "b28-i/viral7-02.jpg",
+      "b28-i/viral7-03.jpg",
+      "b28-i/viral7-04.jpg",
+      "b28-i/viral7-05.jpg",
+      "b28-i/viral7-06.jpg"
+    ],
+    "caption": "We tested the viral strategy #7: the famous Turtle rules. On Bitcoin: +1,054%. Holding: +988%. 🐢\n\nThe rules: close above the last 20-day high: buy. Close below the last 10-day low: sell. That's it.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• Profitable on 11 of 12 (only Netflix lost, -6%)\n• Solana +20,650%, Tesla +647%, Nvidia +462%\n• Beat holding on Bitcoin and Solana\n• Smaller worst drop than holding on all 12. S&P 500: -9% vs -34%\n\nHonest catch: it beat simply holding on only 2 of 12. S&P 500 +86% vs +157%. And only 37-65% of its trades won.\n\nWhat it really sells you is smaller drops. That's worth something. It's not a money printer.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\n#turtletrading #backtesting #tradingstrategy #bitcoin #aitrading"
+  },
+  {
+    "key": "I10-3D-POLYBOT",
+    "kind": "carousel",
+    "scheduledAt": "2026-12-04T13:00:00Z",
+    "keyword": "POLYBOT",
+    "media": [
+      "b28-i/polybot-01.jpg",
+      "b28-i/polybot-02.jpg",
+      "b28-i/polybot-03.jpg",
+      "b28-i/polybot-04.jpg",
+      "b28-i/polybot-05.jpg",
+      "b28-i/polybot-06.jpg"
+    ],
+    "caption": "I rebuilt a viral Polymarket bot as a team of 6 AI agents. 🤖\n\nMost bots lose because nobody says no. So in this one, any agent can kill a bad bet:\n1. Scout: why might this price be wrong right now?\n2. News: real, dated news with a named source, or a rumor?\n3. Thesis: the best case for YES, the best case for NO\n4. Odds: the team's chance vs the market's price. 57% vs 42% is a 15-point gap\n5. Risk: the bouncer. Blocks small gaps, rumors and unclear rules. Never more than 2% a bet\n6. Execution: one ticket, sent to you. It never bets for you\n\nThe answer is READY FOR YOUR REVIEW or BLOCKED BY RISK.\n\nHonest catch: BLOCKED is the usual answer. Most markets are priced about right. A bot that says yes to everything is broken.\n\nWant the free prompt? Comment POLYBOT and I'll DM it to you. Run it on any market in 10 minutes.\n\nEducational only. AI can be wrong. Not financial advice. You can lose what you bet. Check that Polymarket is allowed where you live.\n#polymarket #aitrading #predictionmarkets #claudeai #aiagents"
+  },
+  {
+    "key": "I11-3D-VIRAL5-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-04T16:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r7-viral5.mp4"
+    ],
+    "caption": "We tested the viral strategy #5: the Bollinger bounce. It won 87% of its Nvidia trades. 🎯\n\nThe rule everyone posts: price closes below the lower band: buy. Back above the middle band: sell.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• 58% to 87% of trades won, on every market\n• Nvidia 87% won, S&P 500 84% won\n• Profitable on 10 of 12\n• Smaller worst drop than holding on all 12\n\nHonest catch: it beat simply holding on 0 of 12. Nvidia +280% vs +3,352% for holding.\n\nAnd Bitcoin: 68% of its trades won, and it still lost money. -3.8% vs +988% for holding. Lots of small wins, then a few big losses wipe them out.\n\nThat's why it goes viral. A high win rate looks amazing in a screenshot. Win rate is not profit.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#bollingerbands #backtesting #tradingstrategy #stocks #aitrading"
+  },
+  {
+    "key": "I12-3D-ARENA-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-04T19:00:00Z",
+    "keyword": "ARENA",
+    "media": [
+      "reels/r7-arena.mp4"
+    ],
+    "caption": "An AI beat ChatGPT, Claude, Gemini and Grok in a real-money trading contest. +22% in 17 days. 🏆\n\nIn Nof1's Alpha Arena (Season 1, fall 2025), six top AIs each got $10,000 of real money to trade crypto on their own. Qwen 3 Max finished first, up 22.3%. (That's Nof1's reported result, not mine.)\n\nIt didn't win by being smarter. It won by being more disciplined:\n• Fewest trades\n• High-confidence setups only\n• A stop and a target on every trade\n• Simple signals: MACD + RSI\n\nSo I rebuilt that playbook as a 4-agent team: Signal, Judge, Risk, Journal. Risk is plain code the AI can't argue with. Score under 70, reward under 1.5x, or 3 trades already today: blocked. Each loss costs 1%.\n\nHonest catch: one short contest doesn't predict the future. And NO SETUP is the most common answer. That's the whole lesson. The winner waited.\n\nWant the free prompt? Comment ARENA and I'll DM it to you.\n\nEducational only. Not affiliated with Nof1 or any AI company. Not financial advice. Crypto moves fast and you can lose money.\nVoiceover is AI-generated.\n#aitrading #crypto #chatgpt #claudeai #tradingbot"
+  },
+  {
+    "key": "I13-3D-ARB-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-04T22:00:00Z",
+    "keyword": "ARB",
+    "media": [
+      "reels/r7-arb.mp4"
+    ],
+    "caption": "I built a Polymarket bot that never predicts games. It finds price gaps. 🔍\n\nBig sportsbooks set their odds with huge amounts of money and data. Polymarket prices come from whoever is trading that minute. When the two disagree on the same game, Polymarket is usually the one that's off.\n\nThe 4 agents:\n1. Watcher: pulls odds from 3+ sportsbooks and the Polymarket price\n2. Math: removes the bookie's cut to get the fair chance\n3. Claude: reads the fine print. Same game? Same date? Does overtime count?\n4. Risk: needs a gap of 4+ points, matching fine print and 3+ books. Max 2% a bet\n\nExample: the books say 57% fair, Polymarket sells it at 52¢. That's a 5-point gap.\n\nHonest catch: most gaps are fake. The fine print doesn't match, or the gap closes. BLOCKED is the usual answer, and nothing is ever placed for you.\n\nWant the free prompt? Comment ARB and I'll DM it to you. Check any game in 10 minutes.\n\nEducational only. Not financial advice. You can lose what you bet. Check that sports betting and Polymarket are allowed where you live.\nVoiceover is AI-generated.\n#polymarket #sportsbetting #aitrading #claudeai #predictionmarkets"
+  },
+  {
+    "key": "I14-3D-VIRAL7-REEL",
+    "kind": "reel",
+    "scheduledAt": "2026-12-05T01:00:00Z",
+    "keyword": "BACKTEST",
+    "media": [
+      "reels/r7-viral7.mp4"
+    ],
+    "caption": "We tested the viral strategy #7: the famous Turtle rules. On Bitcoin: +1,054%. Holding: +988%. 🐢\n\nThe rules: close above the last 20-day high: buy. Close below the last 10-day low: sell. That's it.\n\nSame 12 markets, Jan 2020 to Oct 2026, $10,000 each, fees included:\n• Profitable on 11 of 12 (only Netflix lost, -6%)\n• Solana +20,650%, Tesla +647%, Nvidia +462%\n• Beat holding on Bitcoin and Solana\n• Smaller worst drop than holding on all 12. S&P 500: -9% vs -34%\n\nHonest catch: it beat simply holding on only 2 of 12. S&P 500 +86% vs +157%. And only 37-65% of its trades won.\n\nWhat it really sells you is smaller drops. That's worth something. It's not a money printer.\n\nWant to test any rule yourself before you trust it? Comment BACKTEST and I'll DM you the free prompt.\n\nHypothetical backtest, 12 markets, Jan 2020 to Oct 2026, fees included. Past results do not predict future results. Not financial advice. Tested, not trusted.\nVoiceover is AI-generated.\n#turtletrading #backtesting #tradingstrategy #bitcoin #aitrading"
   }
 ]
